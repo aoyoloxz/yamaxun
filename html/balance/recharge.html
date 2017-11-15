@@ -6,12 +6,1592 @@
 		<title>账户充值</title>
 		<link rel="stylesheet" href="../../css/base.css" />
 		<link rel="stylesheet" href="../../css/account.css" />
+		<link rel="stylesheet" href="../../css/share.css" />
+		<script type="text/javascript" src="../../js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="../../js/function.js"></script>
+		<script type="text/javascript" src="../../js/mian.js"></script>
 	</head>
 
 	<body>
 		<div class="recharge">
 			<div class="rechargeBox">
 				<!--头部部分begin-->
+				<!--网页头部-->
+				<header>
+					<div class="logo">
+						<a href="../../homePage.html" class="logo1">
+						</a><br />
+						<a href="#" class="logo2">
+							免费试享Prime
+						</a>
+					</div>
+					<div class="search">
+						<div class="search-left">
+							全部商品
+							<span></span>
+						</div>
+						<input type="text" class="search-center" />
+						<input type="button" class="search-right" />
+					</div>
+
+				</header>
+
+				<!--导航条-->
+				<div id="nav-main" class="nav-sprite">
+					<div class="nav-left">
+
+						<div id="nav-shop">
+							<a href="#" class="nav-a nav-a-2 nav-active" id="nav-link-shopall" tabindex="15">
+								<span class="nav-line-1">浏览</span><span class="nav-line-2">全部商品分类<span class="nav-icon nav-arrow" style="visibility: visible;"></span>
+								</span>
+							</a>
+						</div>
+
+					</div>
+					<div class="nav-right">
+						<div id="nav-tools">
+							<a href="#" class="nav-a nav-a-2" data-nav-ref="nav_ya_signin" data-nav-role="signin" id="nav-link-yourAccount" tabindex="25"><span class="nav-line-1">您好. 登录</span><span class="nav-line-2">我的帐户<span class="nav-icon nav-arrow" style="visibility: visible;"></span></span>
+							</a>
+							<a href="#" class="nav-a nav-a-2" id="nav-link-prime" tabindex="26"><span class="nav-line-1">免费试享</span><span class="nav-line-2">Prime<span class="nav-icon nav-arrow" style="visibility: visible;"></span></span>
+							</a>
+							<a href="#" class="nav-a nav-a-2" id="nav-cart" tabindex="27"><span class="nav-line-1"> </span><span class="nav-line-2">购物车<span class="nav-icon nav-arrow"></span></span><span class="nav-cart-icon nav-sprite"></span><span id="nav-cart-count" aria-hidden="true" class="nav-cart-count nav-cart-0">0</span></a>
+							<a href="#" class="nav-a nav-a-2" id="nav-link-wishlist" tabindex="28"><span class="nav-line-1"> </span><span class="nav-line-2">心愿单<span class="nav-icon nav-arrow" style="visibility: visible;"></span></span>
+							</a>
+						</div>
+						<div class="l_share1">
+							<div class="nav-arrow1" style="position: absolute; left: 97px;">
+								<div class="nav-arrow-inner"></div>
+							</div>
+							<div class="l_share1top">
+								<a href="#">立即登录</a>
+								<p>新客户？
+									<a href="#">免费注册</a>
+								</p>
+							</div>
+							<div class="l_share1bottom">
+								<a href="../proxemics/userAccount.html">我的账户</a><br />
+								<a href="../order/myOrder.html">我的订单</a><br />
+								<a href="inquiryBalance.html">我的余额</a><br />
+								<a href="#">评论已购的产品</a><br />
+								<a href="#">我的心愿单</a><br />
+								<a href="#">为我推荐</a><br />
+								<a href="#">管理我的"订购省"商品</a><br />
+								<a href="#">我的Prime会员</a><br />
+								<a href="#">管理我的内容和设备</a><br />
+								<a href="#">我的 Kindle Unlimited</a><br />
+								<a href="#">您的 Amazon Drive</a><br />
+								<a href="#">5 GB 免费的存储空间</a><br />
+								<a href="#">我的应用程序和设备</a>
+							</div>
+
+						</div>
+						<div class="l_share2">
+							<div class="nav-arrow1" style="position: absolute; left: 127px;">
+								<div class="nav-arrow-inner"></div>
+							</div>
+							<img src="images/goodsbg.gif" />
+						</div>
+						<div class="l_share3">
+							<div class="nav-arrow1" style="position: absolute; left: 257px;">
+								<div class="nav-arrow-inner"></div>
+							</div>
+							<a href="#">创建一个人的心愿单</a><br />
+							<a href="#">查找其他人的心愿单</a><br />
+							<a href="#">通用心愿单</a><br />
+							<span>添加任何网站的商品到您的心愿单</span>
+						</div>
+
+					</div>
+					<div class="nav-fill">
+						<div id="nav-xshop-container" class="">
+
+							<div id="nav-xshop">
+								<a href="../proxemics/myAmazon.html" class="nav-a nav_a" id="nav-your-amazon">我的亚马逊</a>
+								<a href="#" class="nav-a" tabindex="9">Z秒杀</a>
+								<a href="#" class="nav-a" tabindex="10">礼品卡</a>
+								<a href="../seller/sellerHome.html" class="nav-a" tabindex="11">我要开店</a>
+								<a href="#" class="nav-a" tabindex="12">海外购</a>
+								<a href="#" class="nav-a" tabindex="13">帮助</a>
+								<a href="#" class="nav-a nav_a">In English</a>
+							</div>
+						</div>
+					</div>
+					<div id="lshareNavbox">
+						<div class="nav-arrow1" style="">
+							<div class="nav-arrow-inner"></div>
+						</div>
+						<div class="l_sheraNavMian">
+
+							<ul class="l_sheraNavMianLeft">
+								<li>
+									<a href="#">Kindle商店</a><span></span>
+								</li>
+								<li>
+									<a href="#">亚马逊海外购</a><span></span>
+								</li>
+								<li>
+									<a href="#">图书</a><span></span>
+								</li>
+								<li>
+									<a href="#">手机</a>、
+									<a href="#">摄影</a>、
+									<a href="#">数码</a>
+									<span></span>
+								</li>
+								<li>
+									<a href="#">电子配件</a>、
+									<a href="#">智能生活</a>
+
+									<span></span>
+								</li>
+								<li>
+									<a href="#">家居</a>、
+									<a href="#">厨具</a>、
+									<a href="#">家装</a>
+									<span></span>
+								</li>
+								<li>
+									<a href="#">电脑</a>、
+									<a href="#">办公</a>、
+									<a href="#">文具</a>
+									<span></span>
+								</li>
+								<li>
+									<a href="#">家用电器</a><span></span>
+								</li>
+								<li>
+									<a href="#">美妆</a>、
+									<a href="#">个护健康</a>
+
+									<span></span>
+								</li>
+								<li>
+									<a href="#">食品</a>、
+									<a href="#">酒水</a>、
+									<a href="#">生鲜</a>
+									<span></span>
+								</li>
+								<li>
+									<a href="#">玩具</a>、
+									<a href="#">母婴</a>、
+									<a href="#">家庭会员</a>
+									<span></span>
+								</li>
+								<li>
+									<a href="#">运动户外</a>、
+									<a href="#">汽车用品</a>
+									<span></span>
+								</li>
+								<li>
+									<a href="#">服装</a>、
+									<a href="#">鞋靴</a>、
+									<a href="#">箱包</a>
+									<span></span>
+								</li>
+								<li>
+									<a href="#">钟表</a>、
+									<a href="#">首饰</a>
+									<span></span>
+								</li>
+								<li>
+									<a href="#">游戏</a>、
+									<a href="#">影视</a>、
+									<a href="#">乐器</a>
+									<span></span>
+								</li>
+								<li>
+									<a href="#">亚马逊Drive</a><span></span>
+								</li>
+								<li>
+									<a href="#">全部商品分类</a><span></span>
+								</li>
+							</ul>
+							<ul class="l_sheraNavMianRight">
+								<li>
+									<h4><a href="#">Kindle 商店</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">Kindle 商店</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">Kindle 商店</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">Kindle 商店</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+								<li>
+									<h4><a href="#">亚马逊海外购</a></h4>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle</a>|
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x 咪咕</a>｜
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+									<dl>
+										<dd>
+											<a href="#">电子阅读器</a>
+										</dd>
+										<dt>
+									<a href="#">Kindle x</a>
+								</dt>
+
+									</dl>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+				<!--二级菜单：-->
+
 				<!--头部部分end-->
 
 				<!--主体内容begin-->

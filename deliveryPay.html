@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/deliveryPay.css">
+	<link rel="stylesheet" href="css/cartCommon.css">
+	<link rel="stylesheet" href="css/cartBottom.css">
+</head>
+<body>
+
+	<div id="deliveryPay">
+		<div class="deliveryPay-inner">
+			<div class="top-mask">
+				<div class="wrap-mask">
+					<img src="images/checkout.gif" alt="">
+				</div>
+			</div>
+			<div class="delivery-content" id="deliveryContent">
+				<div class="content-addr">
+					<h2>请选择配送地址</h2>
+					<div class="sure-mess">
+						<p class="mess-tip"> 也请确认您的账单寄送地址是否与输入的. 配送地址一致完成后，请点击"继续"按钮。  如果您需要将商品发送至多个地址，请点击"增加其它地址"按钮。</p>
+						<p class="mess-serve">
+							<span>选择自提服务，可享免运费优惠。提示：便利店暂不提供门店开箱验货服务。查看</span>
+							<a class="qianl-col lightBlu" href="#">详细信息</a>;点击
+							<a class="qianl-col lightBlu" href="#">查找自提点</a>。
+						</p>
+					</div>
+					<hr class="line">
+				</div>
+				<div class="default-addr">
+					<div class="default-inner">
+						<div class="inner-info">
+							<h3>冬季衣柜</h3>
+							<p class="">
+								广东 深圳市 宝安区
+							</p>
+							<p>西乡街镇</p>
+							<p>518103</p>
+							<p>17*****6873</p>
+						</div>
+						<div class="inner-btn">
+							<div class="to-addr or-btn or-bg">
+								<span class="" href="#">发送到该地址</span>
+							</div>
+							<div class="edit-inner">
+								<span class="gray-btn gray-bg" href="#">编辑</span>
+								<span class="gray-btn gray-bg" href="#">删除</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="divider-cart">
+					<div class="divider-inner"></div>
+				</div>
+				<div class="enter-addr clearfix">
+					<div class="addr-left">
+						<div class="left-inner">
+							<div class="inner-title">
+								<h2>输入新配送地址</h2>
+							</div>
+							<p class="inner-tip">完成后，请点击"继续"按钮。</p>
+							<div class="internation-addr">
+								<a class="qianl-col lightBlu" href="#">填写国际地址</a>
+							</div>
+							<form action="" method="">
+								<div class="form-inner">
+									<div id="enter-name" class="inner-block">
+										<label for="enterFullName">姓名</label>
+										<input type="text" name="enterFullName" />
+									</div>
+									<div id="enter-area" class="inner-block">
+										<label for="enterFullArea">地区</label>
+										<input type="hidden" name="enterFullArea">
+										<div class="wrap-select"  data-toggle="distpicker">
+											<a id="stateTrigger" class="dropdownOption gray-btn form-group">
+												<select class="form-control" id="province1"></select>
+											</a>
+											<a id="cityTrigger" class="dropdownOption gray-btn form-group">
+												<select class="form-control" id="city1"></select>
+											</a>
+											<a id="districtTrigger" class="dropdownOption gray-btn form-group">
+												<select class="form-control" id="district1"></select>
+											</a>
+										</div>
+									</div>
+									<div id="enter-addreLine" class="inner-block">
+										<label for="enterAddreLine">街道地址</label>
+										<input type="text" name="enterAddreLine">
+									</div>
+									<div id="enter-postcode" class="inner-block">
+										<label for="enterPostCode">邮政编码</label>
+										<input type="text" name="enterPostCode">
+									</div>
+									<div id="enter-tel" class="inner-block">
+										<label for="enterTel">联系电话()</label>
+										<input type="text" name="enterTel">
+									</div>
+								</div>
+								<div class="toAnotherAdre">
+									<label for="anotherAdre" class="fontwb">商品发送至多个地址？</label>
+									<div class="checkbox-lable">
+										<input type="checkbox" name="toAnotherAdre">
+										<span>加另一个地址</span>
+									</div>
+								</div>
+								<div class="continueAction">
+									<div class="continue-inner">
+										<span class="continue-btn or-btn or-bg">继续</span>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="addr-right">
+						<div class="right-inner">
+							<div class="inner-title">
+								<h2>查找自提点</h2>
+							</div>
+							<div class="inner-tip">
+								<p>选择自提服务，可享免运费优惠。提示：便利店暂不提供门店开箱验货服务，入驻卖家销售的商品暂不提供自提服务。</p>
+								<div class="lookMore">
+									<a class="lightBlu" href="#">了解更多</a>
+								</div>
+							</div>
+							<div class="searchTable">
+								<table class="searchInner">
+									<tbody>
+										<tr>
+											<td class="searchLabel">
+												<input type="radio" name="searchCriterion" id="searchCriterion.address">
+												<label for="searchCriterion.address">按地址搜索</label>
+											</td>
+											<td class="searchInput">
+												<input type="text" name="address" size="30" maxlength="50"><br>
+												<span class="inputExample">例：上海市普陀区中山北路</span>
+											</td>
+										</tr>
+										<tr>
+											<td class="searchLabel">
+												<input type="radio" name="searchCriterion" id="searchCriterion.postcode">
+												<label for="searchCriterion.postcode">按邮政编码搜索:</label>
+											</td>
+											<td class="searchInput">
+												<input type="text" name="postcode" size="6" maxlength="6">
+												<span class="inputExample">例：200063</span>
+											</td>
+										</tr>
+										<tr>
+											<td class="searchLabel">
+												<input type="radio" name="searchCriterion" id="searchCriterion.landmark">
+												<label for="searchCriterion.landmark">按地标搜索:</label>
+											</td>
+											<td class="searchInput">
+												<input type="text" name="landmark" size="30" maxlength="50">
+												<span class="inputExample">例：上海市东方明珠</span>
+											</td>
+										</tr>
+										<tr>
+											<td class="searchAction">
+												<img src="images/search.jpg" alt="">
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/getBottom.js"></script>
+	<script src="js/distpicker.data.js"></script>
+	<script src="js/distpicker.js"></script>
+	<script src="js/distpickerMain.js"></script>
+	<script type="text/javascript">
+		ajaxBottom('deliveryContent');
+	</script>
+</body>
+</html>

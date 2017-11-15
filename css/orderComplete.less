@@ -1,0 +1,158 @@
+
+@maxWidth:1022px;
+@minWidth:996px;
+@blue:#007eb9;
+@red:#b12704;
+
+body{
+	font-size: 13px;
+    line-height: 19px;
+    color: #333;
+    font-family: Arial,sans-serif;
+}
+
+#orderComplete{
+	.orderComplete-inner{
+		max-width:@maxWidth;
+		min-width:@minWidth;
+		padding: 20px 24px;
+		margin: 0 auto;
+		.top-mask{
+
+		}
+		.orderComplete-content{
+			padding-left: 93px;
+			.wrap-content{
+				.member-inner{
+					margin: 23px 0px 16px;
+				}
+				.enjoy-inner{
+					.big-tip{
+						h2{
+							font-size:19px;
+							font-weight:bold;
+							color:@red;
+							margin-bottom:11px;
+						}
+					}
+					.inner-dl{
+						dl{
+							margin-bottom: 11px;
+							dt{
+								font-size:16px;
+								font-weight:bold;
+								line-height: 33px;
+							}
+							dd{
+								padding-left: 9px;
+								#icon{
+									display:inline-block;
+									width:54px;
+									height:15px;
+									background-image:url(../images/Am.png);
+									background-repeat:no-repeat;
+									background-size: 400px 750px;
+									background-position: -5px -490px;
+									vertical-align: top;
+								}
+								&:before{
+									content:'●';
+									color:black;
+								}
+							}
+						}
+					}
+					.aboutPay{
+						.choicePay{
+							h2{
+								font-size:18px;
+								font-weight:bold;
+								padding: 11px 0px;
+    							margin-bottom: 0px;
+							}
+							.anotherPay{
+								.payLeft{
+									display:inline-block;
+									width:70%;
+									.creditCard{
+										padding: 21px 0px 6px;
+    									border-top: 1px solid #eee;
+										.cardLeft{
+											width: 76%;
+										    float: left;
+										    display: inline-block;
+										    h3{
+										    	font-size:16px;
+										    	font-weight:bold;
+										    }
+											.add{
+												margin: 14px 0px;
+											}
+										}
+										.cardRight{
+											width: 24%;
+    										display: inline-block;
+											.icon{
+											    display: block;
+											    float: right;
+											    height: 29px;
+											    width: 45px;
+												background-image:url(../images/sprite-map.png);
+												background-repeat:no-repeat;
+												margin:1px;
+											}
+											.icon1{background-position: 0px 0;}
+											.icon2{background-position: -45px 0;}
+											.icon3{background-position: -90px 0;}
+											.icon4{background-position: -225px 0;}
+											.icon5{background-position: -270px 0;}
+											.icon6{background-position: -270px 0;}
+										}
+									}
+								}
+								.payRight{
+									display:inline-block;
+									width:26%;
+									vertical-align: top;
+									.btnInner{
+										padding: 15px;
+										width: 80%;
+    									margin-left: 19%;
+										background-color: #FAFAFA!important;
+										span{
+											display:block;
+											width:100%;
+											border:1px solid #EAEDED;
+											background-color: #FFF5E8!important;
+											height:33px;
+											line-height:33px;
+											text-align:center;
+											cursor:pointer;
+										}
+									}
+								}
+							}
+						}
+						.noJoin{
+							padding: 11px 0px;
+						}
+					}
+				}
+			}
+		}
+		.wrap-bottom{
+			padding: 8px 24px;
+			.divider-cart{
+				margin: 13px 0px 0px;
+			}
+		}
+	}
+}
+.dpBlue{
+	text-decoration: none;
+    color: #008296;
+}
+.dpBlue:hover{
+	text-decoration: underline;
+	color: #008296;
+}

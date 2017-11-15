@@ -1,0 +1,294 @@
+body {
+  font-size: 13px;
+  line-height: 19px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+#shipMethod .shipMethod-inner .top-mask {
+  max-width: 1152px;
+  min-width: 996px;
+  padding: 20px 24px;
+  margin: 0 auto;
+}
+#shipMethod .shipMethod-inner .shipMethod-content {
+  max-width: 1152px;
+  min-width: 996px;
+  padding: 20px 24px;
+  margin: 0 auto;
+}
+.shipMethod-inner .shipMethod-content .content-title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 23px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left {
+  width: 68%;
+  display: inline-block;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block {
+  border: 1px #ddd solid;
+  margin-bottom: 13px;
+  border-radius: 5px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-top {
+  padding: 14px 18px;
+  border-bottom: 1px #ddd solid;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-bottom {
+  padding: 11px 18px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-bottom .bottom-inner .inner-left {
+  width: 71%;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-bottom .bottom-inner .inner-left .lastBalance {
+  margin-bottom: 22px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-bottom .bottom-inner .inner-left .lastBalance p {
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-bottom .bottom-inner .inner-left .lastBalance span {
+  color: #888888;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-bottom .bottom-inner .inner-left .recharge a {
+  color: #007eb9;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-bottom .bottom-inner .inner-left .recharge a:hover {
+  text-decoration: underline;
+  color: #e47911;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-bottom .bottom-inner .inner-right {
+  text-align: right;
+  border: none;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-title h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-tip .tip-lf {
+  width: 66%;
+  display: inline-block;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-tip .tip-lf p span {
+  font-weight: bold;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .block-tip .tip-rt {
+  width: 32%;
+  display: inline-block;
+  vertical-align: top;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner {
+  margin: 11px 0px;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 13px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .inner-tip {
+  margin: 5px 0px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .card {
+  float: left;
+  margin-right: 11px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .card .wrap-date {
+  /*span{
+											display: inline-block;
+										    width: 52px;
+										    height: 29px;
+										    margin-top: 1px;}*/
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .card .wrap-date select {
+  width: 48%!important;
+  height: 100%!important;
+  padding: 6px 5px;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f7f8fa, #e7e9ec);
+  background: linear-gradient(top, #f7f8fa, #e7e9ec);
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .card-mess label {
+  display: block;
+  font-weight: bold;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .card-mess input {
+  border: 1px solid #d0d0d0;
+  height: 25px;
+  padding: 2px 7px;
+  line-height: normal;
+  border-radius: 3px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .card-mess input:focus {
+  border-color: #e49747;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .addCur {
+  text-align: center;
+  cursor: pointer;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .addCur span {
+  display: inline-block;
+  width: 99px;
+  line-height: 29px;
+  border: 1px solid;
+  border-color: #cba957 #bf942a #aa8326;
+  background: #f0c14b;
+  margin-top: 18px;
+  border-radius: 3px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .block .enter-card .card-inner .addCur span:hover {
+  border-color: #c59f43 #aa8326 #957321;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock {
+  border: 1px #ddd solid;
+  border-radius: 5px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner {
+  padding: 14px 18px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner .lastBlock-title h2 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner .lastBlock-content .content-radio {
+  /*.cyber-bank{
+									    background-color: #FCF5EE;
+									    border: 1px solid #FBD8B4;
+									    border-radius: 5px;
+									}*/
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner .lastBlock-content .content-radio .methodPay .radio-left {
+  vertical-align: top;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner .lastBlock-content .content-radio .radio {
+  padding: 9px 12px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner .lastBlock-content .content-radio .radio .radio-left {
+  width: 3%;
+  display: inline-block;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner .lastBlock-content .content-radio .radio .radio-left input {
+  margin-top: 4px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner .lastBlock-content .content-radio .radio .radio-right {
+  width: 96%;
+  display: inline-block;
+  line-height: 23px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner .lastBlock-content .content-radio .radio .radio-right .wrap-issuingBank {
+  width: 119px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .inner-left .wrap-left .lastBlock .lastBlock-inner .lastBlock-content .content-radio .radio .radio-right .wrap-issuingBank #issuingBank {
+  width: 116px!important;
+  height: 29px;
+  margin-left: 8px;
+  background: #eee;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 0px 6px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip {
+  width: 26%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 53px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info {
+  border: 1px #ddd solid;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .info-btn {
+  text-align: center;
+  padding: 14px 18px;
+  background-color: #f7f7f7!important;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .info-btn .continue {
+  display: inline-block;
+  width: 88%;
+  max-width: 249px;
+  padding: 5px 12px;
+  border-color: #cba957 #bf942a #aa8326;
+  background: -webkit-linear-gradient(top, #f7dfa5, #f0c14b);
+  background: -linear-gradient(top, #f7dfa5, #f0c14b);
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .order-form .form-inner {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .order-form .form-inner .form-toggle {
+  padding: 11px 35px 11px 18px;
+  cursor: pointer;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .order-form .form-inner .form-toggle p {
+  display: inline-block;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .order-form .form-inner .form-toggle i {
+  width: 15px;
+  height: 16px;
+  background-image: url(../images/sprite_sky.png);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  -webkit-background-size: 380px 597px;
+  background-position: -16px -33px;
+  float: right;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .order-form .form-inner .toggle-content {
+  padding: 3px 35px 11px 18px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .order-form .form-inner .toggle-content .toggle-inner h2 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .order-form .form-inner .toggle-content .toggle-inner .lastBalance {
+  font-weight: bold;
+  font-size: 17px;
+  color: #b12704;
+  border-top: 1px solid #eee;
+  padding-top: 11px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .guarantee-mess {
+  background-color: #f7f7f7!important;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .guarantee-mess .mess-inner {
+  padding: 13px 18px 23px 18px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .guarantee-mess .mess-inner p {
+  display: inline-block;
+  margin-top: 6px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .refer-info .guarantee-mess .mess-inner h3 {
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .last-info-btn {
+  text-align: center;
+  padding: 14px 18px;
+  background-color: #f7f7f7!important;
+  position: absolute;
+  bottom: 5px;
+}
+.shipMethod-inner .shipMethod-content .content-inner .right-tip .last-info-btn .continue {
+  display: inline-block;
+  width: 88%;
+  max-width: 249px;
+  padding: 5px 12px;
+  border-color: #cba957 #bf942a #aa8326;
+  background: -webkit-linear-gradient(top, #f7dfa5, #f0c14b);
+  background: -linear-gradient(top, #f7dfa5, #f0c14b);
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lightBlu {
+  color: #007eb9;
+  text-decoration: none;
+}
+.lightBlu:hover {
+  color: #e47911!important;
+  text-decoration: underline;
+}
+.pinkbord {
+  background-color: #FCF5EE;
+  border: 1px solid #FBD8B4;
+  border-radius: 5px;
+}

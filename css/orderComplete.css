@@ -1,0 +1,144 @@
+body {
+  font-size: 13px;
+  line-height: 19px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+#orderComplete .orderComplete-inner {
+  max-width: 1022px;
+  min-width: 996px;
+  padding: 20px 24px;
+  margin: 0 auto;
+}
+#orderComplete .orderComplete-inner .orderComplete-content {
+  padding-left: 93px;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .member-inner {
+  margin: 23px 0px 16px;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .big-tip h2 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #b12704;
+  margin-bottom: 11px;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .inner-dl dl {
+  margin-bottom: 11px;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .inner-dl dl dt {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 33px;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .inner-dl dl dd {
+  padding-left: 9px;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .inner-dl dl dd #icon {
+  display: inline-block;
+  width: 54px;
+  height: 15px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-size: 400px 750px;
+  background-position: -5px -490px;
+  vertical-align: top;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .inner-dl dl dd:before {
+  content: '●';
+  color: black;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 11px 0px;
+  margin-bottom: 0px;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft {
+  display: inline-block;
+  width: 70%;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard {
+  padding: 21px 0px 6px;
+  border-top: 1px solid #eee;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardLeft {
+  width: 76%;
+  float: left;
+  display: inline-block;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardLeft h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardLeft .add {
+  margin: 14px 0px;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardRight {
+  width: 24%;
+  display: inline-block;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardRight .icon {
+  display: block;
+  float: right;
+  height: 29px;
+  width: 45px;
+  background-image: url(../images/sprite-map.png);
+  background-repeat: no-repeat;
+  margin: 1px;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardRight .icon1 {
+  background-position: 0px 0;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardRight .icon2 {
+  background-position: -45px 0;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardRight .icon3 {
+  background-position: -90px 0;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardRight .icon4 {
+  background-position: -225px 0;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardRight .icon5 {
+  background-position: -270px 0;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payLeft .creditCard .cardRight .icon6 {
+  background-position: -270px 0;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payRight {
+  display: inline-block;
+  width: 26%;
+  vertical-align: top;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payRight .btnInner {
+  padding: 15px;
+  width: 80%;
+  margin-left: 19%;
+  background-color: #FAFAFA!important;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .choicePay .anotherPay .payRight .btnInner span {
+  display: block;
+  width: 100%;
+  border: 1px solid #EAEDED;
+  background-color: #FFF5E8!important;
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+  cursor: pointer;
+}
+#orderComplete .orderComplete-inner .orderComplete-content .wrap-content .enjoy-inner .aboutPay .noJoin {
+  padding: 11px 0px;
+}
+#orderComplete .orderComplete-inner .wrap-bottom {
+  padding: 8px 24px;
+}
+#orderComplete .orderComplete-inner .wrap-bottom .divider-cart {
+  margin: 13px 0px 0px;
+}
+.dpBlue {
+  text-decoration: none;
+  color: #008296;
+}
+.dpBlue:hover {
+  text-decoration: underline;
+  color: #008296;
+}

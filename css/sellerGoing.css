@@ -1,0 +1,241 @@
+/*商家入驻页面版心*/
+
+#l_sellerGoingMassge{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*入驻页面logo图*/
+.l_sellerHeader {
+	width: 100%;
+	height: 70px;
+	padding-top: 10px;
+}
+
+.l_sellerHeader a {
+	width: 186px;
+	height: 60px;
+	background: url(../images/icon.png);
+	background-size: 500px;
+	background-position: 0px -165px;
+	display: block;
+}
+/*商家入驻页面流程图*/
+.l_sGmTop{
+	width: 100%;
+	margin:10px 0 ;
+	height: 50px;
+	
+}
+.l_sGmTop>div{width: 85%;border:1px solid #E6E6E6;margin: 0 auto;box-sizing: border-box;position: relative;top: 10px;z-index: -1;}
+.l_sGmTop>ul>li{width: 14.2%;height: 60px;float: left;text-align: center;}
+
+.l_sGmTop>ul>li>p:nth-of-type(1){width: 20px;line-height:20px;margin:0 auto;height: 20px;color: #fff;background: #E6E6E6;border-radius:50% ;}
+.l_sGmTop>ul>li>p:nth-of-type(2){margin-top:10px;color: #E6E6E6;}
+.l_sGmTop ul .l_sellerGoingReady>p:nth-of-type(1){background: green;}
+.l_sGmTop ul .l_sellerGoingReady>p:nth-of-type(2){color: forestgreen;}
+.l_sGmTop ul .l_sellerGoingwrit>p:nth-of-type(1){background: tomato;}
+.l_sGmTop ul .l_sellerGoingwrit>p:nth-of-type(2){color: tomato;}
+/*入驻信息填写*/
+.l_sGmCenter{
+	width: 100%;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.l_sGmCenterCare{width: 100%;border: 1px solid papayawhip;background: ivory;color: burlywood;padding: 10px;box-sizing: border-box;}
+.l_sGmWite{margin-top: 20px;width: 100%;color: #000;font-size: 14px;}
+.l_sGmWite ul li{color: #999;font-size: 12px;margin: 10px;min-height: 25px;}
+.l_sGmWite ul li div{float: left;min-height: 25px;}
+.l_sGmWite ul li div:nth-of-type(1){width: 150px;text-align: right;margin-right: 10px;}
+.l_sGmWite span{color: red;margin: 0 10px;font-size: 12px;}
+.l_sGmWite ul li div input{border: 1px solid #E6E6E6;height: 25px;border-radius: 5px;width: 200px;box-shadow: 1px 1px 1px 1px #E3E3E3;}
+.l_sGmWite ul li:after{clear: both;height: 0;display: block;content: "";}
+.l_sGmWite ul li .l_sGmWiteChange1 input{border: none;box-shadow: none;}
+.l_sGmWite ul li .l_sGmWiteChange1 input:nth-of-type(2){width: 20px;height: 10px;}
+.l_sGmNext{width: 500px;margin: 0 auto;min-height: 100px;}
+.l_sGmNext a{display: block;float:left;background: gold;border: 1px solid goldenrod;border-radius: 5px;width:200px;height:30px;text-align:center;line-height:30px;margin: 30px auto;}
+
+/*入驻页面底部*/
+.l_sellerFooter	{text-align: center;width:100%;height: 40px;background: #E3E3E3;text-align: center;line-height: 40px;}
+/*个人入驻底部改动*/
+.l_sGsFfooter{position: absolute;bottom: 0;}
+/*入驻公司信息改动*/
+.l_sGmWite ul li div  .l_sGcompanyChang1{width: 80px;}
+.l_sGmWite ul li div  .l_sGcompanyChang2{width: 120px;}
+/*入驻协议*/
+.l_sGmCenterBox{width: 960px;margin: 0 auto;padding:20px 10px;box-sizing:border-box;border: 1px solid #E6E6E6;height: 320px;overflow-x:auto ;margin: 30px 0;}
+.l_sGmNext:after{clear: both;height: 0;overflow: hidden;display: block;}
+/*提交等待页面改动*/
+.l_sellergoingwite1{padding: 150px 0;text-align: center;font-size: 16px;}
+
+/*入驻提交申请页面样式*/
+.l_sGmCenterTable{margin-bottom: 20px;padding:0 50px;box-sizing: border-box;	}
+.l_sGmCenterTable table{margin: 0px auto;
+    border: 1px solid rgb(221, 221, 221);
+    border-image: none;
+    width: 640px;
+    line-height: 22px;
+    font-size: 14px;
+    }
+table td{
+	border-width: 1px 1px 0px 0px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221) rgb(221, 221, 221) transparent transparent;
+    text-align: center;
+    padding: 8px 4px;
+    height: 20px;
+    vertical-align: top;
+}	
+.l_sGmCenterTable table td.w80{width: 100px;}
+table th{
+	background-color:rgb(247, 247, 247);
+	color: rgb(119, 119, 119);	
+	padding: 8px 4px;
+}
+/*提交店铺经营信息*/
+.l_sGmWite .l_sGsOchang li{
+	color: #555;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.l_sGmWite .l_sGsOchang select{height:30px;}
+.l_sGoBottom{background: linear-gradient(to bottom, rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%);height: 35px;text-align: center;padding:0 10px;line-height: 35px;border-radius: 5px;}
+.l_sGcompanyChang1 table{
+	    width: 640px;
+    margin: 0 auto;
+    border: solid 1px #DDD;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 22px;
+    color: #555;
+    margin: 30px 10px;
+    text-align: center;
+}
+.l_store-joinin{
+	background-color: #FFF;
+    width: 100%;
+    line-height: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    border-color: transparent transparent #C9DDE0 #C9DDE0;
+    box-shadow: 2px 2px 2px rgba(204,204,204,0.25);	
+}
+.l_store-joinin th{
+	font-weight: 600;
+    color: #214752;
+    background-color: #E3EFF0;
+    height: 20px;
+    padding: 6px 4px;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    border-color: #C9DDE0 #C9DDE0 transparent transparent;
+}
+.l_store-joinin tbody th {
+    color: #555555;
+    background-color: #F0F7FA;
+    text-align: right;
+    width: 108px;
+    height: 20px;
+    padding: 6px 4px;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    border-color: #C9DDE0 #C9DDE0 transparent transparent;
+}
+.l_store-joinin tbody td {
+    color: #333;
+    min-width: 119px;
+    height: 20px;
+    padding: 4px 6px;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    border-color: #C9DDE0 #C9DDE0 transparent transparent;
+    text-align: left;
+}
+.l_store-joinin #table_category{
+    width: 640px;
+    margin: 0 auto;
+    border: solid 1px #DDD;
+    text-align: center;
+}
+.l_store-joinin #table_category th{
+	text-align: center;
+}
+.l_store-joinin #table_category td{
+	text-align: center;
+}
+/*考试*/
+.l_sGt1chang1{position: fixed;top: 80%;line-height:50px;width:100%;z-index:1000;margin:20px;color:#000000;box-sizing:border-box;background: rgba(0,0,0,0.1);height: 50px;text-align: center;background: #999;}
+.l_sGt1chang1>div{display: inline-block;}
+.l_sGt1chang1>div{height: 30px;}
+.l_sGt1chang1>div:nth-of-type(1){height: 10px;border: 1px solid #000;width: 200px;}
+.l_sGt1chang1>div>a{padding: 0px 10px;margin:0 20px;border-radius: 5px;height:30px;line-height:30px;display: inline-block;background: linear-gradient(to bottom, rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%);}
+/*考试答案页面样式*/
+.l_sGtestChang1{
+	border: 1px solid #ECF5C5;
+    background-color: #F7FFEE;
+    margin-top: 12px;
+    padding: 18px 18px 18px 55px;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.l_sGtestChang1 h3{
+	font-size: 16px;
+}
+.l_sGtestChang1 a{
+	font-size: 16px;
+	background: linear-gradient(to bottom, rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%);
+	color: #444;
+    text-shadow: none;
+    border: solid 1px;
+    border-radius: 3px;
+    border-color: #d3a63a #bf942a #aa8326;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 20px;
+    width: 130px;
+    text-align: center;
+}
+.l_caption{position: relative;}
+.l_caption p{position: absolute;top: 10px;right: 0;color: #999;font-size: 14px;}
+.l_sGtQtitle{
+	color: #FF6600;
+    font-size: 18px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #CCC;
+}
+.l_sGtQtitle small {
+    color: #999;
+    font-size: 12px;
+}
+.l_sGtqagroup .dirty{
+	margin-bottom: 40px;
+}
+.l_sGtqagroup .dirty h3{
+	padding: 6px 10px;
+    margin-bottom: 18px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #F2F2F2;
+}
+.l_sGtqagroup .dirty h3 span{
+	color: #B71C22;
+    font-weight: bold;
+}
+.l_sGtqagroup .dirty ul{
+	color: #999;
+    padding-left: 24px;
+}
+.l_sGtqagroup .dirty ul li {
+    margin-top: 12px;
+    font-size: 14px;
+}
+

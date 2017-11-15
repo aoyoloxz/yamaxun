@@ -1,0 +1,329 @@
+body{
+	font-size: 15px;
+    line-height: 20px;
+    color: #002F36;
+    font-family: 'Hiragino Sans GB','Microsoft Yahei',Arial,sans-serif;
+}
+a{
+	color: #008296;
+}
+.join-cart-inner{
+	margin: 0 auto;
+    padding: 0 12px;
+    max-width: 1029px;
+    min-width: 1020px;
+}
+.join-tip{
+	width: 100%;
+	margin: 30px 0px;
+	border: 1px #EAEDED solid;
+	background: #FAFAFA!important;
+}
+.detail-left{
+	border-right: 1px solid #EAEDED;
+}
+.detail-right,.total-detail{
+	height: 46px;
+    line-height: 27px;
+}
+.detail-left,.detail-right{
+	float: left;
+    padding: 7px 0px 7px 5px;
+}
+.left-img,.left-title{
+	float: left;
+}
+.left-title{
+	padding: 0px 16px;
+}
+.left-title>h2{
+	font-size: 22px;
+	color: #099700!important;
+}
+.left-img{
+	border: 1px solid #099700;
+	cursor: pointer;
+}
+.left-img>img{
+	width:48px;
+	height: 48px;
+}
+.left-img .img-cart{
+	width: 9px;
+	height: 5px;
+    display: inline-block;
+    background: url(../images/Am.png);
+    background-size: 400px 750px;
+    background-repeat: no-repeat;
+    background-position: -90px -5px;
+}
+/*右侧*/
+.right-detail,.right-btn{
+	float: left;
+}
+.right-btn{
+	margin-left: 11px;
+    padding: 6px 0px;
+}
+.right-btn a{
+	color:black!important;
+}
+
+.right-detail{
+	margin: 0px 5px;
+	text-align: left;
+}
+.right-detail .price{
+	font-size: 18px;
+	font-weight: bold;
+}
+.price .good-price{
+	color: #CC1C39!important;
+}
+.right-detail .price-tip{
+	font-size: 11px;
+}
+.right-btn .cart,
+.right-btn .balance{
+	height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0px 15px;
+}
+.right-btn .cart{
+	margin-right: 9px;
+}
+.right-btn .cart:hover{
+	background: #e6e6e6;
+	border-color: #AAB7B8;
+}
+
+.right-btn .balance:hover{
+	background: #FFA724;
+}
+/*推荐*/
+.wrap-recommend{
+	margin-top: 11px;
+}
+.mrg-top{
+	margin-top: 53px;
+}
+.list-title>h2{
+	font-size: 22px;
+	line-height: 29px;
+}
+.list-good{
+	padding: 15px 11px;
+}
+.good-sheet{
+	width: 230px;
+	min-height: 150px;
+	margin: 0 auto;
+}
+.good-sheet .sheet-img{
+	width: 100%;
+	height:149px ;
+}
+.bottom-total{
+	min-width: 600px;
+	margin: 44px 0px;
+	text-align: center;
+}
+.total-detail{
+	display: inline-block;
+    border: 1px solid #ccc;
+    padding: 13px;
+}
+
+.divider-cart{
+	margin: 45px 0px;
+}
+.divider-inner{
+	height: 60px;
+    margin-bottom: -20px;
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0;
+    zoom: 1;
+}
+.divider-inner:after{
+	display: block;
+    width: 100%;
+    height: 60px;
+    /* background-color: transparent; */
+    background: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    z-index: 1;
+    content: "";
+}
+
+/*min-divider*/
+.min-divider{
+	border-top: 1px solid #DDD;
+    height: 23px;
+    margin-bottom: -6px;
+    background: -moz-linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ddd),color-stop(3px,#f7f7f7),color-stop(100%,#fff));
+    background: -webkit-linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    background: -o-linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    background: -ms-linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    background: linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    filter: none;
+    z-index: 0;
+    zoom: 1;
+}
+.min-divider:after {
+    display: block;
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    background: -moz-linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0,#fff),color-stop(50%,rgba(255,255,255,0)),color-stop(100%,#fff));
+    background: -webkit-linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    background: -o-linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    background: -ms-linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    background: linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    filter: none;
+    z-index: 1;
+    content: "";
+}
+
+
+#bottom{
+	border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 18px 20px 9px;
+    margin-bottom: 10px;
+    min-width: 1006px;
+}
+.bottom-title>h3{
+	font-size: 20px;
+}
+.like-title{
+	margin: 22px 0px;
+}
+.like-content{
+	position: relative;
+	padding: 10px;
+}
+.rg-btn,.lf-btn,.goods{
+	/*float: left;*/
+}
+.goods{
+	position: relative;
+}
+.rg-btn,.lf-btn{
+	position: absolute;
+	top: 26px;
+}
+.rg-btn{
+	right: 0px;
+}
+.lf-btn{
+	left:0px;
+}
+
+.rg-btn,.lf-btn{
+	height: 259px;
+	width: 40px;
+}
+.btn{
+	line-height: 259px;
+}
+.btn-inner{
+	width: 5px;
+    height: 13px;
+    padding: 9px 11px;
+    background: #EAEDED;
+    cursor: pointer;
+    background-image: url(../images/Am.png);
+    background-size: 400px 750px;
+    background-repeat: no-repeat;
+    background-position: -115px 2px;
+    display: inline-block;
+}
+.rg-btn .btn-inner{
+	background-position: -97px 2px;
+}
+.other-goods{
+	height: 286px;
+    padding: 0px 36px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.other-goods-list{
+	height: 100%;
+}
+.other-goods-list>li{
+	height: 100%;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 160px;
+	float: left;
+    margin-left: 30px;
+}
+.goods-link{
+	display: inline-block;
+}
+.wrap-img{
+	margin-bottom: 2px;
+}
+.wrap-img>img{
+	width: 100%;
+}
+.good-title{
+	color: #008577;
+	cursor: pointer;
+}
+.row-star i{
+	background-image: url(../images/sprite_sky.png);
+	background-position: -159px -220px;
+	background-size: 550px 430px;
+	-webkit-background-size: 550px 430px;
+}
+.row span,.row i,.row-star i{
+	display: inline-block;
+}
+.row i{
+	background-image: url(../images/Am.png);
+	background-position: -205px -247px;
+}
+.price{
+	color: #CC1C39!important;
+}
+.bottom-footer{
+	height: 75px;
+	line-height: 75px;
+}
+.edit-history{
+	float: right;
+}
+
+.edit-history>a{	
+	display: inline-block;
+    line-height: 13px;
+    vertical-align: middle;
+    width: 80px;
+}
+.view-tip{
+	float: left;
+}
+.view-list{
+	margin: 0px 156px 0px 48px;
+}
+.view-list li{
+	float: left;
+	padding: 0px 10px;
+}
+.view-list li .looked-img{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #DDD;
+}
+.view-list li .looked-img:hover{
+	width: 48px;
+	height: 48px;
+	border: 2px solid #E47911;
+}

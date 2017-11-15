@@ -1,0 +1,276 @@
+
+@maxWidth:1152px;
+@minWidth:996px;
+@blue:#007eb9;
+@gray:#888;
+@red:#b12704;
+
+
+body{
+	font-size: 13px;
+    line-height: 19px;
+    color: #333;
+    font-family: Arial,sans-serif;
+}
+
+#shipMethod{
+	.shipMethod-inner{
+		max-width:@maxWidth;
+		min-width:@minWidth;
+		padding: 20px 24px;
+		margin: 0 auto;
+		.top-mask{}
+		.shipMethod-content{}
+	}
+}
+.shipMethod-inner{
+	.shipMethod-content{
+		.right-btn{
+			    max-width: 250px;
+			    min-width: 161px;
+			    float: right;
+			    text-align: center;
+			    padding: 13px 22px;
+			    background-color: #f7f7f7;
+			    border-radius: 5px;
+			    box-sizing: content-box;
+				span{
+					display: inline-block;
+				    height: 31px;
+				    line-height: 31px;
+				    padding: 0px 95px;
+				    cursor:pointer;
+				}
+			}
+		.content-title{
+			border-bottom:1px solid #eee;
+			padding: 41px 0px 16px;
+			.title-inner{
+				width:56%;
+				display:inline-block;
+				h2{
+					font-size:28px;
+				}
+			}	
+		}
+		.content-inner{
+			.block{
+				border-bottom:1px solid #eee;
+				padding: 21px 0px 11px;
+				.block-left{
+					display:inline-block;
+					width:49%;
+					h2{
+						font-size:21px;
+						font-weight:bold;
+						line-height: 39px;
+					}
+					.wrap-package{
+						.package-title{
+							h3{
+								font-size:17px;
+								font-weight:bold;
+								display:inline-block;
+								margin-bottom:9px;
+							}
+							a{
+								color:@blue;
+							}
+						}
+						.destination{
+							margin-bottom:9px;
+							color:@gray;
+						}
+						.package-mess{
+							padding-left:15px;
+							margin: 8px 0px;
+							h3{
+								font-weight: bold;
+    							position: relative;
+								&:before{
+									content: '●';
+								    color: #aaa;
+								    position: absolute;
+								    left: -15px;
+								}
+							}
+							.wrap-price{
+								color:@gray;
+								.price{
+									color:@red;
+								}
+							}
+						}
+						.package-edit{
+							margin: 16px 0px 3px;
+							a{
+								color:@blue;
+								&:hover{
+								    text-decoration: underline;
+								    color: #e47911;
+								}
+							}
+						}
+					}
+				}
+				.block-right{
+				    display: inline-block;
+				    width: 50%;
+				    vertical-align: top;
+					h2{
+						font-size:17px;
+						font-weight:bold;
+						margin-bottom: 13px;
+					}
+					.shipA{
+						.free-tip{
+							.tip-inner{
+							    border: 1px solid #bbd3de;
+							    background: #fafafa;
+							    padding: 13px 6px;
+							    border-radius: 3px;
+								.free-logo{
+								    display: inline-block;
+								    width: 10%;
+								    height: 100%;
+									i{
+										background-image: url(../images/Am.png);
+									    background-repeat: no-repeat;
+									    background-size: 400px 600px;
+									    -webkit-background-size: 400px 600px;
+									    background-position: -350px -28px;
+									    display: inline-block;
+									    width: 31px;
+									    height: 22px;
+									    position: relative;
+									    top: -29px;
+	    								left: 19px;
+									}
+								}
+								.free-cont{
+									display:inline-block;
+									width:86%;
+									h4{
+										font-size: 17px;
+									    font-weight: normal;
+									    line-height: 1.24;
+									}
+									.tip-mess{}
+								}							
+							}
+						}
+						.radio-content{
+							margin: 11px 0px 16px;
+							.radio-list{
+								margin:9px 0px;
+								.list-left{
+									display:inline-block;
+									width:3%;
+									vertical-align: top;
+								}
+								.list-right{
+									display:inline-block;
+									width:96%;
+									cursor:pointer;
+									img{}
+									.appointment-tip{
+										.appointment-inner{
+											border: 1px solid #bbd3de;
+										    background: #fafafa;
+										    padding: 13px 6px;
+										    border-radius: 3px;
+											h2{
+												font-size:17px;
+											}
+											p{
+												display:inline-block;
+											}
+											a{
+												color:@blue;
+												&:hover{
+													text-decoration: underline;
+								    				color: #e47911;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						.shipTime{
+							.timeInner{
+								h2{
+									font-size:17px;
+									font-weight:bold;
+								}
+								.timeList{
+									.radioList{
+										margin: 9px 0px;
+										.listLeft{
+											width:3%;
+											display:inline-block;
+											vertical-align: top;
+										}
+										.listRight{
+											width:96%;
+											display:inline-block;
+											cursor:pointer;
+										}
+									}
+								}
+							}
+						}
+					}
+					.shipB{
+						.normalShip{
+							.left{
+								display:inline-block;
+								width:3%;
+								vertical-align: top;
+							}
+							.right{
+								display:inline-block;
+								width:96%;
+								cursor:pointer;
+								p{
+									color:#090;
+								}
+							}
+						}
+					}
+					.shipC{
+						.standardShip{
+							.standardList{
+								margin:9px 0px;
+								.left{
+									display:inline-block;
+									width:3%;
+									vertical-align: top;
+								}
+								.right{
+									display:inline-block;
+									width:96%;
+									cursor:pointer;
+									p{
+										color:#090;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.continue-btn{
+			margin: 19px 0px;
+		}
+	}
+}
+.lightBlu{
+	color:#007eb9;
+	text-decoration: none;
+}
+.lightBlu:hover{
+	color:#e47911!important;
+	text-decoration: underline;
+}

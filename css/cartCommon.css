@@ -1,0 +1,92 @@
+.fontwb{
+	font-weight: bold;
+}
+.size-small{
+	font-size: 13px;
+}
+.color-price{
+	color: #CC1C39!important;
+	font-weight: bold;
+}
+.qin-color{
+	color: #008577;
+}
+.qin-color:hover{
+    color:#008296;
+    text-decoration: underline;
+}
+.or-bg{
+	background: #FAD000;
+}
+.gray-bg{
+	background: #EAEDED;
+}
+.or-btn,.gray-btn{
+    border-radius: 3px;
+    border: 1px solid #AAB7B8;
+}
+select{
+	width: 77%!important;
+    cursor: pointer;
+    position: relative;
+    right: 8px;
+}
+select option{
+	cursor: pointer;
+    background: #fff;
+}
+
+.divider-inner{
+	height: 60px;
+    margin-bottom: -20px;
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0;
+    zoom: 1;
+}
+.divider-inner:after{
+	display: block;
+    width: 100%;
+    height: 60px;
+    background: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    z-index: 1;
+    content: "";
+}
+.min-divider{
+	border-top: 1px solid #DDD;
+    height: 23px;
+    margin-bottom: -6px;
+    background: -moz-linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ddd),color-stop(3px,#f7f7f7),color-stop(100%,#fff));
+    background: -webkit-linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    background: -o-linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    background: -ms-linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    background: linear-gradient(top,#ddd,#f7f7f7 3px,#fff);
+    filter: none;
+    z-index: 0;
+    zoom: 1;
+}
+.min-divider:after {
+    display: block;
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    background: -moz-linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0,#fff),color-stop(50%,rgba(255,255,255,0)),color-stop(100%,#fff));
+    background: -webkit-linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    background: -o-linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    background: -ms-linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    background: linear-gradient(left,#fff,rgba(255,255,255,0),#fff);
+    filter: none;
+    z-index: 1;
+    content: "";
+}
+.divider-line{
+	border-bottom: 1px solid #eee;
+	margin: 10px
+}
+.divider-cart{
+	margin: 45px 0px;
+}
+

@@ -2,7 +2,7 @@
 .changeEmail .changeEmailBox .boxContent{
 	width: 570px;
 	height: 462px;
-	margin: 100px auto 0;
+	margin: 20px auto 30px;
 	padding: 15px;
 }
 .changeEmail .changeEmailBox .boxContent h1{
@@ -64,8 +64,8 @@
 /*更改名称begin*/
 .changeName .changeNameBox .boxContent{
 	width: 570px;
-	height: 462px;
-	margin: 100px auto 0;
+	height: 262px;
+	margin: 20px auto 30px;
 	padding: 15px;
 }
 .changeName .changeNameBox .boxContent h1{
@@ -147,7 +147,7 @@
 .changePassword .changePasswordBox .boxContent{
 	width: 570px;
 	height: 462px;
-	margin: 100px auto 0;
+	margin: 20px auto 30px;
 	padding: 15px;
 }
 .changePassword .changePasswordBox .boxContent h1{
@@ -210,8 +210,8 @@
 /*更改电话号码begin*/
 .changePhoneNumber .changePhoneNumberBox .boxContent{
 	width: 570px;
-	height: 462px;
-	margin: 100px auto 0;
+	height: 262px;
+	margin: 20px auto 30px;
 	padding: 15px;
 }
 .changePhoneNumber .changePhoneNumberBox .boxContent h1{

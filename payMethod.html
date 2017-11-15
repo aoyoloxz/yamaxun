@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/payMethod.css">
+	<link rel="stylesheet" href="css/cartCommon.css">
+	<link rel="stylesheet" href="css/cartBottom.css">
+</head>
+<body>
+
+	<div id="shipMethod">
+		<div class="shipMethod-inner">
+			<div class="top-mask">
+				<div class="wrap-mask">
+					<img src="images/checkout.gif" alt="">
+				</div>
+			</div>
+			<div class="shipMethod-content">
+				<div class="content-title">
+					<h2>请选择付款方式</h2>
+				</div>
+				<div class="content-inner" id="contentInner">
+					<div style="position:relative;">
+						<div class="inner-left">
+							<div class="wrap-left">
+								<div class="block">
+									<div class="block-top">
+										<div class="block-title">
+											<h3>信用卡/借记卡</h3>
+										</div>
+										<div class="block-tip">
+											<div class="tip-lf">
+												<p>
+													<span>添加信用卡</span> 使用主流信用卡安全支付
+													（暂不支持除招行及中行以外其他国内银行发行的单标Visa卡及American Express卡）
+													 (<a class="lightBlu" href="#">了解更多</a>)
+												</p>
+											</div>
+											<div class="tip-rt">
+												<img src="images/credit-cards.png" alt="">
+											</div>
+										</div>
+										<div class="enter-card">
+											<div class="card-inner">
+												<div class="inner-tip">输入您的卡信息：
+												</div>
+												<div class="card-mess clearfix">
+													<div class="card mess-name">
+														<label for="forName">持卡人姓名</label>
+														<input id="forName" type="text" name="name" size="20">
+													</div>
+													<div class="card card-num">
+														<label for="forNum">信用卡号码</label>
+														<input id="forNum" type="text" name="addNum">
+													</div>
+													<div class="card card-passTime">
+														<label for="passTime">信用卡有效期</label>
+														<div class="wrap-date">
+															<!-- <span class="month">
+																
+															</span> -->
+															<!-- <span class="year"> -->
+																<select name="year1"></select>
+																<select name="month1"></select>
+																
+															<!-- </span> -->
+														</div>
+													</div>
+													<div class="card addCur">
+														<span class="cardBtn">添加此信用卡</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<p class="debit-card">
+											<a class="lightBlu" href="#">添加借记卡</a>
+											<span> 根据银联相关规定，请确保您的借记卡余额不低于订单金额的115%，但实际扣款不会超过订单金额，请不用担心。</span>
+										</p>
+									</div>
+									<div class="block-bottom">
+										<div class="bottom-inner">
+											<div class="inner-left">
+												<div class="lastBalance">
+													<p>亚马逊账户余额及促销优惠 </p>
+													<span class="balance-inner">￥ 0.00</span>
+												</div>
+												<div class="recharge">
+													<a class="lightBlu" href="#">使用礼品卡/充值卡/促销优惠码充值</a>
+												</div>
+											</div>
+											<div class="inner-right">
+												<img src="images/gc.gif" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="lastBlock">
+									<div class="lastBlock-inner">
+										<div class="lastBlock-title">
+											<h2>其他付款选项</h2>
+										</div>
+										<div class="lastBlock-content">
+											<div class="content-radio">
+												<div class="phonePay">
+													<div class="radio">
+														<div class="radio-left">
+															<input type="radio" name="otherPay">
+														</div>
+														<div class="radio-right">
+															<span>微信支付 请在 6 个小时内完成付款</span>
+														</div>
+													</div>
+													<div class="radio">
+														<div class="radio-left">
+															<input type="radio" name="otherPay">
+														</div>
+														<div class="radio-right">
+															<span>支付宝 请在 6 个小时内完成付款</span>
+														</div>
+													</div>
+												</div>
+												<div class="methodPay">
+													<div class="radio">
+														<div class="radio-left">
+															<input type="radio" name="otherPay">
+														</div>
+														<div class="radio-right">
+															<span>货到付款-POS机刷卡 不可用于这次订单。原因如下：</span>
+															<p>您购买的商品由入驻卖家销售及配送，该卖家不支持货到付款</p>
+														</div>
+													</div>
+													<div class="radio">
+														<div class="radio-left">
+															<input type="radio" name="otherPay">
+														</div>
+														<div class="radio-right">
+															<span>货到付款-现金 不可用于这次订单。原因如下：</span>
+															<p>您购买的商品由入驻卖家销售及配送，该卖家不支持货到付款</p>
+														</div>
+													</div>
+													<div class="radio cyber-bank">
+														<div class="radio-left">
+															<input type="radio" name="otherPay">
+														</div>
+														<div class="radio-right">
+															<span>网银支付（需事先开通网银功能，支付限额以银行规定为准） 请在 6 个小时内完成付款 (</span>
+															<a class="lightBlu" href="#">了解更多</a>)
+															<p class="wrap-issuingBank">
+																<select id="issuingBank">
+																	<option value="中国银行" selected>中国银行</option>
+																	<option value="招商银行">招商银行</option>
+																</select>
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="inner-right right-tip">
+							<div class="refer-info">
+								<div class="info-btn">
+									<div class="continue">继续</div>
+									<p>（您仍可在提交订单前修改订单信息）</p>
+								</div>
+								<div class="order-form">
+									<div class="form-inner">
+										<div class="form-toggle">
+											<p>显示订单总计</p>
+											<i></i>
+										</div>
+										<div class="toggle-content" style="display: none;">
+											<div class="toggle-inner">
+												<h2>订单价格</h2>
+												<div class="orderPrice">
+													<p class="clearfix">
+														<span class="fl">商品：</span>
+														<span class="fr">￥ 156.30</span>
+													</p>
+													<p class="clearfix">
+														<span class="fl">配送相关费用：</span>
+														<span class="fr">￥ 10.00</span>
+													</p>
+												</div>
+												<div class="lastBalance clearfix">
+													<h2 class="fl">订单总计：</h2>
+													<span class="fr">￥ 166.30</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="guarantee-mess">
+									<div class="mess-inner">
+										<h3>亚马逊卖家配送商品交易保障</h3>
+										<p>
+											<span>您购买的商品中包含第三方卖家销售和配送的商品，这部分交易同样受亚马逊保障。您可在收到商品后在“我的帐户”中及时确认收货，如订单发货7天后未得到确认，亚马逊会将货款转至卖家账户。如之后遇到任何订单问题或商品质量问题，您可以在购买商品后的 90 天内提交索赔申请。</span>
+											<a href="#">了解更多信息</a>
+										</p>
+										
+									</div>
+								</div>
+							</div>
+							<div class="last-info-btn">
+								<div class="continue">继续</div>
+								<p>（您仍可在提交订单前修改订单信息）</p>
+							</div>
+						</div>
+					</div>
+					<div class="wrap-bottom">
+						<div class="divider-cart">
+							<div class="divider-inner"></div>
+						</div>
+						<div id="bottom">
+							<p class="discount-tip">
+								<span>需要帮助？请访问</span>
+								<a class="lightBlu" href="#">帮助中心</a>或
+								<a class="lightBlu" href="#">联系我们</a>
+							</p>
+							<div class="item-list">
+								<a class="lightBlu" href="#">使用条件</a> | 
+								<a class="lightBlu" href="#">隐私声明</a>
+								<span> © 1999 - 2017 Amazon.com, Inc. or its affiliates</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/YMDClass.js"></script>
+	<!-- <script type="text/javascript" src="js/getBottom.js"></script> -->
+	<script type="text/javascript">
+		// ajaxBottom('contentInner');
+		new YMDselect('year1','month1');
+
+		function tapToggle(cur,i){
+			var nexEle =cur.next();
+			var togIcon =cur[0];
+			//console.log($(cur[0].style))
+			if(bool){
+				nexEle.css('display','block');
+				i.css('background-position','-16px -10px');
+				bool=false;
+			}else{
+				nexEle.css('display','none');
+				i.css('background-position','-16px -33px');
+				bool=true;
+			}
+		}
+		var bool =true;
+		$('.form-toggle').on('click',function(e){
+			var curTar =$(e.currentTarget);
+			var i =$(this).children('i');
+			tapToggle(curTar,i);
+		});
+
+		$('.content-radio').on('click','.radio',function(){
+			//$(this).addClass('pinkbord').parent().parent().find('.radio').siblings().removeClass('pinkbord');
+			//console.log($(this).parent().parent().find('.radio').siblings())
+		})
+	</script>
+</body>
+</html>

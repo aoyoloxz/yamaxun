@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../css/base.css" />
+		<link rel="stylesheet" href="../../css/sellerGoing.css" />
+	</head>
+	<body>
+		<div id="l_sellerGoingMassge">
+			<div class="l_sellerHeader">
+				<a href="#"></a>
+			</div>
+		
+			<div class="l_sGmTop">
+				<div></div>
+				<ul>
+					<li class="l_sellerGoingReady">
+						<p>1</p>
+						<p>签订入驻协议</p>
+					</li>
+					<li class="l_sellerGoingReady">
+						<p>2</p>
+						<p>店铺资质信息</p>
+					</li>
+					<li class="l_sellerGoingReady">
+						<p>3</p>
+						<p>财务资质信息</p>
+					</li>
+					<li class="l_sellerGoingwrit">
+						<p>4</p>
+						<p>店铺经营信息</p>
+					</li>
+					<li>
+						<p>5</p>
+						<p>考试</p>
+					</li>
+					<li>
+						<p>6</p>
+						<p>合同签订及缴费</p>
+					</li>
+					<li>
+						<p>7</p>
+						<p>店铺开通</p>
+					</li>
+				</ul>
+			</div>
+			<div class="l_sGmCenter">
+				<div class="l_sGmCenterCare">
+					<h5>注意事项：</h5>
+					<p>以下所需要上传的电子版资质文件仅支持JPG/GIP/PNG格式图片，大小请控制在1M之内</p>
+				</div>
+				<div class="l_sGmWite">
+					店铺经营信息
+					<ul class="l_sGsOchang">
+						<li>
+							<div>
+								商家账号：
+							</div>
+							<div>
+								<p>binkway</p>
+								<span>
+									此账号为日后登陆并管理商家中心时使用，注册后不可修改，请牢记
+								</span>
+							</div>
+						</li>
+						<li>
+							<div>
+								店铺名称：
+							</div>
+							<div>
+								<input type="text" />
+							</div>
+						</li>
+						<li>
+							<div>
+								店铺等级：
+							</div>
+							<div>
+								<select>
+									<option value="bankMassge">请选择</option>
+									<option value="bankMassge">系统默认</option>
+									<option value="bankMassge">白金店铺</option>
+									<option value="bankMassge">钻石店铺</option>
+								</select>
+								<br />
+								<p>商品数：不限 模版数：6 收费标准：1000.00 附加功能：富文本编辑器</p>
+							</div>
+						</li>
+						<li>
+							<div>
+								开店时长：
+							</div>
+							<div>
+								<select>
+									<option value="bankMassge">一年</option>
+									<option value="bankMassge">两年	</option>
+									
+								</select>
+							</div>
+						</li>
+						<li>
+							<div>
+								店铺分类：
+							</div>
+							<div>
+								<select name="sc_id" id="sc_id" class="valid">
+             						<option value="">请选择</option>
+                                    <option value="2" selected="selected">服装鞋包 (保证金：0 元)</option>
+		                            <option value="3">3C数码 (保证金：0 元)</option>
+		                            <option value="4">美容护理 (保证金：0 元)</option>
+		                            <option value="5">家居用品 (保证金：0 元)</option>
+		                            <option value="6">食品/保健 (保证金：0 元)</option>
+		                            <option value="7">母婴用品 (保证金：0 元)</option>
+		                            <option value="8">文体/汽车 (保证金：0 元)</option>
+		                            <option value="1">珠宝/首饰 (保证金：0 元)</option>
+		                            <option value="9">收藏/爱好 (保证金：0 元)</option>
+		                            <option value="10">生活/服务 (保证金：0 元)</option>
+		                            <option value="11">运动/户外 (保证金：0 元)</option>
+                                </select><br />
+								<span>请根据您所经营的内容认真选择店铺分类，注册后商家不可自行修改</span>
+							</div>
+						</li>
+						<li>
+							<div>
+								经营类目：
+							</div>
+							<div class="l_sGcompanyChang1">
+								<div class="l_sGoBottom">+请选择添加的类目</div><br />
+								<table id="table_category" class="type" border="0" cellspacing="0" cellpadding="0">
+					                <thead>
+						                <tr>
+						                  <th class="w120 tc">一级类目</th>
+						                  <th class="w120 tc">二级类目</th>
+						                  <th class="tc">三级类目</th>
+						                  <th class="w50 tc">操作</th>
+						                </tr>
+					                </thead>
+						            <tbody>
+						            	<tr class="store-class-item">
+						            		<td>服饰鞋帽</td>
+						            		<td>女装</td>
+						            		<td>衬衫 (分佣比例：5%)</td>
+						            		<td><a nctype="btn_drop_category" href="javascript:;">删除</a></td>
+						            		<input name="store_class_ids[]" value="1,4,13," type="hidden">
+						            		<input name="store_class_names[]" value="服饰鞋帽,女装,衬衫," type="hidden">
+						            		</tr>
+						            		<tr class="store-class-item">
+						            		<td>礼品箱包</td>
+						            		<td>功能箱包</td>
+						            		<td>登山包 (分佣比例：5%)</td>
+						            		<td>
+						            		<a nctype="btn_drop_category" href="javascript:;">删除</a>
+						            		</td>
+						            		<input name="store_class_ids[]" type="hidden" value="2,153,171,">
+						            <input name="store_class_names[]" type="hidden" value="礼品箱包,功能箱包,登山包,">
+						            	</tr>
+						            </tbody>
+								</table>
+							</div>
+						</li>
+						
+						
+					</ul>
+				</div>
+				
+			</div>
+			<div class="l_sGmNext">
+				<a href="#">提交申请</a>
+			</div>
+			
+		</div>
+		<div class="l_sellerFooter">
+				Copyright 2017 亚马逊 All rights reserved
+		</div>
+	</body>
+</html>

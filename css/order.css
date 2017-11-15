@@ -2,7 +2,7 @@
 /*我的订单begin*/
 .myOrder .myOrderBox .myOrder_contentBox{
 	width: 920px;
-	margin: 10px auto;
+	margin: 10px auto 50px;
 }
 .myOrder .myOrder_contentBox .headH1{
 	height: 65px;
@@ -102,7 +102,7 @@
 /*订单详情begin*/
 .orderDetails .orderDetailsBox .orderDetails_contentBox{
 	width: 920px;
-	margin: 10px auto;
+	margin: 10px auto 50px;
 }
 .orderDetails .orderDetails_contentBox .headH1{
 	height: 65px;

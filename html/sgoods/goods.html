@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../css/base.css" />
+		<link rel="stylesheet" href="../../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/base.css" media="print" />
+		<link rel="stylesheet" href="../../css/textCss/jquery.wysiwyg.css" type="text/css"/>
+		<!--teb切换样式-->
+		<!--<link rel="stylesheet" href="css/jq22.css" />-->
+		<!--<script src="http://www.jq22.com/jquery/jquery-1.7.1.js"></script>-->
+		
+		<!--<script type="text/javascript" src="js/textJs/jquery.wysiwyg.js"></script>
+		<script type="text/javascript" src="js/textJs/wysiwyg.image.js"></script>
+		<script type="text/javascript" src="js/textJs/wysiwyg.link.js"></script>
+		
+		<script type="text/javascript">-->
+		<!--(function($) {
+			$(document).ready(function() {
+				$('#wysiwyg').wysiwyg({
+				  controls: {
+					bold          : { visible : true },
+					italic        : { visible : true },
+					underline     : { visible : true },
+					strikeThrough : { visible : true },
+					
+					justifyLeft   : { visible : true },
+					justifyCenter : { visible : true },
+					justifyRight  : { visible : true },
+					justifyFull   : { visible : true },
+		
+					indent  : { visible : true },
+					outdent : { visible : true },
+		
+					subscript   : { visible : true },
+					superscript : { visible : true },
+					
+					undo : { visible : true },
+					redo : { visible : true },
+					
+					insertOrderedList    : { visible : true },
+					insertUnorderedList  : { visible : true },
+					insertHorizontalRule : { visible : true },
+		
+					h4: {
+						visible: true,
+						className: 'h4',
+						command: ($.browser.msie || $.browser.safari) ? 'formatBlock' : 'heading',
+						arguments: ($.browser.msie || $.browser.safari) ? '<h4>' : 'h4',
+						tags: ['h4'],
+						tooltip: 'Header 4'
+					},
+					h5: {
+						visible: true,
+						className: 'h5',
+						command: ($.browser.msie || $.browser.safari) ? 'formatBlock' : 'heading',
+						arguments: ($.browser.msie || $.browser.safari) ? '<h5>' : 'h5',
+						tags: ['h5'],
+						tooltip: 'Header 5'
+					},
+					h6: {
+						visible: true,
+						className: 'h6',
+						command: ($.browser.msie || $.browser.safari) ? 'formatBlock' : 'heading',
+						arguments: ($.browser.msie || $.browser.safari) ? '<h6>' : 'h6',
+						tags: ['h6'],
+						tooltip: 'Header 6'
+					},
+					
+					cut   : { visible : true },
+					copy  : { visible : true },
+					paste : { visible : true },
+					html  : { visible: true },
+					increaseFontSize : { visible : true },
+					decreaseFontSize : { visible : true },
+					exam_html: {
+						exec: function() {
+							this.insertHtml('<abbr title="exam">Jam</abbr>');
+							return true;
+						},
+						visible: true
+					}
+				  },
+				  events: {
+					click: function(event) {
+						if ($("#click-inform:checked").length > 0) {
+							event.preventDefault();
+							alert("You have clicked jWysiwyg content!");
+						}
+					}
+				  }
+				});
+		
+				$('#wysiwyg').wysiwyg("insertHtml", "Sample code");
+			});
+		})(jQuery);
+		
+		</script>-->
+	</head>
+
+	<body>
+		<div id="l_goods">
+			<div class="l_goods_header">
+				<div class="lgh_logo">
+				</div>
+				<div class="lgh_nav">
+					<a href="#" class="lghn_hover">库存</a>
+					<a href="#">订单</a>
+					<a href="#">促销</a>
+					<a href="#">绩效</a>
+					<a href="#">数据报告</a>
+					<a href="#">客服消息</a>
+					<a href="#">学习中心</a>
+					<a href="#">测评中心</a>
+				</div>
+				<div class="lgh_right">
+					<div><img src="images/USA.png" />www.amazon.com</div>
+					<div><input type="text" />
+						<div><img src="images/search.png" /></div>
+					</div>
+					<div>
+						<a href="#">首页</a>|
+						<a href="#">买家后台</a>|
+						<a href="#">消息<span>0</span></a>|
+						<a href="#">帮助</a>|
+						<a href="#">设置</a>
+					</div>
+				</div>
+			</div>
+			<div class="l_goods_mian">
+				<div class="lgm_left">
+					<h3>创建详情页面</h3>
+					<p>要开始上传图片页面，首先填写详情页面</p>
+				</div>
+				<div class="lgm_right">
+					<div></div>
+					<ul>
+						<li class="lgm_rightHover">
+							<p>1</p>
+							<p>分类</p>
+						</li>
+						<li>
+							<p>2</p>
+							<p>详情</p>
+						</li>
+						<li>
+							<p>3</p>
+							<p>上传</p>
+						</li>
+						<li>
+							<p>4</p>
+							<p>发布</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="l_goods_body">
+				<div class="lgb_top">
+					<!--<ul>
+						<li class="lgbt_hover">基本信息</li>
+						<li>商品图片</li>
+						<li>详情描述</li>
+						<li>物流信息</li>
+						<li>发票信息</li>
+						<li>其他信息</li>
+					</ul>-->
+					<ul id="tabs">
+						<li class="lgbt_hover">
+							<a href="#" title="tab1">基本信息</a>
+						</li>
+						<li>
+							<a href="#" title="tab2">商品图片</a>
+						</li>
+						<li>
+							<a href="#" title="tab2">详情描述</a>
+						</li>
+						<li>
+							<a href="#" title="tab3">物流信息</a>
+						</li>
+						<li>
+							<a href="#" title="tab3">发票信息</a>
+						</li>
+						<li>
+							<a href="#" title="tab4">其他信息</a>
+						</li>
+					</ul>
+				</div>
+				<ul  class="lgbb_tab lgb_bottom" id="content">
+					<li class="lgbb_tabChild lgbb_tabChild1"  id="tab1">
+						<div>
+							<p>服饰鞋帽>女装>衬衫<span>编辑</span></p>
+						</div>
+						<div>
+							<div>商品名称：</div><input type="text" />
+						</div>
+						<div>
+							<div>商品类型：</div>
+							<select>
+								<option value="nomal">普通商品</option>
+								<option value="nomal">普通商品</option>
+								<option value="nomal">普通商品</option>
+								<option value="nomal">普通商品</option>
+							</select>
+						</div>
+						<div>
+							<div>商品卖点：</div>
+							<textarea rows="5" cols="20"></textarea>
+						</div>
+						<div>
+							<div>商品价格：</div>
+							<div class="lgb_so"><input type="text"/><div>USD</div></div>
+						</div>
+						<div>
+							<div>市场价：</div>
+							<div class="lgb_so"><input type="text"/><div>USD</div></div>
+						</div>
+						<div>
+							<div>成本价：</div>
+							<div  class="lgb_so"><input type="text"/><div>USD</div></div>
+						</div>
+						<div>
+							<div>折扣：</div>
+							<div class="lgb_so lgb_so1"><input type="text"/><div>%</div></div>
+						</div>
+						<div class="lgb_chang1">
+							
+								<div><p>color</p>:</div>
+								<div>
+									<input name="yes" type="checkbox" value="red"／>红色
+						            <input name="yes" type="checkbox" value="black"／>黑色
+						            <input name="yes" type="checkbox" value="blue"／>蓝色
+						            <span>+ 添加规格</span>
+								</div>
+							
+						</div>
+						<div class="lgb_chang1">
+							<div><p>size</p>:</div>
+							<div>
+								<input name="yes" type="checkbox" value="nomal"／>均码
+					           
+					            <span>+ 添加规格</span>
+							</div>
+						</div>
+						<div>
+							<div>
+								商品库存：
+							</div>
+							<input type="text" class="lgb_chang2" />
+						
+						</div>
+						<div>
+							<div>
+								库存预警值：
+							</div>
+							<input type="text" class="lgb_chang2"/>
+						
+						</div>
+						<div>
+							<div>
+								商家货号：
+							</div>
+							<input type="text" />
+						
+						</div>
+					</li>
+					<li class="lgb_bottomList1 lgbb_tabChild lgbb_tabChild1" id="tab1">
+						<div>
+							<div>是否开增值税发票：</div>
+							<div class="lgb_bLInput">
+							    是<input name="yes" type="radio" value=""／>
+							    否<input name="yes" type="radio" value=""／>
+							</div>
+						<div>
+					</li>
+					<li  id="tab1" class="lgbb_tabChild1">
+						
+						<div>
+							<div>商品发布：</div>
+							<div class="lgb_bLInput">
+							<input name="yes" type="radio" value="now"／>立即发布
+							<input name="yes" type="radio" value="put"／>放入仓库
+						
+							</div>
+						</div>
+						<div>
+							<div>商品推荐：</div>
+							<div class="lgb_bLInput">
+							<input name="yes" type="radio" value="yes"／>是
+							<input name="yes" type="radio" value="no"／>否
+						</div>
+					</li>
+				
+					<li class="lgbb_tabChild lgbb_tabChild1"  id="tab1">
+						<div>
+							<div>所在地：</div>
+							<div>
+								<select>
+									<option value="nomal">中国</option>
+									<option value="nomal">印度</option>
+									<option value="nomal">法国</option>
+									<option value="nomal">美国</option>
+								</select>
+								<select>
+									<option value="nomal">广东</option>
+									<option value="nomal">广西</option>
+									<option value="nomal">湖南</option>
+									<option value="nomal">湖北</option>
+								</select>
+							</div>
+						</div>
+						<div>
+							<div>运费：</div>
+							<div>
+							<div class="lgb_soFaChang1">
+								<input name="yes" type="radio" value="yes"／>固定运费
+								 <div  class="lgb_so lgb_soChang1"><input type="text"/><div>USD</div></div>
+							
+								<input name="yes" type="radio" value="no"／>使用售卖区域
+							</div>
+						</div>
+					</li>
+					<li class="lgbb_tabChild lgbb_tabChild1"  id="tab1">
+						<div>
+							<div>商品品牌：</div>
+							<div>
+								<input type="text"/>
+								<div></div>
+							</div>
+						</div>
+						<div>商品描述:</div>
+						<div class="container">
+							<textarea id="wysiwyg" rows="5" cols="103"></textarea>
+							<label><input type="checkbox" value="1" id="click-inform" /> Inform about clicks.</label>
+						
+						</div>
+					</li>
+					<li class="lgbb_tabChang2 lgbb_tabChild lgbb_tabChild1"  id="tab1">
+						<div class="l_goodsImages">
+							<div>商品图片：</div>
+							<div class="l_goodsImagesMian">
+								<div class="l_goodsImagesTop">
+									<img src="images/img.png"／>
+									<div class="l_goodsImagesIcon">
+										<div><input id="upload" type="file" value="图片上传">
+											<p>图片上传</p>
+										</div>
+										<div>从图片空间选择</div>
+									</div>
+								</div>
+								<div class="l_goodsImagesBottom" >
+									<div class="l_gIb1">
+										用户相册>全部图片
+										<select>
+											<option value="potole">请选择</option>
+											<option value="potole">默认相册</option>
+										</select>
+									</div>
+									<div class="l_gIb2">
+										<ul>
+											<li>
+												<img src="images/goodsbg.gif"／>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</li>
+				</ul>
+			
+			</div>
+			<div class="l_goods_next">
+				下一步
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../../js/jquery-3.2.1.js"></script>
+	
+	<script>
+
+		$(function(){  
+		  $("#content").find(".lgbb_tabChild1:first").show();    //为每个BOX的第一个元素显示        
+		  $("#tabs li").on("click",function(){ //给a标签添加事件  
+		     var index=$(this).index();  //获取当前a标签的个数  
+		     $(this).parent().next().find(".lgbb_tabChild1").hide().eq(index).show(); //返回上一层，在下面查找css名为box隐藏，然后选中的显示  
+		     $(this).addClass("lgbt_hover").siblings().removeClass("lgbt_hover"); //a标签显示，同辈元素隐藏  
+		  })  
+		})
+		
+	</script>
+</html>

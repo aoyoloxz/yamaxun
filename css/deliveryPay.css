@@ -1,0 +1,184 @@
+body {
+  font-size: 13px;
+  line-height: 19px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+#deliveryPay .deliveryPay-inner .top-mask {
+  max-width: 1152px;
+  min-width: 996px;
+  padding: 20px 24px;
+  margin: 0 auto;
+}
+#deliveryPay .deliveryPay-inner .delivery-content {
+  max-width: 1152px;
+  min-width: 996px;
+  padding: 20px 24px;
+  margin: 0 auto;
+}
+.deliveryPay-inner .delivery-content .content-addr h2 {
+  font-size: 28px;
+  margin-bottom: 26px;
+}
+.deliveryPay-inner .delivery-content .content-addr .sure-mess .mess-tip {
+  margin-bottom: 26px;
+}
+.deliveryPay-inner .delivery-content .default-addr .default-inner .inner-info h3 {
+  margin: 16px 0px 0px;
+  font-weight: bold;
+}
+.deliveryPay-inner .delivery-content .default-addr .default-inner .inner-info p {
+  margin: 3px 0px;
+}
+.deliveryPay-inner .delivery-content .default-addr .default-inner .inner-btn {
+  display: inline-block;
+}
+.deliveryPay-inner .delivery-content .default-addr .default-inner .inner-btn .to-addr {
+  padding: 5px 53px;
+  cursor: pointer;
+}
+.deliveryPay-inner .delivery-content .default-addr .default-inner .inner-btn .edit-inner {
+  margin-top: 11px;
+}
+.deliveryPay-inner .delivery-content .default-addr .default-inner .inner-btn .edit-inner span {
+  display: inline-block;
+  padding: 4px 31px;
+  cursor: pointer;
+}
+.deliveryPay-inner .delivery-content .enter-addr {
+  position: relative;
+  top: -19px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left {
+  width: 46%;
+  display: inline-block;
+  float: left;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner .inner-title h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner p {
+  margin: 3px 0px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form {
+  margin: 9px 0px;
+  width: 86%;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .form-inner .inner-block {
+  margin-bottom: 13px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .form-inner .inner-block .wrap-select {
+  padding: 2px 0px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .form-inner .inner-block .wrap-select .dropdownOption {
+  padding: 3px 12px 3px 8px;
+  border-radius: 2px;
+  border-color: #7F9DB9;
+  background-image: url(../images/dropdown.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+  display: inline-block;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .form-inner .inner-block .wrap-select .dropdownOption:hover {
+  text-decoration: underline;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .form-inner .inner-block .wrap-select .dropdownOption select {
+  position: relative;
+  width: 97%!important;
+  border: none;
+  outline: none;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .form-inner label {
+  display: block;
+  font-weight: 600;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .form-inner input {
+  height: 22px;
+  width: 98%;
+  border: 1px solid #7F9DB9;
+  border-radius: 3px;
+  padding: 0px 3px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .form-inner input:focus {
+  border-color: #e49747;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .toAnotherAdre .checkbox-lable span {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .continueAction .continue-inner {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+  background: -webkit-linear-gradient(top, #f7f7f7, #ffffff);
+  background: linear-gradient(top, #f7f7f7, #ffffff);
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-left .left-inner form .continueAction .continue-inner .continue-btn {
+  display: inline-block;
+  height: 31px;
+  padding: 0px 11px;
+  line-height: 31px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right {
+  width: 46%;
+  display: inline-block;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner .inner-tip {
+  margin-top: 26px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner .inner-tip .lookMore a {
+  color: #007eb9;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner .searchTable table {
+  border-collapse: collapse;
+  margin-top: 9px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner .searchTable table tr {
+  vertical-align: top;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner .searchTable table .searchLabel {
+  width: 192px;
+  height: 48px;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner .searchTable table .searchLabel label {
+  font-weight: bold;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner .searchTable table .searchInput input {
+  height: 19px;
+  padding: 3px 7px;
+  border-radius: 2px;
+  border: 1px solid #d0d0d0;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner .searchTable table .searchInput input:focus {
+  border-color: #e49747;
+}
+.deliveryPay-inner .delivery-content .enter-addr .addr-right .right-inner .searchTable table .searchAction {
+  cursor: pointer;
+}
+.line {
+  background-color: transparent;
+  height: 1px;
+  border-width: 0;
+  border-top: 1px solid #e7e7e7;
+}
+.qianl-col {
+  color: #007eb9;
+}
+.lightBlu {
+  color: #007eb9;
+  text-decoration: none;
+}
+.lightBlu:hover {
+  color: #e47911!important;
+  text-decoration: underline;
+}

@@ -1,325 +1,373 @@
-.myHomepage .boxContent nav {
-	width: 100%;
-	height: 32px;
-	line-height: 32px;
-	background: #fafafa;
-	border: 1px solid gainsboro;
-	min-width: 1000px;
+body {
+  font-size: 15px;
+  line-height: 20px;
+  color: #002F36;
+  font-family: 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
 }
-
-.myHomepage .boxContent nav a:nth-child(1) {
-	margin-left: 15px;
+#homePage .homePage-inner {
+  max-width: 1500px;
+  min-width: 1000px;
+  margin: auto;
+  overflow: hidden;
 }
-
-.myHomepage .boxContent nav a {
-	display: inline-block;
-	height: 27px;
-	float: left;
-	text-align: center;
-	padding: 3px 7px;
-	margin-top: -2px;
-	color: #000000;
+#homePage .homePage-inner .banner-block {
+  margin-top: 10px;
+  margin-left: 190px;
 }
-
-.myHomepage .boxContent nav a:hover {
-	border-bottom: 2px solid orange;
-	color: orange;
+#homePage .homePage-inner .banner-block .banner-inner {
+  position: relative;
 }
-
-.myHomepage .boxContent .backgrBox {
-	/*width: 100%;*/
-	background-color: #f6fafb;
-	text-align: center;
+#homePage .homePage-inner .banner-block .banner-inner .banner-img {
+  height: 300px;
+  width: 100%;
+  left: 50%;
+  text-align: center;
 }
-
-.myHomepage .boxContent .backgrBox .topback {
-	display: inline-block;
-	width: 860px;
-	height: 220px;
-	margin: 0 auto;
+#homePage .homePage-inner .banner-block .banner-inner .banner-img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transition: all 2s;
 }
-
-.myHomepage .boxContent .backgrBox .topback img {
-	margin: 0 auto;
+#homePage .homePage-inner .banner-block .banner-inner .buttonRow .btn-left,
+#homePage .homePage-inner .banner-block .banner-inner .buttonRow .btn-right {
+  display: inline-block;
+  width: 60px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  background-image: url(../images/arrow-l.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
-.myHomepage .boxContent .backgrBox .compile {
-	width: 860px;
-	height: 140px;
-	border: 1px solid #D5DBDB;
-	margin: 0 auto;
-	background: white;
-	position: relative;
+#homePage .homePage-inner .banner-block .banner-inner .buttonRow .btn-left {
+  left: 0px;
 }
-
-.myHomepage .boxContent .backgrBox .compile .headPortrait {
-	position: absolute;
-	border: 4px solid white;
-	border-radius: 50%;
-	top: -80%;
-	left: 50px;
-	cursor: pointer;
-	box-sizing: border-box;
-	overflow: hidden;
+#homePage .homePage-inner .banner-block .banner-inner .buttonRow .btn-right {
+  right: 0px;
+  background-image: url(../images/arrow-r.png);
 }
-.myHomepage .boxContent .userName{
-	display: inline-block;
-	width: 200px;
-	height: 30px;
-	line-height: 30px;
-	font-size: 30px;
-	position: absolute;
-	top: 10px;
-	left: 30%;
-	
+#homePage .homePage-inner .wrap-content .mainContent {
+  padding: 5px 10px 0 40px;
+  display: inline-block;
 }
-.myHomepage .boxContent .changeUserData{
-	width: 218px;
-	height: 30px;
-	border: 1px solid gainsboro;
-	position: absolute;
-	bottom: 20px;
-	right: 50px;
-	line-height: 30px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block {
+  padding-left: 201px;
 }
-.myHomepage .boxContent .changeUserData a{
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	background: #FAD000;
-	color: #000000;
-	font-size: 14px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner {
+  height: 162px;
 }
-.myHomepage .boxContent .changeUserData a:hover{
-	background: yellow;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .line-divider {
+  position: relative;
+  display: inline;
+  width: 1px;
+  top: -21px;
 }
-.myHomepage .boxContent .bomBox {
-	width: 860px;
-	height: 380px;
-	text-align: left;
-	margin: 10px auto;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .line-divider img {
+  height: 143px;
 }
-.myHomepage .boxContent .bomBox .left{
-	display: inline-block;
-	width: 320px;
-	height: 380px;
-	float: left;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item {
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+  left: 37px;
 }
-.myHomepage .boxContent .bomBox .left .card{
-	background: #F5F7F5;
-	box-shadow: 0 1px 2px 0 #EAEDED;
-	padding: 17px 13px 20px;
-	margin-bottom: 10px;
-	border: 1px solid #D5DBDB;
-	border-radius: 4px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-head {
+  width: 360px;
+  height: 30px;
+  margin-top: 11px;
 }
-.myHomepage .boxContent .bomBox .right{
-	display: inline-block;
-	width: 530px;
-	height: 380px;
-	float: right;
-	margin-left: 10px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-head .head-title {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
 }
-.myHomepage .boxContent .bomBox .right .cardR{
-	background: white;
-	box-shadow: 0 1px 2px 0 #EAEDED;
-	padding: 17px 13px 20px;
-	margin-bottom: 10px;
-	border: 1px solid #D5DBDB;
-	border-radius: 4px;
-	font-size: 14px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-head .head-title .title-black {
+  font-weight: 700;
+  font-size: 18px;
 }
-
-/*个人主页end*/
-
-
-/*我的账户begin*/
-.userAccount .userAccountBox .contentBox .topBox{
-	width: 1013px;
-	border-bottom: 1px solid gainsboro;
-	margin: 30px auto;
-	padding-bottom: 40px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-head .head-title .title-orange {
+  color: #FF8C00;
+  font-weight: 700;
+  font-size: 18px;
 }
-.userAccount .userAccountBox .contentBox .topBox h1{
-	font-size: 30px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-detail {
+  float: left;
+  height: 108px;
+  width: 143px;
+  margin-top: 10px;
 }
-.userAccount .userAccountBox .contentBox .topBox .cardList{
-	display: inline-block;
-	width: 310px;
-	height: 86px;
-	border: 1px solid gainsboro;
-	border-radius: 4px;
-	margin-top: 20px;
-	vertical-align: middle;
-	margin-right: 20px;
-	cursor: pointer;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-detail .proTitle {
+  font-size: 13px;
+  color: #B12704;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  max-height: 30px;
 }
-.userAccount .userAccountBox .contentBox .topBox a{
-	display: inline-block;
-	width: 280px;
-	padding: 15px;
-	height: 56px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-detail .priceItem {
+  color: #B12704;
+  font-weight: bold;
 }
-.userAccount .userAccountBox .contentBox .topBox a:hover{
-	background: #D5DBDB;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-detail .priceItem .priceNumber {
+  font-size: 23px;
 }
-.userAccount .userAccountBox .contentBox .topBox .noMar{
-	margin-right: 0px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-detail .priceItem .priceSymbol {
+  font-size: 16px;
 }
-.userAccount .userAccountBox .contentBox .topBox .cardList .imgBox{
-	display: inline-block;
-	overflow: hidden;
-	max-width: 60px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-detail .anchorItem {
+  margin-top: 15px;
+  color: #999999;
+  cursor: pointer;
 }
-.userAccount .userAccountBox .contentBox .topBox .cardList .imgBox img{
-	box-sizing: border-box;
-	width: 100%;
-	height: 100%;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-detail .deadItem {
+  color: #CCCCCC;
 }
-.userAccount .userAccountBox .contentBox .topBox .cardList .textBox{
-	display: inline-block;
-	width: 180px;
-	height: 56px;
-	margin-left: 20px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-img {
+  float: left;
+  width: 144px;
+  height: 134px;
+  text-align: center;
+  cursor: pointer;
 }
-.userAccount .userAccountBox .contentBox .topBox .cardList h2{
-	font-size: 18px;
+#homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-img img {
+  width: 100%;
+  height: 100%;
 }
-.userAccount .userAccountBox .contentBox .topBox .cardList p{
-	font-size: 14px;
-	color: #666666;
-	margin-top: 10px;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-title img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
 }
-.userAccount .userAccountBox .contentBox .bomBox{
-	width: 1013px;
-	margin: 30px auto;
-	padding-bottom: 40px;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-title h2 {
+  font-size: 20px;
+  font-weight: bold;
+  width: 400px;
+  height: 36px;
+  display: inline-block;
+  vertical-align: sub;
 }
-.userAccount .userAccountBox .contentBox .bomBox .bomCard ul li{
-	display: inline-block;
-	width: 290px;
-	height: 56px;
-	border: 1px solid gainsboro;
-	border-radius: 4px;
-	margin-top: 20px;
-	padding: 15px;
-	vertical-align: middle;
-	margin-right: 20px;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .rowLine {
+  width: 100%;
+  border-top: 1px solid #e7e7e7;
+  height: 2px;
+  padding: 1px 0px 18px;
+  position: relative;
+  left: 46px;
 }
-.userAccount .userAccountBox .contentBox .bomBox ul .noMar{
-	margin-right: 0px !important;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list {
+  border-bottom: 1px solid #e7e7e7;
+  padding-left: 11px;
+  padding-top: 1px;
+  margin-bottom: 19px;
+  height: 250px;
+  margin-left: 23px;
 }
-.userAccount .userAccountBox .contentBox .bomBox h3{
-	font-size: 16px;
-	margin-bottom: 10px;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner {
+  min-width: 110px;
+  text-align: center;
+  padding: 0px 16px 0px 12px;
+  height: 219px;
+  margin-top: 0px;
+  float: left;
+  position: relative;
 }
-/*我的账户end*/
-
-/*我的亚马逊begin*/
-.myAmazon .boxContent nav {
-	width: 100%;
-	height: 32px;
-	line-height: 32px;
-	background: #fafafa;
-	border: 1px solid gainsboro;
-	min-width: 1000px;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner .innerImg {
+  height: 150px;
+  vertical-align: middle;
+  display: block;
 }
-
-.myAmazon .boxContent nav a:nth-child(1) {
-	margin-left: 15px;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner .innerImg img {
+  max-width: 225px;
+  max-height: 150px;
 }
-
-.myAmazon .boxContent nav a {
-	display: inline-block;
-	height: 27px;
-	float: left;
-	text-align: center;
-	padding: 3px 7px;
-	margin-top: -2px;
-	color: #000000;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner .innerPrice {
+  margin-top: 12px;
 }
-
-.myAmazon .boxContent nav a:hover {
-	border-bottom: 2px solid orange;
-	color: orange;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner .innerPromotion a {
+  color: #fc9900;
+  font-size: 13px;
 }
-.myAmazon .boxContent .statusbar{
-	width: 100%;
-	height: 114px;
-	background: #f6f6f6;
-	border-bottom: 1px solid gainsboro;
-	min-width: 1000px;
-	vertical-align: middle;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner .inblock {
+  position: absolute;
+  top: -31px;
+  left: -21px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 11px 33px 46px;
+  z-index: 10;
+  cursor: pointer;
+  display: none;
+  background: #fff;
 }
-.myAmazon .boxContent .statusbar .statubarBox{
-	margin: 20px 20px 20px 28px;
-	width: 80%;
-	min-width: 900px;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner:hover .inblock {
+  display: block;
 }
-.myAmazon .boxContent .statusbar .imgA{
-	display: inline-block;
-	width: 75px;
-	height: 75px;
-	border-radius: 50%;
-	background: url(../images/headImage.png);
-	background-size: cover;
-	float: left;
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list:last-child {
+  border-bottom: none;
 }
-.myAmazon .boxContent .statusbar .imgA a{
-	display: inline-block;
-	width: 75px;
-	height: 75px;
+#homePage .homePage-inner .wrap-content .sideContent {
+  width: 296px;
+  float: right;
+  padding: 10px 8px 10px 8px;
+  background: rgba(135, 126, 126, 0.03);
 }
-.myAmazon .boxContent .statusbar .userNameAm,.myOrder{
-	display: inline-block;
-	width: 140px;
-	float: left;
-	margin-left: 15px;
-	height: 75px;
+#homePage .homePage-inner .wrap-content .sideContent .lineBlock {
+  height: 1px;
+  width: 100%;
+  margin: 15px 0 15px 0;
+  background-color: #eee;
+  color: #eee;
 }
-.myAmazon .boxContent .statusbar .userNameAm a{
-	display: inline-block;
-	width: 140px;
-	height: 75px;
-	font-size: 22px;
-	margin-top: 20px;
+#homePage .homePage-inner .wrap-content .sideContent .adv-wrap img {
+  cursor: pointer;
 }
-.myAmazon .boxContent .statusbar h2{
-	font-size: 20px;
-	font-weight: 500;
+#homePage .homePage-inner .wrap-content .sideContent .adv-wrap .inner-img {
+  padding: 2px 12px;
 }
-.myAmazon .boxContent .recommendBox{
-	width: 100%;
-	min-width: 1000px;
-	background: #eaeded;
-	text-align: center;
+#bottom {
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 18px 20px 9px;
+  margin-bottom: 10px;
+  min-width: 1006px;
 }
-.myAmazon .boxContent .recommendBox h2{
-	font-size: 26px;
-	font-weight: 500;
-	display: inline-block;
-	width: 200px;
-	height: 80px;
-	line-height: 80px;
+.bottom-title > h3 {
+  font-size: 20px;
 }
-.myAmazon .boxContent .recommendBox ul{
-	width: 1000px;
-	margin: auto;
-	overflow: auto;
+.like-title {
+  margin: 22px 0px;
 }
-.myAmazon .boxContent .recommendBox li{
-	display: inline-block;
-	width: 308px;
-	height: 358px;
-	background: white;
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	cursor: pointer;
-	border: 1px solid #eaeded;
-	border-radius: 4px;
+.like-content {
+  position: relative;
+  padding: 10px;
 }
-.myAmazon .boxContent .recommendBox li:hover{
-	border: 1px solid gray;
+.rg-btn,
+.lf-btn,
+.goods {
+  /*float: left;*/
 }
-/*我的亚马逊end*/
+.goods {
+  position: relative;
+}
+.rg-btn,
+.lf-btn {
+  position: absolute;
+  top: 26px;
+}
+.rg-btn {
+  right: 0px;
+}
+.lf-btn {
+  left: 0px;
+}
+.rg-btn,
+.lf-btn {
+  height: 259px;
+  width: 40px;
+}
+.btn {
+  line-height: 259px;
+}
+.btn-inner {
+  width: 5px;
+  height: 13px;
+  padding: 9px 11px;
+  background: #EAEDED;
+  cursor: pointer;
+  background-image: url(../images/Am.png);
+  background-size: 400px 750px;
+  background-repeat: no-repeat;
+  background-position: -115px 2px;
+  display: inline-block;
+}
+.rg-btn .btn-inner {
+  background-position: -97px 2px;
+}
+.other-goods {
+  height: 286px;
+  padding: 0px 36px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.other-goods-list {
+  height: 100%;
+}
+.other-goods-list > li {
+  height: 100%;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 160px;
+  float: left;
+  margin-left: 30px;
+}
+.goods-link {
+  display: inline-block;
+}
+.wrap-img {
+  margin-bottom: 2px;
+}
+.wrap-img > img {
+  width: 100%;
+}
+.good-title {
+  color: #008577;
+  cursor: pointer;
+}
+.row-star i {
+  background-image: url(../images/sprite_sky.png);
+  background-position: -159px -220px;
+  background-size: 550px 430px;
+  -webkit-background-size: 550px 430px;
+}
+.row span,
+.row i,
+.row-star i {
+  display: inline-block;
+}
+.row i {
+  background-image: url(../images/Am.png);
+  background-position: -205px -247px;
+}
+.price {
+  color: #CC1C39!important;
+}
+.bottom-footer {
+  height: 75px;
+  line-height: 75px;
+}
+.edit-history {
+  float: right;
+}
+.edit-history > a {
+  display: inline-block;
+  line-height: 13px;
+  vertical-align: middle;
+  width: 80px;
+}
+.view-tip {
+  float: left;
+}
+.view-list {
+  margin: 0px 156px 0px 48px;
+}
+.view-list li {
+  float: left;
+  padding: 0px 10px;
+}
+.view-list li .looked-img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #DDD;
+}
+.view-list li .looked-img:hover {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #E47911;
+}
