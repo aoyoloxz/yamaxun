@@ -1,0 +1,518 @@
+/*账户余额begin*/
+.inquiryBalance .inquiryBalanceBox {
+	padding: 10px;
+	position: relative;
+}
+.inquiryBalance .inquiryBalanceBox .topTab {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.inquiryBalance .inquiryBalanceBox .topTab span:nth-child(1) a{
+	color:#C60;
+}
+.inquiryBalance .inquiryBalanceBox .topTab span:nth-child(1) a:hover{
+	text-decoration: underline;
+}
+.inquiryBalance .inquiryBalanceBox .leftTab {
+	width: 200px;
+	display: inline-block;
+	position: relative;
+}
+.inquiryBalance .inquiryBalanceBox .leftTab .oneUl{
+	border-left: 1px solid #C8E1F5;
+	border-top: 1px solid #C8E1F5;
+	width: 200px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	overflow: hidden;
+}
+.inquiryBalance .inquiryBalanceBox .leftTab .oneUl li{
+	width: 178px;
+	height: 30px;
+	line-height: 30px;
+	padding: 3px 10px;
+	border-bottom: 1px solid #C8E1F5;
+	border-right: 1px solid gainsboro;
+	background: #EAF3FE;
+	
+}
+.inquiryBalance .inquiryBalanceBox .leftTab .oneUl li:nth-child(1){
+	background: white;
+	border-right: 1px solid white;
+	border-bottom-right-radius: 3px;
+	
+}
+.inquiryBalance .inquiryBalanceBox .leftTab .billboard{
+	border-right: 1px solid gainsboro;
+}
+.inquiryBalance .inquiryBalanceBox .leftTab .billboard .twoUl li{
+	height: 25px;
+	line-height: 25px;
+	padding: 3px 10px;
+}
+.inquiryBalance .inquiryBalanceBox .rightBox {
+	width: 70%;
+	min-width: 600px;
+	max-width: 1000px;
+	height: 107px;
+	display: inline-block;
+	border: 1px solid #C8E1F5;
+	position: absolute;
+	top: 50px;
+	left: 230px;
+}
+.inquiryBalance .inquiryBalanceBox .rightBox .oneP{
+	margin-top: 30px;
+	margin-left: 25px;
+	font-size: 20px;
+}
+.inquiryBalance .inquiryBalanceBox .rightBox .twoP{
+	margin-top: 10px;
+	margin-left: 25px;
+	font-size: 12px;
+	color: gray;
+}
+.inquiryBalance .inquiryBalanceBox .rightBox .oneP span{
+	color: green;
+	font-weight: 900;
+}
+.inquiryBalance .inquiryBalanceBox .rightBox .bonBox{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	top: 25px;
+	right: 30px;
+}
+.inquiryBalance .inquiryBalanceBox .rightBox .bonBox a{
+	display: inline-block;
+	width: 167px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid gainsboro;
+	color: #006;
+	background: #FAD000;
+
+}
+.inquiryBalance .inquiryBalanceBox .rightBox .bonBox .bon_oneA{
+	margin-bottom: 10px;
+}
+.inquiryBalance .inquiryBalanceBox .rightBox .bonBox a:hover{
+	background: yellow;
+}
+
+/*账户余额end*/
+
+/*账户充值begin*/
+.recharge .rechargeBox .boxContent .topTab{
+	width: 748px;
+	height: 45px;
+	line-height: 45px;
+	margin: 20px auto;
+}
+.recharge .rechargeBox .boxContent .topTab p{
+	font-size: 14px;
+	color: #B06400;
+}
+.recharge .rechargeBox .boxContent .topTab p a{
+	color: gray;
+}
+.recharge .rechargeBox .boxContent .cardBox{
+	width: 668px;
+	height: 194px;
+	border: 1px solid gainsboro;	
+	margin: 0 auto;
+	padding: 40px 40px 0px 40px;
+}
+.recharge .rechargeBox .boxContent .cardBox .top{
+	border-bottom: 1px solid gainsboro;
+	padding-bottom: 15px;
+}
+.recharge .rechargeBox .boxContent .cardBox .top h1{
+	font-size: 24px;
+	font-weight: 900;
+	
+}
+.recharge .rechargeBox .boxContent .cardBox .top p{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.recharge .rechargeBox .boxContent .cardBox .top .oneP .num{
+	font-size: 14px;
+	color: #008296;
+	font-weight: 400;
+}
+.recharge .rechargeBox .boxContent .cardBox .top .oneP .num:hover{
+	color: hotpink;
+}
+.recharge .rechargeBox .boxContent .cardBox .cen p{
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.recharge .rechargeBox .boxContent .cardBox .cen ul li{
+	float: left;
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 2px solid #8D9096;
+	font-size: 16px;
+	color: #B06400;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.recharge .rechargeBox .boxContent .cardBox .cen ul li:hover{
+	border-color: cornflowerblue;
+	background: silver;
+}
+.recharge .rechargeBox .boxContent .cardBox .cen ul li:nth-child(5){
+	margin-left: 40px;
+	width: 150px;
+	height: 36px;
+	line-height: 36px;
+	margin-top: -3px;
+	
+}
+.recharge .rechargeBox .boxContent .bom{
+	width: 748px;
+	height: 106px;
+	background: linear-gradient(to bottom,#f3f3f3,#fff);
+	margin: 0 auto;
+	border: 1px solid gainsboro;
+	text-align: center;
+}
+.recharge .rechargeBox .boxContent .bom .submit{
+	display: inline-block;
+	width: 180px;
+	height: 35px;
+	line-height: 35px;
+	background: linear-gradient(to bottom,#f7dfa5,#f0c14b);	
+	border: 1px;
+	border-style: solid;	
+	border-color: #a88734 #9c7e31 #846a29;
+	border-radius: 4px;
+	margin-top: 32px;
+	text-align: center;
+	cursor: pointer;
+	color: #000000;
+}
+.recharge .rechargeBox .boxContent .bom .submit:hover{
+	background: yellow;
+}
+.recharge .rechargeBox .boxContent .foot{
+	width: 748px;
+	height: 50px;
+	margin: 10px auto;
+	font-size: 14px;
+}
+/*账户充值end*/
+
+/*账户充值方式begin*/
+.paymentMethod .paymentMethodBox .logo{
+	margin: 20px 0 10px 20px;
+}
+.paymentMethod .paymentMethodBox .boxContent{
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+	min-width: 1100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px;
+	position: relative;
+}
+.paymentMethod .paymentMethodBox .boxContent .left{
+	display: inline-block;
+	width: 70%;
+	min-width: 600px;
+}
+.paymentMethod .paymentMethodBox .boxContent .right{
+	display: inline-block;
+	width: 28%;
+	min-width: 300px;
+}
+.paymentMethod .paymentMethodBox .boxContent h1{
+	font-size: 28px;
+}
+.paymentMethod .paymentMethodBox .boxContent .left .cardBox{
+	width: 90%;
+	/*height: 254px;*/
+	border: 1px solid gainsboro;	
+	padding: 20px 20px 0px 20px;
+	position: relative;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+
+.paymentMethod .paymentMethodBox .boxContent .top{
+	border-bottom: 1px solid gainsboro;
+	padding-bottom: 15px;
+}
+.paymentMethod .paymentMethodBox .boxContent .top h2{
+	font-size: 20px;
+	font-weight: 900;
+	
+}
+.paymentMethod .paymentMethodBox .boxContent .top .oneP{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.paymentMethod .paymentMethodBox .boxContent .top .thrP{
+	margin-top: 10px;
+	font-size: 14px;
+}
+.paymentMethod .paymentMethodBox .boxContent .top .oneP .num{
+	font-size: 16px;
+	color: #008296;
+	font-weight: 400;
+}
+.paymentMethod .paymentMethodBox .boxContent .top .oneP .num:hover{
+	color: hotpink;
+}
+.paymentMethod .paymentMethodBox .boxContent .oneS{
+	display: inline-block;
+	width: 60%;
+	font-size: 14px;
+	float: left;
+}
+.paymentMethod .paymentMethodBox .boxContent .twoS{
+	display: inline-block;
+	width: 35%;
+	float: right;
+}
+.paymentMethod .paymentMethodBox .boxContent .cen p{
+	margin-top: 15px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.paymentMethod .paymentMethodBox .boxContent .bom{
+	width: 90%;
+	height: 294px;
+	border: 1px solid gainsboro;	
+	padding: 20px 20px 0px 20px;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+.paymentMethod .paymentMethodBox .boxContent .bom h2{
+	font-size: 20px;
+}
+.paymentMethod .paymentMethodBox .boxContent .bom ul li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.paymentMethod .paymentMethodBox .boxContent .top .inputBox{
+	margin-top: 10px;
+}
+.paymentMethod .paymentMethodBox .boxContent .top .inBox{
+	display: inline-block;
+	width: 180px;
+	height: 50px;
+	float: left;
+}
+.paymentMethod .paymentMethodBox .boxContent .left .cardBox input{
+	width: 130px;
+	height: 25px;
+	line-height: 25px;
+	padding: 3px 7px;
+}
+.paymentMethod .paymentMethodBox .boxContent .left .cardBox select{
+	width: 80px;
+	height: 31px;
+}
+.paymentMethod .paymentMethodBox .boxContent .left .cardBox .addCard{
+	display: inline-block;
+	width: 120px;
+	height: 29px;
+	line-height: 29px;
+	background: #f0c14b;
+	border: 1px solid;
+	border-color: #cba957 #bf942a #aa8326;
+	text-align: center;
+	color: #000000;
+	border-radius: 4px;
+	margin-top: 17px;
+}
+.paymentMethod .paymentMethodBox .boxContent .left .cardBox .addCard:hover{
+	background: orange;
+}
+.paymentMethod .paymentMethodBox .boxContent .right .rightBox{
+	width: 22%;
+	min-width: 235px;
+	height: 95px;
+	background: #f7f7f7;
+	text-align: center;
+	border: 1px solid #DDDDDD;
+	position: absolute;
+	right: 120px;
+	border-radius: 4px;
+}
+.paymentMethod .paymentMethodBox .boxContent .right .fisRbox{
+	top: 50px;
+}
+.paymentMethod .paymentMethodBox .boxContent .right .lasRbox{
+	bottom: 25px;
+}
+.paymentMethod .paymentMethodBox .boxContent .right .rightBox a{
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	background: #f0c14b;
+	border: 1px solid;
+	border-color: #cba957 #bf942a #aa8326;
+	margin: 10px 0px;
+	border-radius: 4px;
+	color: #000000;
+}
+/*账户充值方式end*/
+
+/*订单确认begin*/
+.payAffirm .payAffirmBox{
+	width: 1100px;
+	margin: 20px auto;
+}
+.payAffirm .payAffirmBox .boxContent{
+	width: 1100px;
+	min-height: 375px;
+}
+.payAffirm .payAffirmBox .boxContent h1{
+	font-size: 22px;
+	margin: 20px 0px 10px 0px;
+}
+.payAffirm .payAffirmBox .boxContent .left{
+	display: inline-block;
+	width: 810px;
+}
+.payAffirm .payAffirmBox .boxContent .bor_box{
+	border: 1px solid gainsboro;
+	border-radius: 4px;
+	margin-top: 10px;
+	padding: 10px 20px;
+}
+.payAffirm .payAffirmBox .boxContent .lasBox{
+	border-color: #bbd3de;
+	background: #FAFAFA;
+}
+.payAffirm .payAffirmBox .boxContent .lasBox h3{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.payAffirm .payAffirmBox .boxContent .lasBox .labTex{
+	font-size: 12px;
+}
+.payAffirm .payAffirmBox .boxContent .cenBox .left{
+	display: inline-block;
+	width: 245px;
+	font-size: 13px;
+}
+.payAffirm .payAffirmBox .boxContent .cenBox .centent{
+	display: inline-block;
+	width: 245px;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.payAffirm .payAffirmBox .boxContent .cenBox .right{
+	display: inline-block;
+	width: 245px;
+	font-size: 13px;
+}
+.payAffirm .payAffirmBox .boxContent .cenBox .right .textInput{
+	height: 25px;
+	padding: 3px 7px;
+	line-height: 25px;
+	margin-top: 10px;
+	color: darkgrey;
+}
+.payAffirm .payAffirmBox .boxContent .cenBox .right .btnInput{
+	height: 31px;
+	line-height: 31px;
+	width: 50px;
+	background: #DDDDDD;
+	cursor: pointer;
+	border: 1px solid #C0C0C0;
+}
+.payAffirm .payAffirmBox .boxContent .cenBox .right .btnInput:hover{
+	background: whitesmoke;
+}
+.payAffirm .payAffirmBox .right_sub{
+	width: 255px;
+	height: 152px;
+	display: inline-block;
+	border: 1px solid gainsboro;
+	padding: 10px;
+	border-radius: 4px;
+}
+.payAffirm .payAffirmBox .right_sub{
+	margin: 10px 0 0 10px;
+	text-align: center;
+}
+.payAffirm .payAffirmBox .right_sub .lastP{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: left;
+}
+.payAffirm .payAffirmBox .right_sub .dropBox{
+	margin-top: 10px;
+	border-top: 1px solid gainsboro;
+}
+.payAffirm .payAffirmBox .right_sub .dropBox p{
+	margin-top: 15px;
+	font-size: 18px;
+	color: brown;
+	font-weight: 600;
+}
+.payAffirm .payAffirmBox .right_sub .sub{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #e8e0cd;
+	background: #f9f3e5;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+.payAffirm .payAffirmBox .bomWord{
+	color: #888888;
+	font-size: 12px;
+}
+/*订单确认end*/
+
+/*提交余额充值订单begin*/
+.submitOrder .submitOrderBox .contentBox{
+	width: 92%;
+	min-width: 1000px;
+	border: 1px solid darkseagreen;
+	border-radius: 4px;
+	margin: 20px auto;
+	padding: 20px;
+	background: #D2F7E7;
+}
+.submitOrder .submitOrderBox .contentBox h2{
+	font-size: 18px;
+	color: #B06400;
+}
+.submitOrder .submitOrderBox .contentBox ul li {
+	list-style: disc;
+	margin-left: 30px;
+}
+.submitOrder .submitOrderBox .contentBox a{
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid gainsboro;
+	background: gold;
+	border-radius: 4px;
+	text-align: center;
+	margin: 10px 0px;
+}
+.submitOrder .submitOrderBox .contentBox a:hover{
+	background: goldenrod;
+}
+/*提交余额充值订单end*/

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<div class="box">
+			<div class="box_content">
+				<h1>创建账户</h1>
+				<lable for="yourName" class="yourName">
+					您的姓名
+				</lable>
+				<input type="text" autofocus="autofocus" name="yourName" id="yourName" value="" maxlength="50" tabindex="1" class="textInput"/>
+			    <lable for="phoneNumble" class="phoneNumble">
+					手机号码
+				</lable>
+				<input type="text" name="phoneNumble" id="phoneNumble" value="" maxlength="50" placeholder="手机号码" class="textInput"/>
+				<lable for="email" class="email">
+					电子邮件地址(可选)
+				</lable>
+				<input type="email" name="email" id="email" value="" maxlength="50" class="textInput"/>
+				<lable for="phoneNumble" class="phoneNumble">
+					密码
+				</lable>
+				<input type="password" name="phoneNumble" id="phoneNumble" value="" maxlength="50" placeholder="至少6个字符" class="textInput"/>
+				<input type="checkbox" name="agree" id="agree" value="true" />
+				<span>我已阅读并同意网站的<a href="#">使用条件</a>及<a href="#">隐私声明</a>。</span>
+				<p class="pOne">我们将向您发送短信验证您的手机。</p>
+				<p class="pTwo">可能收取消息和数据费用。</p>
+				<button class="submit">继  续</button>
+				<div class="line">
+					<span class="other">其他注册方式</span>
+				</div>
+				<div class="wechat">
+					<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxa666ff793ddba528&redirect_uri=https%3A%2F%2Fwww.amazon.cn%3A443%2Fap%2F3p_callback%3Farb%3Daf7331f5-cb18-467f-b26c-b43e9ecd2d69&response_type=code&scope=snsapi_login&state=AAAAAAAAAAGQjKeL05hwbMrgbWb2mqXSSVqO_JheR6iOV1Fzfrxdisaeh_ZiUpV7zl82eZpMLTPzX_vlRrXbw6VzEfG4D107zHsztiQ2w2l7fnokwxkUQA..#wechat_redirect">
+						微信账号注册
+					</a>
+				</div>
+				<div class="divider">
+					已拥有账户？<span><a href="#">登录</a></span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

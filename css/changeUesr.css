@@ -1,0 +1,273 @@
+/*更改邮箱地址begin*/
+.changeEmail .changeEmailBox .boxContent{
+	width: 570px;
+	height: 462px;
+	margin: 100px auto 0;
+	padding: 15px;
+}
+.changeEmail .changeEmailBox .boxContent h1{
+	display: inline-block;
+	font-size: 28px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.changeEmail .changeEmailBox .boxContent ul{
+	border: 1px solid gainsboro;
+}
+.changeEmail .changeEmailBox .boxContent ul li{
+	display: inline-block;
+	width: 548px;
+	height: 60px;
+	padding: 10px;
+}
+.changeEmail .changeEmailBox .boxContent ul li:nth-child(1){
+	height: 30px;
+}
+.changeEmail .changeEmailBox .boxContent ul li .left{
+	display: inline-block;
+	width: 500px;
+}
+.changeEmail .changeEmailBox .boxContent .submit{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	background: linear-gradient(to bottom,#f7dfa5,#f0c14b);	
+	border: 1px;
+	border-style: solid;	
+	border-color: #a88734 #9c7e31 #846a29;
+	border-radius: 4px;
+	margin-top: 25px;
+	text-align: center;
+	cursor: pointer;
+	color: #000000;
+}
+.changeEmail .changeEmailBox .boxContent .submit:hover{
+	background: #f0c14b;
+	color: #000000;
+	
+}
+.changeEmail .changeEmailBox .boxContent ul li .left input{
+	display: inline-block;
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #a6a6a6;
+	border-radius: 4px;
+	padding-left: 7px;
+}
+/*更改邮箱地址end*/
+
+
+/*更改名称begin*/
+.changeName .changeNameBox .boxContent{
+	width: 570px;
+	height: 462px;
+	margin: 100px auto 0;
+	padding: 15px;
+}
+.changeName .changeNameBox .boxContent h1{
+	display: inline-block;
+	font-size: 28px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.changeName .changeNameBox .boxContent ul{
+	border: 1px solid gainsboro;
+}
+.changeName .changeNameBox .boxContent ul li{
+	display: inline-block;
+	width: 548px;
+	height: 60px;
+	padding: 10px;
+}
+.changeName .changeNameBox .boxContent ul li .left{
+	display: inline-block;
+	width: 500px;
+}
+.changeName .changeNameBox .boxContent ul li .right{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	background: salmon;
+	text-align: center;
+	line-height: 30px;
+	border: 1px;
+	border-style: solid;	
+	border-color: #adb1b8 #a2a6ac #8d9096;
+	border-radius: 4px;
+}
+.changeName .changeNameBox .boxContent ul li .right a{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+	color: #000000;
+}
+.changeName .changeNameBox .boxContentul li .right a:hover{
+	background: #e7e9ec;
+}
+.changeName .changeNameBox .boxContent .submit{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	background: linear-gradient(to bottom,#f7dfa5,#f0c14b);	
+	border: 1px;
+	border-style: solid;	
+	border-color: #a88734 #9c7e31 #846a29;
+	border-radius: 4px;
+	margin-top: 25px;
+	text-align: center;
+	cursor: pointer;
+	color: #000000;
+}
+.changeName .changeNameBox .boxContent .submit:hover{
+	background: #f0c14b;
+	color: #000000;
+	
+}
+.changeName .changeNameBox .boxContent ul li .left .texeName{
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #a6a6a6;
+	border-radius: 4px;
+	padding-left: 7px;
+}
+/*更改名称end*/
+
+
+/*更改密码begin*/
+.changePassword .changePasswordBox .boxContent{
+	width: 570px;
+	height: 462px;
+	margin: 100px auto 0;
+	padding: 15px;
+}
+.changePassword .changePasswordBox .boxContent h1{
+	display: inline-block;
+	font-size: 28px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.changePassword .changePasswordBox .boxContent ul{
+	border: 1px solid gainsboro;
+}
+.changePassword .changePasswordBox .boxContent ul li{
+	display: inline-block;
+	width: 548px;
+	height: 60px;
+	padding: 10px;
+}
+.changePassword .changePasswordBox .boxContent ul li:nth-child(1){
+	height: 30px;
+}
+.changePassword .changePasswordBox .boxContent ul li .left{
+	display: inline-block;
+	width: 500px;
+}
+.changePassword .changePasswordBox .boxContent .submit{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	background: linear-gradient(to bottom,#f7dfa5,#f0c14b);	
+	border: 1px;
+	border-style: solid;	
+	border-color: #a88734 #9c7e31 #846a29;
+	border-radius: 4px;
+	margin-top: 25px;
+	text-align: center;
+	cursor: pointer;
+	color: #000000;
+}
+.changePassword .changePasswordBox .boxContent .submit:hover{
+	background: #f0c14b;
+	color: #000000;
+	
+}
+.changePassword .changePasswordBox .boxContent ul li .left input{
+	display: inline-block;
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #a6a6a6;
+	border-radius: 4px;
+	padding-left: 7px;
+}
+/*更改密码end*/
+
+
+
+/*更改电话号码begin*/
+.changePhoneNumber .changePhoneNumberBox .boxContent{
+	width: 570px;
+	height: 462px;
+	margin: 100px auto 0;
+	padding: 15px;
+}
+.changePhoneNumber .changePhoneNumberBox .boxContent h1{
+	display: inline-block;
+	font-size: 28px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.changePhoneNumber .changePhoneNumberBox .boxContent ul{
+	border: 1px solid gainsboro;
+}
+.changePhoneNumber .changePhoneNumberBox .boxContent ul li{
+	display: inline-block;
+	width: 548px;
+	height: 60px;
+	padding: 10px;
+}
+.changePhoneNumber .changePhoneNumberBox .boxContent ul li:nth-child(1){
+	height: 30px;
+}
+.changePhoneNumber .changePhoneNumberBox .boxContent ul li .left{
+	display: inline-block;
+	width: 500px;
+}
+.changePhoneNumber .changePhoneNumberBox .boxContent .submit{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	background: linear-gradient(to bottom,#f7dfa5,#f0c14b);	
+	border: 1px;
+	border-style: solid;	
+	border-color: #a88734 #9c7e31 #846a29;
+	border-radius: 4px;
+	margin-top: 25px;
+	text-align: center;
+	cursor: pointer;
+	color: #000000;
+}
+.changePhoneNumber .changePhoneNumberBox .boxContent .submit:hover{
+	background: #f0c14b;
+	color: #000000;
+	
+}
+.changePhoneNumber .changePhoneNumberBox .boxContent ul li .left input{
+	display: inline-block;
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #a6a6a6;
+	border-radius: 4px;
+	padding-left: 7px;
+}
+/*更改电话号码end*/
+
+
+

@@ -1,0 +1,161 @@
+body,
+html {
+  width: 100%;
+  height: 3557px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+header .top {
+  position: relative;
+  z-index: 111;
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+}
+header .top .top_left {
+  float: left;
+  width: 120px;
+  height: 33px;
+  display: inline-block;
+  line-height: 33px;
+  padding: 6px 40px 0px 32px;
+}
+header .top .top_left .logo {
+  width: 86px;
+  height: 37px;
+  display: inline-block;
+}
+header .top .top_left .logo span {
+  width: 86px;
+  height: 37px;
+  display: inline-block;
+  background: url("../img/global-sprite-32-v1._CB330175699_.png") repeat -10px -120px;
+}
+header .top .top_left .lj {
+  position: absolute;
+  top: 40px;
+  left: 79px;
+  font-size: 11px;
+  line-height: 11px;
+  font-family: arial, sans-serif;
+  white-space: nowrap;
+  color: #48A3C6;
+  background-repeat: no-repeat;
+  background-position: -1000px 0;
+  text-decoration: underline;
+  font-weight: 700;
+}
+header .top .top_center {
+  width: 836px;
+  height: 33px;
+  display: inline-block;
+  float: left;
+  margin-top: 8px;
+}
+header .top .top_center .input_left {
+  display: inline-block;
+  width: 81px;
+  height: 33px;
+  border: 1px solid #bdbdbd;
+  text-align: center;
+  line-height: 33px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  float: left;
+}
+header .top .top_center .input_center {
+  display: inline-block;
+  width: 712px;
+  height: 33px;
+  border: 1px solid #cdcdcd;
+  float: left;
+  margin-left: -1px;
+}
+header .top .top_center .input_center input {
+  display: inline-block;
+  width: 708px;
+  height: 33px;
+  padding-left: 5px;
+}
+header .top .top_center .input_right {
+  display: inline-block;
+  width: 38px;
+  height: 33px;
+  float: left;
+  text-align: center;
+  line-height: 33px;
+  background: #5b626a;
+  border: 1px solid #485059;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+header .top .top_center .input_right span {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background: url("../img/global-sprite-32-v1._CB330175699_.png") repeat -40px -290px;
+  margin-top: 6px;
+}
+header .top .top_right {
+  display: inline-block;
+  width: 360px;
+  height: 39px;
+  float: right;
+  margin-top: 5px;
+}
+header .bom {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  background: url("../img/global-sprite-32-v1._CB330175699_.png") repeat 0 -725px;
+}
+header .bom .nav_left {
+  display: inline-block;
+  width: 162px;
+  height: 20px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+header .bom .nav_left a {
+  display: inline-block;
+  width: 122px;
+  height: 40px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  line-height: 44px;
+}
+header .bom .nav_left a:hover {
+  border: 1px solid gray;
+}
+.slideshow {
+  width: 90%;
+  height: 474px;
+  display: inline-block;
+  background: skyblue;
+}
+.recommend {
+  width: 77%;
+  height: 322px;
+  display: inline-block;
+  background: greenyellow;
+}
+.seckill {
+  width: 77%;
+  height: 700px;
+  display: inline-block;
+  background: gold;
+}
+.content {
+  width: 77%;
+  height: 502px;
+  display: inline-block;
+  background: greenyellow;
+}

@@ -1,0 +1,198 @@
+
+/*我的订单begin*/
+.myOrder .myOrderBox .myOrder_contentBox{
+	width: 920px;
+	margin: 10px auto;
+}
+.myOrder .myOrder_contentBox .headH1{
+	height: 65px;
+	line-height: 65px;
+	margin: 10px 0px;
+}
+.myOrder .myOrder_contentBox .headH1 h1{
+	font-size: 32px;
+}
+.myOrder .myOrder_contentBox .smallNav{
+	height: 30px;
+	border-bottom: 1px solid gainsboro;
+}
+.myOrder .myOrder_contentBox .smallNav li{
+	display: inline-block;
+	height: 29px;
+	line-height: 29px;
+	margin-right: 20px;
+	font-size: 14px;
+}
+.myOrder .myOrder_contentBox .smallNav li:nth-child(1){
+	border-bottom: 2px solid chocolate;
+}
+.myOrder .myOrder_contentBox .orderCard{
+	border: 1px solid gainsboro;
+	border-radius: 4px;
+	margin-top: 30px;
+}
+.myOrder .myOrder_contentBox .orderCard .topUlBox{
+	height: 60px;
+	padding: 20px;
+	background: rgb(253,253,253);
+	border-bottom: 1px solid gainsboro;
+}
+.myOrder .myOrder_contentBox .orderCard .topUlBox li{
+	float: left;
+	margin-right: 60px;
+	font-size: 14px;
+}
+.myOrder .myOrder_contentBox .orderCard .topUlBox li:nth-child(4){
+	margin-right: 0;
+	float: right;
+}
+.myOrder .myOrder_contentBox .orderCard .bomOrderBox{
+	padding: 20px;
+}
+.myOrder .myOrder_contentBox .orderCard .bomOrderBox p{
+	margin-top: 10px;
+	font-size: 16px;
+}
+.myOrder .myOrder_contentBox .orderCard .bomOrderBox h2{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.myOrder .myOrder_contentBox .orderCard .bomOrderBox .imgBox{
+	display: inline-block;
+	width: 80px;
+	float: left;
+	height: 80px;
+	margin-right: 30px;
+	border: 1px solid gold;
+}
+.myOrder .myOrder_contentBox .orderCard .bomOrderBox .monBox,.status{
+	display: inline-block;
+	width: 100px;
+	height: 80px;
+	float: left;
+	font-size: 16px;
+	margin-right: 50px;
+}
+.myOrder .myOrder_contentBox .orderCard .bomOrderBox .btnBox{
+	display: inline-block;
+	width: 230px;
+	height: 80px;
+	float: right;
+}
+.myOrder .myOrder_contentBox .orderCard .bomOrderBox .btnBox a{
+	font-size: 14px;
+	display: inline-block;
+	width: 220px;
+	height: 30px;
+	border: 1px solid goldenrod;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 4px;
+	background: gold;
+	color: #000000;
+	
+}
+.myOrder .myOrder_contentBox .orderCard .bomOrderBox .btnBox a:hover{
+	background: yellow;
+}
+/*我的订单end*/
+
+
+/*订单详情begin*/
+.orderDetails .orderDetailsBox .orderDetails_contentBox{
+	width: 920px;
+	margin: 10px auto;
+}
+.orderDetails .orderDetails_contentBox .headH1{
+	height: 65px;
+	line-height: 65px;
+	margin: 10px 0px;
+}
+.orderDetails .orderDetails_contentBox .headH1 h1{
+	font-size: 32px;
+}
+.orderDetails .orderDetails_contentBox .smallNav{
+	height: 30px;
+}
+.orderDetails .orderDetails_contentBox .smallNav h2{
+	display: inline-block;
+	height: 29px;
+	line-height: 29px;
+	margin-right: 20px;
+	font-size: 18px;
+}
+.orderDetails .orderDetails_contentBox .smallNav li:nth-child(1){
+	border-bottom: 2px solid chocolate;
+}
+.orderDetails .orderDetails_contentBox .orderCard{
+	border: 1px solid gainsboro;
+	border-radius: 4px;
+	margin-top: 30px;
+}
+.orderDetails .orderDetails_contentBox .orderCard .topUlBox{
+	height: 60px;
+	padding: 20px;
+	background: rgb(253,253,253);
+	border-bottom: 1px solid gainsboro;
+}
+.orderDetails .orderDetails_contentBox .orderCard .topUlBox li{
+	float: left;
+	margin-right: 60px;
+	font-size: 14px;
+}
+.orderDetails .orderDetails_contentBox .orderCard .topUlBox li:nth-child(4){
+	margin-right: 0;
+	float: right;
+}
+.orderDetails .orderDetails_contentBox .orderCard .bomOrderBox{
+	padding: 20px;
+}
+.orderDetails .orderDetails_contentBox .orderCard .bomOrderBox p{
+	margin-top: 10px;
+	font-size: 16px;
+}
+.orderDetails .orderDetails_contentBox .orderCard .bomOrderBox h2{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.orderDetails .orderDetails_contentBox .orderCard .bomOrderBox .imgBox{
+	display: inline-block;
+	width: 80px;
+	float: left;
+	height: 80px;
+	margin-right: 30px;
+	border: 1px solid gold;
+}
+.orderDetails .orderDetails_contentBox .orderCard .bomOrderBox .monBox,.status{
+	display: inline-block;
+	width: 100px;
+	height: 80px;
+	float: left;
+	font-size: 16px;
+	margin-right: 50px;
+}
+.orderDetails .orderDetails_contentBox .orderCard .bomOrderBox .btnBox{
+	display: inline-block;
+	width: 230px;
+	height: 80px;
+	float: right;
+}
+.orderDetails .orderDetails_contentBox .orderCard .bomOrderBox .btnBox a{
+	font-size: 14px;
+	display: inline-block;
+	width: 220px;
+	height: 30px;
+	border: 1px solid goldenrod;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 4px;
+	background: gold;
+	color: #000000;
+	
+}
+.orderDetails .orderDetails_contentBox .orderCard .bomOrderBox .btnBox a:hover{
+	background: yellow;
+}
+/*订单详情end*/

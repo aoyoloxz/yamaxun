@@ -1,0 +1,325 @@
+.myHomepage .boxContent nav {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	background: #fafafa;
+	border: 1px solid gainsboro;
+	min-width: 1000px;
+}
+
+.myHomepage .boxContent nav a:nth-child(1) {
+	margin-left: 15px;
+}
+
+.myHomepage .boxContent nav a {
+	display: inline-block;
+	height: 27px;
+	float: left;
+	text-align: center;
+	padding: 3px 7px;
+	margin-top: -2px;
+	color: #000000;
+}
+
+.myHomepage .boxContent nav a:hover {
+	border-bottom: 2px solid orange;
+	color: orange;
+}
+
+.myHomepage .boxContent .backgrBox {
+	/*width: 100%;*/
+	background-color: #f6fafb;
+	text-align: center;
+}
+
+.myHomepage .boxContent .backgrBox .topback {
+	display: inline-block;
+	width: 860px;
+	height: 220px;
+	margin: 0 auto;
+}
+
+.myHomepage .boxContent .backgrBox .topback img {
+	margin: 0 auto;
+}
+
+.myHomepage .boxContent .backgrBox .compile {
+	width: 860px;
+	height: 140px;
+	border: 1px solid #D5DBDB;
+	margin: 0 auto;
+	background: white;
+	position: relative;
+}
+
+.myHomepage .boxContent .backgrBox .compile .headPortrait {
+	position: absolute;
+	border: 4px solid white;
+	border-radius: 50%;
+	top: -80%;
+	left: 50px;
+	cursor: pointer;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.myHomepage .boxContent .userName{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+	position: absolute;
+	top: 10px;
+	left: 30%;
+	
+}
+.myHomepage .boxContent .changeUserData{
+	width: 218px;
+	height: 30px;
+	border: 1px solid gainsboro;
+	position: absolute;
+	bottom: 20px;
+	right: 50px;
+	line-height: 30px;
+}
+.myHomepage .boxContent .changeUserData a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: #FAD000;
+	color: #000000;
+	font-size: 14px;
+}
+.myHomepage .boxContent .changeUserData a:hover{
+	background: yellow;
+}
+.myHomepage .boxContent .bomBox {
+	width: 860px;
+	height: 380px;
+	text-align: left;
+	margin: 10px auto;
+}
+.myHomepage .boxContent .bomBox .left{
+	display: inline-block;
+	width: 320px;
+	height: 380px;
+	float: left;
+}
+.myHomepage .boxContent .bomBox .left .card{
+	background: #F5F7F5;
+	box-shadow: 0 1px 2px 0 #EAEDED;
+	padding: 17px 13px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #D5DBDB;
+	border-radius: 4px;
+}
+.myHomepage .boxContent .bomBox .right{
+	display: inline-block;
+	width: 530px;
+	height: 380px;
+	float: right;
+	margin-left: 10px;
+}
+.myHomepage .boxContent .bomBox .right .cardR{
+	background: white;
+	box-shadow: 0 1px 2px 0 #EAEDED;
+	padding: 17px 13px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #D5DBDB;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+/*个人主页end*/
+
+
+/*我的账户begin*/
+.userAccount .userAccountBox .contentBox .topBox{
+	width: 1013px;
+	border-bottom: 1px solid gainsboro;
+	margin: 30px auto;
+	padding-bottom: 40px;
+}
+.userAccount .userAccountBox .contentBox .topBox h1{
+	font-size: 30px;
+}
+.userAccount .userAccountBox .contentBox .topBox .cardList{
+	display: inline-block;
+	width: 310px;
+	height: 86px;
+	border: 1px solid gainsboro;
+	border-radius: 4px;
+	margin-top: 20px;
+	vertical-align: middle;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.userAccount .userAccountBox .contentBox .topBox a{
+	display: inline-block;
+	width: 280px;
+	padding: 15px;
+	height: 56px;
+}
+.userAccount .userAccountBox .contentBox .topBox a:hover{
+	background: #D5DBDB;
+}
+.userAccount .userAccountBox .contentBox .topBox .noMar{
+	margin-right: 0px;
+}
+.userAccount .userAccountBox .contentBox .topBox .cardList .imgBox{
+	display: inline-block;
+	overflow: hidden;
+	max-width: 60px;
+}
+.userAccount .userAccountBox .contentBox .topBox .cardList .imgBox img{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+}
+.userAccount .userAccountBox .contentBox .topBox .cardList .textBox{
+	display: inline-block;
+	width: 180px;
+	height: 56px;
+	margin-left: 20px;
+}
+.userAccount .userAccountBox .contentBox .topBox .cardList h2{
+	font-size: 18px;
+}
+.userAccount .userAccountBox .contentBox .topBox .cardList p{
+	font-size: 14px;
+	color: #666666;
+	margin-top: 10px;
+}
+.userAccount .userAccountBox .contentBox .bomBox{
+	width: 1013px;
+	margin: 30px auto;
+	padding-bottom: 40px;
+}
+.userAccount .userAccountBox .contentBox .bomBox .bomCard ul li{
+	display: inline-block;
+	width: 290px;
+	height: 56px;
+	border: 1px solid gainsboro;
+	border-radius: 4px;
+	margin-top: 20px;
+	padding: 15px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.userAccount .userAccountBox .contentBox .bomBox ul .noMar{
+	margin-right: 0px !important;
+}
+.userAccount .userAccountBox .contentBox .bomBox h3{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+/*我的账户end*/
+
+/*我的亚马逊begin*/
+.myAmazon .boxContent nav {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	background: #fafafa;
+	border: 1px solid gainsboro;
+	min-width: 1000px;
+}
+
+.myAmazon .boxContent nav a:nth-child(1) {
+	margin-left: 15px;
+}
+
+.myAmazon .boxContent nav a {
+	display: inline-block;
+	height: 27px;
+	float: left;
+	text-align: center;
+	padding: 3px 7px;
+	margin-top: -2px;
+	color: #000000;
+}
+
+.myAmazon .boxContent nav a:hover {
+	border-bottom: 2px solid orange;
+	color: orange;
+}
+.myAmazon .boxContent .statusbar{
+	width: 100%;
+	height: 114px;
+	background: #f6f6f6;
+	border-bottom: 1px solid gainsboro;
+	min-width: 1000px;
+	vertical-align: middle;
+}
+.myAmazon .boxContent .statusbar .statubarBox{
+	margin: 20px 20px 20px 28px;
+	width: 80%;
+	min-width: 900px;
+}
+.myAmazon .boxContent .statusbar .imgA{
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background: url(../images/headImage.png);
+	background-size: cover;
+	float: left;
+}
+.myAmazon .boxContent .statusbar .imgA a{
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+}
+.myAmazon .boxContent .statusbar .userNameAm,.myOrder{
+	display: inline-block;
+	width: 140px;
+	float: left;
+	margin-left: 15px;
+	height: 75px;
+}
+.myAmazon .boxContent .statusbar .userNameAm a{
+	display: inline-block;
+	width: 140px;
+	height: 75px;
+	font-size: 22px;
+	margin-top: 20px;
+}
+.myAmazon .boxContent .statusbar h2{
+	font-size: 20px;
+	font-weight: 500;
+}
+.myAmazon .boxContent .recommendBox{
+	width: 100%;
+	min-width: 1000px;
+	background: #eaeded;
+	text-align: center;
+}
+.myAmazon .boxContent .recommendBox h2{
+	font-size: 26px;
+	font-weight: 500;
+	display: inline-block;
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+}
+.myAmazon .boxContent .recommendBox ul{
+	width: 1000px;
+	margin: auto;
+	overflow: auto;
+}
+.myAmazon .boxContent .recommendBox li{
+	display: inline-block;
+	width: 308px;
+	height: 358px;
+	background: white;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border: 1px solid #eaeded;
+	border-radius: 4px;
+}
+.myAmazon .boxContent .recommendBox li:hover{
+	border: 1px solid gray;
+}
+/*我的亚马逊end*/
