@@ -7,7 +7,7 @@ body{
 #homePage{
 	.homePage-inner{
 		max-width: 1500px;
-	    min-width: 1000px;
+	    /*min-width: 1000px;*/
 	    margin: auto;
 	    overflow: hidden;
 		.banner-block{
@@ -44,29 +44,35 @@ body{
 			}
 		}
 		.wrap-content{
+			min-width: 1277px;
 			.mainContent{
-				 padding: 5px 10px 0 40px;
+			    width: 78%;
+				 padding: 5px 4px 0 1px;
 				 display:inline-block;
 				.hot-block{
-					 padding-left: 201px;
+					padding-left: 241px;
+				    width: 82%;
+				    display: inline-block;
 					.block-inner{
 						height:162px;
+						display:flex;
 						.line-divider{
 							position: relative;
-							display:inline;
-						    width: 1px;
-						    top: -21px;
+							display:inline-block;
+						    top: 8px;
+						    flex-basis:1px;
 						    img{height:143px;}
 						}
 						.block-item{
 							 display: inline-block;
 							 vertical-align: bottom;
 							 position: relative;
-    						 left: 37px;
+						     flex-basis:270px;
 							.item-head{
-								width:360px;
-								height:30px;
-								margin-top: 11px;
+							    max-width: 257px;
+							    height: 30px;
+							    margin-top: 11px;
+							    padding-left:13px;
 								.head-title{
 									font-size: 18px;
 									font-weight: bold;
@@ -85,10 +91,11 @@ body{
 							.item-detail{
 								float:left;
 								height:108px;
-								width:143px;
+								width:108px;
 								margin-top: 10px;
+								padding-left:13px;
+								font-size:13px;
 								.proTitle{
-									font-size:13px;
 									color:#B12704;
 									text-overflow: ellipsis;
 								    white-space: nowrap;
@@ -113,8 +120,8 @@ body{
 							}
 							.item-img{
 								float:left;
-								width:144px;
-								height:134px;
+								max-width:130px;
+								max-height:130px;
 								text-align:center;
 								cursor:pointer;
 								img{width:100%;height:100%;}
@@ -123,6 +130,7 @@ body{
 					}
 				}
 				.recommend-block{
+					margin-left:31px;
 					.recomen-title{
 						img{
 							width:40px;
@@ -140,25 +148,23 @@ body{
 					}
 					.recomen-row{
 						.rowLine{
-					    	width:100%;
-					    	width: 100%;
+					    	width: 95%;
 						    border-top: 1px solid #e7e7e7;
 						    height: 2px;
-						    padding: 1px 0px 18px;
+						    padding: 1px 1px 18px;
 						    position: relative;
-    						left: 46px;
+						    left: 46px;
 					    }
 						.row-list{
 							border-bottom: 1px solid #e7e7e7;
-						    padding-left: 11px;
-						    padding-top: 1px;
-						    margin-bottom: 19px;
 						    height: 250px;
-						    margin-left: 23px;
+						    padding:0px 11px;
+						    margin: 0px 23px 19px 40px;
+						    min-width: 933px;
 							.row-inner{
 							    min-width: 110px;
 							    text-align: center;
-							    padding: 0px 16px 0px 12px;
+							    padding: 0px 16px 0px 16px;
 							    height: 219px;
 							    margin-top: 0px;
 							    float: left;
@@ -178,8 +184,8 @@ body{
 								}
 								.inblock{
 									position:absolute;
-									top: -31px;
-									left:-21px;
+									top: -38px;
+									left:-17px;
 								    box-shadow: 0 1px 2px rgba(0,0,0,0.45);
 								    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.45);
 								    border-bottom: 1px solid rgba(0,0,0,0.25);
@@ -188,6 +194,11 @@ body{
 								    cursor:pointer;
 								    display:none;
 								    background:#fff;
+								    .inblockTitle{
+								    	h3{
+								    		padding: 1px 0px 6px;
+								    	}
+								    }
 								}
 							}
 							.row-inner:hover .inblock{
@@ -199,9 +210,9 @@ body{
 				}
 			}
 			.sideContent{
-				width:296px;
+				width:20%;
 				float:right;
-				padding: 10px 8px 10px 8px;
+				padding: 10px 8px;
 				background: rgba(135, 126, 126, 0.03);
     			.lineBlock{
     				height: 1px;
@@ -358,4 +369,22 @@ body{
 	width: 48px;
 	height: 48px;
 	border: 2px solid #E47911;
+}
+.lightBlu:hover{
+	color:#e47911!important;
+	text-decoration: underline;
+}
+@media screen and (max-width:1024px){
+	.homePage-inner .sideContent{
+		display:none;
+	}
+	.mainContent{
+		width:100%;
+	}
+	.hot-block{
+		padding-left: 189px!important;
+	}
+	.recommend-block{
+		margin-left:0px!important;
+	}
 }

@@ -6,7 +6,7 @@ body {
 }
 #homePage .homePage-inner {
   max-width: 1500px;
-  min-width: 1000px;
+  /*min-width: 1000px;*/
   margin: auto;
   overflow: hidden;
 }
@@ -50,21 +50,28 @@ body {
   right: 0px;
   background-image: url(../images/arrow-r.png);
 }
+#homePage .homePage-inner .wrap-content {
+  min-width: 1277px;
+}
 #homePage .homePage-inner .wrap-content .mainContent {
-  padding: 5px 10px 0 40px;
+  width: 78%;
+  padding: 5px 4px 0 1px;
   display: inline-block;
 }
 #homePage .homePage-inner .wrap-content .mainContent .hot-block {
-  padding-left: 201px;
+  padding-left: 241px;
+  width: 82%;
+  display: inline-block;
 }
 #homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner {
   height: 162px;
+  display: flex;
 }
 #homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .line-divider {
   position: relative;
-  display: inline;
-  width: 1px;
-  top: -21px;
+  display: inline-block;
+  top: 8px;
+  flex-basis: 1px;
 }
 #homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .line-divider img {
   height: 143px;
@@ -73,12 +80,13 @@ body {
   display: inline-block;
   vertical-align: bottom;
   position: relative;
-  left: 37px;
+  flex-basis: 270px;
 }
 #homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-head {
-  width: 360px;
+  max-width: 257px;
   height: 30px;
   margin-top: 11px;
+  padding-left: 13px;
 }
 #homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-head .head-title {
   font-size: 18px;
@@ -97,11 +105,12 @@ body {
 #homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-detail {
   float: left;
   height: 108px;
-  width: 143px;
+  width: 108px;
   margin-top: 10px;
+  padding-left: 13px;
+  font-size: 13px;
 }
 #homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-detail .proTitle {
-  font-size: 13px;
   color: #B12704;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -129,14 +138,17 @@ body {
 }
 #homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-img {
   float: left;
-  width: 144px;
-  height: 134px;
+  max-width: 130px;
+  max-height: 130px;
   text-align: center;
   cursor: pointer;
 }
 #homePage .homePage-inner .wrap-content .mainContent .hot-block .block-inner .block-item .item-img img {
   width: 100%;
   height: 100%;
+}
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block {
+  margin-left: 31px;
 }
 #homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-title img {
   width: 40px;
@@ -152,25 +164,24 @@ body {
   vertical-align: sub;
 }
 #homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .rowLine {
-  width: 100%;
+  width: 95%;
   border-top: 1px solid #e7e7e7;
   height: 2px;
-  padding: 1px 0px 18px;
+  padding: 1px 1px 18px;
   position: relative;
   left: 46px;
 }
 #homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list {
   border-bottom: 1px solid #e7e7e7;
-  padding-left: 11px;
-  padding-top: 1px;
-  margin-bottom: 19px;
   height: 250px;
-  margin-left: 23px;
+  padding: 0px 11px;
+  margin: 0px 23px 19px 40px;
+  min-width: 933px;
 }
 #homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner {
   min-width: 110px;
   text-align: center;
-  padding: 0px 16px 0px 12px;
+  padding: 0px 16px 0px 16px;
   height: 219px;
   margin-top: 0px;
   float: left;
@@ -194,8 +205,8 @@ body {
 }
 #homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner .inblock {
   position: absolute;
-  top: -31px;
-  left: -21px;
+  top: -38px;
+  left: -17px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -205,6 +216,9 @@ body {
   display: none;
   background: #fff;
 }
+#homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner .inblock .inblockTitle h3 {
+  padding: 1px 0px 6px;
+}
 #homePage .homePage-inner .wrap-content .mainContent .recommend-block .recomen-row .row-list .row-inner:hover .inblock {
   display: block;
 }
@@ -212,9 +226,9 @@ body {
   border-bottom: none;
 }
 #homePage .homePage-inner .wrap-content .sideContent {
-  width: 296px;
+  width: 20%;
   float: right;
-  padding: 10px 8px 10px 8px;
+  padding: 10px 8px;
   background: rgba(135, 126, 126, 0.03);
 }
 #homePage .homePage-inner .wrap-content .sideContent .lineBlock {
@@ -370,4 +384,22 @@ body {
   width: 48px;
   height: 48px;
   border: 2px solid #E47911;
+}
+.lightBlu:hover {
+  color: #e47911!important;
+  text-decoration: underline;
+}
+@media screen and (max-width: 1024px) {
+  .homePage-inner .sideContent {
+    display: none;
+  }
+  .mainContent {
+    width: 100%;
+  }
+  .hot-block {
+    padding-left: 189px!important;
+  }
+  .recommend-block {
+    margin-left: 0px!important;
+  }
 }
