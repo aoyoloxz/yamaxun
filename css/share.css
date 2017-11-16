@@ -1,5 +1,7 @@
 /*头部logo和搜索*/
 
+/*头部logo和搜索*/
+
 header {
 	width: 100%;
 	height: 46px;
@@ -28,11 +30,12 @@ header>div {
 
 .logo2 {
 	position: relative;
-	top: -25px;
+	top: -30px;
 	left: 100px;
 	text-align: center;
 	text-decoration: underline;
 	color: #48A3C6;
+	font-size: 12px;
 }
 
 .search {
@@ -457,7 +460,6 @@ header>div {
 /*多级菜单*/
 
 #lshareNavbox {
-	display: none;
 	border: 1px solid #555555;
 	width: 177px;
 	border-radius: 5px;
@@ -468,7 +470,9 @@ header>div {
 	top: 60px;
 	z-index: 1000;
 }
-
+.lshareNavbox1{
+	display: none;
+}
 #lshareNavbox:after {
 	clear: both;
 	content: "";

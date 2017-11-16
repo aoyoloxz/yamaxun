@@ -15,7 +15,7 @@
 		<!--网页头部-->
 		<header>
 			<div class="logo">
-				<a href="#" class="logo1">
+				<a href="../../homePage.html" class="logo1">
 				</a><br />
 				<a href="#" class="logo2">
 					免费试享Prime
@@ -25,13 +25,57 @@
 				<div class="search-left">
 					全部商品
 					<span></span>
+					<select style="height: 32px;width: 100px !important;position: absolute;top: 8px;left: 0;opacity: 0;">
+						<option selected="selected" value="search-alias=aps">全部分类</option>
+						<option value="search-alias=digital-text">Kindle商店</option>
+						<option value="search-alias=mobile-apps">应用程序和游戏</option>
+						<option value="search-alias=amazon-global-store">亚马逊海外购</option>
+						<option value="search-alias=stripbooks">图书</option>
+						<option value="search-alias=music">音乐</option>
+						<option value="search-alias=videogames">游戏/娱乐</option>
+						<option value="search-alias=video">音像</option>
+						<option value="search-alias=software">软件</option>
+						<option value="search-alias=audio-visual-education">教育音像</option>
+						<option value="search-alias=communications">手机/通讯</option>
+						<option value="search-alias=photo-video">摄影/摄像</option>
+						<option value="search-alias=electronics">电子</option>
+						<option value="search-alias=music-players">数码影音</option>
+						<option value="search-alias=computers">电脑/IT</option>
+						<option value="search-alias=office-products">办公用品</option>
+						<option value="search-alias=home-appliances">小家电</option>
+						<option value="search-alias=appliances"> 大家电 </option>
+						<option value="search-alias=audio-visual"> 电视/音响 </option>
+						<option value="search-alias=home">家用</option>
+						<option value="search-alias=home-substore">家居</option>
+						<option value="search-alias=kitchen">厨具</option>
+						<option value="search-alias=home-improvement">家居装修</option>
+						<option value="search-alias=pets">宠物用品</option>
+						<option value="search-alias=grocery">食品</option>
+						<option value="search-alias=wine">酒</option>
+						<option value="search-alias=beauty">美容化妆</option>
+						<option value="search-alias=hpc">个护健康</option>
+						<option value="search-alias=baby">母婴用品</option>
+						<option value="search-alias=toys-and-games">玩具</option>
+						<option value="search-alias=sporting">运动户外休闲</option>
+						<option value="search-alias=apparel">服饰箱包</option>
+						<option value="search-alias=shoes">鞋靴</option>
+						<option value="search-alias=watches">钟表</option>
+						<option value="search-alias=jewelry">珠宝首饰</option>
+						<option value="search-alias=automotive">汽车用品</option>
+						<option value="search-alias=mi">乐器</option>
+						<option value="search-alias=gift-cards">礼品卡</option>
+						<option value="search-alias=luxury-beauty">LuxuryBeauty高端美妆店</option>
+						<option value="search-alias=warehouse-deals">Z实惠</option>
+					</select>
+					
 				</div>
 				<input type="text" class="search-center" />
 				<input type="button" class="search-right" />
 			</div>
 
 		</header>
-
+		
+		
 		<!--导航条-->
 		<div id="nav-main" class="nav-sprite">
 			<div class="nav-left">
@@ -63,9 +107,9 @@
 						<p>新客户？<a href="#">免费注册</a></p>
 					</div>
 					<div class="l_share1bottom">
-						<a href="#">我的账户</a><br />
-						<a href="#">我的订单</a><br />
-						<a href="#">我的余额</a><br />
+						<a href="../proxemics/userAccount.html">我的账户</a><br />
+						<a href="../order/myOrder.html">我的订单</a><br />
+						<a href="inquiryBalance.html">我的余额</a><br />
 						<a href="#">评论已购的产品</a><br />
 						<a href="#">我的心愿单</a><br />
 						<a href="#">为我推荐</a><br />
@@ -97,20 +141,20 @@
 				
 			</div>
 			<div class="nav-fill">
-				<div id="nav-xshop-container" class="">
+				<div id="nav-xshop-container">
 
 					<div id="nav-xshop">
-						<a href="#" class="nav-a nav_a" id="nav-your-amazon">我的亚马逊</a>
+						<a href="../proxemics/myAmazon.html" class="nav-a nav_a" id="nav-your-amazon">我的亚马逊</a>
 						<a href="#" class="nav-a" tabindex="9">Z秒杀</a>
 						<a href="#" class="nav-a" tabindex="10">礼品卡</a>
-						<a href="#" class="nav-a" tabindex="11">我要开店</a>
+						<a href="../seller/sellerHome.html" class="nav-a" tabindex="11">我要开店</a>
 						<a href="#" class="nav-a" tabindex="12">海外购</a>
 						<a href="#" class="nav-a" tabindex="13">帮助</a>
 						<a href="#" class="nav-a nav_a">In English</a>
 					</div>
 				</div>
 			</div>
-			<div id="lshareNavbox">
+			<div id="lshareNavbox"  class="lshareNavbox1">
 				<div class="nav-arrow1" style="">
 					<div class="nav-arrow-inner"></div>
 				</div>
@@ -1360,7 +1404,6 @@
 			</div>
 		
 		</div>
-
 		<!--二级菜单：-->
 		
 			
