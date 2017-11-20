@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>管理订单</title>
+		<link rel="stylesheet" href="../../../css/base.css" />
+		<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../../css/sellerOrder.css" />
+	</head>
+
+	<body>
+		<div class="manageOrder">
+			<div class="manageOrderBox wPad30">
+
+				<div class="contentbox">
+					<h1>管理订单</h1>
+					<a href="#">了解更多信息</a> |
+					<a href="#">为此页评级</a>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<select name="date">
+								<option value="日期范围">日期范围</option>
+							</select>
+							<select name="oldDay">
+								<option value="1">过去7天</option>
+								<option value="2">过去15天</option>
+								<option value="3">过去30天</option>
+							</select>
+							<button type="button" class="btn btn-default">搜索</button>
+							<button type="button" class="btn btn-default">高级搜索</button>
+						</div>
+						<div class="panel-body">
+							<p>未发货的"优先配送"订单：0个订单 | 未发货订单数量：0个订单 | 预定订单一览：0个订单 | 等待中订单数量：0个订单</p>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>过去7天通过所有商城所下的所有订单 | <a href="#">清除所有筛选器</a></h4>
+						</div>
+						<div class="panel-body">
+							<select name="order">
+								<option value="1">为所选订单打印装箱单</option>
+							</select>
+							<button type="button" class="btn btn-default">开始</button>
+
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>订购日期</th>
+										<th>订单详情</th>
+										<th>配送</th>
+										<th>状态</th>
+										<th>操作</th>
+										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>未发现任何订单</th>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</body>
+
+</html>

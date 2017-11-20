@@ -1,0 +1,39 @@
+.contentBox select{
+	width: 180px;
+	height: 35px;
+}
+.manageReturns .manageReturnsBox .contentBox ul li{
+	float: left;
+	margin-right: 35px;
+	font-size: 16px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+.manageReturns .manageReturnsBox .contentBox .taBox{
+	text-align: center;
+	height: 200px;
+	line-height: 200px;
+}
+.manageReturns .manageReturnsBox .contentBox .ulBox{
+	border-bottom:1px solid gainsboro;
+}
+.ulLifl li{
+	float: left;
+	margin-right: 10px;
+}
+.colorg{
+	color: #FF8C00;
+}
+.mt0{
+	margin-top: 0px !important;
+}
+.spanLi{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+.noBor tr td{
+	border-top: none !important;
+}
+

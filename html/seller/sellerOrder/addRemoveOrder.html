@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>添加或删除订单报告列</title>
+		<link rel="stylesheet" href="../../../css/base.css" />
+		<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../../css/sellerOrder.css" />
+		<script src="../../../js/jquery-2.2.4.js"></script>
+		<script src="../../../lib/node_modules/bootstrap/js/bootstrap.js"></script>
+	</head>
+
+	<body>
+		<div class="addRemoveOrder">
+			<div class="addRemoveOrderBox wPad30">
+
+				<div class="contentBox">
+					<div class="topSp mt10">
+						<p>
+							<span>新订单</span><span class="colorg"> &gt; 添加或删除订单报告列</span>
+						</p>
+						<h1>添加或删除订单报告列</h1><span><a href="#">了解更多信息</a></span>
+					</div>
+					<div class="mustLis row">
+						<div class="lisMu col-lg-8">
+							<div class="leftLis col-lg-3">
+								<h3>必填列</h3>
+							</div>
+							<div class="rightLis col-lg-9">
+								<table class="table table-striped">
+									<tr>
+										<td>订单编号</td>
+										<td>订单商品ID</td>
+										<td>购买日期</td>
+									</tr>
+									<tr>
+										<td>付款日期</td>
+										<td>买方电子邮件</td>
+										<td>买方全名</td>
+									</tr>
+									<tr>
+										<td>SKU</td>
+										<td>商品名称</td>
+										<td>购买数量</td>
+									</tr>
+									<tr>
+										<td>货币</td>
+										<td>商品价格</td>
+										<td>商品税</td>
+									</tr>
+									<tr>
+										<td>发货价格</td>
+										<td>发货服务水平</td>
+										<td>收件人姓名</td>
+									</tr>
+									<tr>
+										<td>发货地址(3列)</td>
+										<td>发货城市</td>
+										<td>发货州</td>
+									</tr>
+									<tr>
+										<td>发货邮政编码</td>
+										<td>发货国家</td>
+										<td>递送说明</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="textBox col-lg-4">
+							<div class="leftb col-lg-3">
+								<a href="#">隐藏列名称</a>
+							</div>
+							<div class="rigb col-lg-9">
+								<div class="textCard">
+									<p>保存更改后，您将看到更新的信息显示在所有报告中，包括新订单，未配送订单，所有订单以及经由XML的所有订单。</p>
+									<br/>
+									<p>此页面中的列将显示于以上四种报告类型中的至少一种之中，但可能不会出现在全部报告中。</p>
+									<br />
+									<a href="#">这些列是什么意思？</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="chooseLis col-lg-9">
+					<h3>选填列</h3>
+					<table class="table noBor">
+						<tr>
+							<td class="textri">发货服务号码 <input type="checkbox" /></td>
+							<td>配送服务名称</td>
+						</tr>
+						<tr>
+							<td class="textri">订货渠道 <input type="checkbox" /></td>
+							<td>订单渠道</td>
+							<td>订单渠道实例</td>
+							<td>外部订单类型</td>
+						</tr>
+						<tr>
+							<td class="textri">礼品包装 <input type="checkbox" /></td>
+							<td>礼品包装价格</td>
+							<td>礼品包装税</td>
+							<td>礼品包装类型</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>礼品消息文本</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="textri">促销 <input type="checkbox" /></td>
+							<td>商品推广活动折扣</td>
+							<td>商品推广ID</td>
+							<td>配送推广活动折扣</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>配送推广活动ID</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="textri">货到付款 <input type="checkbox" /></td>
+							<td>付款方式</td>
+							<td>货到付款可收额</td>
+							<td>已付款</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>付款方式费用</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="textri">发货日期 <input type="checkbox" /></td>
+							<td>最远一次发货日期</td>
+							<td>最近一次发货日期</td>
+							<td>最远一次递送日期</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>最近一次递送日期</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="textri">商品扩展数据 <input type="checkbox" /></td>
+							<td>商品扩展数据</td>
+						</tr>
+						<tr>
+							<td class="textri">自定义信息 <input type="checkbox" /></td>
+							<td>自定义信息</td>
+						</tr>
+						<tr>
+							<td class="textri">订单号 <input type="checkbox" /></td>
+							<td>订单商品数量</td>
+						</tr>
+						<tr>
+							<td class="textri">Prime <input type="checkbox" /></td>
+							<td>是否为Prime?</td>
+						</tr>
+						<tr>
+							<td class="textri">Priemium订单 <input type="checkbox" /></td>
+							<td>是否为Priemium订单？</td>
+						</tr>
+						<tr>
+							<td class="textri">自定义URL <input type="checkbox" /></td>
+							<td>自定义URL</td>
+							<td>自定义U界面</td>
+						</tr>
+						<tr>
+							<td class="textri">替换信息 <input type="checkbox" /></td>
+							<td>Is Replacement Order?</td>
+							<td>替换订单详情</td>
+						</tr>
+						<tr>
+							<td class="textri">付款方式详情 <input type="checkbox" /></td>
+							<td>付款方式详情</td>
+						</tr>
+						<tr>
+							<td class="textri">货件状态 <input type="checkbox" /></td>
+							<td>货件状态</td>
+						</tr>
+					</table>
+					<div class="btnLis">
+						<p>更改您的列表选项将显示在未来所有的报告中</p>
+						<button type="button" class="btn btn-default">取消</button>
+						<button type="submit" class="btn btn-warning">保存更改</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

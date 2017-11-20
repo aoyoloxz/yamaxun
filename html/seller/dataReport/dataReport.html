@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>数据报告-付款</title>
+		<link rel="stylesheet" href="../../../css/base.css" />
+		<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../../css/sellerOrder.css" />
+		<script src="../../../js/jquery-2.2.4.js"></script>
+		<script src="../../../lib/node_modules/bootstrap/js/bootstrap.js"></script>
+	</head>
+
+	<body>
+		<div class="dataReport">
+			<div class="dataReportBox wPad30">
+
+				<div class="contentBox">
+					<h3 class="colorg">付款</h3>
+					<a href="#">了解更多信息</a>
+					<div class="mt10">
+
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs" role="tablist" id="pricingTabs">
+							<li role="presentation" class="active">
+								<a href="#home" aria-controls="home" role="tab" data-toggle="tab">结算一览</a>
+							</li>
+							<li role="presentation">
+								<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">交易一览</a>
+							</li>
+							<li role="presentation">
+								<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">所有结算</a>
+							</li>
+							<li role="presentation">
+								<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">日期范围报告</a>
+							</li>
+						</ul>
+
+						<!-- Tab panes -->
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active clearfix" id="home">
+								<div class="boxLeft fl">
+									<h3>预计转账日期：2017年11月22日*。但是，如果您的可用余额为0.00，则不会再此日期进行转账</h3>
+									<p>*转账最多需要3-5个工作日即可完成。请以实际转账金额为准，有关向您转账的日期的更多信息，请参阅
+										<a href="#">帮助页面</a>
+									</p>
+
+								</div>
+								<div class="boxRight fr mt10">
+									<label for="oederNum">查找某项交易</label>
+									<input type="text" id="orderNum" placeholder="输入订单编号" />
+									<button class="btn btn-default">搜索</button>
+								</div>
+
+							</div>
+							<div role="tabpanel" class="tab-pane" id="profile">
+								<div class="frcontent mt10 clearfix">
+									<div class="boxRight fr">
+										<label for="oederNum">查找某项交易</label>
+										<input type="text" id="orderNum" placeholder="输入订单编号" />
+										<button class="btn btn-default">搜索</button>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<table class="table table-striped">
+										<tbody>
+											<tr>
+												<th class="see textri">查看筛选结果:</th>
+												<td class="see">
+													<select name="day" id="day">
+														<option value="1">所有交易类型</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+													</select>
+													或
+													<a href="#">搜索交易</a>
+												</td>
+											</tr>
+											<tr>
+												<th class="textri">时间期限:</th>
+												<td class="textle">
+													<ul class="ulLifl clearfix">
+														<li>结算周期</li>
+														<li>|</li>
+														<li>
+															<a href="#">天数范围</a>
+														</li>
+														<li>|</li>
+														<li>
+															<a href="#">自定义日期范围</a>
+														</li>
+													</ul>
+												</td>
+											</tr>
+										</tbody>
+
+									</table>
+									<button type="button" class="btn btn-warning">更新</button>
+
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading"></div>
+									<div class="panel-body">
+										未找到任何结果
+									</div>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="messages">
+								<div class="frcontent mt10 clearfix">
+									<div class="boxRight fr">
+										<label for="oederNum">查找某项交易</label>
+										<input type="text" id="orderNum" placeholder="输入订单编号" />
+										<button class="btn btn-default">搜索</button>
+									</div>
+								</div>
+								<div class="cenBox">
+									<p>下载亚马逊对您的账户进行结算时所创建的报告。
+										<a href="#">了解更多信息</a>
+									</p>
+									<ol>
+										<li>
+											<a href="#">何时向我付款？</a>
+										</li>
+										<li>
+											<a href="#">为什么有些报告会丢失？</a>
+										</li>
+									</ol>
+									<div class="panel panel-default">
+										<div class="panel-heading">选择日期范围:自-
+											<div class="row">
+												<div class="col-md-2">
+													<div class="input-group">
+														<span class="input-group-addon" id="basic-addon1"><i class="fa fa-calendar"></i></span>
+														<input type="text" id="calendar" placeholder="test" class="form-control">
+													</div>
+												</div>
+											</div>
+											至-
+											<div class="row">
+												<div class="col-md-2">
+													<div class="input-group">
+														<span class="input-group-addon" id="basic-addon1"><i class="fa fa-calendar"></i></span>
+														<input type="text" id="calendar" placeholder="test" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="panel-body">
+											Panel content
+										</div>
+									</div>
+									<p>请注意：只有当您的余额为正时，才会有付款。付款一般在结算报告日的3-5个工作日内进行</p>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="settings">
+								<div class="frcontent mt10 clearfix">
+									<span>没有看到您需要的文档？</span><a href="#">Generate Report</a>
+									<div class="boxRight">
+										<label for="oederNum">查找某项交易</label>
+										<input type="text" id="orderNum" placeholder="输入订单编号" />
+										<button class="btn btn-default">搜索</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+
+</html>

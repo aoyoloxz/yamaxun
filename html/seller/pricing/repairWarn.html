@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>修复价格警告</title>
+		<link rel="stylesheet" href="../../../css/base.css" />
+		<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../../css/sellerOrder.css" />
+	</head>
+
+	<body>
+		<div class="repairWran">
+			<div class="repairWranBox wPad30">
+
+				<div class="contentBox">
+					<div class="headBox">
+						<ol class="breadcrumb">
+							<li>
+								<a href="#">查看定价助理</a>
+							</li>
+							<li>
+								<a href="#">管理定价</a>
+							</li>
+							<li>
+								<a href="autoPricing.html">自动定价</a>
+							</li>
+						</ol>
+					</div>
+					<div class="topH clearfix">
+						<div class="flBox fl clearfix">
+							<div class="fl">
+								<h1>修复价格警告</h1>
+								<a href="#">了解更多信息</a>
+							</div>
+						</div>
+						<div class="frbox fr mt10">
+							<div class="fr">
+								<button type="button" class="btn btn-default">添加新商品</button>
+								<button type="button" class="btn btn-default">首选项：隐藏0列</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">目前，您没有商品价格警告。您可以访问"管理定价"查看和调整您的商品价格</h3>
+						</div>
+						<div class="panel-body">
+							<select name="oncl">
+								<option value="1">应用于0件选定商品</option>
+							</select>
+							<input type="text" placeholder="搜索SKU、标题、ISBN" />
+							<button type="button" class="btn btn-default">搜索</button>
+							<select name="term">
+								<option value="1">已设定筛选条件：0个</option>
+							</select>
+							<span>0件商品</span>
+
+						</div>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>状态</th>
+									<th>SKU</th>
+									<th>商品名称</th>
+									<th>状况 创建日期</th>
+									<th>可售</th>
+									<th>价格+配送费</th>
+									<th>价格下限</th>
+									<th>价格上限</th>
+									<th>订单配送方</th>
+								</tr>
+							</thead>
+							<tbody>
+
+							</tbody>
+						</table>
+						<h4>您当前没有符合此条件的商品。请使用以下筛选条件查看更多商品。</h4>
+
+					</div>
+					<nav aria-label="..." class="fr clearfix">
+						<ul class="pagination">
+							<li class="disabled">
+								<span>
+        								<span aria-hidden="true">&laquo;</span>
+								</span>
+							</li>
+							<li class="active">
+								<span>1 <span class="sr-only">(current)</span></span>
+							</li>
+							<li>
+								<span>2 <span class="sr-only">(current)</span></span>
+							</li>
+							<li>
+								<span>3 <span class="sr-only">(current)</span></span>
+							</li>
+							<li>
+								<span>4 <span class="sr-only">(current)</span></span>
+							</li>
+							<li class="disabled">
+								<span>
+        								<span aria-hidden="true">&raquo;</span>
+								</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+
+</html>

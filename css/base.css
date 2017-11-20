@@ -131,6 +131,30 @@ s, i, em {
     display: block;
 }
 /*显示与隐藏元素 E*/
+
+/*文本局对齐方式*/
+.textle{
+	text-align: left;
+}
+.textri{
+	text-align: right;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.ml10{
+	margin-left: 10px;
+}
+.wPad30{
+	padding: 0px 30px 0px 30px;
+}
+
 /*css 初始化 end */
 
 

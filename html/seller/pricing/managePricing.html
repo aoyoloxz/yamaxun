@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>管理定价</title>
+		<link rel="stylesheet" href="../../../css/base.css" />
+		<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../../css/sellerOrder.css" />
+	</head>
+
+	<body>
+		<div class="repairWran">
+			<div class="repairWranBox wPad30">
+
+				<div class="contentBox">
+					<div class="headBox">
+						<a href="#">查看定价助理</a> |
+						<span>管理定价</span> |
+						<a href="autoPricing.html">自动定价</a>
+					</div>
+					<div class="topH clearfix">
+						<div class="flBox fl clearfix">
+							<div class="fl">
+								<h1>管理定价</h1>
+								<a href="#">了解更多信息</a>
+							</div>
+						</div>
+						<div class="frbox fr mt10">
+							<div class="fr">
+								<button type="button" class="btn btn-default">添加新商品</button>
+								<button type="button" class="btn btn-default">首选项：隐藏0列</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading clearfix">
+							<select name="oncl" class="navbar-left">
+								<option value="1">应用于0件选定商品</option>
+							</select>
+							<form class="navbar-form navbar-left mt0">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="搜索SKU、标题、ISBN">
+								</div>
+								<button type="submit" class="btn btn-default">搜索</button>
+							</form>
+							<select name="term" class="navbar-left">
+								<option value="1">已设定筛选条件：0个</option>
+							</select>
+							<span>0件商品</span>
+
+						</div>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>状态</th>
+									<th>SKU</th>
+									<th>商品名称</th>
+									<th>状况 创建日期</th>
+									<th>可售</th>
+									<th>价格+配送费</th>
+									<th>价格下限</th>
+									<th>价格上限</th>
+									<th>订单配送方</th>
+								</tr>
+							</thead>
+							<tbody>
+
+							</tbody>
+						</table>
+						<h4>您当前没有符合此条件的商品。请使用以下筛选条件查看更多商品。</h4>
+
+					</div>
+
+					<nav aria-label="..." class="fr clearfix">
+						<ul class="pagination">
+							<li class="disabled">
+								<span>
+        								<span aria-hidden="true">&laquo;</span>
+								</span>
+							</li>
+							<li class="active">
+								<span>1 <span class="sr-only">(current)</span></span>
+							</li>
+							<li>
+								<span>2 <span class="sr-only">(current)</span></span>
+							</li>
+							<li>
+								<span>3 <span class="sr-only">(current)</span></span>
+							</li>
+							<li>
+								<span>4 <span class="sr-only">(current)</span></span>
+							</li>
+							<li class="disabled">
+								<span>
+        								<span aria-hidden="true">&raquo;</span>
+								</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+
+</html>

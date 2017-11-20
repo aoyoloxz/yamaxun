@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>管理退货</title>
+		<link rel="stylesheet" href="../../../css/base.css" />
+		<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../../css/sellerOrder.css" />
+	</head>
+
+	<body>
+		<div class="manageReturns">
+			<div class="manageReturnsBox wPad30">
+
+				<div class="contentBox">
+
+					<h1>管理退货</h1>
+					<a href="#">了解更多信息</a> |
+					<a href="#">视频教程</a>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<span>搜索条件：</span>
+							<select name="date">
+								<option value="日期范围">日期范围</option>
+							</select>
+							<select name="oldDay">
+								<option value="1">过去7天</option>
+								<option value="2">过去15天</option>
+								<option value="3">过去30天</option>
+							</select>
+							<button type="button" class="btn btn-default">搜索</button>
+						</div>
+						<div class="panel-body">
+							<div class="autoReturns">
+								<p>自动批准的退货申请：正在加载...
+									<a href="#">编辑退货设置</a>
+								</p>
+							</div>
+							<div class="ulBox">
+								<h4>排序依据与筛选条件：</h4>
+								<ul class="clearfix">
+									<li>最新评论优先</li>
+									<li>最早评论优先</li>
+									<li>查看所有</li>
+									<li>需要授权</li>
+									<li>通过亚马逊商城交易保障索赔</li>
+									<li>
+										<select name="elsecon">
+											<option value="1">其他筛选条件</option>
+										</select>
+									</li>
+								</ul>
+							</div>
+
+							<div class="taBox">
+								未搜索到符合您要求的退货申请。
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+
+</html>

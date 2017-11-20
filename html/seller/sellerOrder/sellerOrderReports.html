@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>订单报告</title>
+		<link rel="stylesheet" href="../../../css/base.css" />
+		<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../../css/sellerOrder.css" />
+
+	</head>
+
+	<body>
+		<div class="sellorderReports">
+			<div class="sellorderReportsBox wPad30">
+
+				<div class="contentBox">
+					<div class="context">
+						<h1>订单报告</h1>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<h3>新品！请选择您要在订单报告中看到的列</h3>
+								<p>要开始使用，请转到
+									<a href="#">添加或一处订单报告列</a>。您选择的列将应用于将来的所有报告。
+									<a href="#">了解更多信息</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="lisp clearfix mt10 mb10">
+							<span class="fl">新订单 | <a href="#">待处理订单</a></span>
+							<span class="fr"><a href="#">添加或移除列</a>&nbsp; <a href="#">新品</a></span>
+						</div>
+						<p>使用此页面，请求并下载包含您所收到的（所选天数内）所有卖家自配送的订单报告，其中包括那些您已经取消或已经确认为已发货的订单报告。
+							<a href="#">了解更多信息</a>
+						</p>
+						<div class="panel panel-default">
+							<div class="panel-heading">请求订单报告</div>
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<th class="textri">选择天数</th>
+											<td class="textle">
+												<select name="day" id="day">
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<th class="textri">包括销售渠道列?</th>
+											<td class="textle">
+												<input type="checkbox" id="check" name="check" /><label for="check">包含一个指明每个订单的销售渠道列</label>
+												<a href="#">了解更多信息</a>
+											</td>
+										</tr>
+									</tbody>
+
+								</table>
+								<button type="button" class="btn btn-warning">请求报告</button>
+
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<h4>已计划订单报告设置 <span class="fr"><button type="button" class="btn btn-default">编辑</button></span></h4>
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-heading">检查报告状态并下载</div>
+								<table class="table table-striped">
+									<thead>
+										<tr>
+											<th>报告类型</th>
+											<th>批量编号</th>
+											<th>涵盖的日期范围</th>
+											<th>请求的日期和时间</th>
+											<th>完整的日期和时间</th>
+											<th>报告状态</th>
+											<th>下载</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td>订单报告（手动）</td>
+											<td>500000000000</td>
+											<td>10-20-10 21时01分01秒 GMT-05：00</td>
+											<td>10-20-10 21时01分01秒 GMT-05：00</td>
+											<td>10-20-10 21时01分01秒 GMT-05：00</td>
+											<td>处理已完成</td>
+											<td>无新订单</td>
+										</tr>
+									</tbody>
+
+								</table>
+						</div>
+
+					</div>
+				</div>
+			</div>
+	</body>
+
+</html>
