@@ -36,4 +36,20 @@
 .noBor tr td{
 	border-top: none !important;
 }
+.retutnMessage .retutnMessageBox .panel{
+	margin-bottom: 0px;
+}
+.retutnMessage .retutnMessageBox .tableBox  ul li{
+	display: block;
+	height: 50px;
+	line-height: 40px;
+}
+.moreText{
+	color: gray;
+	font-size: 12px;
+}
+.btnLis{
+	margin: 0px auto;
+	text-align: center;
+}
 

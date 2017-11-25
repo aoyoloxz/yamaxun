@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>销售指导</title>
+		<link rel="stylesheet" href="../../../css/base.css" />
+		<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../../css/sellerOrder.css" />
+		<script src="../../../js/jquery-2.2.4.js"></script>
+		<script src="../../../lib/node_modules/bootstrap/js/bootstrap.js"></script>
+	</head>
+
+	<body>
+		<div class="sales">
+			<div class="salesBox wPad30">
+
+				<div class="contentBox">
+					<div class="mt10">
+
+						<div>
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active">
+									<a href="#test1" aria-controls="home" role="tab" data-toggle="tab">销售指导报告</a>
+								</li>
+								<li role="presentation">
+									<a href="#test2" aria-controls="profile" role="tab" data-toggle="tab">首选项</a>
+								</li>
+								<li role="presentation">
+									<a href="#test3" aria-controls="messages" role="tab" data-toggle="tab">通知和建议</a>
+								</li>
+								<li role="presentation">
+									<a href="#test4" aria-controls="messages" role="tab" data-toggle="tab">搜索建议</a>
+								</li>
+								<li role="presentation">
+									<a href="#test5" aria-controls="messages" role="tab" data-toggle="tab">筛选后的建议</a>
+								</li>
+								<li role="presentation">
+									<a href="#test6" aria-controls="messages" role="tab" data-toggle="tab">在库库存报告</a>
+								</li>
+								<li role="presentation">
+									<a href="#test7" aria-controls="messages" role="tab" data-toggle="tab">电子邮件设置</a>
+								</li>
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<!--test1 begin-->
+								<div role="tabpanel" class="tab-pane active" id="test1">
+									<div class="lrBox row mt30">
+										<div class="lef col-lg-2 col-sm-2">
+											<div class="panel panel-default">
+												<div class="panel-heading">您的报告</div>
+												<div class="panel-body">
+													<a href="#">搜索建议</a>
+													<ul class="mt10">
+														<li>库存(0)</li>
+														<li>销售机会(0)</li>
+														<li>配送(0)</li>
+														<li>价格建议(0)</li>
+														<li>特色建议(0)</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="rig col-lg-10 col-sm-10">
+											<div class="ulP">
+												<ul class="clearfix">
+													<li class="fl mr10">
+														<h2>库存建议</h2></li>
+													<li class="fl mr10 mt30">
+														<a href="#">了解更多信息</a>
+													</li>
+													<li class="fl mt30">
+														<a href="#">观看演示</a>
+													</li>
+												</ul>
+												<div class="panel panel-default mt10">
+													<div class="panel-body">
+														<p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>未找到任何结果</p>
+													</div>
+												</div>
+
+												<div class="panel panel-default">
+													<div class="panel-heading clearfix">
+														<form class="navbar-form navbar-left mt0">
+															<div class="form-group">
+																<input type="text" class="form-control" placeholder="搜索">
+															</div>
+															<button type="submit" class="btn btn-default">搜索</button>
+														</form>
+														<span class="mt10">0结果</span>
+														<button type="submit" class="btn btn-default">下载</button>
+														<button type="submit" class="btn btn-default">补充亚马逊库存</button>
+														<button type="submit" class="btn btn-default fr">首选项：隐藏1列 &gt;</button>
+
+													</div>
+													<table class="table">
+														<thead>
+															<tr>
+																<th>SKU</th>
+																<th>图片</th>
+																<th>商品名称</th>
+																<th>过去30天内的销售情况</th>
+																<th>过去14天内的销售情况</th>
+																<th>当前库存</th>
+																<th>预计可销售天数</th>
+																<th>入库数量</th>
+																<th>推荐入库数量</th>
+																<th>过去30天内的商品缺货天数</th>
+																<th>过去30天内的销售损失(MXN$)</th>
+																<th>类型</th>
+																<th>操作</th>
+															</tr>
+														</thead>
+														<tbody>
+
+														</tbody>
+													</table>
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!--test1 end-->
+
+								<!--test2 begin-->
+								<div role="tabpanel" class="tab-pane" id="test2">
+									<div class="panel panel-default mt30">
+										<div class="panel-heading">
+											<ul class="clearfix">
+												<li class="fl">
+													<h3>“销售机会”设置</h3></li>
+												<li class="fl mt30 ml30">在亚马逊上供货有限的畅销商品</li>
+											</ul>
+										</div>
+										<div class="panel-body row">
+											<div class="leftBox col-lg-4 col-sm-4">
+												<h2>用以修改建议的品牌</h2>
+												<p>如果适用，这些品牌将用于更改您的“销售机会”建议</p>
+												<form class="form-inline mt10">
+													<div class="form-group">
+														<label for="exampleInputName2">选择要包含的品牌</label>
+														<input type="text" class="form-control" id="exampleInputName2" placeholder="输入品牌名称">
+													</div>
+													<button type="submit" class="btn btn-default">包含品牌</button>
+													<div class="box mt30"></div>
+													<div class="form-group">
+														<label for="exampleInputEmail2">选择要排除的品牌</label>
+														<input type="email" class="form-control" id="exampleInputEmail2" placeholder="输入品牌名称">
+													</div>
+													<button type="submit" class="btn btn-default">排除品牌</button>
+												</form>
+											</div>
+											<div class="rightBox col-lg-8 col-sm-8">
+												<p class="mt30"><strong>已包含品牌</strong>如果适用，这些品牌将出现在您的“销售机会”建议中</p>
+												<p class="mt30"><strong>已排除品牌</strong>这些品牌将从您的“销售机会”建议中移除</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!--test2 end-->
+
+								<!--test3 begin-->
+								<div role="tabpanel" class="tab-pane" id="test3">
+									<p class="mt30">您的所有来自销售指导的电子邮件均保存在下方。点击任何邮件可查看其内容。转至“电子邮件设置”选项卡更新您的配送首选项</p>
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="panel panel-default">
+												<div class="panel-heading">亚马逊销售指导和建议</div>
+												<div class="panel-body">
+													<div class="panel panel-default">
+														<div class="panel-body">
+															显示：
+															<select name="all" id="all">
+																<option value="1">所有通知和建议</option>
+															</select>
+															<p class="mt10">自：-- 至 --
+																<button type="submit" class="btn btn-warning">应用</button>
+															</p>
+														</div>
+													</div>
+													<div class="panel panel-default">
+														<div class="panel-body">
+															<p>在特定的日期范围或类别内没有通知和建议信息</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="panel panel-default">
+												<div class="panel-heading">针对成功销售的通用建议</div>
+												<div class="panel-body">
+													<p>如果您想要了解关于如何在亚马逊管理业务的更多信息，请从以下列表中选择一个链接</p>
+													<ul>
+														<li>
+															<a href="#">从销售指导获取更多业务帮助</a>
+														</li>
+														<li>
+															<a href="#">帮助买家找到您在售的商品</a>
+														</li>
+														<li>
+															<a href="#">提供详细的商品信息</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!--test3 end-->
+
+								<!--test4 bengin-->
+
+								<div role="tabpanel" class="tab-pane active" id="test4">
+									<div class="panel panel-default mt30">
+										<div class="panel-body">
+											<h3>欢迎！</h3>
+											<p>使用此页面搜索建议。按照商品名称、品牌、分类或ASIN搜索。</p>
+
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-4">
+											<input type="text" class="form-control" placeholder="搜索">
+
+										</div>
+										<button type="submit" class="btn btn-default">搜索</button>
+										<select name="all" id="all">
+											<option value="1">筛选条件：1项已应用</option>
+										</select>
+										<button type="submit" class="btn btn-default">下载</button>
+
+									</div>
+
+								</div>
+								<!--test4 end-->
+
+								<!--test5 begin-->
+								<div role="tabpanel" class="tab-pane active" id="test5">
+									<p class="mt30">此列表包含从“销售指导”建议中选择的所有商品。</p>
+									<div class="panel panel-default">
+										<div class="panel-body">
+											未找到任何结果。
+										</div>
+									</div>
+									<p class="mt30">0商品</p>
+									<table class="table table-striped">
+										<tr>
+											<th>图片</th>
+											<th>ASIN</th>
+											<th>UPC</th>
+											<th>商品名称</th>
+											<th>分类</th>
+											<th>品牌</th>
+											<th>建议类型</th>
+											<th>选择</th>
+											<th>操作</th>
+										</tr>
+									</table>
+								</div>
+								<!--test5 end-->
+
+								<!--test6 begin-->
+
+								<div role="tabpanel" class="tab-pane active" id="test6">
+									<h1>在库库存</h1>
+									<a href="#">了解更多信息</a>
+									<p class="mt30 mb30">在库库存报告为您在过去60天内的有单笔或多笔销售的在售商品提供库存指标。该报告提供有关“预计销售报告”、“预计可维持销售的天数”和“平均每周销量”的信息。要更新库存数量或创建亚马逊入库货件，请点击“编辑”按钮。</p>
+									<button type="submit" class="btn btn-default">搜索</button>
+									<select name="all" id="all">
+										<option value="1">筛选条件：1项已应用</option>
+									</select>
+									<div class="panel panel-default mt30">
+										<div class="panel-heading">
+											<ul class="clearfix">
+												<li class="fl mt10">已筛选条件：</li>
+												<li class="fl mt10 ml30">时间段：30天</li>
+												<li class="fl mt10 ml30">订单配送方：全部</li>
+												<li class="fl ml30">
+													<button type="submit" class="btn btn-default">清除筛选条件</button>
+												</li>
+											</ul>
+										</div>
+										<div class="panel-body row">
+											<ul class="clearfix">
+												<li class="fl mt10">筛选条件：</li>
+												<li class="fl mt10 ml30">时间段：
+													<span class="glyphicon glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+												</li>
+												<li class="fl mt10 ml30">订单配送方：
+													<span class="glyphicon glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+												</li>
+											</ul>
+										</div>
+									
+										<table class="table table-striped">
+											<tr>
+												<th>商品名称ASIN</th>
+												<th>SKU订单配送方</th>
+												<th>在库率%(特定时间段内) 变化</th>
+												<th>预计销售损失</th>
+												<th>预计销售损失(数量)</th>
+												<th>预计可维持的销售天数</th>
+												<th>当前库存</th>
+												<th>脱销天数</th>
+												<th>销量</th>
+												<th>不缺货时平均每周销量</th>
+												<th>销量排行</th>
+												<th>
+													<button type="submit" class="btn btn-default">保存</button>
+
+												</th>
+
+											</tr>
+										</table>
+									
+									</div>
+								</div>
+
+									<!--test6 end-->
+
+									<!--test7 begin-->
+									<div role="tabpanel" class="tab-pane active" id="test7">
+										<p class="mt30">在下方查看您的设置。点击“编辑”按钮来更改信息。如果您尚未提交资质审核材料，请先了解
+											<a href="#">所需提交的资质材料清单及如何提交</a>
+										</p>
+										<div class="panel panel-default">
+											<div class="panel-heading clearfix">
+												<span><h3 class="panel-title fl">语言</h3></span>
+												<span class="fr"><a href="#">编辑</a></span>
+											</div>
+											<div class="panel-body">
+												<p>建议的显示语言。使用"编辑"按钮可更改语言首选项。</p>
+												<p>中文</p>
+											</div>
+										</div>
+										<div class="panel panel-default">
+											<div class="panel-heading clearfix">
+												<span><h3 class="panel-title fl">电子邮件</h3></span>
+												<span class="fr"><a href="#">编辑</a></span>
+											</div>
+											<div class="panel-body">
+												<p>目前已将下列同志发送到此电子邮件地址。使用“编辑”按钮可更改电子邮件地址</p>
+												<p>11111111111@qq.com</p>
+											</div>
+										</div>
+										<div class="panel panel-default">
+											<div class="panel-heading clearfix">
+												<span><h3 class="panel-title fl">通知</h3></span>
+												<span class="fr"><a href="#">编辑</a></span>
+											</div>
+											<div class="panel-body">
+
+											</div>
+										</div>
+									</div>
+									<!--test7 end-->
+
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+	</body>
+
+</html>
