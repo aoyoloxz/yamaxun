@@ -1,0 +1,183 @@
+/*设置首选项*/
+#setNotificationPreferences{
+	margin-left: calc(0vw);
+	.setNotificationPreferencesInner{
+		max-width: 969px;
+		margin:14px auto;
+		.innerContent{
+			.contentTip{
+				p{margin:0px;}
+			}
+			.contentWrapNav{
+				span.glyphicon{width:16px;height:16px;}
+				.nav{
+				    background-color: #f3f3f3;
+				    border: 1px solid #ddd;
+				    border-left:none;
+					li.active{
+						color:#c45500;
+						a{
+							color:inherit;
+							font-weight:bold;
+							border-top:2px solid #c45500;
+						}
+					}
+				}
+				.informTabContent{
+				    border: 1px solid #ddd;
+				    border-top: none;
+				    padding: 11px 16px;
+				    span.smallIcon{
+						.display(inline-block);
+						width:14px;height:13px;
+						background-image:url(../images/Am.png);
+						background-repeat:no-repeat;
+						background-size: 400px 600px;
+						background-position:-160px -102px;
+						vertical-align:text-top;
+					}
+					.tab-content{
+						#infoContent{
+							.blockTip{
+								.tipInner{
+									.display(flex);
+									margin-bottom: 11px;
+									padding: 10px 17px;
+								    border: 1px solid;
+								    border-color: #bbd3de;
+								    border-radius: 3px;
+								    background-color: #f6f6f6;
+									span{
+									    display: inline-block;
+									    width: 27px;
+									    height: 26px;
+									    background-image: url(../images/Am.png);
+									    background-repeat: no-repeat;
+									    background-size: 400px 600px;
+									    -webkit-background-size: 400px 600px;
+									    background-position: -350px -28px;
+									    vertical-align: middle;
+									    margin: 0 11px 0 0;
+									}
+									p{.display(inline-block);margin:0px;}
+								}
+							}
+							.wrapInfoPanel{
+								.panel-group{
+									.panel{
+										margin-bottom:21px!important;
+										.panel-heading{
+											h4.panel-title{
+												a{	
+													.display(flex);
+													justify-content:space-between;
+												    align-items: center;
+													&:hover,&:focus{text-decoration:none;}
+													.titleLeft{
+														span{font-size:17px;font-weight:bold;}
+														p{font-size:12px;margin:4px 0px 0px 0px;}
+													}
+													.titleRight{
+														.btn{
+															background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+														}
+													}
+												}
+												
+											}
+										}
+										.panel-collapse{
+											.panel-body{
+												ul{
+													li{
+													    padding: 14px 11px;
+														border-bottom: 1px solid #ddd;
+														&:last-child{border-bottom:none;}
+														p.liTip{
+															a{}
+														}
+														.liBlock{
+															.display(flex);
+															justify-content:space-between;
+															.bockLeft{
+																width:48%;
+																label{
+																	.display;
+																	input{vertical-align: top;}
+																	p{margin-left: 17px;color:#777;}
+																}
+															}
+															.bockRight{
+															    width:49%;
+															    display: flex;
+																label{
+																	vertical-align:top;
+																	color:#777;
+																	width:100px;
+																}
+																div{
+																	margin-left: -17px;
+																	display: flex;
+																	p{
+																		.display(inline-block);
+																	    max-width: 320px;
+
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						#contactsContent{
+							.wrapcontactsPanel{
+								.panel{
+									.panel-heading{}
+									.panel-body{
+										padding:0px;
+										ul{
+											margin:0px;
+											li{
+												.display(flex);
+											    align-items: center;
+											    padding:15px;
+												div{}
+												.liLabel{flex-basis:128px;}
+												.liVal{
+													flex:1;
+													p{
+														.display(inline-block);
+													}
+												}
+												.liEdit{
+													flex-basis:69px;
+													text-align:right;
+													a:hover{
+														color:#c45500;
+													}
+												}
+												&:nth-child(1){
+													border-bottom:1px solid #ddd;
+													background:#f6f6f6;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.display(@block:block){
+	display:@block;
+}

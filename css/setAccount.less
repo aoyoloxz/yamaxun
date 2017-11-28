@@ -1,0 +1,140 @@
+#setAccount{
+	.setAccountInner{
+		padding:13px 18px;
+		.innerHeader{
+			.headerTitle{
+				h3{.color;}
+			}
+		}
+		.innerContent{
+			.display(flex);
+			.panel-heading{
+				font-weight:bold;
+			}
+			.contentLeft{
+				flex-basis:343px;
+				.leftInner{
+					.innerGreet{
+						font-weight:bold;
+						padding:9px;
+						border:1px solid #ddd;
+						border-radius:3px;
+						.mgbotm;
+						p{
+							.display(inline-block);
+							margin:0px;
+						}
+						a{}
+					}
+					.innerGoodStatus{
+						.panel{
+							.mgbotm;
+							span{}
+							a{}
+						}
+						.list-group{
+							li{
+								.display(flex);
+								.Curlabel{
+									flex:1;
+									text-align: right;
+    								padding-right: 11px;
+    								font-weight:bold;
+								}
+								.labelVal{
+									flex:1;
+									min-width: 131px;
+    								word-break: break-word;
+									div{}
+									span{.display(block);font-size:11px;}
+								}
+							}
+						}
+					}
+				}
+			}
+			.contentCenter{
+				flex:1;
+				.centerInner{
+					margin-left:18px;
+					.wrapPanel{
+						.panel{
+							.list-group{
+							    padding-bottom: 9px;
+								.list-group-item{
+									.display(flex);
+									border:none;
+									div{
+										.display(inline-block);
+										flex:1;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.contentRight{
+				flex-basis:279px;
+				.rightInner{
+					margin-left:18px;
+					.wrapPanel{
+						.panel{
+							.list-group{
+								.list-group-item{
+									border:none;
+								}
+							}
+							.questionList{
+								a{
+									text-decoration:underline;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.innerFooter{margin-bottom:50px;}
+}
+/*底部*/
+	.innerFooter{
+	    width: 100%;
+		.footerInner{
+			padding:17px 23px;
+			text-align:center;
+			background:#f3f3f3;
+			.footerLink{
+				.display(inline-block);
+				float:left;
+				a{
+					padding:0px .5em;
+				}
+				span{
+					color:#ddd;
+				}
+			}
+			.footerBasis{
+				.display(inline-block);
+				float:right;
+			}
+		}
+	}
+@media screen and (max-width:736px){
+	.innerFooter .footerLink,
+	.innerFooter .footerBasis{
+		float:none!important;
+	}
+}
+
+
+.display(@block:block){
+	display:@block;
+}
+.mgbotm(@margin:16px){
+	margin-bottom:16px;
+}
+.color(@color:#c45500){
+	color:@color;
+}

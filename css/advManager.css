@@ -1,0 +1,976 @@
+/*广告`秒杀*/
+#advertKill .advertKillInner .innerHeader {
+  padding: 17px 23px 0px;
+}
+#advertKill .advertKillInner .innerHeader .headerTitle h2 {
+  font-size: 23px;
+}
+#advertKill .advertKillInner .innerContent {
+  padding: 0px 23px 17px;
+  display: flex;
+}
+#advertKill .advertKillInner .innerContent .contentLeft {
+  max-width: 199px;
+}
+#advertKill .advertKillInner .innerContent .contentLeft .blockWrap .nav {
+  border: none;
+}
+#advertKill .advertKillInner .innerContent .contentLeft .blockWrap .nav li.active > a {
+  border-color: #ffab40;
+  border-radius: 5px;
+}
+#advertKill .advertKillInner .innerContent .contentLeft .blockWrap .nav .block {
+  padding: 15px;
+  margin: 16px 0px;
+  border: 1px solid;
+  font-weight: bold;
+  color: inherit;
+  border-color: #dddddd;
+  border-radius: 5px;
+}
+#advertKill .advertKillInner .innerContent .contentLeft .blockWrap .nav .block:hover {
+  background: transparent;
+}
+#advertKill .advertKillInner .innerContent .contentRight {
+  flex: 1;
+  margin-left: 26px;
+  padding: 16px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .KillDetail p {
+  display: inline;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .KillDetail a {
+  text-decoration: underline;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .blockTitle h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .recommendBlock .blockSelect {
+  padding-top: 1px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .recommendBlock .blockSelect .selectTitle {
+  font-size: 15px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .recommendBlock .blockSelect .selectUl {
+  font-style: italic;
+  list-style: disc;
+  padding-left: 20px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-heading {
+  padding: 0px 2px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-body {
+  padding: 5px 24px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-body .lisStyDsic:before {
+  content: '●';
+  color: #999;
+  padding-right: 5px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-title a:before {
+  content: '▶';
+  color: #666;
+  padding-right: 5px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-title a:not a:before(.collapsed) {
+  /*content:'▽';*/
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel,
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-heading,
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-body {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel a,
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-heading a,
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-body a {
+  color: #0066c0;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel a:hover,
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-heading a:hover,
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .startActivity #accordion .panel-body a:hover {
+  text-decoration: none;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .allRecommend .blockTitle h3 {
+  display: inline-block;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .allRecommend .blockTip .tipInner {
+  padding: 10px 17px;
+  border: 1px solid;
+  border-color: #bbd3de;
+  border-radius: 5px;
+  background-color: #f6f6f6;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .allRecommend .blockTip .tipInner span {
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  -webkit-background-size: 400px 600px;
+  background-position: -350px -28px;
+  vertical-align: middle;
+  margin: 0 11px 0 0;
+}
+#advertKill .advertKillInner .innerContent .contentRight #createKillContent .allRecommend .blockTip .tipInner p {
+  display: inline-block;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .searchBlock .btn-group .btn,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .searchBlock .btn-group .btn,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .searchBlock .btn-group .btn,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .searchBlock .btn-group .btn {
+  background-color: #F7F8FA;
+  color: #999999;
+  margin-right: 22px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .searchBlock .btn-group .input-group,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .searchBlock .btn-group .input-group,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .searchBlock .btn-group .input-group,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .searchBlock .btn-group .input-group {
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .searchBlock .btn-group .input-group input.form-control,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .searchBlock .btn-group .input-group input.form-control,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .searchBlock .btn-group .input-group input.form-control,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .searchBlock .btn-group .input-group input.form-control {
+  width: 186px;
+  height: 35px;
+  padding-left: 25px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .searchBlock .btn-group .input-group .input-group-addon,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .searchBlock .btn-group .input-group .input-group-addon,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .searchBlock .btn-group .input-group .input-group-addon,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .searchBlock .btn-group .input-group .input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #686F76;
+  width: auto;
+  line-height: normal;
+  cursor: pointer;
+  margin-left: -4px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .searchBlock .btn-group .input-group .shuliang,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .searchBlock .btn-group .input-group .shuliang,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .searchBlock .btn-group .input-group .shuliang,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .searchBlock .btn-group .input-group .shuliang {
+  padding-left: 20px;
+  line-height: 35px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .searchBlock .btn-group .input-group .wrapSelect,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .searchBlock .btn-group .input-group .wrapSelect,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .searchBlock .btn-group .input-group .wrapSelect,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .searchBlock .btn-group .input-group .wrapSelect {
+  margin: 0px -20px 0px 24px;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .filterBlock,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .filterBlock,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .filterBlock,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .filterBlock {
+  padding: 6px 10px;
+  margin-top: 5px;
+  background-color: #f3f3f3;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .filterBlock ul,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .filterBlock ul,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .filterBlock ul,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .filterBlock ul {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  display: inline-block;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .filterBlock ul li,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .filterBlock ul li,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .filterBlock ul li,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .filterBlock ul li {
+  list-style: none;
+  padding: 5px 20px 5px 15px;
+  border-right: 1px solid #ddd;
+  display: inline-block;
+  white-space: nowrap;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .filterBlock ul li:last-child,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .filterBlock ul li:last-child,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .filterBlock ul li:last-child,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .filterBlock ul li:last-child {
+  border-right: 0;
+}
+#advertKill .advertKillInner .innerContent .contentRight #needRevise .wrapTable .table,
+#advertKill .advertKillInner .innerContent .contentRight #beginInMinute .wrapTable .table,
+#advertKill .advertKillInner .innerContent .contentRight #alreadyOver .wrapTable .table,
+#advertKill .advertKillInner .innerContent .contentRight #allCommitKill .wrapTable .table {
+  background: linear-gradient(to bottom, #f8f8f8, #eeeeee);
+  margin-top: 9px;
+}
+#advertKill .advertKillInner .innerFooter .footerInner {
+  padding: 17px 23px;
+  text-align: center;
+  background: #f3f3f3;
+}
+#advertKill .advertKillInner .innerFooter .footerInner .footerLink {
+  display: inline-block;
+  float: left;
+}
+#advertKill .advertKillInner .innerFooter .footerInner .footerLink a {
+  padding: 0px .5em;
+}
+#advertKill .advertKillInner .innerFooter .footerInner .footerLink span {
+  color: #ddd;
+}
+#advertKill .advertKillInner .innerFooter .footerInner .footerBasis {
+  display: inline-block;
+  float: right;
+}
+#advertKill .innerFooter {
+  margin-top: 135px;
+}
+/*秒杀帮助*/
+#advertKillHelp .killHelpInner {
+  padding: 50px 45px;
+  display: flex;
+}
+#advertKillHelp .killHelpInner a {
+  color: #00a4b5;
+}
+#advertKillHelp .killHelpInner .innerLeft {
+  flex: 1;
+  padding-right: 132px;
+}
+#advertKillHelp .killHelpInner .innerLeft .leftHeader .breadcrumb {
+  background: transparent;
+  border-bottom: 1px solid #ddd;
+  padding: 6px 0px;
+}
+#advertKillHelp .killHelpInner .innerLeft .leftContent .contentUl {
+  margin: 28px 0px;
+}
+#advertKillHelp .killHelpInner .innerLeft .leftContent .contentUl ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#advertKillHelp .killHelpInner .innerLeft .leftContent .contentUl ul li {
+  padding: 2px 0px;
+}
+#advertKillHelp .killHelpInner .innerLeft .leftContent .contentRadioBlock .blockQuestion {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 11px 0px 0px;
+}
+#advertKillHelp .killHelpInner .innerLeft .leftContent .contentRadioBlock .blockQuestion p {
+  display: inline-block;
+  margin-right: 20px;
+}
+#advertKillHelp .killHelpInner .innerRight {
+  flex-basis: 300px;
+}
+#advertKillHelp .killHelpInner .innerRight .panelGroup .panel .panel-heading {
+  display: flex;
+  justify-content: space-between;
+}
+#advertKillHelp .killHelpInner .innerRight .panelGroup .panel .panel-heading h3 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#advertKillHelp .killHelpInner .innerRight .panelGroup .panel .panel-heading span {
+  font-size: 23px;
+}
+#advertKillHelp .killHelpInner .innerRight .panelGroup .panel .panel-body .wrapUl .ulTitle {
+  padding: 6px 9px;
+  background: #f5f5f5;
+}
+#advertKillHelp .killHelpInner .innerRight .panelGroup .panel .panel-body ul {
+  margin: 0px;
+}
+#advertKillHelp .killHelpInner .innerRight .panelGroup .panel .panel-body ul li {
+  padding: 8px 6px 6px;
+  border-bottom: 1px solid #ddd;
+}
+#advertKillHelp .killHelpInner .innerRight .panelGroup .panel .panel-body ul li:last-child {
+  border-bottom: none;
+}
+#advertKillHelp .innerFooter {
+  margin-top: 15px;
+}
+/*所有促销商品活动*/
+#allSalesPromotionActivity .allSalesPromotionActivityInner {
+  padding: 17px 35px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerHeader .headTitle h3 {
+  font-size: 27px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .nav {
+  margin-bottom: 17px;
+  background: #eee;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .nav li a {
+  padding: 8px 15px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .nav li.active > a {
+  color: #c45500;
+  font-weight: 700;
+  border-top: 2px solid #c45500;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .nav .ulRightLink {
+  display: inline-block;
+  float: right;
+  line-height: 36px;
+  padding-right: 13px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content .otherTick {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url(../images/Q1.png);
+  background-repeat: no-repeat;
+  background-position: 2px 3px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .btn-group .groupLeft div {
+  display: inline-block;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .btn-group .groupLeft .line {
+  color: #ddd;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .btn-group .groupRight div,
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .btn-group .groupRight select {
+  display: inline-block;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .table thead tr th {
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .table thead tr th div {
+  text-align: center;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .table thead tr th div .disc {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #999;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .table thead tr .otherMine div {
+  display: flex;
+  justify-content: space-between;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .table tbody {
+  background: #f7f3f7;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .table tbody tr td {
+  border: 1px solid #ddd;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .bottomPage .pageInner nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advActivityContent .bottomPage .pageInner nav ul li {
+  margin: 0px 9px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .dividerInner {
+  height: 15px;
+  margin-bottom: -20px;
+  background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.03) 3px, transparent);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.03) 3px, transparent);
+  z-index: 0;
+  zoom: 1;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner ul {
+  background: transparent;
+  border: none;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner ul li a {
+  padding: 8px 2px;
+  background: transparent;
+  border: none;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner ul li a:hover,
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner ul li a a:focus {
+  background: transparent!important;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner ul li span {
+  padding: 0px 9px;
+  color: #ddd;
+  position: relative;
+  top: 7px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .dealTitle h3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .dealTip {
+  margin-bottom: 16px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .dealTip div p {
+  display: inline-block;
+  margin: 0px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .rowDate {
+  margin-bottom: 16px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .rowDate .rowInput p {
+  margin: 0px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .rowDate .rowInput div {
+  display: inline-block;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .rowDate .rowInput .group {
+  display: flex;
+  justify-content: space-star;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .rowDate .rowInput .group .input-group input {
+  display: inline-block;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .rowDate .rowInput .group .rowMidd {
+  line-height: 34px;
+  margin: 0px 8px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .fileFormat {
+  margin-bottom: 16px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .fileFormat p {
+  margin: 0px;
+  font-weight: bold;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .dealWrap .wrapBtn a {
+  background: #f7c75a;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .batchLoad .loadTitle h3 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .batchLoad .panel {
+  width: 73%;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #showAdvReport .batchLoad .panel .panel-heading table {
+  width: 100%;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #upload .dealTitle h3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #upload .dealTip {
+  margin-bottom: 16px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #upload .dealTip div p {
+  display: inline-block;
+  margin: 0px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #upload .dealWrap .wrapBtn a {
+  background: #f7c75a;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #upload .fileUploadStatus {
+  margin-top: 43px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #upload .fileUploadStatus h3 {
+  margin: 0px 0px 5px;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #batchDealContent .headerDeal .dealInner .tab-content #upload .fileUploadStatus .wrapTable table {
+  width: 69%;
+  background: #f5f5f5;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advSetContent .setInner table tbody tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advSetContent .setInner table tbody tr th,
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advSetContent .setInner table tbody tr td {
+  padding: 7px 14px 6px;
+  width: 56%;
+}
+#allSalesPromotionActivity .allSalesPromotionActivityInner .innerContent .contentNav .goodsActivityContent .tab-content #advSetContent .setInner table tbody tr .leftTitle {
+  background: #f3f3f3;
+}
+#allSalesPromotionActivity .innerFooter {
+  margin-top: 345px;
+}
+/*早期评论者计划*/
+#earlyReviewersPlan .earlyReviewersPlanInner {
+  padding: 50px 45px;
+  display: flex;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner a {
+  color: #00a4b5;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft {
+  flex: 1;
+  padding-right: 132px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftHeader .breadcrumb {
+  background: transparent;
+  border-bottom: 1px solid #ddd;
+  padding: 6px 0px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftContent .contentIgnore .ignoreInner .blockTip {
+  border-left: 5px solid #e9db9e;
+  background-color: #FFF8CD;
+  padding: 15px;
+  margin: 1em 0;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftContent .contentIgnore .ignoreInner .blockTip span {
+  font-weight: 700;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftContent .contentIgnore .ignoreInner .blockTip p {
+  display: inline-block;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftContent .contentUl {
+  margin: 28px 0px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftContent .contentUl .uiTitle {
+  font-weight: bold;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftContent .contentUl ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftContent .contentUl ul li {
+  padding: 2px 0px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftContent .contentRadioBlock .blockQuestion {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 11px 0px 0px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerLeft .leftContent .contentRadioBlock .blockQuestion p {
+  display: inline-block;
+  margin-right: 20px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight {
+  flex-basis: 300px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-heading {
+  display: flex;
+  justify-content: space-between;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-heading h3 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-heading .advIcon,
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-heading .aboutIcon {
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-heading .aboutIcon {
+  background-image: url(../images/Related_Articles.png);
+  background-position-x: 0px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-heading .advIcon {
+  background-image: url(../images/Additional_Help.png);
+  width: 24px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-body .wrapUl .ulTitle {
+  padding: 6px 9px;
+  background: #f5f5f5;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-body ul {
+  margin: 0px;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-body ul li {
+  padding: 8px 6px 6px;
+  border-bottom: 1px solid #ddd;
+}
+#earlyReviewersPlan .earlyReviewersPlanInner .innerRight .panelGroup .panel .panel-body ul li:last-child {
+  border-bottom: none;
+}
+#earlyReviewersPlan .innerFooter {
+  margin-bottom: 51px;
+}
+/*coupons*/
+#coupons .couponsInner .innerHeader .blockTip {
+  margin: 30px 30px 0px;
+}
+#coupons .couponsInner .innerHeader .blockTip .tipInner {
+  padding: 10px 17px;
+  border: 1px solid;
+  border-color: #bbd3de;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+}
+#coupons .couponsInner .innerHeader .blockTip .tipInner span {
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  -webkit-background-size: 400px 600px;
+  background-position: -350px -28px;
+  vertical-align: middle;
+  margin: 0 11px 0 0;
+}
+#coupons .couponsInner .innerHeader .blockTip .tipInner p {
+  display: inline-block;
+}
+/*促销*/
+#salesPromotion .salesPromotionInner {
+  min-width: 998px;
+  padding: 14px 18px 18px;
+  margin: 0 auto;
+}
+#salesPromotion .salesPromotionInner .innerHeader {
+  margin-bottom: 13px;
+}
+#salesPromotion .salesPromotionInner .innerHeader .headTitle h3 {
+  font-size: 28px;
+  display: inline-block;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .nav li.active > a {
+  color: #c45500;
+  font-weight: 700;
+  border-top: 2px solid #c45500;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .nav li > a {
+  padding: 7px 15px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content .tabContTitle {
+  margin: 14px 0px 16px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content .tabContTitle h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content .promotionStatus {
+  margin: 10px 19px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content .promotionStatus p {
+  margin: 0px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content .wrapTable .table {
+  background: linear-gradient(to bottom, #f8f8f8, #eeeeee);
+  margin-top: 9px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #createPromotionContent .rowBlock {
+  margin-bottom: 24px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #createPromotionContent .rowBlock .block .blockTitle h4 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #createPromotionContent .rowBlock .block p {
+  margin: 0 0 13px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #createPromotionContent .rowBlock .block .wrapBtn a {
+  background: linear-gradient(to bottom, #f7f7ff, #efebef);
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #createPromotionContent .rowBlock .block .ignoreBlock {
+  display: flex;
+  color: red;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #createPromotionContent .rowBlock .block .ignoreBlock .plaint {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-position: -139px -131px;
+  margin-top: 4px;
+  padding: 0px 6px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #createPromotionContent .rowBlock .block .ignoreBlock p {
+  display: inline-block;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #managePromotionContent .btn-group {
+  display: flex;
+  justify-content: flex-star;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #managePromotionContent .btn-group div {
+  margin-right: 23px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #managePromotionContent .btn-group div select {
+  width: 180px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #managePromotionContent .btn-group div button {
+  padding: 6px 23px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #686F76;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .headBtn {
+  display: flex;
+  padding: 11px 0px;
+  border-bottom: 1px solid #ddd;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .headBtn div {
+  margin-right: 20px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .headBtn div select {
+  width: 180px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .headBtn div .btn {
+  padding: 6px 23px;
+  background: linear-gradient(to bottom, #f7db9c, #f7c75a);
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .contentInner .btn-group {
+  display: flex;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .contentInner .btn-group div select,
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .contentInner .btn-group div input,
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .contentInner .btn-group div button {
+  width: 180px;
+  margin-right: 20px;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .contentInner .btn-group div .form-control {
+  display: inline-block;
+}
+#salesPromotion .salesPromotionInner .innerContent .contentNav .goodsActivityContent .tab-content #manageGoodsListContent .contentInner .btn-group div button {
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #686F76;
+}
+#salesPromotion .innerFooter {
+  margin-top: 196px;
+}
+/*图文版品牌描述*/
+#txtDescription .txtDescriptionInner .innerHeader {
+  position: relative;
+  margin-bottom: 129px;
+}
+#txtDescription .txtDescriptionInner .innerHeader .headWrapImg {
+  height: 269px;
+  width: 100%;
+  border: 1px solid #ddd;
+  background: green;
+}
+#txtDescription .txtDescriptionInner .innerHeader .headRegisterBlock {
+  position: absolute;
+  left: 50%;
+  margin-left: -275px;
+  top: 136px;
+  width: 550px;
+  height: 195px;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+#txtDescription .txtDescriptionInner .innerHeader .headRegisterBlock .registerBlockInner {
+  padding: 18px 33px;
+  text-align: center;
+}
+#txtDescription .txtDescriptionInner .innerHeader .headRegisterBlock .registerBlockInner div .btn {
+  background: linear-gradient(to bottom, #f7db9c, #f7c75a);
+}
+#txtDescription .txtDescriptionInner .innerContent {
+  padding: 0px 43px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain {
+  display: flex;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainLeft {
+  padding-right: 132px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainLeft .block {
+  flex: 1;
+  display: flex;
+  margin-bottom: 25px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainLeft .block .blockImg {
+  flex-basis: 236px;
+  margin-right: 19px;
+  border: 1px solid purple;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainLeft .block .blockTxt {
+  flex: 1;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainLeft .block .blockTxt .text {
+  margin-bottom: 40px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainLeft .block .blockTxt .text h3 {
+  margin-top: 0px;
+  font-size: 21px;
+  font-weight: bold;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainRight {
+  flex-basis: 366px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainRight .rightTitle h4 {
+  margin-top: 0px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainRight .rightContent .sayBlock {
+  margin-bottom: 15px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainRight .rightContent .sayBlock .blockTxt {
+  padding: 17px 14px;
+  border: 1px solid green;
+  border-radius: 4px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainRight .rightContent .sayBlock .blockTxt p {
+  margin: 0px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainRight .rightContent .sayBlock .blockAuthor {
+  margin-top: 15px;
+  text-align: right;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentMain .mainRight .rightContent .sayBlock .blockAuthor h5 {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom {
+  position: relative;
+  margin: 39px 0px;
+  border: 1px solid #ddd;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom .bottomTip {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -260px;
+  text-align: center;
+  background: #fff;
+  padding: 0px 11px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom .bottomTip h3 {
+  font-size: 23px;
+  margin-top: 0px;
+  letter-spacing: 2px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom .bottomTip p {
+  font-size: 11px;
+  color: #999;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom .mainTip {
+  display: flex;
+  padding: 58px 19px 29px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom .mainTip div {
+  flex: 1;
+  text-align: center;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom .mainTip div p {
+  font-weight: bold;
+  font-size: 16px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom .mainTip div p span {
+  display: inline-block;
+  width: 29px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 100%;
+  background: #73d79c;
+  color: #fff;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom .mainTip .btnBlock p {
+  font-weight: normal;
+  font-size: 15px;
+}
+#txtDescription .txtDescriptionInner .innerContent .contentBottom .mainTip .btnBlock .wrapBtn .btn {
+  background: linear-gradient(to bottom, #f7db9c, #f7c75a);
+}
+#txtDescription .innerFooter {
+  margin-bottom: 50px;
+}
+/*广告付款方式*/
+#advPayMethod .innerFooter {
+  margin-top: 49px;
+}
+#advPayMethod .advPayMethodInner {
+  padding: 16px 31px;
+}
+#advPayMethod .advPayMethodInner h4,
+#advPayMethod .advPayMethodInner p {
+  margin: 0p;
+}
+#advPayMethod .advPayMethodInner .innerTitle h4 {
+  font-size: 21px;
+  color: #e47911!important;
+}
+#advPayMethod .advPayMethodInner .innerTitle p {
+  font-size: 13px;
+}
+#advPayMethod .advPayMethodInner .innerContent {
+  width: 50%;
+  margin-left: 35px;
+}
+#advPayMethod .advPayMethodInner .innerContent .contentPay {
+  padding: 30px 36px;
+  background: #f7f3f7;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+#advPayMethod .advPayMethodInner .innerContent .contentPay .payTitle {
+  font-size: 18px;
+  color: #e47911!important;
+}
+#advPayMethod .advPayMethodInner .innerContent .contentPay ul li label {
+  margin: 0px;
+  font-weight: bold;
+}
+#advPayMethod .advPayMethodInner .innerContent .contentPay ul li p {
+  margin-left: 17px;
+}
+#advPayMethod .advPayMethodInner .innerContent .payBtn {
+  margin: 30px 0px;
+}
+#advPayMethod .advPayMethodInner .innerContent .payBtn .btn {
+  padding: 10px 19px;
+  margin-right: 11px;
+}
+#advPayMethod .advPayMethodInner .innerContent .payBtn .reviseBtn {
+  background: #fff3d6;
+  opacity: 0.5;
+}
+#advPayMethod .advPayMethodInner .innerContent .payBtn .cancelBtn {
+  background: #f7f7f7;
+}
+/*底部*/
+.innerFooter {
+  width: 100%;
+}
+.innerFooter .footerInner {
+  padding: 17px 23px;
+  text-align: center;
+  background: #f3f3f3;
+}
+.innerFooter .footerInner .footerLink {
+  display: inline-block;
+  float: left;
+}
+.innerFooter .footerInner .footerLink a {
+  padding: 0px .5em;
+}
+.innerFooter .footerInner .footerLink span {
+  color: #ddd;
+}
+.innerFooter .footerInner .footerBasis {
+  display: inline-block;
+  float: right;
+}
+span.searchIcon {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  margin-top: -7px;
+  width: 14px;
+  height: 14px;
+  z-index: 9;
+}
+@media screen and (max-width: 736px) {
+  .innerFooter .footerLink,
+  .innerFooter .footerBasis {
+    float: none!important;
+  }
+}
+.orColor {
+  color: #e47911!important;
+}
+.bluCol {
+  color: #0066c0;
+}

@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  text-decoration: none;
+}
+body {
+  min-width: 1200px;
+}
+#wishList {
+  width: 80%;
+  margin: 100px auto;
+  border: 1px solid #ddd;
+}
+#wishList > .w_top {
+  width: 100%;
+  height: 48px;
+  background: #F3F3F3;
+  border-bottom: 1px solid #DDDDDD;
+}
+#wishList > .w_top > h3 {
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  width: 140px;
+  height: 48px;
+  color: #C4552B;
+  background: #fff;
+  border: 0;
+  border-right: 1px solid #ddd;
+  border-top: 2px solid #C4552B;
+  text-align: center;
+  line-height: 50px;
+  margin: 0;
+  padding: 0;
+}
+#wishList > .w_top > div {
+  float: right;
+}
+#wishList > .w_top > div > a {
+  text-decoration: none;
+  line-height: 48px;
+  padding-right: 8px;
+  color: #0079CE;
+}
+#wishList > .w_center {
+  width: 100%;
+  height: 1000px;
+}
+#wishList > .w_center > .w_c_left {
+  width: 20%;
+  height: 1000px;
+  float: left;
+}
+#wishList > .w_center > .w_c_left > .w_c_l_search {
+  padding: 25px 0 0 20px;
+  position: relative;
+}
+#wishList > .w_center > .w_c_left > .w_c_l_search > input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #A6A6A6;
+  outline: none;
+  padding-left: 5px;
+}
+#wishList > .w_center > .w_c_left > .w_c_l_search > span {
+  position: absolute;
+  top: 34px;
+  left: 30px;
+}
+#wishList > .w_center > .w_c_left > .w_c_l_search > .w_c_l_s_public {
+  margin-top: 15px;
+  width: 90%;
+  height: 30px;
+  background: #F4F4F4;
+  line-height: 30px;
+  padding: 0 15px 0 5px;
+}
+#wishList > .w_center > .w_c_left > .w_c_l_search > .w_c_l_s_public > a {
+  text-decoration: none;
+  color: #111111;
+}
+#wishList > .w_center > .w_c_left > .w_c_l_search > .w_c_l_s_public > a:nth-child(1) {
+  float: left;
+}
+#wishList > .w_center > .w_c_left > .w_c_l_search > .w_c_l_s_public > a:nth-child(2) {
+  float: right;
+}
+#wishList > .w_center > .w_c_right {
+  width: 80%;
+  height: 1000px;
+  float: left;
+  padding: 10px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_warn {
+  width: 95%;
+  height: 50px;
+  margin: 10px auto;
+  border: 1px solid #8C6E00;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px 2px #FFFAE7 inset;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_newWish {
+  margin: 0 auto;
+  width: 95%;
+  overflow: hidden;
+  margin-top: 0;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_newWish > h3 {
+  color: #111111;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 25px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_newWish > .w_c_r_n_left {
+  float: left;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_newWish > .w_c_r_n_left > a {
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  color: #BCA5A6;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_newWish > .w_c_r_n_left > input {
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid #A6A6A6;
+  height: 30px;
+  padding-left: 8px;
+  float: left;
+  margin: 0 6px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_newWish > .w_c_r_n_left > a:nth-child(1) {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_newWish > .w_c_r_n_left > a:nth-child(3) {
+  height: 31px;
+  width: 60px;
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_newWish > .w_c_r_n_right {
+  float: right;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_newWish > .w_c_r_n_right > a {
+  float: left;
+  text-decoration: none;
+  padding-right: 10px;
+  color: #3B1111;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product {
+  width: 100%;
+  overflow: hidden;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul {
+  float: left;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+  border-top: 1px solid #E7E7E7;
+  padding: 10px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > img {
+  height: 190px;
+  width: 210px;
+  border: 0;
+  float: left;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content {
+  float: left;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > a {
+  text-decoration: none;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > a > h5 {
+  font-weight: bold;
+  padding: 0 5px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > a > span {
+  font-size: 14px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > p {
+  margin: 0;
+  padding: 6px 5px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > p > span {
+  padding: 0 5px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > p > span:nth-child(1) {
+  color: red;
+  font-weight: 900;
+  font-size: 14px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > p > span:nth-child(2) {
+  color: #238FC1;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > p:nth-child(2) {
+  color: #111111;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > a:nth-child(2) {
+  padding: 0 5px;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > a:nth-child(3) {
+  color: #2F66CB;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_content > a:nth-child(6) {
+  padding: 0 5px;
+  color: #0066C0;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_car {
+  float: right;
+  padding: 15px 20px 0 0;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_car > a {
+  text-decoration: none;
+}
+#wishList > .w_center > .w_c_right > .w_c_r_product > ul > li > .w_c_r_p_list > .w_c_r_p_l_car > a:nth-child(2) {
+  width: 190px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  boder: 1px solid #9C7E31;
+  background: #F3CD6F;
+  border-radius: 5px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}

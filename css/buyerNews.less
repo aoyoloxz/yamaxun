@@ -1,0 +1,227 @@
+html,body{height: 100%;}
+#buyerNews{
+    height: 100%;
+	.buyerNewsInner{
+	    height: 100%;
+		.innerContent{
+		    height: 89%;
+			.display(flex);
+			border-bottom: 1px solid #ddd;
+			.contentLeft{
+				.padding;
+				position:relative;
+				border-right:1px solid #e7e7e7;
+			    min-width: 165px;
+				.leftHead{
+					line-height: 39px;
+				    background: #f3f3f3;
+				    padding: 0px 17px;
+					span{}
+					a{}
+				}
+				.leftContent{
+					position:absolute;
+					top:39px;
+					bottom:0px;
+					display:flex;
+				    width: 100%;
+					.wrapSearch{
+						overflow-y: scroll;
+						flex:1;
+						position:relative;
+						.navbar-form{
+							.display(flex);
+							.form-group{
+								position:relative;
+								flex:1;
+								input.form-control{
+									width:100%;
+									padding: 6px 6px 6px 29px
+								}
+								span{
+									.display(inline-block);
+									.position;
+									left:5px;
+									top:50%;
+									margin-top:-7px;
+									width:14px;
+									height:14px;
+								}
+							}
+							button{
+								background:#61686f;
+								color:white;
+							}
+						}
+						.wrapList{
+							background:#e7e7e7;
+							position:absolute;
+							top:50px;
+							bottom:29px;
+							width:100%;
+						}
+					}
+
+					.pageBtn{
+						position: absolute;
+					    bottom: 0px;
+					    left: 50%;
+					    margin-left: -34px;
+					    flex-basis:28px;
+						.btn-toolbar{
+							.display(inline-block);
+						    vertical-align: top;
+							.border{
+								border:1px solid;
+								.border();
+								padding:3px;
+								float:left;
+								margin: 0 10px;
+							}
+							.glyphicon{top:6px;}
+						}
+					}
+				}
+				
+			}
+			.contentCenter{
+				.padding;
+				border-right:1px solid #e7e7e7;
+				min-width:304px;
+				.centerHead{
+					text-align:center;
+					background:#f3f3f3;
+					.headInner{
+						.display(inline-block);
+						margin-top: 8px;
+						span{
+							.display(inline-block);
+							width:27px;
+							height:25px;
+							background-image:url(../images/Am.png);
+							background-repeat: no-repeat;
+						    background-size: 400px 600px;
+						    -webkit-background-size: 400px 600px;
+						    background-position: -350px -28px;
+						    vertical-align:middle;
+						}
+						p{
+							.display(inline-block);
+						}
+					}
+				}
+				.centerContent{
+					.centerInner{
+						text-align:center;
+						.innerTip{
+							.display(inline-block);
+							h2{color:#bbb;}
+						}
+					}
+				}
+			}
+			.contentRight{
+				min-width:128px;
+				.rightHead{
+					background:#f3f3f3;
+					h4{
+						float:left;
+					    padding: 0px 11px;
+						font-weight:bold;
+					}
+					span{
+						float:right;
+						width:12px;
+						height:13px;
+						line-height: 39px;
+					}
+				}
+				.rightContent{
+					p{
+						padding:11px;
+					}
+					.scoreBlock{
+						position:absolute;
+						left:-116px;
+						bottom:0px;
+						background: white;
+						border:1px solid #ddd;
+						.blockInner{
+							padding:8px;
+							p{
+								margin:0px;
+								padding:0px;
+							}
+							.block{
+								.blockRadio{
+									label.radio-inline{
+										margin:0px;
+										padding: 0px 6px;
+										span{}
+										input{
+											margin:0px;
+										}
+									}
+								}
+								.blockText{
+									margin-top: 20px;
+								}
+							}
+							.wrapBtn{
+							    margin: 3px;
+								.btn{
+									background:#d4d0c8;
+									padding:3px 9px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.innerFooter{
+			margin-top:0px;
+			.footerInner{
+				padding:17px 23px;
+				text-align:center;
+				background:#f3f3f3;
+				.footerLink{
+					.display(inline-block);
+					float:left;
+					a{
+						padding:0px .5em;
+					}
+					span{
+						color:#ddd;
+					}
+				}
+				.footerBasis{
+					.display(inline-block);
+					float:right;
+					color:#999;
+					span{padding:0px 11px;}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width:736px){
+	.innerFooter .footerLink,
+	.innerFooter .footerBasis{
+		float:none!important;
+	}
+}
+
+.display(@block:block){
+	display:@block;
+}
+.padding(@padding:0px){
+	padding:0px!important;
+}
+.position(@position:absolute;){
+	position:@position;
+}
+.border(@bdcoler:#e77600){
+	border-color:@bdcoler;
+	border-radius:3px;
+}

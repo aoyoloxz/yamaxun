@@ -1,0 +1,163 @@
+/*设置首选项*/
+#setNotificationPreferences {
+  margin-left: calc(0vw);
+}
+#setNotificationPreferences .setNotificationPreferencesInner {
+  max-width: 969px;
+  margin: 14px auto;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentTip p {
+  margin: 0px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav span.glyphicon {
+  width: 16px;
+  height: 16px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .nav {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-left: none;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .nav li.active {
+  color: #c45500;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .nav li.active a {
+  color: inherit;
+  font-weight: bold;
+  border-top: 2px solid #c45500;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 11px 16px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent span.smallIcon {
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  background-position: -160px -102px;
+  vertical-align: text-top;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .blockTip .tipInner {
+  display: flex;
+  margin-bottom: 11px;
+  padding: 10px 17px;
+  border: 1px solid;
+  border-color: #bbd3de;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .blockTip .tipInner span {
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  -webkit-background-size: 400px 600px;
+  background-position: -350px -28px;
+  vertical-align: middle;
+  margin: 0 11px 0 0;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .blockTip .tipInner p {
+  display: inline-block;
+  margin: 0px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel {
+  margin-bottom: 21px!important;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-heading h4.panel-title a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-heading h4.panel-title a:hover,
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-heading h4.panel-title a:focus {
+  text-decoration: none;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-heading h4.panel-title a .titleLeft span {
+  font-size: 17px;
+  font-weight: bold;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-heading h4.panel-title a .titleLeft p {
+  font-size: 12px;
+  margin: 4px 0px 0px 0px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-heading h4.panel-title a .titleRight .btn {
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li {
+  padding: 14px 11px;
+  border-bottom: 1px solid #ddd;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li:last-child {
+  border-bottom: none;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li .liBlock {
+  display: flex;
+  justify-content: space-between;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li .liBlock .bockLeft {
+  width: 48%;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li .liBlock .bockLeft label {
+  display: block;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li .liBlock .bockLeft label input {
+  vertical-align: top;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li .liBlock .bockLeft label p {
+  margin-left: 17px;
+  color: #777;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li .liBlock .bockRight {
+  width: 49%;
+  display: flex;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li .liBlock .bockRight label {
+  vertical-align: top;
+  color: #777;
+  width: 100px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li .liBlock .bockRight div {
+  margin-left: -17px;
+  display: flex;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .wrapInfoPanel .panel-group .panel .panel-collapse .panel-body ul li .liBlock .bockRight div p {
+  display: inline-block;
+  max-width: 320px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #contactsContent .wrapcontactsPanel .panel .panel-body {
+  padding: 0px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #contactsContent .wrapcontactsPanel .panel .panel-body ul {
+  margin: 0px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #contactsContent .wrapcontactsPanel .panel .panel-body ul li {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #contactsContent .wrapcontactsPanel .panel .panel-body ul li .liLabel {
+  flex-basis: 128px;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #contactsContent .wrapcontactsPanel .panel .panel-body ul li .liVal {
+  flex: 1;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #contactsContent .wrapcontactsPanel .panel .panel-body ul li .liVal p {
+  display: inline-block;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #contactsContent .wrapcontactsPanel .panel .panel-body ul li .liEdit {
+  flex-basis: 69px;
+  text-align: right;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #contactsContent .wrapcontactsPanel .panel .panel-body ul li .liEdit a:hover {
+  color: #c45500;
+}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #contactsContent .wrapcontactsPanel .panel .panel-body ul li:nth-child(1) {
+  border-bottom: 1px solid #ddd;
+  background: #f6f6f6;
+}

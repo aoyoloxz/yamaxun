@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>广告`秒杀</title>
+	<link rel="stylesheet" href="../../../css/advManager.css">
+	<link rel="stylesheet" href="../../../css/base.css">
+	<link rel="stylesheet" href="../../../css/l_sellerShare.css" />
+	<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="../../../js/jquery-2.2.4.js"></script>
+	<script type="text/javascript" src="../../../lib/node_modules/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div id="advertKill">
+		<div class="l_goods_header">
+			<div class="lgh_logo">
+			</div>
+			<div class="lgh_nav lgh_navHover">
+				<ul>
+					<li class="lghn_hover">
+						<a href="../catalog/catalogAddGood.html">目录<span class="sc-nav-arrow"></span></a>
+
+						<div>
+							<a href="../catalog/catalogCompletion.html">补全你的草稿</a>
+							<a href="../catalog/catalogAddGood.html">添加商品</a>
+
+						</div>
+					</li>
+					<li>
+						<a href="../sellerTop/sellerOder.html">库存</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="../sellerTop/sellerOder.html">管理库存</a>
+							<a href="#">管理亚马逊库存</a>
+							<a href="#">库存规则</a>
+							<a href="#">添加新商品</a>
+							<a href="#">管理亚马逊货件</a>
+						</div>
+					</li>
+					<li>
+						<a href="../sellerTop/sellerextpromotion.html">订单</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="#">管理订单</a>
+							<a href="#">管理退货</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="allSalesPromotionActivity.html">广告</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="allSalesPromotionActivity.html">广告活动</a>
+							<a href="earlyReviewersPlan.html">早期评论人计划</a>
+						</div>
+					</li>
+					<li>
+						<a href="../sellerTop/sellerstore.html">店铺</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="../sellerTop/sellerstore.html">管理店铺</a>
+						</div>
+					</li>
+					<li>
+						<a href="#">数据报告</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="#">付款</a>
+							<a href="#">库存和税务报告</a>
+							<a href="#">广告</a>
+							<a href="#">退货报告</a>
+							<a href="#">税务文件库</a>
+						</div>
+					</li>
+					<li>
+						<a href="../performance/accountStatus.html">绩效</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="../performance/accountStatus.html">账户状况</a>
+							<a href="../performance/feedback.html">反馈</a>
+							<a href="../performance/dealClaim.html">亚马逊商城交易保障索赔</a>
+							<a href="../performance/cardRefusedPayment.html">信用卡拒付索赔</a>
+							<a href="../performance/achievementInfo.html">业绩通知</a>
+							<a href="../performance/sellerUniversity.html">卖家大学</a>
+							<a href="#">获取客户见解</a>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="lgh_right">
+				<div><img src="../../../images/USA.png" />www.amazon.com</div>
+				<div><input type="text" />
+					<div><img src="../../../images/search.png" /></div>
+				</div>
+				<div class="lgh_navHover lgh_rightnav">
+					<ul>
+						<li>
+							<a href="../buyerNews/buyerNews.html">买家消息<span>0</span></a>|
+						</li>
+						<li>
+							<a href="#">帮助</a>|
+						</li>
+						<li>
+							<a href="#">设置</a>
+							<span class="sc-nav-arrow"></span>
+							<div>
+								<a href="#">退出</a>
+								<a href="#">账户信息</a>
+								<a href="#">通知首选项</a>
+								<a href="#">登陆设置</a>
+								<a href="#">退货设置</a>
+								<a href="#">配送设置</a>
+								<a href="#">用户权限</a>
+								<a href="#">您的信息和政策</a>
+								<a href="#">亚马逊物流</a>
+
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="advertKillInner">
+			<div class="innerHeader">
+				<div class="headerTitle">
+					<h2>秒杀活动管理</h2>
+				</div>
+			</div>
+			<div class="innerContent">
+				<div class="contentLeft">
+					<div class="blockWrap">
+						<ul id="advertKillTabs" class="nav nav-tabs nav-stacked">
+						  	<li class="">
+						  		<a class="block" href="#createKillContent" aria-controls="createKillContent">创建秒杀</a>
+						  	</li>
+						  	<li class="active">
+						  		<a class="block" href="#needRevise" aria-controls="needRevise">需要修改的</a>
+						  	</li>
+						  	<li>
+						  		<a class="block" href="#beginInMinute" aria-controls="beginInMinute">即将开始和正在进行的</a>
+						  	</li>
+						  	<li>
+						  		<a class="block" href="#alreadyOver" aria-controls="alreadyOver">已经结束的</a>
+						  	</li>
+						  	<li>
+						  		<a class="block" href="#allCommitKill" aria-controls="allCommitKill">所有提交的秒杀</a>
+						  	</li>
+						</ul>
+						<!-- <div class="block"></div>
+						<div class="block"></div>
+						<div class="block"></div>
+						<div class="block"></div>
+						<div class="block"></div> -->
+					</div>
+				</div>
+				<div class="contentRight tab-content">
+					<div id="createKillContent" class="tab-pane fade">
+						<div class="KillDetail">
+							<div>
+								<p>淘宝商城二季秒杀都是骗人的，我手动之前抢了个前5，但后面买不到！后面15点在诺基亚旗舰店秒杀一款比较垃圾的手机，没晓得网页直接显示“此商品已下架”整个刷新过程0.5秒不到，这证明纯</p>
+								<a href="###">秒杀帮助页面</a>。
+							</div>
+						</div>
+						<div class="recommendBlock">
+							<div class="blockTitle">
+								<h3>推荐</h3>
+							</div>
+							<p class="blockDetail">淘宝商城二季秒杀都是骗人的，我手动之前抢了个前5，但后面买不到！后面15点在诺基亚旗舰店秒杀一款比较垃圾的手机，没晓得网页直接显示“此商品已下架”整个刷新过程0.5秒不到</p>
+							<div class="blockSelect">
+								<h4 class="selectTitle">当您选择淘宝商城二季秒杀如下:</h4>
+								<ul class="selectUl">
+									<li>后面15点在诺基亚旗舰店秒杀一款比较垃圾的手机</li>
+									<li>后面15点在诺基亚旗舰店秒杀一款比较垃圾的手机</li>
+									<li>后面15点在诺基亚旗舰店秒杀一款比较垃圾的手机后面15点在诺基亚旗舰店秒杀一款比较垃圾的手机</li>
+								</ul>
+							</div> 
+						</div>
+						<div class="startActivity">
+							<div class="blockTitle">
+								<h3>即将开始的活动</h3>
+							</div>
+							<div class="panel-group" id="accordion">
+	    						<div class="panel panel-default">
+	    							<div class="panel-heading" id="headingTwo">
+	    								<h4 class="panel-title">
+									        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-controls="collapseTwo">
+									          网购星期一
+									        </a>
+									    </h4>
+	    							</div>
+	    							<div id="collapseTwo" class="panel-collapse collapse in" aria-labelledby="headingTwo">
+	    								<div class="panel-body">
+	    									<p>我们已经选出了参与网购星期一的秒杀。您可以点击“秒杀活动管理”菜单中的“即将开始和正在进行的”选项卡，查看您的秒杀是否已被选中参与网购星期一。如果您的秒杀已被选中参与网购星期一，开始和结束日期将显示“网购星期一”以及进行秒杀的时间。为了确保您的秒杀在网购星期一进行，请经常检查您的秒杀并进行相关更改，以保证您的秒杀处于“即将开始”状态。点击<a href="#">此处</a>了解有关秒杀状态的更多详情。 
+	    									</p>
+	    								</div>
+	    							</div>
+	    						</div>
+	    						<div class="panel panel-default">
+	    							<div class="panel-heading" id="headingThree">
+	    								<h4 class="panel-title">
+									        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-controls="collapseThree">
+									          假日网购第一周
+									        </a>
+									    </h4>
+	    							</div>
+	    							<div id="collapseThree" class="panel-collapse collapse in" aria-labelledby="headingThree">
+	    								<div class="panel-body">
+	    									<p>假日网购第一週即将开始！如果您希望在假日网购第一週参与秒杀，请从以下推荐中选择一个来创建秒杀。 要创建秒杀参与假日网购第一週，请执行以下操作： </p>
+	    									 <ul>
+	    									 	<li class="lisStyDsic">从时间安排下拉列表中选择“假日网购第一週”进行提交。如果您未看到此选项，则说明您的推荐不符合参与假日网购第一週的条件。</li>
+	    									 	<li class="lisStyDsic">您可以从时间安排下拉列表中选择所有活动周和非活动周来提交秒杀。</li>
+	    									 	<li class="lisStyDsic">秒杀提交将至2017-11-26 PST午夜（当地时间）结束。</li>
+	    									 	<li class="lisStyDsic">在提交 24 小时之后，检查“即将开始和正在进行的”选项卡中是否有您提交的秒杀。</li>
+	    									 </ul>
+	    									 <p>提交要在本周进行的秒杀并不能保证秒杀会在假日网购第一週进行。亚马逊将从要在本周进行的已提交秒杀中选择可为假日网购第一週买家带来最大价值的秒杀。未选中的秒杀将会在本周其他时间进行。  </p>
+	    								</div>
+	    							</div>
+	    						</div>
+	    						<div class="panel panel-default">
+	    							<div class="panel-heading" id="headingFour">
+	    								<h4 class="panel-title">
+									        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-controls="collapseFour">
+									          假日网购第二周
+									        </a>
+									    </h4>
+	    							</div>
+	    							<div id="collapseFour" class="panel-collapse collapse in" aria-labelledby="headingFour">
+	    								<div class="panel-body">
+	    									<p>假日网购第二週即将开始！如果您希望在假日网购第二週参与秒杀，请从以下推荐中选择一个来创建秒杀。 要创建秒杀参与假日网购第二週，请执行以下操作： </p>
+	    									 <ul>
+	    									 	<li class="lisStyDsic">从时间安排下拉列表中选择“假日网购第二週”进行提交。如果您未看到此选项，则说明您的推荐不符合参与假日网购第二週的条件。</li>
+	    									 	<li class="lisStyDsic">您可以从时间安排下拉列表中选择所有活动周和非活动周来提交秒杀。</li>
+	    									 	<li class="lisStyDsic">秒杀提交将至2017-12-3 PST午夜（当地时间）结束。</li>
+	    									 	<li class="lisStyDsic">在提交 24 小时之后，检查“即将开始和正在进行的”选项卡中是否有您提交的秒杀。</li>
+	    									 </ul>
+	    									 <p>提交要在本周进行的秒杀并不能保证秒杀会在假日网购第二週进行。亚马逊将从要在本周进行的已提交秒杀中选择可为假日网购第二週买家带来最大价值的秒杀。未选中的秒杀将会在本周其他时间进行。  </p>
+	    								</div>
+	    							</div>
+	    						</div>
+	    						<div class="panel panel-default">
+	    							<div class="panel-heading" id="headingFive">
+	    								<h4 class="panel-title">
+									        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-controls="collapseFive">
+									          假日网购第三周
+									        </a>
+									    </h4>
+	    							</div>
+	    							<div id="collapseFive" class="panel-collapse collapse in" aria-labelledby="headingFive">
+	    								<div class="panel-body">
+	    									<p>假日网购第三週即将开始！如果您希望在假日网购第三週参与秒杀，请从以下推荐中选择一个来创建秒杀。 要创建秒杀参与假日网购第三週，请执行以下操作：  </p>
+	    									 <ul>
+	    									 	<li class="lisStyDsic">从时间安排下拉列表中选择“假日网购第三週”进行提交。如果您未看到此选项，则说明您的推荐不符合参与假日网购第三週的条件。</li>
+	    									 	<li class="lisStyDsic">您可以从时间安排下拉列表中选择所有活动周和非活动周来提交秒杀。</li>
+	    									 	<li class="lisStyDsic">秒杀提交将至2017-12-10 PST午夜（当地时间）结束。</li>
+	    									 	<li class="lisStyDsic">在提交 24 小时之后，检查“即将开始和正在进行的”选项卡中是否有您提交的秒杀。</li>
+	    									 </ul>
+	    									 <p>提交要在本周进行的秒杀并不能保证秒杀会在假日网购第三週进行。亚马逊将从要在本周进行的已提交秒杀中选择可为假日网购第三週买家带来最大价值的秒杀。未选中的秒杀将会在本周其他时间进行。  </p>
+	    								</div>
+	    							</div>
+	    						</div>
+	    						<div class="panel panel-default">
+	    							<div class="panel-heading" id="headingSix">
+	    								<h4 class="panel-title">
+									        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-controls="collapseSix">
+									          假日网购第四周
+									        </a>
+									    </h4>
+	    							</div>
+	    							<div id="collapseSix" class="panel-collapse collapse in" aria-labelledby="headingSix">
+	    								<div class="panel-body">
+	    									 <p>假日网购第四週即将开始！如果您希望在假日网购第四週参与秒杀，请从以下推荐中选择一个来创建秒杀。 要创建秒杀参与假日网购第四週，请执行以下操作： </p>
+	    									 <ul>
+	    									 	<li class="lisStyDsic">从时间安排下拉列表中选择“假日网购第四週”进行提交。如果您未看到此选项，则说明您的推荐不符合参与假日网购第四週的条件。</li>
+	    									 	<li class="lisStyDsic">您可以从时间安排下拉列表中选择所有活动周和非活动周来提交秒杀。</li>
+	    									 	<li class="lisStyDsic">秒杀提交将至2017-12-17 PST午夜（当地时间）结束。</li>
+	    									 	<li class="lisStyDsic">在提交 24 小时之后，检查“即将开始和正在进行的”选项卡中是否有您提交的秒杀。</li>
+	    									 </ul>
+	    									 <p>提交要在本周进行的秒杀并不能保证秒杀会在假日网购第四週进行。亚马逊将从要在本周进行的已提交秒杀中选择可为假日网购第四週买家带来最大价值的秒杀。未选中的秒杀将会在本周其他时间进行。 </p>
+	    								</div>
+	    							</div>
+	    						</div>
+							</div>
+						</div>
+						<div class="allRecommend">
+							<div class="blockTitle">
+								<h3>推荐</h3>
+								<a href="###">查看全部推荐</a>
+							</div>
+							<div class="blockTip">
+								<div class="tipInner">
+									<span></span>
+									<p>目前没有亚马逊系统推荐秒杀。系统每周提供一次推荐信息，请定期回来查看。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="needRevise" class="tab-pane fade active in">
+						<div class="searchBlock">
+							<div class="btn-group" role="group">
+								<div class="input-group">
+									<input class="form-control" type="text" placeholder="">
+									<span class="input-group-addon">搜索</span>
+									<div class="wrapSelect">
+										<div class="btn btn-default">筛选条件： 0 项已应用 </div>
+									</div>
+									<span class="shuliang">0活动</span>
+									<span class="searchIcon glyphicon glyphicon-search"></span>
+								</div>
+							</div>
+						</div>
+						<div class="hide filterBlock">
+							<span>筛选条件：</span>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">状态</a>
+									<i class="caret"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="wrapTable">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>图片</th>
+										<th>内部描述</th>
+										<th>开始日期</th>
+										<th>结束日期</th>
+										<th>状态</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+							</table>
+						</div>
+					</div>
+					<div id="beginInMinute" class="tab-pane fade">
+						<div class="searchBlock">
+							<div class="btn-group" role="group">
+								<div class="input-group">
+									<input class="form-control" type="text" placeholder="">
+									<span class="input-group-addon">搜索</span>
+									<div class="wrapSelect">
+										<div class="btn btn-default">筛选条件： 0 项已应用 </div>
+									</div>
+									<span class="shuliang">0活动</span>
+									<span class="searchIcon glyphicon glyphicon-search"></span>
+								</div>
+							</div>
+						</div>
+						<div class="hide filterBlock">
+							<span>筛选条件：</span>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">状态</a>
+									<i class="caret"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="wrapTable">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>图片</th>
+										<th>内部描述</th>
+										<th>开始日期</th>
+										<th>结束日期</th>
+										<th>状态</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+							</table>
+						</div>
+					</div>
+					<div id="alreadyOver" class="tab-pane fade">
+						<div class="searchBlock">
+							<div class="btn-group" role="group">
+								<div class="input-group">
+									<input class="form-control" type="text" placeholder="">
+									<span class="input-group-addon">搜索</span>
+									<div class="wrapSelect">
+										<div class="btn btn-default">筛选条件： 0 项已应用 </div>
+									</div>
+									<span class="shuliang">0活动</span>
+									<span class="searchIcon glyphicon glyphicon-search"></span>
+								</div>
+							</div>
+						</div>
+						<div class="hide filterBlock">
+							<span>筛选条件：</span>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">状态</a>
+									<i class="caret"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="wrapTable">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>图片</th>
+										<th>内部描述</th>
+										<th>开始日期</th>
+										<th>结束日期</th>
+										<th>状态</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+							</table>
+						</div>
+					</div>
+					<div id="allCommitKill" class="tab-pane fade">
+						<div class="searchBlock">
+							<div class="btn-group" role="group">
+								<div class="input-group">
+									<input class="form-control" type="text" placeholder="">
+									<span class="input-group-addon">搜索</span>
+									<div class="wrapSelect">
+										<div class="btn btn-default">筛选条件： 0 项已应用 </div>
+									</div>
+									<span class="shuliang">0活动</span>
+									<span class="searchIcon glyphicon glyphicon-search"></span>
+								</div>
+							</div>
+						</div>
+						<div class="hide filterBlock">
+							<span>筛选条件：</span>
+							<ul>
+								<li>
+									<a href="javascript:void(0)">状态</a>
+									<i class="caret"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="wrapTable">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>图片</th>
+										<th>内部描述</th>
+										<th>开始日期</th>
+										<th>结束日期</th>
+										<th>状态</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="innerFooter">
+				<div class="footerInner clearfix">
+					<div class="footerLink">
+						<a href="###">为此页评级</a>
+						<span>|</span>
+						<a href="###">获取支持</a>
+						<span>|</span>
+						<a href="###">政策和协议</a>
+						<span>|</span>
+						<select>
+							<option>中文</option>
+							<option>英文</option>
+							<option>日文</option>
+						</select>
+					</div>
+					<div class="footerBasis">
+						<p>desheng&nbsp;&nbsp;© 1999-2017 Amazon.com,Inc.or its affiliates</p>
+					</div>
+				</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		$('.collapse').collapse();
+		$('#advertKillTabs a').click(function (e) {
+		  	e.preventDefault()
+		  	$(this).tab('show');
+		})
+	</script>
+</body>
+</html>

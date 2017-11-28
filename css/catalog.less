@@ -1,0 +1,1216 @@
+@charset "UTF-8";
+
+/*补全草稿*/
+#catalogCompletion{
+	.catalogCompletionInner{
+		padding:19px 14px;
+		.innerHeader{
+			.headerTitle{
+				h3{
+					.display(inline-block);
+				}
+				sup{color:#cc6600;}
+				p{
+					.display(inline-block);
+					a{}
+				}
+			}
+			.headerTip{font-weight: bold;}
+		}
+		.innerContent{
+			.display(flex);
+			.contentLeft{
+				flex-basis:294px;
+				.leftInner{
+					padding:10px 5px 30px 5px;
+					background:#f3f3f3;
+					border:1px solid;
+					.border(#e7e7e7);
+					p{}
+					.wrapDate{
+						.dateTitle{font-weight:bold;}
+						.dateContent{
+							.row{
+								.display(flex);
+								margin:0px;
+								.rowInput{flex:1;}
+								.rowMidd{
+									flex-basis: 25px;
+								    text-align: center;
+								    line-height: 34px;
+								}
+							}
+							.btn{
+								padding:6px 8px;
+								background: #ddd;
+								span{
+									.display(inline-block);
+									width:13px;
+									height:13px;
+									border:2px solid black;
+								}
+							}
+						}
+					}
+				}
+			}
+			.contentRight{
+				flex:1;
+				.rightInner{
+					margin-left: 15px;
+					.innerGreet{
+						padding:18px 18px 18px 58px;
+						border:1px solid;
+			    		.border(#bbd3de);
+						background:#f6f6f6;
+						.greet{
+							h4{}
+							p{
+								padding-left:9px;
+								span{}
+								a{}
+							}
+						}
+					}
+					.innerGoodMess{}
+					.messInner{
+						.wrapBtn{
+							.btnSearch{
+								.navbar-form{
+									padding-left:0px;
+									.form-group{
+										position:relative;
+										input{padding-left:25px;}
+									}
+									.btn{
+										background:#656b73;
+										color:white;
+									}
+								}
+							}
+							.btnAdd{
+								padding: 10px 0 10px 15px;
+								.lotSize{.background(#f7f8fa);}
+								.addGood{.background;}
+								.savaAll{.background(#f9f3e5);}
+							}
+						}
+						.wrapTable{
+							.panel{
+								margin:3px;
+								.panel-heading{
+									padding:0px;
+									table{
+										margin:0px;
+										tr>th.toggleHov{
+											border:none;
+											&:hover{
+												color:#e47911!important;
+												.caret{visibility:visible;}
+											}
+										}
+									}
+								}
+								.panel-body{
+									text-align:center;
+								}
+							}
+							.searchResult{
+								text-align:right;
+								select.form-control{
+									.display(inline-block);
+									width:auto;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.innerFooter{margin-top:152px;}
+}
+
+/*目录·添加商品*/
+#catalogAddGood{
+	.catalogAddGoodInner{
+		padding:11px 33px;
+		a:hover{
+			color:#e47911;
+		}
+		.innerHeader{
+			padding-bottom:39px;
+			border-bottom:1px solid;
+			.border(#aaaaaa);
+			.headerLeft{
+				.headerTitle{}
+				.headerStatus{}
+			}
+			.headerRight{margin-right:110px;}
+		}
+		.innerContent{
+			padding:16px 0px;
+			.display(flex);
+			.contentLeft{
+				min-width: 713px;
+				padding:16px;
+				border:1px solid;
+				.border(#ddd);
+				flex:1;
+				.leftInner{
+					.display(flex);
+					.block{
+						flex:1;
+						min-width:326px;
+						width:400px;
+						.display(inline-table);
+						.title{
+							h4{font-weight:bold;}
+						}
+						.searchBlock{
+							.searchTip{}
+							.search{
+								.navbar-form{
+									padding: 0px;
+									.form-group{
+										position:relative;
+										display:inline-block!important;
+										input{
+											width:249px;
+										    padding-left: 27px;
+										}
+									}
+									.btn{.background(#656b73);color:white;}
+								}
+							}
+						}
+						.createMess{
+							margin-top: 25px;
+							p{.display(inline-block);}
+						}
+						.lotSizeTip{}
+						.selfCatalog{
+							p{margin:0px;}
+						}
+						ul{
+							.newFunc{margin-left:3px;}
+						}
+					}
+					.lineDivider{
+					    border-right: 1px solid #ddd;
+					    margin-right:19px;
+					    span{
+					    	width: 13px;
+						    display: inline-block;
+						    position: relative;
+						    top: 58px;
+						    left: 7px;
+						    background: white;
+					    }
+					}
+				}				
+			}
+			.contentRight{
+				width:26%;
+				flex-basis:293px;
+				margin-left: 17px;
+				.rightInner{
+					padding:12px;
+					border:1px solid;
+					.border(#ddd);
+					.block{
+						.title{}
+						.messDraft{
+							background:#e6f0fa;
+							margin-bottom:15px;
+						    border-radius: 3px;
+						    padding:9px 12px;
+						    &:hover{
+						    	background: linen;
+						    	cursor: pointer;
+								p{
+									color: #c45500!important;
+								}
+						    }
+							p{
+								margin:0px;
+								.color(#337ab7);
+							}
+						}
+						.stock{
+							text-align:center;
+							padding-top:9px;
+							border-top:1px solid #ddd;
+							a{display:inline-block;}
+						}
+					}
+				}
+			}
+		}
+	}
+	.innerFooter{margin-top:172px;}
+}
+/*管理库存*/
+#repertoryManage{
+	.repertoryManageInner{
+		min-width:879px;
+		.innerNav{
+			padding:20px 20px 0px;
+			.breadcrumb{
+				margin-bottom:6px;
+				background:transparent;
+			}
+		}
+		h3,p{margin:0px;}
+		.innerContent{
+			padding: 0px 20px;
+			.contentTop{
+				display: flex;
+    			justify-content: space-between;
+				.topLeft{
+					.leftTitle{
+						.display(inline-block);
+						h3{
+							font-size: 30px;
+							color: #000000;
+							font-weight: normal;
+							margin-right: 10px;
+						}
+					}
+					.leftMoreTitle{
+						.display(inline-block);
+						a{
+							font-size: 14px;
+							color: #0066C0;
+						}
+						span{
+							color: #DDDDDD;
+							font-size: 14px;
+							padding-left: 15px;
+							padding-right: 15px;
+						}
+					}
+				}
+				.topRight{
+					margin-right: 30px;
+					.nav{
+						border:none;
+						li{
+							border: 1px solid #ADB1B8;
+							background-color: #EEF0F2;
+							border-radius: 5px;
+							font-size: 14px;
+							margin-right: 10px;
+							a{
+							    padding: 6px 15px;
+							    color:inherit;
+							}
+						}
+						.newFun{
+							line-height: 35px;
+							font-size: 12px;
+							color: #CC6600;
+						}
+					}
+				}
+			}
+			.contentSelf{
+				.contentBtnBlock{
+					margin-top: 30px;
+					.btn-group{
+						.btn-default{
+							background-color: #F7F8FA;
+							color: #999999;
+							margin-right: 22px;
+						}
+						.input-group{
+							width: 320px;
+							height: 35px;
+							display: flex;
+    						justify-content: flex-start;
+    						position:relative;
+							input{
+								width: 186px;
+								height: 35px;
+								padding-left:25px;
+							}
+							.input-group-addon{
+								padding: 6px 12px;
+								font-size: 14px;
+								color: #ffffff;
+								border-radius: 5px;
+								background-color: #686F76;
+								width:auto;
+								line-height:normal;
+								cursor:pointer;
+								margin-left: -4px;
+							}
+							.shuliang{
+								padding-left: 20px;
+								line-height: 35px;
+							}
+						}
+					}
+				}
+				.contentRadioBlock{
+					height: 60px;
+					margin-top: 15px;
+					margin-right: 20px;
+					background-color: #F3F3F3;
+					border: 1px solid #D7D7D7;
+					font-size: 14px;
+					line-height: 60px;
+					p{
+						float: left;
+						margin-left: 20px;
+					}
+					ul>li{
+						margin-left: 20px;
+						float:left;
+					}
+					ul>li:nth-of-type(even){
+						margin-left: 15px;
+						margin-right: 15px;
+						color: #DDDDDD;
+						font-size: 14px;
+					}
+				}
+				.contentTable{
+					margin-top: 10px;
+					margin-right: 20px;
+					.panel{
+						margin-bottom:0px;
+						.panel-heading{
+							padding: 0px 15px;
+						}
+						.table{
+							margin-bottom: 0;
+							thead>tr>th{
+								border: 0;
+								vertical-align: text-top;
+							}
+							th{
+								font-size: 13px;
+								color: #0066C0;
+								span{
+									color: #666666;
+								}
+								.hovToggle:hover{
+								    color:#e47911;
+								    span{color:inherit;visibility:visible;}
+								}
+							}
+							.blockCol{
+								color: #000000;
+							}
+							.orangeCol{
+								color: #E47911;
+								.caret{
+									color: #E47911;
+								}
+								span{
+									color: #666666;
+								}
+							}
+							.paddbotom{
+								button{
+									background:#ddd5cf;
+								}
+							}
+						}
+					}
+					.resultBtn{
+						.btnInner{
+							.display(inline-block);
+							margin-top:3px;
+							.btn{
+								background:#F7F8FA;
+								color:black;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.innerFooter{margin-top:182px;}
+}
+/*创建新商品*/
+#createNewGoods{
+	.createNewGoodsInner{
+		margin:20px 100px 60px 20px;
+		p,h3{margin:0px;}
+		.innerHeader{
+			.headerTitle{
+				h3{
+					font-size: 30px;
+					color: #C45500;
+					margin-bottom: 3px;
+				}
+			}
+			.headerTip{
+				p{
+					.display(inline-block);
+					font-size: 14px;
+				}
+			}
+		}
+		.innerContent{
+			.lookFor{
+				.lookForHead{
+					h3{
+						width: 60%;
+						height: 50px;
+						font-size: 20px;
+						color: #000000;
+						font-weight: 600;
+						padding-left: 20px;
+						background-color: #F3F3F3;
+						border: 1px solid #E2E2E2;
+						margin-top: 15px;
+						line-height: 50px;
+					}
+				}
+				.lookForbody{
+					width: 60%;
+					height: 50px;
+					font-size: 14px;
+					border:1px solid #E2E2E2;
+					border-top:none;
+					padding-left: 20px;
+					line-height: 50px;
+					display:flex;
+					justify-content:flex-start;
+					p{font-weight:bold;}
+					.lookForBtn{
+						width: 122px;
+						height: 33px;
+						background-color: #F3F3F3;
+						border: 1px solid #E2E2E2;
+						line-height: 33px;
+						font-size: 15px;
+						margin-top: 8px;
+						margin-left: 10px;
+					    border-radius: 3px;
+						a{
+							text-decoration: none;
+							padding-left: 5px;
+							color: #000000;
+						}
+					}
+				}
+			}
+			.noticeTip{
+				width: 1120px;
+				height: 70px;
+				font-size: 15px;
+				margin-top: 30px;
+				border: 1px solid #E2E2E2;
+				padding: 13px 20px;
+				p{margin:0px;}
+			}
+			.allGoodsKind{
+				width: 1120px;
+				height: 545px;
+				background-color: #F3F3F3;
+				border:1px solid #E2E2E2;
+				border-top:none;
+				.goodsKindTitle{
+					h3{
+						padding:20px 0px 20px 20px;
+						font-size: 18px;
+						color: #0066C0;
+						margin:0px;
+					}
+				}
+				.goodsKindContent{
+					margin-left: 20px;
+					margin-right: 20px;
+					.leftBtn,
+					.rightBtn{
+						float: left;
+						width: 40px;
+						height: 440px;
+						line-height: 440px;
+						background: #F7F8FA;
+						border: 1px solid #E2E2E2;
+						cursor:pointer;
+						text-align:center;
+						img{width: 12px;}
+					}
+					.goodsKindList{
+						.listLeft{background:#fff!important;}
+						.list{
+							float: left;
+							width: 330px;
+							height: 440px;
+							background-color: #F4F4F4;
+							border: 1px solid #E2E2E2;
+							ul{	padding-top:9px;
+								li{
+									padding: 2px 1px;
+								    margin: 11px 0px;
+								}
+							}
+							ul li a{
+								.display(block);
+								span{
+									line-height: 25px;
+									margin-left: 20px;
+								}
+								i{
+									float: right;
+									display: block;
+									width: 13px;
+									height: 13px;
+									background-image: url(../images/Am.png);
+									background-repeat:no-repeat;
+									background-position:-379px -10px;
+									margin-right: 20px;
+									margin-top:3px;
+								}
+							}
+							
+						}
+					}
+				}
+			}
+			.bottomBtn{
+				margin:10px 0px;
+				button{
+					width:153px;
+					background:#F7F8FA;
+				}
+			}
+		}
+	}
+	.innerFooter{margin-bottom:52px;}
+}
+/*批量上传商品*/
+#batchUpload{
+	.batchUploadInner{
+		padding: 18px 25px;
+		h3,p{margin:0px;}
+		.innerHeader{
+			margin-bottom: 18px;
+			.headerTitle{
+				h3{
+					.display(inline-block);
+				}
+				p{
+					.display(inline-block);
+					a{}
+				}
+			}
+		}
+		.innerContent{
+			.contentSelf{
+				.selfTab{
+					ul.nav{
+						li>a{padding:8px 15px;}
+						li.active>a{
+							color: #c45500;
+							font-weight: 700;
+						    border-top: 2px solid #c45500;
+						}
+						a:hover{color: #c45500;}
+						.ulRightLink{
+							.display(inline-block);
+							float:right;
+							line-height:36px;
+						    padding-right: 13px;
+						}
+					}
+					.goodsUploadContent{
+						.display(flex);
+						.tab-content{
+							flex:1;
+							margin-top: 21px;
+							#loadContent{
+								.wrapLoadFile{
+									.loadHeader{
+										.headerTitle{
+											h4{
+												.display(inline-block);
+												font-size:19px;
+												margin:0px;
+											}
+										}
+										p{margin:0px;}
+									}
+									.loadTip{
+										margin-top:21px;
+										.tipTitle{
+											h4,p{margin:0px;}
+										}
+										.tipDetail{
+											margin:19px 0px;
+										}
+									}
+									.wrapLoadPanel{
+										.panel{
+											.panel-heading{
+												font-weight:bold;
+												a{
+													.display(block);
+													span{float:right;}
+													&:hover{text-decoration:none;}
+													&:focus{text-decoration:none;}
+												}
+											}
+											.panel-body{
+												.topBlock{
+													.blockSearchTool{
+														p{
+															.display(flex);
+															justify-content:space-between;
+															margin:0px;
+															span{font-weight:bold;}
+														}
+													}
+													.blockSearch{
+														.searchInner{
+															.input-group{
+																.display(block);
+																input.form-control{
+																	width:43%;
+																	.display(inline-block);
+																    padding-left: 26px;
+																	border-radius:4px;
+																}
+																button{
+																	margin: 0px 11px;
+																	background:#686F76;
+																	color:#fff;
+																}
+																span{
+																	display: inline-block;
+																    position: absolute;
+																    left: 8px;
+																    top: 50%;
+																    margin-top: -7px;
+																    width: 14px;
+																    height: 14px;
+																    z-index: 9;
+																}
+															}
+															
+														}
+													}
+												}
+												.orLine{
+													border-top: 1px solid #ddd;
+    												margin: 32px 0px 17px;
+													width: 23%;
+    												span{
+    													background: #fff;
+													    position: relative;
+													    top: -10px;
+													    left: 50%;
+													    margin-left: -14px;
+    												}
+												}
+												.wrapGoodsClassify{
+													.GoodsClassifyTitle{font-weight:bold;}
+													.GoodsClassifyInner{
+														.display(flex);
+														.innerList{
+															flex:1;
+															height:331px;
+														    border: 1px solid #E2E2E2;
+														    .list-group{
+														    	.list-group-item{
+														    		border:none;
+														    		padding:6px 15px;
+														    		a{
+														    			.display(inline-block);
+														    			width:100%;
+														    			color:#333;
+														    			span.badge{
+														    				float: right;
+															    			font-size:17px;
+															    			color:#777;
+															    			background:transparent;
+															    		}
+															    		&:hover{
+															    			text-decoration:none;
+															    		}
+														    		}
+														    	}
+														    }
+														}
+														.innerLeft{
+															overflow-y:scroll;
+														}
+													}
+												}
+												.selectBlock{
+													p{font-weight:bold;}
+													.btn-group{
+														.btn{
+															background:#f5f5f5;
+														}
+														.selectBtn{
+															background:#787c80;
+															color:#fff;
+														}
+													}
+												}
+												.tipBlock{
+													width:50%;
+												    margin: 26px 0px;
+												}
+												.createBlockBtn{
+													.btn{
+														background:#f9f3e5;
+														color:#999;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							#uploadContent{
+								.wrapUploadPanel{
+									.panel-group{
+										.panel{
+											margin-bottom:21px;
+											.panel-heading{
+												span{
+													float:right;
+												}
+												a:hover,a:focus{text-decoration:none;}
+											}
+											.panel-body{
+												.checkaTip{}
+												.checkBody{
+													table{
+														margin:0 auto;
+														tbody{
+															tr{
+																td,th{padding: 7px 0px;}
+																th{
+																	text-align:right;
+																    padding-right: 29px;
+																}
+																td{
+																	.btn{
+																		background:#F7F8FA;
+																	}
+																	.orBg{}
+																	input.form-control{
+																		.display(inline-block);
+																		width:auto;
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+										.clearFile{
+											.panel-heading{
+												h4>a{
+													color:red;
+												}
+											}
+										}
+									}
+								}
+							}
+							#masteryStatusContent{
+								.display(flex);
+								.statusContentSelf{
+									width:100%;
+									.blockTip{
+										.tipInner{
+											padding:10px 17px;
+											border:1px solid;
+											.border(#bbd3de);
+											background-color:#f6f6f6;
+											span{
+												.display(inline-block);
+												width:27px;
+												height:26px;
+												background-image:url(../images/Am.png);
+												background-repeat: no-repeat;
+											    background-size: 400px 600px;
+											    -webkit-background-size: 400px 600px;
+											    background-position: -350px -28px;
+											    vertical-align: middle;
+											    margin: 0 11px 0 0;
+											}
+											p{
+												.display(inline-block);
+											}
+										}
+									}
+									.datePanel{
+										margin-top:21px;
+										.panel{
+											table{
+												width:100%;
+											}
+										}
+									}
+								}
+							}
+						}
+						.goodsUploadRight{
+							flex-basis:269px;
+							margin-left: 25px;
+							margin-top:21px;
+							.rightNotice{
+								.noticeInner{
+									.display(flex);
+									padding:8px 10px;
+									border:1px solid;
+									.border(#bbd3de);
+									background-color:#f6f6f6;
+									.innerIcon{
+										span{
+											.display(inline-block);
+											width:27px;
+											height:26px;
+											background-image:url(../images/Am.png);
+											background-repeat: no-repeat;
+										    background-size: 400px 600px;
+										    -webkit-background-size: 400px 600px;
+										    background-position: -350px -28px;
+										    vertical-align: middle;
+										    margin:8px 11px 0 0;
+										}
+									}
+									.innerTxt{
+										h4{}
+									}
+								}
+							}
+							.rightPanel{
+								.panel{
+									margin-top:18px;
+									.panel-heading{font-weight:bold;}
+									.panel-body{
+										padding:15px 18px 15px 15px;
+										ul{
+											margin:0px;
+											li{
+											    padding: 2px 0px;
+											    &:before{
+											    	content:'●';
+													color:#999;
+											    }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.innerFooter{margin-bottom:52px;}
+}
+/*上传商品信息文件*/
+#uploadGoodsInfomation{
+	.GoodsInfomationInner{
+		max-width:1089px;
+		min-width:826px;
+		padding:16px 29px;
+		.innerTop{
+		    color: #999;
+			span{font-size: 19px;}
+			button{
+				margin: 0px 35px;
+			    padding: 6px 31px;
+				background: #f5f5f5;
+			    color: #999;
+			}
+		}
+		.innerContent{
+			.contentTitle{
+				.display(flex);
+				justify-content:space-between;
+				align-items: center;
+			    padding-right: 35px;
+				.titleBlockLeft{
+					h3,p{.display(inline-block);}
+					h3{font-size:28px;}
+					p{margin-left:13px;}
+				}
+				.titleBlockRight{font-size:21px;}
+			}
+			.contentGoodsFile{
+				margin-bottom: 26px;
+				.GoodsFileInner{
+					border:1px solid #ddd;
+					border-radius:4px;
+				    padding: 15px 8px;
+					.display(flex);
+					div{text-align:center;}
+					.selectFile{
+						flex-basis:243px;
+						button{
+						    padding: 5px 31px;
+							background:linear-gradient(to bottom,#f7dfa5,#f0c14b);
+						}
+						p{margin:12px 0px;color:#999;}
+					}
+					.wrapImg{
+						flex-basis:416px;
+						div{
+							img{outline:none;}
+						}
+						a{
+							margin: 21px 0px 0px;
+    						display: inline-block;
+						}
+					}
+					.importantInfo{
+						flex-basis:340px;
+					    text-align: left;
+					    padding-left: 30px;
+						p{margin:0px;}
+						ul{
+							position: relative;
+    						left: -13px;
+							li{
+								&:before{
+									content:'●';
+									color:#ddd;
+									padding-right: 5px;
+								}
+							}
+						}
+					}
+				}
+			}
+			.contentGoodsBlock{
+				.list-group{
+					.list-group-item{
+						border:none;
+						border-top:1px solid #ddd;
+						font-size: 26px;
+    					color: #ddd;
+						.badge{
+							font-size:19px;
+							font-weight:normal;
+							color:#ddd;
+							background:transparent;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*销售申请*/
+#salesApplication{
+	.salesApplicationInner{
+		padding: 18px 25px;
+		.innerHeader{
+			.headerTitle{
+				h3{
+					font-size:28px;
+				}
+			}
+		}
+		.innerContent{
+		    margin-top: 39px;
+			.contentTitle{
+				h4{
+					font-size:17px;
+					font-weight:bold;
+				}
+			}
+			.statusBtnBlock{
+				.display(flex);
+				justify-content:flex-start;
+				.btnBlockLeft{
+					min-width:698px;
+					.lookAll>button{background:#ebf5ff;}
+					div{
+						.display(inline-block);
+						margin: 0px 4px;
+						span{}
+						button{background:#f6f6f6;}
+					}
+					.line{
+						border-left: 1px solid #ddd;
+					    height: 20px;
+					    vertical-align: middle;
+					    margin: 0px 9px;
+					}
+				}
+				.btnBlockRight{
+					margin-left: 83px;
+					min-width: 328px;
+					label{
+						span{font-size:17px;font-weight:normal;}
+						.searchBlock{
+							.display(inline-block);
+							input.form-control{
+								width:auto;display:inline-block;
+							}
+							button{
+								background: linear-gradient(to bottom,#72787F,#444C55);
+								color:white;
+							}
+						}
+					}
+				}
+			}
+			.wrapPanel{
+				margin-top:11px;
+				table{
+					width:100%;
+					margin-left: 32px;
+					th,td{
+						width:18%;
+						.display(inline-block);
+					}
+					th{vertical-align: bottom;}
+					p{margin:0px;}
+					.publicBtn{
+						width: 99%;
+						background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+					}
+				}
+				.panel-body{
+					tr{vertical-align: text-top;}
+				}
+			}
+		}
+	}
+	.innerFooter{margin-top:190px;}
+}
+/*变体向导*/
+#variantGuide{
+	.variantGuideInner{
+		padding:16px 30px;
+		.innerHeader{
+			.headerTitle{
+				h3{
+					.display(inline-block);
+					font-size:28px;
+				}
+			}
+		}
+		.innerContent{
+			.contentPanel{
+				.panel{
+					.panel-heading{
+						font-weight:bold;
+					}
+					.list-group{
+						li{
+							font-size:15px;
+							background:#fbfbfb;
+						}
+					}
+				}
+			}
+			.contentAccordion{
+				margin-top: 39px;
+				.panel-group{
+					.panel{
+						.panel-heading{
+							span{
+								float:right;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.innerFooter{margin-top:252px;}
+}
+span.searchIcon{
+	display: inline-block;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    margin-top: -7px;
+    width: 14px;
+    height: 14px;
+    z-index: 9;
+}
+
+/*底部*/
+.innerFooter{
+    width: 100%;
+	.footerInner{
+		padding:17px 23px;
+		text-align:center;
+		background:#f3f3f3;
+		.footerLink{
+			.display(inline-block);
+			float:left;
+			a{
+				padding:0px .5em;
+			}
+			span{
+				color:#ddd;
+			}
+		}
+		.footerBasis{
+			.display(inline-block);
+			float:right;
+		}
+	}
+}
+
+@media screen and (max-width:736px){
+	.innerFooter .footerLink,
+	.innerFooter .footerBasis{
+		float:none!important;
+	}
+}
+.orColor{
+	color: #e47911!important;
+}
+.orBg{
+	background:#feb645!important;
+}
+.greenCol{
+	color:#009900;
+}
+.bluCol{
+	color:#0066c0;
+}
+.grayCol{
+	color:#666;
+}
+.display(@block:block){
+	display:@block;
+}
+.border(@bdcoler:#e77600){
+	border-color:@bdcoler;
+	border-radius:3px;
+}
+.color(@color:#0066c0){
+	color:@color;
+}
+.background(@bg:#f5f6f8){
+	background:@bg;
+}
+.vticaTop{
+	vertical-align:top;
+}
+.viShow{
+	visibility:visible;
+}
+.viHide{
+	visibility:hidden;
+}
+.lisStyDsic:before{
+	content: '●';
+    color: #999;
+    padding-right: 5px;
+}

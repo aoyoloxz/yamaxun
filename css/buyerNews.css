@@ -1,0 +1,210 @@
+html,
+body {
+  height: 100%;
+}
+#buyerNews {
+  height: 100%;
+}
+#buyerNews .buyerNewsInner {
+  height: 100%;
+}
+#buyerNews .buyerNewsInner .innerContent {
+  height: 89%;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft {
+  padding: 0px!important;
+  position: relative;
+  border-right: 1px solid #e7e7e7;
+  min-width: 165px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftHead {
+  line-height: 39px;
+  background: #f3f3f3;
+  padding: 0px 17px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent {
+  position: absolute;
+  top: 39px;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .wrapSearch {
+  overflow-y: scroll;
+  flex: 1;
+  position: relative;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .wrapSearch .navbar-form {
+  display: flex;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .wrapSearch .navbar-form .form-group {
+  position: relative;
+  flex: 1;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .wrapSearch .navbar-form .form-group input.form-control {
+  width: 100%;
+  padding: 6px 6px 6px 29px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .wrapSearch .navbar-form .form-group span {
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  margin-top: -7px;
+  width: 14px;
+  height: 14px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .wrapSearch .navbar-form button {
+  background: #61686f;
+  color: white;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .wrapSearch .wrapList {
+  background: #e7e7e7;
+  position: absolute;
+  top: 50px;
+  bottom: 29px;
+  width: 100%;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .pageBtn {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -34px;
+  flex-basis: 28px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .pageBtn .btn-toolbar {
+  display: inline-block;
+  vertical-align: top;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .pageBtn .btn-toolbar .border {
+  border: 1px solid;
+  border-color: #e77600;
+  border-radius: 3px;
+  padding: 3px;
+  float: left;
+  margin: 0 10px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentLeft .leftContent .pageBtn .btn-toolbar .glyphicon {
+  top: 6px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentCenter {
+  padding: 0px!important;
+  border-right: 1px solid #e7e7e7;
+  min-width: 304px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentCenter .centerHead {
+  text-align: center;
+  background: #f3f3f3;
+}
+#buyerNews .buyerNewsInner .innerContent .contentCenter .centerHead .headInner {
+  display: inline-block;
+  margin-top: 8px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentCenter .centerHead .headInner span {
+  display: inline-block;
+  width: 27px;
+  height: 25px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  -webkit-background-size: 400px 600px;
+  background-position: -350px -28px;
+  vertical-align: middle;
+}
+#buyerNews .buyerNewsInner .innerContent .contentCenter .centerHead .headInner p {
+  display: inline-block;
+}
+#buyerNews .buyerNewsInner .innerContent .contentCenter .centerContent .centerInner {
+  text-align: center;
+}
+#buyerNews .buyerNewsInner .innerContent .contentCenter .centerContent .centerInner .innerTip {
+  display: inline-block;
+}
+#buyerNews .buyerNewsInner .innerContent .contentCenter .centerContent .centerInner .innerTip h2 {
+  color: #bbb;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight {
+  min-width: 128px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightHead {
+  background: #f3f3f3;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightHead h4 {
+  float: left;
+  padding: 0px 11px;
+  font-weight: bold;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightHead span {
+  float: right;
+  width: 12px;
+  height: 13px;
+  line-height: 39px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightContent p {
+  padding: 11px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightContent .scoreBlock {
+  position: absolute;
+  left: -116px;
+  bottom: 0px;
+  background: white;
+  border: 1px solid #ddd;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightContent .scoreBlock .blockInner {
+  padding: 8px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightContent .scoreBlock .blockInner p {
+  margin: 0px;
+  padding: 0px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightContent .scoreBlock .blockInner .block .blockRadio label.radio-inline {
+  margin: 0px;
+  padding: 0px 6px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightContent .scoreBlock .blockInner .block .blockRadio label.radio-inline input {
+  margin: 0px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightContent .scoreBlock .blockInner .block .blockText {
+  margin-top: 20px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightContent .scoreBlock .blockInner .wrapBtn {
+  margin: 3px;
+}
+#buyerNews .buyerNewsInner .innerContent .contentRight .rightContent .scoreBlock .blockInner .wrapBtn .btn {
+  background: #d4d0c8;
+  padding: 3px 9px;
+}
+#buyerNews .buyerNewsInner .innerFooter {
+  margin-top: 0px;
+}
+#buyerNews .buyerNewsInner .innerFooter .footerInner {
+  padding: 17px 23px;
+  text-align: center;
+  background: #f3f3f3;
+}
+#buyerNews .buyerNewsInner .innerFooter .footerInner .footerLink {
+  display: inline-block;
+  float: left;
+}
+#buyerNews .buyerNewsInner .innerFooter .footerInner .footerLink a {
+  padding: 0px .5em;
+}
+#buyerNews .buyerNewsInner .innerFooter .footerInner .footerLink span {
+  color: #ddd;
+}
+#buyerNews .buyerNewsInner .innerFooter .footerInner .footerBasis {
+  display: inline-block;
+  float: right;
+  color: #999;
+}
+#buyerNews .buyerNewsInner .innerFooter .footerInner .footerBasis span {
+  padding: 0px 11px;
+}
+@media screen and (max-width: 736px) {
+  .innerFooter .footerLink,
+  .innerFooter .footerBasis {
+    float: none!important;
+  }
+}

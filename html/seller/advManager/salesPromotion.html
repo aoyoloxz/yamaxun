@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>促销</title>
+	<link rel="stylesheet" href="../../../css/advManager.css">
+	<link rel="stylesheet" href="../../../css/base.css">
+	<link rel="stylesheet" href="../../../css/l_sellerShare.css" />
+	<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="../../../js/jquery-2.2.4.js"></script>
+	<script type="text/javascript" src="../../../lib/node_modules/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<div id="salesPromotion">
+		<div class="l_goods_header">
+			<div class="lgh_logo">
+			</div>
+			<div class="lgh_nav lgh_navHover">
+				<ul>
+					<li class="lghn_hover">
+						<a href="../catalog/catalogAddGood.html">目录<span class="sc-nav-arrow"></span></a>
+
+						<div>
+							<a href="../catalog/catalogCompletion.html">补全你的草稿</a>
+							<a href="../catalog/catalogAddGood.html">添加商品</a>
+
+						</div>
+					</li>
+					<li>
+						<a href="../sellerTop/sellerOder.html">库存</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="../sellerTop/sellerOder.html">管理库存</a>
+							<a href="#">管理亚马逊库存</a>
+							<a href="#">库存规则</a>
+							<a href="#">添加新商品</a>
+							<a href="#">管理亚马逊货件</a>
+						</div>
+					</li>
+					<li>
+						<a href="../sellerTop/sellerextpromotion.html">订单</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="#">管理订单</a>
+							<a href="#">管理退货</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="allSalesPromotionActivity.html">广告</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="allSalesPromotionActivity.html">广告活动</a>
+							<a href="earlyReviewersPlan.html">早期评论人计划</a>
+						</div>
+					</li>
+					<li>
+						<a href="../sellerTop/sellerstore.html">店铺</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="../sellerTop/sellerstore.html">管理店铺</a>
+						</div>
+					</li>
+					<li>
+						<a href="#">数据报告</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="#">付款</a>
+							<a href="#">库存和税务报告</a>
+							<a href="#">广告</a>
+							<a href="#">退货报告</a>
+							<a href="#">税务文件库</a>
+						</div>
+					</li>
+					<li>
+						<a href="../performance/accountStatus.html">绩效</a>
+						<span class="sc-nav-arrow"></span>
+						<div>
+							<a href="../performance/accountStatus.html">账户状况</a>
+							<a href="../performance/feedback.html">反馈</a>
+							<a href="../performance/dealClaim.html">亚马逊商城交易保障索赔</a>
+							<a href="../performance/cardRefusedPayment.html">信用卡拒付索赔</a>
+							<a href="../performance/achievementInfo.html">业绩通知</a>
+							<a href="../performance/sellerUniversity.html">卖家大学</a>
+							<a href="#">获取客户见解</a>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="lgh_right">
+				<div><img src="../../../images/USA.png" />www.amazon.com</div>
+				<div><input type="text" />
+					<div><img src="../../../images/search.png" /></div>
+				</div>
+				<div class="lgh_navHover lgh_rightnav">
+					<ul>
+						<li>
+							<a href="../buyerNews/buyerNews.html">买家消息<span>0</span></a>|
+						</li>
+						<li>
+							<a href="#">帮助</a>|
+						</li>
+						<li>
+							<a href="#">设置</a>
+							<span class="sc-nav-arrow"></span>
+							<div>
+								<a href="#">退出</a>
+								<a href="#">账户信息</a>
+								<a href="#">通知首选项</a>
+								<a href="#">登陆设置</a>
+								<a href="#">退货设置</a>
+								<a href="#">配送设置</a>
+								<a href="#">用户权限</a>
+								<a href="#">您的信息和政策</a>
+								<a href="#">亚马逊物流</a>
+
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="salesPromotionInner">
+			<div class="innerHeader">
+				<div class="headTitle">
+					<h3>促销</h3>
+					<a href="#">了解更多信息</a>
+				</div>
+			</div>
+			<div class="innerContent">
+				<div class="contentNav">
+					<ul id="salesPromotionTabs" class="nav nav-tabs" role="tablist">
+						<li class="">
+							<a href="#createPromotionContent" aria-controls="createPromotionContent">创建促销</a>
+						</li>
+						<li class="">
+							<a href="#managePromotionContent" aria-controls="managePromotionContent">管理您的促销</a>
+						</li>
+						<li class="active">
+							<a href="#manageGoodsListContent" aria-controls="manageGoodsListContent">管理商品列表</a>
+						</li>
+					</ul>
+					<div class="goodsActivityContent">
+						<div class="tab-content">
+							<div id="createPromotionContent" class="tab-pane fade">
+								<div class="tabContTitle">
+									<h3>创建促销</h3>
+								</div>
+								<div class="rowBlock clearfix">
+									<div class="block col-xs-4">
+										<div class="blockTitle">
+											<h4>免运费</h4>
+										</div>
+										<p>对所有或部分商品提供免运费服务。</p>
+										<div class="wrapBtn">
+											<a href="#" class="btn btn-default" role="button">创建</a>
+										</div>
+									</div>
+									<div class="block col-xs-4">
+										<div class="blockTitle">
+											<h4>购买折扣</h4>
+										</div>
+										<p>为您的整个商品分类或一个子商品分类提供折扣优惠。</p>
+										<div class="wrapBtn">
+											<a href="#" class="btn btn-default" role="button">创建</a>
+										</div>
+									</div>
+									<div class="block col-xs-4">
+										<div class="blockTitle">
+											<h4>买一赠一</h4>
+										</div>
+										<p>如果您在整个商品目录或子目录中的购物符合既定的条件，即可享受一个或多个免费商品</p>
+										<div class="wrapBtn">
+											<a href="#" class="btn btn-default" role="button">创建</a>
+										</div>
+									</div>
+								</div>
+								<div class="rowBlock clearfix">
+									<div class="block col-xs-4">
+										<div class="blockTitle">
+											<h4>亚马逊抽奖</h4>
+										</div>
+										<p>免费提供您的商品作为抽奖活动的一部分，以增加您商品的点击率及在社交媒体上的受关注度。</p>
+										<div class="wrapBtn">
+											<a href="#" class="btn btn-default" role="button">创建</a>
+										</div>
+									</div>
+									<div class="block col-xs-4">
+										<div class="blockTitle">
+											<h4>更多优惠</h4>
+										</div>
+										<p>根据买家是否满足购买条件，对所有或部分其他商品提供再买优惠。</p>
+										<div class="wrapBtn">
+											<a disabled href="#" class="btn btn-default" role="button">创建</a>
+										</div>
+										<div class="ignoreBlock">
+											<span class="plaint"></span>
+											<p>此功能已不可用。使用此促销类型的现有促销已全部停用。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="managePromotionContent" class="tab-pane fade">
+								<div class="tabContTitle">
+									<h3>搜索:</h3>
+								</div>
+								<div class="btn-group">
+									<div>
+										<select class="form-control">
+											<option>促销状态</option>
+										</select>
+									</div>
+									<div>
+										<select class="form-control">
+											<option>正在进行</option>
+										</select>
+									</div>
+									<div class="searchBtn">
+										<button class="btn btn-default">搜索</button>
+									</div>
+								</div>
+								<div class="promotionStatus">
+									<p>
+										<span>0</span>
+										促销
+									</p>
+								</div>
+								<div class="wrapTable">
+									<table class="table">
+										<thead>
+											<tr>
+												<th class="bluCol">追踪编码</th>
+												<th class="bluCol">内部描述</th>
+												<th class="bluCol">开始日期</th>
+												<th class="orColor">
+													<span>结束日期</span>
+													<span class="caret"></span>
+												</th>
+												<th>状态</th>
+											</tr>
+										</thead>
+									</table>
+								</div>
+							</div>
+							<div id="manageGoodsListContent" class="tab-pane fade active in">
+								<div class="headBtn">
+									<div>
+										<select class="form-control">
+											<option>商品列表类型:</option>
+										</select>
+									</div>
+									<div>
+										<a href="#" class="btn btn-default">创建商品列表</a>
+									</div>
+								</div>
+								<div class="contentInner">
+									<div class="tabContTitle">
+										<h3>搜索</h3>
+									</div>
+									<div class="btn-group">
+										<div>
+											<select class="form-control">
+												<option>追踪编码</option>
+											</select>
+										</div>
+										<div class="">
+											<input class="form-control" type="text" placeholder="需要补发追踪编码">
+											<button class="btn btn-default">搜索</button>
+										</div>
+									</div>
+									<div class="promotionStatus">
+										<p>
+											<span>0</span>
+											促销
+										</p>
+									</div>
+									<div class="wrapTable">
+										<table class="table">
+											<thead>
+												<tr>
+													<th class="">追踪编码</th>
+													<th class="">内部描述</th>
+													<th class="">开始日期</th>
+												</tr>
+											</thead>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="innerFooter">
+			<div class="footerInner clearfix">
+				<div class="footerLink">
+					<a href="###">为此页评级</a>
+					<span>|</span>
+					<a href="###">获取支持</a>
+					<span>|</span>
+					<a href="###">政策和协议</a>
+					<span>|</span>
+					<select>
+						<option>中文</option>
+						<option>英文</option>
+						<option>日文</option>
+					</select>
+				</div>
+				<div class="footerBasis">
+					<p>desheng&nbsp;&nbsp;© 1999-2017 Amazon.com,Inc.or its affiliates</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+		$('#salesPromotionTabs a').click(function (e) {
+		  	e.preventDefault()
+		  	$(this).tab('show');
+		})
+	</script>
+</body>
+</html>

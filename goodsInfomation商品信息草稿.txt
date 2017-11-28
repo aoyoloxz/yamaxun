@@ -1,0 +1,154 @@
+/*商品信息草稿*/
+#goodsInfomation{
+	.goodsInfomationInner{
+		min-width:846px;
+		padding:19px 14px;
+		.innerHeader{
+			.headerTitle{
+				h3{
+					.display(inline-block);
+				}
+				sup{color:#cc6600;}
+				p{
+					.display(inline-block);
+					a{}
+				}
+			}
+			.headerTip{font-weight: bold;}
+		}
+		.innerContent{
+			.display(flex);
+			.contentLeft{
+				flex-basis:294px;
+				.leftInner{
+					padding:10px 10px 30px 10px;
+					background:#f3f3f3;
+					border:1px solid;
+					.border(#e7e7e7);
+					p{}
+					.wrapDate{
+						.dateTitle{font-weight:bold;}
+						.dateContent{
+							.row{
+								.display(flex);
+								margin:0px;
+								.rowInput{flex:1;}
+								.rowMidd{
+									flex-basis: 30px;
+								    text-align: center;
+								    line-height: 34px;
+								}
+							}
+							.btn{
+								padding:6px 8px;
+								background: #ddd;
+								span{
+									.display(inline-block);
+									width:13px;
+									height:13px;
+									border:2px solid black;
+								}
+							}
+						}
+					}
+				}
+			}
+			.contentRight{
+				flex:1;
+				.rightInner{
+					margin-left: 15px;
+					.innerGreet{
+						padding:18px 18px 18px 29px;
+						border:1px solid;
+			    		.border(#bbd3de);
+						background:#f6f6f6;
+						.greet{
+							width:90%;
+							.display(inline-block);
+							h4{margin:0px;}
+							p{
+								padding-left:9px;
+								span{}
+								a{}
+							}
+						}
+						.Icon{
+							.display(inline-block);
+							vertical-align:top;
+							span{
+							    display: inline-block;
+							    width: 27px;
+							    height: 26px;
+							    background-image: url(../images/Am.png);
+							    background-repeat: no-repeat;
+							    background-size: 400px 600px;
+							    -webkit-background-size: 400px 600px;
+							    background-position: -350px -28px;
+							    vertical-align: top;
+							    margin: 0 11px 0 0;
+							}
+						}
+					}
+					.innerGoodMess{}
+					.messInner{
+						.wrapBtn{
+							.btnSearch{
+								.navbar-form{
+									padding-left:0px;
+									.form-group{
+										position:relative;
+										input{padding-left:25px;}
+									}
+									.btn{
+										background:#656b73;
+										color:white;
+									}
+								}
+							}
+							.btnAdd{
+								padding: 10px 0 10px 15px;
+								.lotSize{.background(#f7f8fa);}
+								.addGood{
+								    .background;
+								    padding:0px;
+								    a{
+								        padding: 6px 12px;
+                                        width: 100%;
+                                        display: block;
+                                        color:inherit;
+                                        &:hover{
+                                            text-decoration: none;
+                                        }
+								    }
+								}
+								.savaAll{.background(#f9f3e5);}
+							}
+						}
+						.wrapTable{
+							.panel{
+								margin:3px;
+								.panel-heading{
+									padding:0px;
+									table{
+										margin:0px;
+										th{border:none;}
+										.hovToggle:hover{
+										    color:#e47911;
+										}
+									}
+								}
+								.panel-body{
+									text-align:center;
+								}
+							}
+							.searchResult{
+								text-align:right;
+								.btn{.background}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1000 @@
+/*绩效·业绩通知*/
+#achievementInfo .achievementInfoInner {
+  padding: 17px 31px;
+}
+#achievementInfo .achievementInfoInner .innerHeader .headerTitle h3 {
+  color: #cc6600;
+}
+#achievementInfo .achievementInfoInner .innerContent .contentInfo .notInfo .panel .panel-heading {
+  font-weight: bold;
+}
+#achievementInfo .achievementInfoInner .innerContent .contentInfo .notInfo .panel .panel-body {
+  text-align: center;
+}
+#achievementInfo .achievementInfoInner .innerContent .contentInfo .notInfo .panel .panel-body p {
+  display: inline-block;
+}
+#achievementInfo .innerFooter {
+  margin-top: 334px;
+}
+/*绩效·交易保障索赔*/
+#dealClaim .dealClaimInner {
+  padding: 24px 26px;
+}
+#dealClaim .dealClaimInner .innerHeader {
+  margin-bottom: 20px;
+}
+#dealClaim .dealClaimInner .innerHeader .headerTitle h3 {
+  color: #cc6600;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+}
+#dealClaim .dealClaimInner .innerHeader .headerTitle a {
+  margin-left: 5px;
+}
+#dealClaim .dealClaimInner .innerContent .handlePanel .panel .panel-heading {
+  font-size: 15px;
+  background-color: #d2deed;
+}
+#dealClaim .dealClaimInner .innerContent .handlePanel .panel .panel-heading h4 {
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+}
+#dealClaim .dealClaimInner .innerContent .handlePanel .panel .panel-heading div {
+  display: inline-block;
+  padding: 0px 6px;
+}
+#dealClaim .dealClaimInner .innerContent .handlePanel .panel .panel-heading div span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+}
+#dealClaim .dealClaimInner .innerContent .handlePanel .panel .panel-body {
+  padding: 10px 10px 5px;
+  background: #f4f4f4;
+}
+#dealClaim .dealClaimInner .innerContent .handlePanel .panel .panel-body select.form-control {
+  display: inline-block;
+  width: initial;
+}
+#dealClaim .innerFooter {
+  margin-top: 254px;
+}
+/*信用卡拒付*/
+#cardRefusedPayment .cardRefusedPaymentInner {
+  padding: 19px 33px;
+}
+#cardRefusedPayment .cardRefusedPaymentInner .innerHeader {
+  margin-bottom: 20px;
+}
+#cardRefusedPayment .cardRefusedPaymentInner .innerHeader .headerTitle h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #cc6600;
+}
+#cardRefusedPayment .cardRefusedPaymentInner .innerHeader .headerTitle .headerTip a {
+  text-decoration: underline;
+}
+#cardRefusedPayment .cardRefusedPaymentInner .innerHeader .headerStatus span {
+  color: #cc6600;
+}
+#cardRefusedPayment .cardRefusedPaymentInner .innerHeader .headerStatus select {
+  display: inline-block;
+  width: initial;
+}
+#cardRefusedPayment .innerFooter {
+  margin-top: 334px;
+}
+/*账户状况*/
+#accountStatus .accountStatusInner .innerNav {
+  text-align: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+#accountStatus .accountStatusInner .innerNav ul.nav {
+  display: inline-block;
+  padding: 3px 3px 0px;
+}
+#accountStatus .accountStatusInner .innerNav ul.nav li.active > a {
+  color: black;
+  background: transparent;
+}
+#accountStatus .accountStatusInner .innerNav ul.nav li > a:hover,
+#accountStatus .accountStatusInner .innerNav ul.nav li > a:focus {
+  background: transparent;
+}
+#accountStatus .accountStatusInner .innerHeader {
+  padding: 15px 16px 12px;
+}
+#accountStatus .accountStatusInner .innerHeader .headerTitle {
+  margin-left: 15px;
+}
+#accountStatus .accountStatusInner .innerHeader .headerTitle h3 {
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-top: 13px;
+}
+#accountStatus .accountStatusInner .innerHeader .headerTitle a {
+  margin-left: 11px;
+}
+#accountStatus .accountStatusInner .innerContent {
+  padding: 0px 16px 12px;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel {
+  display: flex;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panelCenter,
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panelRight {
+  margin-left: 23px;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel {
+  flex: 1;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .panel-heading h3 {
+  margin: 0px;
+  padding: 3px 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .panel-body .bodyTitle {
+  display: flex;
+  margin-bottom: 9px;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .panel-body .bodyTitle div {
+  flex: 1;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .panel-body .wrapBlock {
+  padding: 10px 10px 4px 10px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .panel-body .wrapBlock .bodyDetail {
+  display: flex;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .panel-body .wrapBlock .bodyDetail div {
+  flex: 1;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .panel-body .wrapBlock .bodyResult {
+  display: flex;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .panel-body .wrapBlock .bodyResult p {
+  flex: 1;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .panel-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background: #f9f9f9;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .wrapListGroup {
+  padding: 0px 15px 0px 12px;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .wrapListGroup .ListTitle {
+  font-weight: bold;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .wrapListGroup .list-group .list-group-item {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 1px;
+  padding: 10px 9px 10px 3px;
+  display: flex;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .wrapListGroup .list-group .list-group-item div {
+  flex: 1;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .wrapListGroup .list-group .list-group-item:before {
+  content: '●';
+  color: #ddd;
+  padding-right: 5px;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .wrapListGroup .list-group .list-group-item:last-child {
+  border: none;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .wrapListGroup .leftGroup li {
+  list-style: disc;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panel .textR {
+  text-align: right;
+}
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panelLeft,
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panelCenter,
+#accountStatus .accountStatusInner .innerContent .wrapPanel .panelRight {
+  position: relative;
+  padding-bottom: 21px;
+}
+#accountStatus .innerFooter {
+  margin-bottom: 50px;
+}
+/*卖家大学*/
+#sellerUniversity .sellerUniversityInner {
+  padding: 20px 43px 112px;
+}
+#sellerUniversity .sellerUniversityInner .innerHeader {
+  border-bottom: 1px solid #e9e9e9;
+}
+#sellerUniversity .sellerUniversityInner .innerHeader .headerTitle {
+  margin-bottom: 3px;
+}
+#sellerUniversity .sellerUniversityInner .innerHeader .headerTitle .media img {
+  width: 100px;
+  height: 75px;
+}
+#sellerUniversity .sellerUniversityInner .innerHeader .headerTitle .media h3 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 21px;
+  color: #ff9900;
+}
+#sellerUniversity .sellerUniversityInner .innerHeader .headerTitle .media .media-body {
+  vertical-align: middle;
+}
+#sellerUniversity .sellerUniversityInner .innerContent {
+  display: flex;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentLeft {
+  flex-basis: 299px;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentLeft .leftInner .leftTitle span {
+  font-size: 21px;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentLeft .leftInner .leftTitle h3 {
+  display: inline-block;
+  font-size: 21px;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentLeft .leftInner .leftBody .contentList {
+  width: 100%;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentLeft .leftInner .leftBody .contentList .btn-group {
+  width: 100%;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentLeft .leftInner .leftBody .contentList .btn-group button {
+  border-bottom: none;
+  border-radius: 1px;
+  padding-right: 43px;
+  width: 100%;
+  text-align: left;
+  background: #f3f3f3;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentLeft .leftInner .leftBody .contentList .btn-group:last-child {
+  border-bottom: 1px solid #ddd;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight {
+  flex: 1;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner {
+  padding: 9px 24px;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow {
+  position: relative;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .row {
+  display: flex;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .row .rowInner {
+  flex: 1;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .row .rowInner .thumbnail {
+  border: none;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .row .rowInner .thumbnail .caption h3 {
+  color: #146eb4;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .wrapPage {
+  text-align: center;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .wrapPage p {
+  display: inline-block;
+  padding: 1px 6px;
+  border: 1px solid #ddd;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .btnLeft,
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .btnRight {
+  position: absolute;
+  top: 37%;
+  margin-top: -10px;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .btnRight {
+  right: -10px;
+}
+#sellerUniversity .sellerUniversityInner .innerContent .contentRight .rightInner .rightBody .rightBlock .block .blockList .wrapRow .btnLeft {
+  left: -10px;
+  display: none;
+}
+#sellerUniversity .innerFooter {
+  margin-bottom: 50px;
+}
+/*反馈*/
+#feedback {
+  position: relative;
+}
+#feedback .feedbackInner {
+  padding: 8px 32px;
+}
+#feedback .feedbackInner .innerNav .nav li > a {
+  padding: 6px 15px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .wrapTip {
+  margin-top: 18px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .wrapTip .managerTip h4,
+#feedback .feedbackInner .innerNav #myTabsContent .wrapTip .targetTip h4 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .wrapTip .managerTip p,
+#feedback .feedbackInner .innerNav #myTabsContent .wrapTip .targetTip p {
+  display: inline-block;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .wrapTip .managerTip a,
+#feedback .feedbackInner .innerNav #myTabsContent .wrapTip .targetTip a {
+  text-decoration: underline;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner {
+  display: flex;
+  margin-bottom: 60px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .TagSign {
+  color: #c34f00;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft {
+  flex: 1;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftNav {
+  margin-bottom: 6px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner {
+  padding: 30px 26px;
+  margin-top: 11px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 21px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner h3,
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner p {
+  margin: 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTitle {
+  margin-bottom: 19px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTitle h3 {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTitle a {
+  font-size: 11px;
+  text-decoration: underline;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTip {
+  margin-bottom: 9px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTip p {
+  font-size: 11px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTip h3 {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #004994;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table {
+  width: 100%;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table td,
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table th {
+  padding: 9px 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table thead tr th {
+  font-weight: normal;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table thead tr th:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table tbody tr td p {
+  margin: 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table tbody tr td span {
+  font-size: 13px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table tbody tr:last-child {
+  font-size: 14px;
+  color: #004994;
+  border: none;
+  margin-top: 9px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .prerequisitesInner .innerTable table tbody tr:last-child td p {
+  position: relative;
+  top: 10px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .panel-body {
+  background: #fbf9f9;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .wrapOrderRate {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 13px 2px;
+  background-color: white;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .wrapOrderRate .rateBlock {
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid #ddd;
+  flex: 1;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .wrapOrderRate .rateBlock:last-child {
+  border: none;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .wrapOrderRate .rateBlock .rateBlockLeft {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .wrapOrderRate .rateBlock .rateBlockLeft .leftRateIcon img {
+  max-width: 62px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .wrapOrderRate .rateBlock .rateBlockRight {
+  display: flex;
+  align-items: flex-end;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .wrapOrderRate .rateBlock .rateBlockLeft,
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .wrapOrderRate .rateBlock .rateBlockRight {
+  padding: 10px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .orderSelect {
+  margin-top: 9px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .orderSelect ul {
+  border-bottom: 1px solid #ddd;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .orderSelect ul > li {
+  padding: 6px 20px;
+  border: 1px solid #ddd;
+  border-bottom: none;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .orderSelect ul > li .tickIcon {
+  width: 21px;
+  padding: 6px 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panel .orderSelect ul > li span {
+  vertical-align: middle;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable .panel-heading h5 {
+  display: inline-block;
+  margin: 0px;
+  font-size: 15px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table {
+  width: 100%;
+  text-align: center;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table td {
+  border: 1px solid #ddd;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table td > .rowTitle {
+  display: inline-block;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table h5 {
+  display: inline-block;
+  margin: 7px 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table p {
+  margin: 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table .al {
+  padding-left: 9px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table .tableBtn {
+  border-right: none;
+  border-bottom: none;
+  background: white;
+  padding: 5px 18px;
+  text-align: left;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table .tableBtn a {
+  padding: 2px 3px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  text-decoration: none;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table .tableBtn a:nth-child(1) {
+  background: #e8e8c4;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .leftWrapPanel .panelInner .panelTable table .tableBtn a:nth-child(2) {
+  background: #e4e4e4;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .targetGoal .goalInner .goalTitle h4 {
+  color: #e37811;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .targetGoal .goalInner .goalList ul {
+  margin-left: 49px;
+  list-style: disc;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyLeft .targetGoal .goalInner .notice {
+  font-size: 11px;
+  margin-top: 35px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyRight {
+  flex-basis: 328px;
+  padding-left: 25px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .targetBody .targetBodyInner .targetBodyRight .rightInfo .panel .panel-body a {
+  text-decoration: underline;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade {
+  padding-top: 25px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockTitle {
+  padding: 3px 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockTitle h4 {
+  margin: 0px;
+  display: inline-block;
+  font-weight: bold;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockTitle span {
+  color: #cc6600;
+  font-size: 12px;
+  vertical-align: text-bottom;
+  font-weight: bold;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockBody table {
+  width: 98%;
+  margin-left: 26px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockBody table tbody {
+  background: #f4f4f4;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockBody table tbody td {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockBody table .whiteBg {
+  background: white;
+  font-weight: bold;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockBody table .ar {
+  text-align: right!important;
+  font-weight: bold;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockBody .tableTip {
+  margin-top: 5px;
+  font-size: 12px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .feedbackGrade .gradeBlock .blockBody .tableTip a {
+  text-decoration: underline;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner {
+  padding: 30px 26px;
+  margin-top: 11px;
+  border: 1px solid #ddd;
+  width: 45%;
+  margin-bottom: 113px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner h3,
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner p {
+  margin: 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTitle {
+  margin-bottom: 19px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTitle h3 {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTitle a {
+  font-size: 11px;
+  text-decoration: underline;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTip {
+  margin-bottom: 9px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTip p {
+  font-size: 11px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTip h3 {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #004994;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table {
+  width: 100%;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table td,
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table th {
+  padding: 9px 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table thead tr th {
+  font-weight: normal;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table thead tr th:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table tbody tr td p {
+  margin: 0px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table tbody tr td span {
+  font-size: 13px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table tbody tr:last-child {
+  font-size: 14px;
+  color: #004994;
+  border: none;
+  margin-top: 9px;
+}
+#feedback .feedbackInner .innerNav #myTabsContent .prerequisitesInner .innerTable table tbody tr:last-child td p {
+  position: relative;
+  top: 10px;
+}
+#feedback .innerFooter {
+  margin-bottom: 90px;
+}
+/*检查业绩*/
+#checkAchievement {
+  position: relative;
+}
+#checkAchievement .checkAchievementInner .innerNav {
+  text-align: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+#checkAchievement .checkAchievementInner .innerNav ul.nav {
+  display: inline-block;
+  padding: 3px 3px 0px;
+}
+#checkAchievement .checkAchievementInner .innerNav ul.nav li.active > a {
+  color: black;
+  background: transparent;
+}
+#checkAchievement .checkAchievementInner .innerNav ul.nav li > a:hover,
+#checkAchievement .checkAchievementInner .innerNav ul.nav li > a:focus {
+  background: transparent;
+}
+#checkAchievement .checkAchievementInner .innerHeader {
+  padding: 15px 16px 12px;
+}
+#checkAchievement .checkAchievementInner .innerHeader .headerTitle h3 {
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-top: 13px;
+}
+#checkAchievement .checkAchievementInner .innerHeader .headerTitle a {
+  margin-left: 11px;
+}
+#checkAchievement .checkAchievementInner .innerHeader .headerTip p {
+  display: inline-block;
+}
+#checkAchievement .checkAchievementInner .innerContent {
+  padding: 9px 21px;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock {
+  /*.display(flex);*/
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table.firstTable {
+  width: 85%;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table tbody > tr > td {
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table .wrapUpdateBtn {
+  text-align: center;
+  vertical-align: middle;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table .wrapUpdateBtn button {
+  padding: 6px 9px;
+  background: #f4d27f;
+  border-radius: 3px;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table .row {
+  margin: 0px;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table .row div {
+  display: inline-block;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table .row .rowInput .input-group {
+  display: flex;
+  justify-content: space-between;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table .row .rowInput input {
+  width: auto;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table .row .rowInput .btn {
+  padding: 6px 8px;
+  background: #ddd;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table .row .rowInput .btn span {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 2px solid black;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentTop .topBlock table .row .rowMidd {
+  vertical-align: bottom;
+  text-align: center;
+  line-height: 34px;
+  padding: 0px 5px;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentBottom .wrapTableData table {
+  border: 1px solid #ddd;
+  margin: 0px;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentBottom .wrapTableData table td {
+  border: none;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentBottom .wrapTableData table tr {
+  border-bottom: 1px solid #ddd;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentBottom .wrapTableData table .tableHead {
+  background: #f2f2f2;
+}
+#checkAchievement .checkAchievementInner .innerContent .contentBottom .bottomNotice {
+  font-size: 11px;
+  margin-top: 3px;
+}
+/*订单的缺陷*/
+#orderBug .orderBugInner .innerNav {
+  text-align: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+#orderBug .orderBugInner .innerNav ul.nav {
+  display: inline-block;
+  padding: 3px 3px 0px;
+}
+#orderBug .orderBugInner .innerNav ul.nav li.active > a {
+  color: black;
+  background: transparent;
+}
+#orderBug .orderBugInner .innerNav ul.nav li > a:hover,
+#orderBug .orderBugInner .innerNav ul.nav li > a:focus {
+  background: transparent;
+}
+#orderBug .orderBugInner .innerHeader {
+  padding: 16px 18px;
+}
+#orderBug .orderBugInner .innerHeader .headTitle h3 {
+  font-size: 28px;
+}
+#orderBug .orderBugInner .innerHeader .headTip p {
+  margin: 0px;
+}
+#orderBug .orderBugInner .innerContent {
+  padding: 0px 18px;
+  margin-top: 15px;
+}
+#orderBug .orderBugInner .innerContent .blockTip .tipInner {
+  padding: 10px 17px;
+  border: 1px solid #bbd3de;
+  background-color: #f6f6f6;
+}
+#orderBug .orderBugInner .innerContent .blockTip .tipInner span {
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  -webkit-background-size: 400px 600px;
+  background-position: -350px -28px;
+  vertical-align: middle;
+  margin: 0 11px 0 0;
+}
+#orderBug .orderBugInner .innerContent .blockTip .tipInner p {
+  display: inline-block;
+  font-weight: bold;
+}
+#orderBug .innerFooter {
+  margin-top: 334px;
+}
+/*商品政策*/
+#goodsPolicy .goodsPolicyInner .innerNav {
+  text-align: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+#goodsPolicy .goodsPolicyInner .innerNav .navBack {
+  display: inline-block;
+  display: none;
+}
+#goodsPolicy .goodsPolicyInner .innerNav ul.nav {
+  display: inline-block;
+  padding: 3px 3px 0px;
+}
+#goodsPolicy .goodsPolicyInner .innerNav ul.nav li.active > a {
+  color: black;
+  background: transparent;
+}
+#goodsPolicy .goodsPolicyInner .innerNav ul.nav li > a:hover,
+#goodsPolicy .goodsPolicyInner .innerNav ul.nav li > a:focus {
+  background: transparent;
+}
+#goodsPolicy .goodsPolicyInner .innerContent {
+  padding: 23px 19px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentHead {
+  margin-bottom: 19px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentHead .headTitle h3 {
+  display: inline-block;
+  font-size: 26px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentHead .headTip p {
+  margin: 0px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf {
+  display: flex;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfLeft {
+  flex-basis: 224px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfLeft .nav li.active .leftBlock {
+  border: 1px solid #ffa724;
+  border-right-width: 11px;
+  background: white;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfLeft .nav a {
+  color: black!important;
+  background: transparent;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfLeft .leftBlock {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background: #f3f3f3;
+  padding: 12px 16px;
+  box-sizing: content-box;
+  margin-bottom: 11px;
+  font-size: 17px;
+  font-weight: bold;
+  border: 1px solid white;
+  border-right-width: 11px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfLeft .leftBlock .labelCount {
+  align-self: flex-end;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight {
+  flex: 1;
+  margin-left: 12px;
+  padding: 16px 18px;
+  border: 1px solid #ddd;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightTop {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightTop .goodsComplain {
+  border-right: 1px solid #ddd;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightTop .goodsComplain .complainTitle h3 {
+  margin: 0px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightTop .goodsComplain .complainCount {
+  font-size: 45px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightTop .goodsComplain,
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightTop .complainOther {
+  padding: 3px 100px 26px 19px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightBottom {
+  margin-top: 15px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightBottom .blockTip .tipInner {
+  padding: 10px 17px;
+  border: 1px solid #bbd3de;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightBottom .blockTip .tipInner span {
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  -webkit-background-size: 400px 600px;
+  background-position: -350px -28px;
+  vertical-align: top;
+  margin: 0 11px 0 0;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightBottom .blockTip .tipInner div {
+  display: inline-block;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightBottom .blockTip .tipInner p {
+  margin-bottom: 0px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightBottom .blockTip .tipInner p:nth-child(1) {
+  font-size: 16px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .contentSelfRight .rightBottom .blockTip .tipInner p:nth-child(2) {
+  font-size: 13px;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .tab-content > .active {
+  display: block !important;
+}
+#goodsPolicy .goodsPolicyInner .innerContent .contentSelf .tab-content > .tab-pane {
+  display: none;
+}
+#goodsPolicy .innerFooter {
+  margin-top: 60px;
+}
+/*well*/
+.dealClaimResult .well,
+.refusedPaymentResult .well {
+  background: white;
+  border: 1px solid #89cd89;
+  box-shadow: 0px 0px 7px #89cd89 inset;
+  padding: 16px;
+  margin: 0px 28px;
+}
+.dealClaimResult .well p,
+.refusedPaymentResult .well p {
+  display: inline-block;
+}
+.dealClaimResult .well span,
+.refusedPaymentResult .well span {
+  font-size: 21px;
+  color: #009900;
+  vertical-align: sub;
+  padding-right: 12px;
+}
+/*底部*/
+.innerFooter {
+  width: 100%;
+}
+.innerFooter .footerInner {
+  padding: 17px 23px;
+  text-align: center;
+  background: #f3f3f3;
+}
+.innerFooter .footerInner .footerLink {
+  display: inline-block;
+  float: left;
+}
+.innerFooter .footerInner .footerLink a {
+  padding: 0px .5em;
+}
+.innerFooter .footerInner .footerLink span {
+  color: #ddd;
+}
+.innerFooter .footerInner .footerBasis {
+  display: inline-block;
+  float: right;
+}
+@media screen and (max-width: 736px) {
+  .innerFooter .footerLink,
+  .innerFooter .footerBasis {
+    float: none!important;
+  }
+}
+.tbBordLeft {
+  border-left: 1px solid #ddd!important;
+}
+.fwBold {
+  font-weight: bold;
+}
+.whiteBg {
+  background: white;
+}
+.grayBg {
+  background: #f4f4f4!important;
+}
+.grayCol {
+  color: #767676;
+}
+.lightBlueBg {
+  background: #e3f2fd;
+}
