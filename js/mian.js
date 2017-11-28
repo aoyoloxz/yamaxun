@@ -1,6 +1,6 @@
 $(function(){
 	//下拉框
-	downbox();
+//	downbox();
 	
     $(".l_sheraNavMianLeft li").on("mouseenter",function(){
     	$("#lshareNavbox").css("width","720px")
@@ -18,6 +18,11 @@ $(function(){
        var index=$(this).index();  //获取当前a标签的个数  
        console.log(index)
 		$(".l_sheraNavMianRight li").eq(index).css("display","none") //返回上一层，在下面查找css名为box隐藏，然后选中的显示  
-//     $(this).addClass("lgbt_hover").siblings().removeClass("lgbt_hover"); //a标签显示，同辈元素隐藏  
     })	
+    //卖家账户信息---点击显示
+//  $().each(function(){
+    		$(".sellerAccountCenter3_1 div").find("a").click(function(){
+    			$(this).next().show().parent().siblings().find("p").hide()
+    		})
+//  })
 });

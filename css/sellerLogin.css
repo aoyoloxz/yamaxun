@@ -5,13 +5,13 @@
 	box-sizing: border-box;
 }
 
-#l_sellerLogin .l_slLogn {
+#l_sellerLogin .l_sellerHeader {
 	width: 100%;
 	height: 70px;
 	padding-top: 10px;
 }
 
-#l_sellerLogin .l_slLogn a {
+#l_sellerLogin .l_sellerHeader a {
 	width: 186px;
 	height: 60px;
 	background: url(../images/icon.png);

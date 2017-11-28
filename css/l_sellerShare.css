@@ -8,7 +8,9 @@
 	box-sizing: border-box;
 	border-bottom: 1px solid #E3E3E3;
 }
-
+.l_goods_header select{
+	width: 80%;
+}
 .lgh_logo {
 	background: url(../images/l_logo.png);
 	width: 230px;
@@ -73,10 +75,9 @@
 }
 
 .lgh_navHover>ul>li>div {
-	min-width: 100px;
+	min-width: 150px;
 	position: absolute;
 	top: 40px;
-	left: 0px;
 	padding: 2px 0;
 	background-color: #fff;
 	border-top: 3px solid #333;
@@ -294,5 +295,76 @@
 	margin: 0;
 	line-height: 25px;
 }
+/*卖家后台底部导航*/
+.l_sellerGoodsFooter {
+	width: 100%;
+	height: 100px;
+	background: #eee;
+	padding: 0 30px;
+	box-sizing: border-box;
+	margin-top: 80PX;
+}
 
+.l_sellerGoodsFooter a {
+	color: #0066C0;
+}
 
+.l_sellerGoodsFooter>div {
+	height: 50%;
+	line-height: 50px;
+}
+
+.l_sellerGoodsFooter>div:nth-of-type(2) {
+	border-top: 1px solid #e3e3e3;
+	color: #999;
+}
+/*L页面样式*/
+.l_sellerCenter {
+	padding: 30px;
+	color: #000;
+}
+
+.l_sellerCenter h2 {
+	font-size: 32px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.l_sellerCenter h2 span{
+	color: blue;
+	font-size: 12px;
+	position: relative;
+	top: -15px;
+
+}
+.l_sellerCenter p{
+	color: #666;
+}
+.l_sellerCenter h2 a{
+	font-size:14px ;
+	padding-left: 15px;
+}
+a {
+	color: #0066C0;
+	line-height: 20px;
+}
+.orang{
+	color:rgb(230,119,46);
+}
+a.und{
+	text-decoration: underline;
+
+	
+}
+span.smallIcon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/Am.png);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  background-position: -160px -102px;
+  vertical-align: text-top;
+}
+.btnw300{
+	width: 300px;
+}

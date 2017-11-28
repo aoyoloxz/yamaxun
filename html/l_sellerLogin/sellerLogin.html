@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆</title>
+		<link rel="stylesheet" href="../../css/base.css" />
+		<link rel="stylesheet" href="../../css/sellerLogin.css" />
+		<script type="text/javascript" src="../../js/jquery-2.2.4.js"></script>
+		<script type="text/javascript" src="../../js/gVerify.js"></script>
+
+	</head>
+
+	<body>
+		<div id="l_sellerLogin">
+			<div class="l_sellerHeader">
+				<a href="#"></a>
+			</div>
+			<div class="l_sloginMian">
+				<div class="l_sloginmLeft">
+					<div class="l_slmLeft1 l_slmLeftsame">
+						<h4>登陆我的账户</h4>
+						<form>
+							<ul>
+								<li>
+									<div>用户名：</div><input type="text" class="l_sellerloginUserName" /></li>
+								<li>
+									<div>密码：</div><input type="password" /></li>
+								<li>
+									<div>验证码：</div><input type="text" class="l_slmLeft1dif" /></li>
+								<li class="l_slmLeft2">
+									<div id="v_container" style="width: 120px;height: 50px;margin-left: 70px;"></div>
+								</li>
+								<li class="l_slmLeft1"><input type="button" class="l_slmLeft1dif1" value="" onclick="javascrtpt:window.location.href='../seller/sellerGoingAgreement.html'" /></li>
+								<li class="l_slmLeft1">
+									<a href="#">忘记密码</a>
+								</li>
+							</ul>
+						</form>
+					</div>
+					<div class="l_slmLeft2 l_slmLeftsame">
+						<p>还未在亚马逊开店？</p>
+						<p>
+							<a href="sellerRegister.html">立即注册</a>零年费零平台使用费，即刻入驻亚马逊中国，立享海量高质客户和全球化规范运营服务。</p>
+					</div>
+				</div>
+				<div class="l_sloginmRight">
+					<img src="../../images/seller_loginbanner.png" ／>
+				</div>
+
+			</div>
+			<div style="clear: both;"></div>
+			<div class="l_slLognBottom">
+				<h5>亚马逊卖家服务</h5>
+				<ul>
+					<li>
+						<a href="#">
+							<p class="l_slblistTop">我要开店</p>
+							<p>
+								将您的商品展示于亚马逊上百万买家的面前。无需每件商品上架费用，亚马逊可帮助您发展业务。
+							</p>
+							<p>
+								<a href="#">了解更多</a>
+							</p>
+						</a>
+
+					</li>
+					<li>
+						<a href="#">
+							<p class="l_slblistTop">亚马逊物流</p>
+							<p>
+								使您亚马逊上的商品具有亚马逊金牌服务资格，且金额满 35 美元的订单免运费（提供世界一流的配送）
+							</p>
+							<p>
+								<a href="#">了解更多</a>
+							</p>
+						</a>
+
+					</li>
+					<li>
+						<a href="#">
+							<p class="l_slblistTop">Amazon Payments</p>
+							<p>
+								通过亚马逊付款，数以百万计亚马逊买家可使用已存储在其亚马逊账户中的信息在您的站点上付款。
+							</p>
+							<p>
+								<a href="#">了解更多</a>
+							</p>
+						</a>
+
+					</li>
+					<li>
+						<a href="#">
+							<p class="l_slblistTop">亚马逊商品推广</p>
+							<p>
+								以关键词定位广告的方式促销您的亚马逊商品。为获取亚马逊搜索结果的首页竞标，且仅在单击您的广告时付费。
+							</p>
+							<p>
+								<a href="#">了解更多</a>
+							</p>
+						</a>
+
+					</li>
+					<li>
+						<a href="#">
+							<p class="l_slblistTop">在欧洲销售</p>
+							<p>
+								通过一个亚马逊欧洲账户达到数百万位新买家，使您的业务更上一层楼。
+							</p>
+							<p>
+								<a href="#">了解更多</a>
+							</p>
+						</a>
+
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</body>
+	<script>
+		var verifyCode = new GVerify("v_container");
+
+		document.getElementById("my_button").onclick = function() {
+			var res = verifyCode.validate(document.getElementById("code_input").value);
+			if(res) {
+				alert("验证正确");
+			} else {
+				alert("验证码错误");
+			}
+		}
+	</script>
+
+</html>

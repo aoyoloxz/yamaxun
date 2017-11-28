@@ -1,0 +1,843 @@
+/*登陆设置*/
+.sellerSetLogin div dl{
+	margin: 5px 0;
+}
+.sellerSetLogin div dt{
+	width: 200px;
+	text-align: right;
+	float: left;
+	color: #000;
+	font-size: 14px;
+}
+.sellerSetLogin div dd{
+	width: 400px;
+	text-align:left;
+	float: left;
+}
+.sellerSetLogin div dd input{
+	width: 200px;
+	height:25px;
+}
+.btnGreen{
+	border-radius:10px ;
+	padding: 2px 8px;
+	border: 1px solid rgb(136,136,91);
+	background:linear-gradient(rgb(255,255,255), rgb(233,233,200),rgb(179,179,154));
+	font-size:12px;
+	color: #000066;	
+}
+/*底部样式*/
+.sellerSetFooter{
+	width: 100%;
+	border-top: 4px solid #eee;
+	height: 50px;
+	margin-top: 70px;
+	line-height: 50px;
+	text-align:  center;
+}
+.l_sellerFooter3{
+	width: 100%;
+	border-top: 4px solid #eee;
+	height: 50px;
+	margin-top: 150px;
+	line-height: 50px;
+}
+.l_sellerFooter3 span{
+	color: #999;
+}
+/*礼品选项及亚马逊物流设置*/
+.sellerSetGift .panel-heading {
+	padding:5px 15px;
+	font-weight: 600;
+	background: linear-gradient(rgb(248,248,248), rgb(230,230,230));
+}
+.sellerSetGift .btn{
+	float: right;
+}
+.sellerSetGift .panel-body{
+	padding:5px 15px;
+	font-weight: 600;
+	background:rgb(244,244,244);
+	font-size: 12px;
+	padding: 0;
+}
+.sellerSetGift .panel-body .row {
+	border-bottom: 1px solid #d4d4d4;
+	width: 100%;
+	margin: 0;
+}
+.sellerSetGift .panel-body .row .col-md-6{
+	padding: 10px;
+}
+.sellerSetGift .panel-body .row .col-md-6:nth-of-type(1){
+	border-right: 2px solid #D4D4D4;
+	box-sizing: border-box;
+	text-align: right;
+}
+.sellerSetAmazonSp{
+	color: #999;
+}
+/*您的信息政策*/
+.sellerSetYourMassge .row {
+	border: 1px solid #d4d4d4;
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	background:rgb(244,244,244);
+}
+.sellerSetYourMassge .row .col-md-4{
+	border-right: 1px solid #d4d4d4;
+	height: 73px;
+}
+.sellerSetYourMassge .row .col-md-4 ul li{
+	background: url(../images/sellerSetIcon1.png)no-repeat;
+	background-size: 10px;
+	background-position:0px 8px ;
+	padding: 0 20px;
+}
+/*我的服务*/
+.sellerSetMyService	{
+	width: 1000px;
+	border-top: 1px solid #4D4D4D;
+	margin-top:30px;
+}
+.sellerSetMyService dl{
+	border-top: 1px solid #ddd;
+	padding: 10px;
+}
+.sellerSetMyService p,dt{
+	color: #333;	
+}
+.sellerSetMyService dt{
+	width: 40%;
+	text-align: right;
+	float: left;
+}
+.sellerSetMyService dd{
+	width: 60%;
+	text-align:left;
+	float: left;
+	padding-left: 30px;
+	box-sizing: border-box;
+	color: #666;
+}
+.sellerSetMyService>div{
+	text-align: center;
+}
+.sellerSetMyService>div>button{
+	width: 200px;
+	margin-top: 50px;
+}
+/*公司账户信息*/
+.sellerSetCompanyAdress{
+	width: 800px;
+}
+.sellerSetCompanyAdressCenter{
+	border-top: 1px solid #ddd;
+	padding-top:30px;
+	margin-top:30px;
+}
+.sellerSetCompanyAdressCenter input{
+	border: 1px solid #DDDDDD;
+	height: 35px;
+	border-radius: 5px;
+	width: 300px;
+};
+/*公司地址*/
+.sellerSetCompanyAdressAdd .well{
+	background: #FFF;
+}
+.sellerSetCompanyAdressAdd .well dl{
+	width: 100%;
+}
+.sellerSetCompanyAdressAdd .well dl{
+	float: left;
+}
+.sellerSetCompanyAdressAdd input,select{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.sellerSetCompanyAdress span{
+	color: red;
+}
+.sellerSetCompanyAdressAdd .well dl.sellerSCAChalf{
+	width: 48%;
+	box-sizing: border-box;
+}
+.sellerSCAChalf:nth-of-type(2n){
+	margin-left:25px ;
+}
+.sellerSetCompanyAdress .submit .btn{
+	width: 40%;
+	margin-right: 20px;
+}
+/*选择地址*/
+.sellerSetCompanyAdressChooseCenter{
+	margin-top: 20px;
+	border-top: 1px solid #ddd;
+}
+.sellerSetCompanyAdressChooseCenter>div:nth-of-type(1){
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	margin: 30px 0;
+}
+.sellerSetCompanyAdressChooseCenter div dl{
+	/*display: block;*/
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+}
+.sellerSetCompanyAdressChooseCenter div dl:nth-last-of-type{
+	border-bottom: 0;
+}
+.sellerSetCompanyAdressChooseCenter div dt{
+	width: 10%;
+	float: left;
+}
+.sellerSetCompanyAdressChooseCenter div dd{
+	width: 90%;
+	float: left;
+}
+/*公司名字*/
+.sellerSetCompanyName1 img{
+	width: 30px;
+	position: absolute;
+	top: 10px;
+	left: 5px;
+}
+.sellerSetCompanyName1{
+	position: relative;
+	padding:10px 40px;
+	color: #999;
+} 
+/*存款方式*/
+.sellerSetDepositWay .well{
+	text-align: left;
+}
+.sellerSetDepositWay .well img{
+	width: 35px;
+}
+.sellerSetDepositWay .well ul li{
+	border-top: 1px solid #ddd;
+	padding:10px 0;
+}
+.sellerSetDepositWay .well ul li .btn{
+	float: right;
+}
+.sellerSetDepositWay .well p{
+	font-size: 12px;
+	color: #666666;
+}
+.sellerSetDepositWay .well p.sellerSetDepositWaySp{
+	color: #000000;
+	font-size: 14px;
+}
+.sellerSetDepositWay .well p.sellerSetDepositWaySp span{
+	font-size: 18px;
+}
+.l_imgs{
+	width: 50px;
+	height: 30px;
+	background: url(../images/credit-cards.png);
+	background-position:-49px 105px ;
+	display:inline-block;
+}
+.sellerSetDepositWay .well .col-md-8>p{
+	font-size: 12px;
+	color: #000;
+}
+.sellerSetDepositWay .l_sSwayWell1{
+	background: #fff;
+}
+.sellerSetDepositWay .l_sSwayWell1 .btn:nth-of-type(1){
+	width: 200px;
+}
+/*存款方式1*/
+.sellerSetDepositWay1 .panel{
+	text-align: left;
+}
+.sellerSetDepositWay1 .table{
+	margin: 0;
+}
+.sellerSetDepositWay1 .table td{
+	border: none;
+	color:coral;
+}
+.sellerSetDepositWay1 .table td.tdgray{
+	color: #999;
+}
+/*存款方式2*/
+.sellerSetDepositWay2 .well{
+	background: #fff;
+
+}
+.sellerSetDepositWay2 table tr{
+	border-top: 1px solid #d4d4d4;
+}
+.sellerSetDepositWay2 .table td{
+	color: #999;
+}
+/*广告付费*/
+.sellerAdvert img{
+	width: 100%;
+}
+.sellerAdvert p{
+	padding-left: 20px;
+	margin-top: 70px;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+/*卖家账户信息*/
+.sellerAccountCenter .sellerAccountCenter1,.sellerAccountCenter3{
+	width: 25%;
+	float: left;
+}
+.sellerAccountCenter .sellerAccountCenter2{
+	width: 50%;
+	padding:0 30px;
+	float: left;
+}
+.sellerAccountCenter h4 {
+	margin: 0;
+}
+.sellerAccountCenter .row{
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+}
+.sellerAccountCenter .row .col-md-6{
+	padding-right: 0;
+}
+.sellerAccountCenter .row .col-md-6:nth-of-type(1){
+	font-weight: 900;
+	text-align: right;
+	
+}
+.sellerAccountCenter .panel h4>a{
+	float:right;
+	font-size: 14px;
+	display: inline;
+	width: 100px;
+	text-align: right;
+}
+
+.sellerAccountCenter .panel-body a{
+	
+	font-size: 14px;
+	display: block;
+	/*width: 100%;*/
+	line-height: 35px;
+	color: #4169E1;
+}
+.sellerAccountCenter .sellerAccountCenter3_1 p{
+	display: none;
+}
+.sellerAccountCenter .panel-body p a{
+
+	display:inline;
+	/*width: ;*/
+}
+.sellerAccountCenter .panel-body ul li{
+	width: 50%;
+	float: left;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+.sellerAccountCenter .panel-body span{
+	color: #999;
+	font-size: 12px;
+}
+/*卖家信息*/
+.sSM1{
+	margin-top: 20px;
+}
+.sSM1 .col-md-4 div{
+	border-top: 1px solid #D4D4D4;
+	padding-top: 20px;
+}
+/*商品状态*/
+.sellerSetGoodState .table{
+	margin-top: 50px;
+	
+}
+.sellerSetGoodState .table tr td span{
+	padding: 5px 10px;
+	border: 1px solid #D4D4D4;
+	border-radius:3px ;
+}
+.sellerSetGoodState .table tr{
+	height: 50px;
+	border-top: none;
+	border-bottom: 1px solid #D4D4D4;
+}
+.sellerSetGoodState .submit{
+	text-align: center;
+}
+/*卖家信息*/
+.sellerSetWritStor h4{
+	margin: 0px 0 40px 0;
+}
+.sellerSetWritStor h5{
+	margin-top: 30px;
+}
+.sellerSetWritStor img{
+	width: 30px;margin-right: 20px;
+}
+.sellerSetWritStor .submit{
+	margin-top: 40px;
+}
+/*管理付款方式*/
+.sellerSetPayWay1 .table > tbody > tr > td{
+	border: none;
+}
+/*付费方式*/
+.l_sSwaySet1 select{
+	width: 40%;
+	margin-right: 20px;
+}
+.l_sSwaySet1 input{
+	border: 1px solid #D4D4D4;
+	width: 300px;
+	height: 35px;
+	border-radius: 5px;
+}
+/*用户权限*/
+.l_sellerSerUserRighs .well{
+	padding:10px 0 10px 70px;
+	position: relative;
+	line-height:25px;
+	
+}
+.l_sellerSerUserRighs .table{
+	border-top: 1px solid #D4D4D4;
+	border-bottom: 1px solid #D4D4D4;
+	text-align: center;
+	margin-top: 40px;
+}
+.l_sellerSerUserRighs .table input{
+	border: 2px solid #D4D4D4;
+	border-radius:5px ;
+	height: 35px;
+	width: 200px;
+}
+.l_sellerSerUserRighs .table select{
+	border: 2px solid #D4D4D4;
+	border-radius:5px ;
+	height: 35px;
+	width: 200px;
+}
+.l_sellerSerUserRighs .well img{
+	position: absolute;
+	left: 20px;
+	width: 40px;
+}
+.l_sellerSerUserRighs1 table{
+	width: 100%;
+}
+.l_sellerSerUserRighs1 .panel-body{
+	padding: 0;
+}
+.l_sellerSerUserRighs1 table tr td{
+	width: 50%;
+	background: #EEEEEE;
+	border: 1px solid #D4D4D4;
+}
+.l_sellerSerUserRighs1 table tr td:nth-of-type(1){
+	text-align: right;
+}
+.l_sellerSerUserRighs2 .panel-body{
+	padding: 0;
+}
+.l_sellerSerUserRighs2 .table{
+	margin: 0;
+	text-align: left;
+}
+.l_sellerSerUserRighs2 .table td{
+	text-align: left;
+}
+/*正式注册地址*/
+.sellerSetAdress .panel-heading{
+	text-align: right;
+}
+.sellerSetAdress .panel-body dt{
+	width: 30%;
+	text-align: right;
+	float: left;
+	padding-right: 30px;
+	line-height: 40px;
+}
+.sellerSetAdress .panel-body dd{
+	width: 60%;
+	float: left;
+	
+}
+.sellerSetAdress .panel-body input{
+	width: 300px;
+	border: 1px solid #D4D4D4;
+	height: 35px;
+	border-radius: 5px;
+}
+.sellerSetAdress .panel-body select{
+	width: 200px;
+}
+.sellerSetAdress .submit1{
+	border-top: 1px solid #eee;
+	padding-top: 30px;
+	height:100px;
+}
+/*正式注册地址*/
+.sellerSetAdress1 .panel-heading{
+	text-align: right;
+}
+.sellerSetAdress1 dl dt{
+	width: 10%;
+	float: left;
+	text-align: center;
+}
+.sellerSetAdress1 dl dd{
+	width: 90%;
+	float: left;
+}
+.sellerSetAdress1 .well{
+	width: 37%;
+	float: left;
+}
+.sellerSetAdress1 .well:nth-of-type(2n){
+	margin-left: 150px;
+}
+.sellerSetAdress1 .submit1{
+	border-top: 1px solid #eee;
+	padding-top: 30px;
+	height:100px;
+}
+/*国际退货提供商*/
+.sIRPheader{
+	width: 100%;
+	height: 54px;
+	padding: 0 20px;
+	line-height: 54px;
+}
+.sIRPheader .logo{
+	display: inline-block;
+	float: left;
+	width: 300px;
+	height: 100%;
+}
+.sIRPheader>div{
+	float: right;
+}
+.sIRPheader>div>a{
+	padding: 10px 20px;
+	background: rgb(244,152,49);
+	color: #fff;
+	margin-right: 30px;
+}
+.sIRPheader>div>span{
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin-left: 30px;
+}
+.sIRPbanner{
+	width: 100%;
+	height: 200px;
+	background: rgb(48,57,66);
+	position: relative;
+}
+.sIRPbanner>div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 800px;
+	margin:auto;
+	height: 50px;
+}
+.sIRPbanner>div>.input-group>input{
+	width: 250px;
+	height: 40px;
+	border-radius:0 ;
+	border:none
+}
+.sIRPbanner>div>.input-group{
+	float: left;
+	margin-right: 5px;
+	border-radius:0 ;
+	width: 300px;
+}
+.sIRPbanner>div>.input-group>span{
+	background: #fff;
+	color: #000000;
+	font-weight: 600;
+	border-radius:0 ;
+	border: none;
+
+}
+.sIRPbanner .btn{
+	height: 40px;
+	width: 100px;
+	background: rgb(244,152,49);
+}
+.l_sIRPcenter1{
+	width: 27%;
+	float: left;
+	position: relative;
+}
+.l_sIRPcenter1>div{
+	border-bottom: 2px solid #eee;
+	padding: 30px 0;
+}
+.l_sIRPcenter1 p{
+	font-size: 16px;
+	color: #000000;
+}
+.l_sIRPcenter1 input{
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.l_sIRPcenter1 span{
+	color: #999;
+	margin-left: 10px;
+}
+.l_sIRPcenter1>div .btn{
+	position: absolute;
+	top: 45%;
+}
+.l_sIRPcenter2{
+	padding-left: 30px;
+	width: 73%;
+	float: left;
+}
+.l_sIRPcenter2 ul li{
+	background: rgb(244,245,245);
+	width: 48%;
+	float: left;
+	margin: 5px;
+	padding: 30px;
+	height: 200px;
+}
+.l_sIRPcenter2 ul li dt{
+	width: 40%;
+	float: left;
+}
+.l_sIRPcenter2 ul li dd{
+	width: 60%;
+	float: left;
+}
+.l_sIRPcenter2 img{
+	width: 139px;
+	height: 59px;
+}
+.l_sIRPcenter{
+	margin-top: 50px;
+}
+.l_sIRPfooter{
+	background: rgb(48,57,66);
+	height: 186px;
+}
+.l_sIRPfooter img{
+	width: 210px;
+	height: 35px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.l_sIRPfooter p{
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 100;
+	margin-top: 30px;
+}
+.l_sIRPfooter>div{
+	height: 100%;
+	float: left;
+}
+.l_sIRPfooter1{
+	width: 27%;
+}
+.l_sIRPfooter2{
+	width: 55%;
+	padding-left: 30px;
+}
+/*RFC ID*/
+.sellerSetRFCIDcenter{
+	border-bottom: 1px solid #D4D4D4;
+	margin-bottom: 30px;
+	padding: 30px;
+}
+.sellerSetRFCIDcenter input{
+	width: 300px;
+	height: 40px;
+}
+.sellerSetRFCIDcenter dt{
+	width:20%;
+	text-align: right;
+	float: left;
+}
+.sellerSetRFCIDcenter dd{
+	width:70%;
+	padding-left: 30px;
+	float: left;
+}
+.sellerSetWritcenter{
+	border: 2px solid #D4D4D4;
+	border-radius: 5px ;
+	margin: 20px 0;
+}
+.sellerSetWritcenter dl{
+	border-bottom: 2px solid #D4D4D4;
+	margin: 0;
+	min-height: 270px;
+}
+.sellerSetWritcenter dl dt{
+	float: left;
+	width: 30%;
+	background: rgb(243,243,243);
+	height: 100%;
+	line-height: 270px;
+	text-align: right;
+	padding-right: 20px;
+}
+.sellerSetWritcenter dl dd{
+	padding: 30px;
+	width: 70%;
+	float: left;
+}
+
+.sellerSetWritcenter dl dd ul li{
+	margin: 10px;
+}
+.sellerSetWritcenter dl dd ul li input{
+	margin-right: 20px;
+}
+.sellerSetWritcenter dl dd p:nth-of-type(1){
+	color: #999;
+}
+.sellerSetWritcenter .table tr{
+	border: none;
+}
+.sellerSetWritcenter .table tr input{
+	height: 35px;
+}
+.sellerSetWrit1>tbody>tr>td{
+	border: none;
+}
+.sellerSetWrit1>tbody>tr>th{
+	border: none;
+}
+
+/*您的信息政策----公司徽标*/
+/*点击弹出*/
+.sellerSetYourMassgeCl .row{
+	border: none;
+}
+.sellerSetYourMassgeCl .sellerSetYourMassgeCl1 .row{
+	border-bottom:1px solid #d4d4d4 ;
+	height: 40px;
+	text-align: center;
+	line-height: 35px;
+}
+.sellerSetYourMassgeCl .sellerSetYourMassgeCl1 .row .col-md-4{
+	height: 100%;
+	text-align: right;
+	line-height: 40px;
+}
+.sellerSetYourMassgeCl .sellerSetYourMassgeCl1 .row .col-md-8{
+	text-align: left;
+}
+.sYmClChoose{
+	color: #000000;
+}
+/*您的信息政策---子页面*/
+.sellerSetYourMassgeCl .submit1{
+	margin-top: 30px;
+}
+.sellerSetYourMassgeCl table tr{
+	width: 100%;
+}
+.sellerSetYourMassgeCl table tr td:nth-of-type(1){
+	width: 40%;
+	text-align: right;
+	padding-left: 20px;
+	background: rgb(244,244,244);
+}
+.sellerSetYourMassgeCl table tr td:nth-of-type(2){
+	padding: 5px;
+	width: 60%;
+}
+	/*付费方式*/
+.sellerSetPayWayBlock{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	background: rgba(0,0,0,.3);
+	display: none;
+}
+.sellerSetPayWayBlock>div{
+	width: 300px;
+	height: 400px;
+	line-height: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.sellerSetPayWayBlock>div .panel-body{
+	line-height:40px;
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+}
+.sellerSetPayWayBlock .panel-body div.submit{
+	border-top: 1px solid #ddd;
+	padding-top: 30px;
+}
+.sellerSetPayWayBlock .panel-body div.submit .btn{
+	width: 100px;
+	height: 35px;
+}
+.sellerSetPayWayBlock>div .panel-body input{
+	margin-right: 10px;
+}
+.sellerSetPayWayBlock .panel-heading span{
+	width: 30px;
+	height: 100%;
+	float: right;
+	text-align: center;
+}
+/*公用按钮*/
+.btngray	{
+	background:linear-gradient(rgb(248,246,250),rgb(231,233,236));
+	border: 1px solid rgb(141,144,150);
+}
+.btnglod{
+	background:linear-gradient(rgb(245,226,182),rgb(233,189,74));
+	border: 1px solid rgb(156,126,49);
+}
+.fright{
+	float: right;
+}
+.w200{
+	width: 200px;
+}
+.w100{
+	width: 100px;
+}
+.w300{
+	width: 300px;
+}
+.submit1	{
+	text-align: center;
+}
+input{
+	border: 2px solid #D4D4D4;
+	border-radius: 5px;
+}

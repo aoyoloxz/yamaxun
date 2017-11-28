@@ -31,16 +31,7 @@
   border-top: none;
   padding: 11px 16px;
 }
-#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent span.smallIcon {
-  display: inline-block;
-  width: 14px;
-  height: 13px;
-  background-image: url(../images/Am.png);
-  background-repeat: no-repeat;
-  background-size: 400px 600px;
-  background-position: -160px -102px;
-  vertical-align: text-top;
-}
+
 #setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent .tab-content #infoContent .blockTip .tipInner {
   display: flex;
   margin-bottom: 11px;
