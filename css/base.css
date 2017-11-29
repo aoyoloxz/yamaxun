@@ -47,9 +47,8 @@ table {
 }
 
 body {
-    
-    color: #111;
-    font-family: "Hiragino Sans GB","Microsoft Yahei",Arial,sans-serif;
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*宋体 unicode */
+    color: #666;
     background: #fff;
 }
 
@@ -132,6 +131,42 @@ s, i, em {
     display: block;
 }
 /*显示与隐藏元素 E*/
+
+/*文本局对齐方式*/
+.textle{
+	text-align: left;
+}
+.textri{
+	text-align: right;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.ml10{
+	margin-left: 10px;
+}
+.wPad30{
+	padding: 0px 30px 0px 30px;
+}
+.mt30{
+	margin-top: 30px;
+}
+.ml30{
+	margin-left: 30px;
+}
+.mr30{
+	margin-right: 30px;
+}
+.mb30{
+	margin-bottom: 30px;
+}
+
 /*css 初始化 end */
 
 
