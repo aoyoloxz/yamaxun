@@ -592,6 +592,9 @@
   margin-bottom: 51px;
 }
 /*coupons*/
+#coupons .innerFooter {
+  margin-top: 430px;
+}
 #coupons .couponsInner .innerHeader .blockTip {
   margin: 30px 30px 0px;
 }
@@ -747,7 +750,9 @@
   height: 269px;
   width: 100%;
   border: 1px solid #ddd;
-  background: green;
+  background: url(../images/DragoniteUI.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #txtDescription .txtDescriptionInner .innerHeader .headRegisterBlock {
   position: absolute;
@@ -785,6 +790,7 @@
   flex-basis: 236px;
   margin-right: 19px;
   border: 1px solid purple;
+  background: url(../images/ebc-image.png);
 }
 #txtDescription .txtDescriptionInner .innerContent .contentMain .mainLeft .block .blockTxt {
   flex: 1;
@@ -929,6 +935,232 @@
 #advPayMethod .advPayMethodInner .innerContent .payBtn .cancelBtn {
   background: #f7f7f7;
 }
+/*创建广告活动*/
+#createAdvActivityStep1 .createAdvActivityInner .content {
+  display: flex;
+  border-bottom: 3px solid #eee;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft {
+  flex: 1;
+  padding: 14px 60px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .headDirective ul {
+  margin-left: 11%;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .headDirective ul li {
+  float: left;
+  margin-right: 126px;
+  text-align: center;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .headDirective ul li p {
+  margin: 0px;
+  font-size: 11px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .headDirective ul li div span {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  line-height: 33px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent p,
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent h3,
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent h4 {
+  margin: 0px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent .titleInner {
+  margin-bottom: 15px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent .titleInner h3 {
+  font-size: 21px;
+  color: #c65500;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent .inputBlock {
+  margin-bottom: 25px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent .inputBlock h5 {
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0px 0px 3px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent .inputBlock input {
+  display: inline-block;
+  width: auto;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent .inputBlock p {
+  margin-bottom: 3px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent .inputBlock p span {
+  font-weight: bold;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #setActivity .aboutDate {
+  display: flex;
+  margin-bottom: 25px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #setActivity .aboutDate div {
+  margin-right: 11px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #setActivity .aboutDate div h4 {
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #setActivity .aboutDate div input {
+  width: auto;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #setActivity .putInType .typeList ul li label {
+  margin: 0px;
+  font-weight: bold;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #setActivity .putInType .typeList ul li p {
+  margin-left: 15px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .selectTxt h4 {
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .selectTxt h4 span {
+  font-weight: bold;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .blockTitle {
+  margin-bottom: 15px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .blockTitle h3 {
+  font-size: 21px;
+  color: #c65500;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .searchGroup {
+  margin-bottom: 9px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .searchGroup select {
+  display: inline-block;
+  width: auto;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .searchGroup .input-group {
+  display: inline-block;
+  vertical-align: bottom;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .searchGroup .input-group input {
+  width: 186px;
+  height: 35px;
+  padding-left: 25px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .searchGroup .input-group .input-group-addon {
+  padding: 7px 12px;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #686F76;
+  width: auto;
+  line-height: normal;
+  cursor: pointer;
+  margin-left: -4px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .searchGroup .input-group .searchIcon {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  margin-top: -7px;
+  width: 14px;
+  height: 14px;
+  z-index: 9;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .wrapPanel {
+  margin-bottom: 26px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .wrapPanel .panel .panel-heading {
+  font-weight: bold;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .wrapPanel .panel .panel-body {
+  height: 133px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .offerKeyWord .aboutKeyword {
+  margin-bottom: 18px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .offerKeyWord .aboutKeyword .wordTip {
+  margin: 16px 0px 9px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .offerKeyWord .aboutKeyword .wordTip .grayLine {
+  padding: 0px 3px;
+  color: #ddd;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerLeft .leftContent #createGroup .propagateGoodsBlock .offerKeyWord .aboutKeyword .wordTip span:first-child {
+  font-weight: bold;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerRight {
+  flex-basis: 469px;
+  padding-left: 28px;
+  padding-top: 46px;
+  background: #f7f3f7;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerRight .rightBlock {
+  max-width: 298px;
+  padding: 43px 18px;
+  background: #fff;
+  position: relative;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerRight .rightBlock .blockTag {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: url(../images/light.png);
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  margin-left: -18px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerRight .rightBlock .blockTitle h4 {
+  font-weight: bold;
+  font-size: 19px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .content .innerRight .rightBlock .blockTitle p {
+  font-size: 15px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .bottomBtn {
+  padding: 40px 66px;
+}
+#createAdvActivityStep1 .createAdvActivityInner .bottomBtn .backBtn {
+  background: linear-gradient(to bottom, #f7f7ff, #efebef);
+}
+#createAdvActivityStep1 .createAdvActivityInner .bottomBtn .sendBtn {
+  background: linear-gradient(to bottom, #f7df9c, #f7c75a);
+}
+/*创建商品列表*/
+#createGoodsList .innerFooter {
+  margin-top: 330px;
+}
+#createGoodsList .createGoodsListInner {
+  min-width: 998px;
+  padding: 14px 18px 18px;
+  margin: 0 auto;
+}
+#createGoodsList .createGoodsListInner .innerHeader {
+  margin-bottom: 13px;
+}
+#createGoodsList .createGoodsListInner .innerHeader .headTitle h3 {
+  font-size: 28px;
+  display: inline-block;
+}
+#createGoodsList .createGoodsListInner .innerContent .goodsManager {
+  margin-bottom: 20px;
+}
+#createGoodsList .createGoodsListInner .innerContent .goodsManager .btn {
+  background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+}
+#createGoodsList .createGoodsListInner .innerContent .goodsList {
+  padding-bottom: 11px;
+  border-bottom: 1px solid #ddd;
+}
+#createGoodsList .createGoodsListInner .innerContent .goodsList select {
+  width: auto;
+  display: inline-block;
+  margin-right: 15px;
+}
+#createGoodsList .createGoodsListInner .innerContent .goodsList .btn {
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
 /*底部*/
 .innerFooter {
   width: 100%;
@@ -973,4 +1205,7 @@ span.searchIcon {
 }
 .bluCol {
   color: #0066c0;
+}
+.grayCol {
+  color: #ddd;
 }

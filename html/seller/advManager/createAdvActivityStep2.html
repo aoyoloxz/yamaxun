@@ -3,15 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>coupons页面</title>
+	<title>创建广告活动2</title>
 	<link rel="stylesheet" href="../../../css/advManager.css">
 	<link rel="stylesheet" href="../../../css/base.css">
 	<link rel="stylesheet" href="../../../css/l_sellerShare.css" />
 	<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-
-	<div id="coupons">
+	<div id="createAdvActivityStep1">
 		<div class="l_goods_header">
 			<div class="lgh_logo">
 			</div>
@@ -126,14 +125,109 @@
 				</div>
 			</div>
 		</div>
-		<div class="couponsInner">
-			<div class="innerHeader">
-				<div class="blockTip">
-					<div class="tipInner">
-						<span></span>
-						<p>Coupons are only available to Sellers with a feedback rating higher than 3.5</p>
+		<div class="createAdvActivityInner">
+			<div class="content">
+				<div class="innerLeft">
+					<div class="headDirective">
+						<ul class="clearfix">
+							<li>
+								<p>广告活动设置</p>
+								<div>
+									<span>1</span>
+								</div>
+							</li>
+							<li>
+								<p>创建广告组</p>
+								<div>
+									<span>2</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="leftContent">
+						<div id="createGroup">
+							<div class="titleInner">
+								<h3>为该组广告命名</h3>
+							</div>
+							<div class="inputBlock">
+								<h5>广告组名称</h5>
+								<input class="form-control" type="text" placeholder="广告组1">
+								<p>仅在管理您的广告时显示</p>
+							</div>
+							<div class="propagateGoodsBlock">
+								<div class="blockTitle">
+									<h3>选择要进行宣传的商品:</h3>
+								</div>
+								<div class="searchGroup">
+									<select class="form-control">
+										<option>按产品名称搜索</option>
+									</select>
+									<div class="input-group">
+										<input class="form-control" type="text" placeholder="产品名称">
+										<span class="input-group-addon">搜索</span>
+										<span class="searchIcon glyphicon glyphicon-search"></span>
+									</div>
+								</div>
+								<div class="wrapPanel">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<div>
+												按最新产品排序<span class="caret"></span>
+												<p>无商品</p>
+											</div>
+										</div>
+										<div class="panel-body">没有找到您所搜索的"商品"</div>
+									</div>
+									<div class="selectTxt">
+										<h4><span>0</span>已选择产品</h4>
+										<textarea class="form-control" rows="3"></textarea>
+									</div>
+								</div>
+								<div class="offerKeyWord">
+									<div class="titleInner">
+										<h3>设置竞价并且提供关键字:</h3>
+									</div>
+									<div class="inputBlock">
+										<h5>默认竞价</h5>
+										<input class="form-control" type="text" placeholder="$">
+										<p>
+											<input type="checkbox">
+											<span>出价+</span>
+											如果广告有资格显示在搜素结果的顶部位置，那么此广告活动中的竞价相比您的默认竞价最高可提升50%。
+											<a href="#">了解更多信息</a>
+										</p>
+									</div>
+									<div class="aboutKeyword">
+										<div class="wordTip">
+											<span>建议的关键字</span>
+											<span class="grayLine">|</span>
+											<a href="#">提供您自己的关键字</a>
+										</div>
+										<textarea class="form-control" rows="3"></textarea>
+									</div>
+									<div class="selectTxt">
+										<h4><span>0</span>选择的关键字</h4>
+										<textarea class="form-control" rows="3"></textarea>
+									</div>
+								</div>
+							</div>						
+						</div>
 					</div>
 				</div>
+				<div class="innerRight">
+					<div class="rightBlock">
+						<div class="blockTag"></div>
+						<div class="blockTitle">
+							<h4>广告组</h4>
+							<p>广告组名称描述了您将在下面选择的产品。考虑将属于同一类别或价位的产品分为一组。在保存此广告活动之后，您可以创建多个广告组。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="bottomBtn">
+				<a href="createAdvActivityStep1.html" class="backBtn btn btn-default" role="button">返回</a>
+				<a href="###" class="sendBtn btn btn-default" role="button">保存并结束</a>
 			</div>
 		</div>
 		<!-- 底部 -->
@@ -158,6 +252,5 @@
 			</div>
 		</div>
 	</div>
-	
 </body>
 </html>

@@ -3,15 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>coupons页面</title>
+	<title>创建商品列表</title>
 	<link rel="stylesheet" href="../../../css/advManager.css">
 	<link rel="stylesheet" href="../../../css/base.css">
 	<link rel="stylesheet" href="../../../css/l_sellerShare.css" />
 	<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="../../../js/jquery-2.2.4.js"></script>
+	<script type="text/javascript" src="../../../lib/node_modules/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-	<div id="coupons">
+	<div id="createGoodsList">
 		<div class="l_goods_header">
 			<div class="lgh_logo">
 			</div>
@@ -126,13 +128,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="couponsInner">
+		<div class="createGoodsListInner">
 			<div class="innerHeader">
-				<div class="blockTip">
-					<div class="tipInner">
-						<span></span>
-						<p>Coupons are only available to Sellers with a feedback rating higher than 3.5</p>
-					</div>
+				<div class="headTitle">
+					<h3>创建商品列表 </h3>
+				</div>
+			</div>
+			<div class="innerContent">
+				<div class="goodsManager">
+					<a href="../advManager/salesPromotion.html" class="btn btn-default" role="button">管理商品列表</a>
+				</div>
+				<div class="goodsList">
+					<select class="form-control">
+						<option>商品列表类型:</option>
+					</select>
+					<a href="" class="btn btn-default" role="button">创建商品列表</a>
 				</div>
 			</div>
 		</div>

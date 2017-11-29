@@ -3,15 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>coupons页面</title>
+	<title>创建广告活动1</title>
 	<link rel="stylesheet" href="../../../css/advManager.css">
 	<link rel="stylesheet" href="../../../css/base.css">
 	<link rel="stylesheet" href="../../../css/l_sellerShare.css" />
 	<link rel="stylesheet" href="../../../lib/node_modules/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-
-	<div id="coupons">
+	<div id="createAdvActivityStep1">
 		<div class="l_goods_header">
 			<div class="lgh_logo">
 			</div>
@@ -126,14 +125,87 @@
 				</div>
 			</div>
 		</div>
-		<div class="couponsInner">
-			<div class="innerHeader">
-				<div class="blockTip">
-					<div class="tipInner">
-						<span></span>
-						<p>Coupons are only available to Sellers with a feedback rating higher than 3.5</p>
+		<div class="createAdvActivityInner">
+			<div class="content">
+				<div class="innerLeft">
+					<div class="headDirective">
+						<ul class="clearfix">
+							<li>
+								<p>广告活动设置</p>
+								<div>
+									<span>1</span>
+								</div>
+							</li>
+							<li>
+								<p>创建广告组</p>
+								<div>
+									<span>2</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="leftContent">
+						<div id="setActivity">
+							<div class="titleInner">
+								<h3>设置您的广告活动的预算与周期</h3>
+							</div>
+							<div class="inputBlock">
+								<h5>广告活动名称</h5>
+								<input class="form-control" type="text" placeholder="例如:节日偏好">
+							</div>
+							<div class="inputBlock">
+								<h5>每日预算</h5>
+								<input class="form-control" type="text" placeholder="$">
+								<p>最低金额 $1.00</p>
+							</div>
+							<div class="aboutDate">
+								<div>
+									<h4>起始日期</h4>
+									<input class="form-control" type="text" placeholder="2017/11/27">
+								</div>
+								<div>
+									<h4>结束日期</h4>
+									<input class="form-control" type="text" placeholder="无结束日期">
+								</div>
+							</div>
+							<div class="putInType">
+								<div class="titleInner">
+									<h3>选择一个投放类型</h3>
+								</div>
+								<div class="typeList">
+									<ul>
+										<li>
+											<label>
+												<input type="radio" name="radioType">自动投放
+											</label>
+											<p>亚马逊根据您的产品信息将您的广告投放到所有相关的客户搜索页面。您可以下载一份由客户搜索关键字带来的广告点击的报告<a href="#">了解更多</a></p>
+										</li>
+										<li>
+											<label>
+												<input type="radio" name="radioType">手动投放
+											</label>
+											<p>当买家的搜索内容与您提供的关键字相匹配时，会展示您的广告。<a href="#">了解更多</a></p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+				<div class="innerRight">
+					<div class="rightBlock">
+						<div class="blockTag"></div>
+						<div class="blockTitle">
+							<h4>广告组</h4>
+							<p>广告组名称描述了您将在下面选择的产品。考虑将属于同一类别或价位的产品分为一组。在保存此广告活动之后，您可以创建多个广告组。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="bottomBtn">
+				<button class="backBtn btn btn-default">取消</button>
+				<a href="createAdvActivityStep2.html" class="sendBtn btn btn-default" role="button">继续下一步</a>
 			</div>
 		</div>
 		<!-- 底部 -->
@@ -158,6 +230,5 @@
 			</div>
 		</div>
 	</div>
-	
 </body>
 </html>

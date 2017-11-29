@@ -652,6 +652,9 @@
 }
 /*coupons*/
 #coupons{
+	.innerFooter{
+		margin-top:430px;
+	}
 	.couponsInner{
 		.innerHeader{
 			.blockTip{
@@ -813,7 +816,9 @@
 				height:269px;
 				width:100%;
 				border:1px solid #ddd;
-				background:green;
+				background:url(../images/DragoniteUI.png);
+				background-repeat:no-repeat;
+			    background-size: cover;
 			}
 			.headRegisterBlock{
 				position:absolute;
@@ -850,6 +855,7 @@
 							flex-basis:236px;
 							margin-right: 19px;
 							border:1px solid purple;
+						    background: url(../images/ebc-image.png);
 						}
 						.blockTxt{
 							flex:1;
@@ -973,7 +979,242 @@
 	}
 }
 /*创建广告活动*/
-#
+#createAdvActivityStep1{
+	.createAdvActivityInner{
+		.content{
+			.display(flex);
+		    border-bottom: 3px solid #eee;
+			.innerLeft{
+				flex:1;
+				padding: 14px 60px;
+				.headDirective{
+					ul{
+						margin-left: 11%;
+						li{
+							float:left;
+							margin-right: 126px;
+							text-align:center;
+							p{margin:0px;font-size:11px;}
+							div{
+								span{
+									.display(inline-block);
+									width:36px;
+									height:36px;
+									border:2px solid #eee;
+									border-radius:50%;
+									line-height:33px;
+								}
+							}
+						}
+					}
+				}
+				.leftContent{
+					p,h3,h4{margin:0px;}
+					.titleInner{
+						margin-bottom:15px;
+						h3{font-size:21px;color:#c65500;}
+					}
+					.inputBlock{
+					    margin-bottom: 25px;
+						h5{font-weight:bold;font-size:13px;margin:0px 0px 3px;}
+						input{
+							.display(inline-block);
+							width:auto;
+						}
+						p{
+							margin-bottom:3px;
+							span{font-weight:bold;}
+						}
+					}
+					#setActivity{
+						.aboutDate{
+							.display(flex);
+							margin-bottom: 25px;
+							div{
+								margin-right:11px;
+								h4{
+									font-size:13px;
+									font-weight:bold;
+									.display(block);
+								}
+								input{width:auto;}
+							}
+						}
+						.putInType{
+							.typeList{
+								ul{
+									li{
+										label{
+											margin: 0px;
+    										font-weight: bold;
+										}
+										p{margin-left: 15px;}
+									}
+								}
+							}
+						}
+					}
+					#createGroup{
+						.selectTxt{
+							h4{
+								margin-bottom: 5px;
+								font-size:17px;
+								span{
+									font-weight:bold;
+								}
+							}
+							textarea{}
+						}
+						.propagateGoodsBlock{
+							.blockTitle{
+								margin-bottom:15px;
+								h3{font-size:21px;color:#c65500;}
+							}
+							.searchGroup{
+								margin-bottom:9px;
+								select{.display(inline-block);width:auto;}
+								.input-group{
+									.display(inline-block);
+									vertical-align: bottom;
+									input{
+										width: 186px;
+									    height: 35px;
+									    padding-left: 25px;
+									}
+									.input-group-addon{
+										padding: 7px 12px;
+									    font-size: 14px;
+									    color: #ffffff;
+									    border-radius: 5px;
+									    background-color: #686F76;
+									    width: auto;
+									    line-height: normal;
+									    cursor: pointer;
+									    margin-left: -4px;
+									}
+									.searchIcon{
+										display: inline-block;
+									    position: absolute;
+									    left: 8px;
+									    top: 50%;
+									    margin-top: -7px;
+									    width: 14px;
+									    height: 14px;
+									    z-index: 9;
+									}
+								}
+							}
+							.wrapPanel{
+							    margin-bottom: 26px;
+								.panel{
+									.panel-heading{font-weight:bold;}
+									.panel-body{
+										height:133px;
+									}
+								}
+							}
+							.offerKeyWord{
+								.titleInner{
+									h3{}
+								}
+								.inputBlock{}
+								.aboutKeyword{
+									margin-bottom:18px;
+									.wordTip{
+										margin:16px 0px 9px;
+										.grayLine{
+											padding:0px 3px;
+											color:#ddd;
+										}
+										span:first-child{font-weight:bold;}
+									}
+									textarea.form-control{}
+								}
+							}
+						}
+					}
+				}
+			}
+			.innerRight{
+				flex-basis:469px;
+				padding-left:28px;
+				padding-top:46px;
+				background:#f7f3f7;
+				.rightBlock{
+					max-width:298px;
+					padding:43px 18px;
+					background:#fff;
+					position:relative;
+					.blockTag{
+						width:32px;
+						height:32px;
+						border-radius:50%;
+						background:url(../images/light.png);
+						position:absolute;
+						top: -16px;
+					    left: 50%;
+					    margin-left: -18px;
+					}
+					.blockTitle{
+						h4{
+							font-weight:bold;
+							font-size:19px;
+						}
+						p{font-size:15px;}
+					}
+				}
+			}
+		}
+		.bottomBtn{
+			padding: 40px 66px;
+			.btn{
+
+			}
+			.backBtn{background:linear-gradient(to bottom,#f7f7ff,#efebef);}
+			.sendBtn{background:linear-gradient(to bottom,#f7df9c,#f7c75a);}
+		}
+	}
+}
+/*创建商品列表*/
+#createGoodsList{
+	.innerFooter{
+		margin-top:330px;
+	}
+	.createGoodsListInner{
+		min-width: 998px;
+	    padding: 14px 18px 18px;
+	    margin: 0 auto;
+		.innerHeader{
+		    margin-bottom: 13px;
+			.headTitle{
+				h3{
+					font-size: 28px;
+   					display: inline-block;
+				}
+			}
+		}
+		.innerContent{
+			.goodsManager{
+				margin-bottom:20px;
+				.btn{
+					background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+				}
+			}
+			.goodsList{
+				padding-bottom:11px;
+				border-bottom:1px solid #ddd;
+				select{
+					width:auto;
+					.display(inline-block);
+					margin-right:15px;
+				}
+				.btn{
+					background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+				}
+			}
+		}
+	}
+}
 
 /*底部*/
 .innerFooter{
@@ -1034,4 +1275,7 @@ span.searchIcon{
 }
 .bluCol{
 	color:#0066c0;
+}
+.grayCol{
+	color:#ddd;
 }
