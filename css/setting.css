@@ -152,3 +152,140 @@
   border-bottom: 1px solid #ddd;
   background: #f6f6f6;
 }
+/*退货设置*/
+.sellerSetBack .tipInner{
+	display: flex;
+    margin-bottom: 11px;
+    padding: 10px 17px;
+    border: 1px solid;
+    border-color: #bbd3de;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+}
+.sellerSetBack  .tipInner span {
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+    background-image: url(../images/Am.png);
+    background-repeat: no-repeat;
+    background-size: 400px 600px;
+    -webkit-background-size: 400px 600px;
+    background-position: -350px -28px;
+    vertical-align: middle;
+    margin: 0 11px 0 0;
+}
+.sellerSetBack .nav {
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ddd;
+    border-left: none;
+}
+.sellerSetBack .nav li.active {
+    color: #c45500;
+}
+.sellerSetBack .nav li a{
+	  border-radius: 0;
+}
+.sellerSetBack .nav li.active a {
+    color: inherit;
+    font-weight: bold;
+    border-top: 2px solid #c45500;
+
+}
+.sellerSetBack .nav li.active a:hover{
+	color: inherit;
+    font-weight: bold;
+    border-top: 2px solid #c45500;
+    
+}
+.sellerSetBack .nav>a{
+	float: right;
+	position: relative;
+	top:10px;
+}
+.sellerSetBack .contentWrapNav{
+	border: 1px solid #d4d4d4;
+}
+.sellerSetBack .informTabContent{
+	padding: 40px;
+	box-sizing: border-box;
+}
+.sellerSetBack #infoContent>div{
+	margin-bottom:50px;
+}
+.sellerSetBack #infoContent>div p{
+	font-size: 16px;
+	color: #111;
+}
+.sellerSetBack #infoContent>div span{
+	color: #999;
+}
+.sellerSetBack #infoContent>div label,textarea{
+	width: 100%;
+	color: #333;
+	font-weight: :;00;
+	font-size: 14px;
+}
+.sellerSetBack #infoContent>div>div{
+	margin-bottom: 20px;
+}
+.sellerSetBack .submit{
+	text-align: center;
+}
+#backAdress .well{
+	background: #fff;
+}
+#backAdress .well>.well{
+	margin-top: 20px;
+}
+#backAdress .well h3 a{
+	font-size: 14px;
+	float: right;
+}
+#backAdress .well h4{
+	margin-top: 30px;
+	font-size: 22px;
+}
+#backAdress .col-md-4 div{
+	border-top: 1px solid #d4d4d4;
+	padding: 15px 0;
+}
+#backAdress .col-md-4 div h3{
+	font-weight:300;
+	margin-bottom: 30px;
+}
+#backAdress .col-md-8>.well{
+	height: 80px;
+	overflow: hidden;
+}
+#backAdress .col-md-8>.well:nth-of-type(1){
+	height: 210px;
+}
+/*浮动*/
+
+.SetBackfloat1{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+	display: none;
+}
+.SetBackfloat2{
+	display: block;
+}
+.SetBackfloat1 .panel{
+	width: 350px;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.SetBackfloat2 .panel{
+	height: 130px;
+}
+.SetBackfloat1 .panel-footer{
+	text-align: right;
+}
