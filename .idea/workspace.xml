@@ -1,7 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="876d8622-d4e9-44dc-bb39-3ee5da787146" name="默认的" comment="" />
+    <list default="true" id="876d8622-d4e9-44dc-bb39-3ee5da787146" name="默认的" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vagrant.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/seller/advManager/sellernev.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/seller/pricing/repairWarn.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/seller/sellerStor/sellerStor.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/B957AC135C8DDAB38571C9D4FA1BDFD1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/SetLook.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change beforePath="$PROJECT_DIR$/.idea/amazon.iml" afterPath="$PROJECT_DIR$/.idea/amazon.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/MyWishList.html" afterPath="$PROJECT_DIR$/MyWishList.html" />
+      <change beforePath="$PROJECT_DIR$/css/l_seller.css" afterPath="$PROJECT_DIR$/css/l_seller.css" />
+      <change beforePath="$PROJECT_DIR$/css/l_sellerShare.css" afterPath="$PROJECT_DIR$/css/l_sellerShare.css" />
+      <change beforePath="$PROJECT_DIR$/css/seller.css" afterPath="$PROJECT_DIR$/css/seller.css" />
+      <change beforePath="$PROJECT_DIR$/css/setting.css" afterPath="$PROJECT_DIR$/css/setting.css" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/ConductorDisguise.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/ConductorDisguise.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/seller.html" afterPath="$PROJECT_DIR$/html/sellerIn/seller.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerBatchDwonload1.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerBatchDwonload1.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerBatchMonitor.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerBatchMonitor.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerBatchUpload.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerBatchUpload.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerCreatNewGoods.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerCreatNewGoods.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsAdd.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsAdd.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsProgress.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsProgress.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsPut.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsPut.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsSaoMA.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsSaoMA.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsUp.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsUp.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsUp2.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerGoodsUp2.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerGrade.html" afterPath="$PROJECT_DIR$/html/sellerIn/sellerGrade.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerInventoryManaged.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerInventoryManaged.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerInventoryReport.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerInventoryReport.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerInventoryReport1.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerInventoryReport1.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerInword.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerInword.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerLogin.html" afterPath="$PROJECT_DIR$/html/sellerIn/sellerLogin.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerManagedMoney.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerManagedMoney.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerManagedStock.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerManagedStock.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerNewList.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerNewList.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerPromotion.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerPromotion.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerRegister.html" afterPath="$PROJECT_DIR$/html/sellerIn/sellerRegister.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerSellReport.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerSellReport.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerWordExpand.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerWordExpand.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellerWordMassge.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellerWordMassge.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/seller_InventoryControlPanel.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/seller_InventoryControlPanel.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerLogin/sellernev.html" afterPath="$PROJECT_DIR$/html/l_sellerLogin/sellernev.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerAccount.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerAccount.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerAdvert.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerAdvert.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetAdress.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetAdress.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetAdressChoose.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetAdressChoose.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetAmazonLogistics.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetAmazonLogistics.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetCompanyAdress.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetCompanyAdress.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetCompanyAdressAdd.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetCompanyAdressAdd.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetCompanyAdressCloose.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetCompanyAdressCloose.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetCompanyName.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetCompanyName.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetDepositWay.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetDepositWay.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetDepositWay1.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetDepositWay1.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetDepositWay2.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetDepositWay2.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetDepositWayReaplice3.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetDepositWayReaplice3.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetFree.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetFree.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetGift.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetGift.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetGoodsState.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetGoodsState.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetLanguage.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetLanguage.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetLogin.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetLogin.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetMyService.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetMyService.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetPayWay.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetPayWay.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetPayWay1.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetPayWay1.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetPayWaySet.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetPayWaySet.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetRFCID.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetRFCID.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetUserRights.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetUserRights.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetWritStor.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetWritStor.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetWritStorseaver.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetWritStorseaver.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetback.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetback.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetsellMassge1.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetsellMassge1.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetselleMassge.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetselleMassge.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetvaction.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetvaction.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerSetwrit.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerSetwrit.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassge.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassge.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgeAboutseller.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgeAboutseller.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgeAsk.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgeAsk.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgeCustom.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgeCustom.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgeGift.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgeGift.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgePrivacy.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgePrivacy.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgecompanyLogo.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgecompanyLogo.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgedis.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellerYourMassgedis.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/sellernev.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/sellernev.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/setNotificationPreferences.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/setNotificationPreferences.html" />
+      <change beforePath="$PROJECT_DIR$/html/l_sellerSet/setSetVAT.html" afterPath="$PROJECT_DIR$/html/l_sellerSet/setSetVAT.html" />
+      <change beforePath="$PROJECT_DIR$/html/product.html" afterPath="$PROJECT_DIR$/html/product.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/CouponsPage.html" afterPath="$PROJECT_DIR$/html/seller/advManager/CouponsPage.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/advPayMethod.html" afterPath="$PROJECT_DIR$/html/seller/advManager/advPayMethod.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/advertKill.html" afterPath="$PROJECT_DIR$/html/seller/advManager/advertKill.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/advertKillHelp.html" afterPath="$PROJECT_DIR$/html/seller/advManager/advertKillHelp.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/allSalesPromotionActivity.html" afterPath="$PROJECT_DIR$/html/seller/advManager/allSalesPromotionActivity.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/createAdvActivityStep1.html" afterPath="$PROJECT_DIR$/html/seller/advManager/createAdvActivityStep1.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/createAdvActivityStep2.html" afterPath="$PROJECT_DIR$/html/seller/advManager/createAdvActivityStep2.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/createGoodsList.html" afterPath="$PROJECT_DIR$/html/seller/advManager/createGoodsList.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/earlyReviewersPlan.html" afterPath="$PROJECT_DIR$/html/seller/advManager/earlyReviewersPlan.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/salesPromotion.html" afterPath="$PROJECT_DIR$/html/seller/advManager/salesPromotion.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/advManager/txtDescription.html" afterPath="$PROJECT_DIR$/html/seller/advManager/txtDescription.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/buyerNews/buyerNews.html" afterPath="$PROJECT_DIR$/html/seller/buyerNews/buyerNews.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/catalog/batchUpload.html" afterPath="$PROJECT_DIR$/html/seller/catalog/batchUpload.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/catalog/catalogAddGood.html" afterPath="$PROJECT_DIR$/html/seller/catalog/catalogAddGood.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/catalog/catalogCompletion.html" afterPath="$PROJECT_DIR$/html/seller/catalog/catalogCompletion.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/catalog/createNewGoods.html" afterPath="$PROJECT_DIR$/html/seller/catalog/createNewGoods.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/catalog/repertoryManage.html" afterPath="$PROJECT_DIR$/html/seller/catalog/repertoryManage.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/catalog/salesApplication.html" afterPath="$PROJECT_DIR$/html/seller/catalog/salesApplication.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/catalog/uploadGoodsInfomation.html" afterPath="$PROJECT_DIR$/html/seller/catalog/uploadGoodsInfomation.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/catalog/variantGuide.html" afterPath="$PROJECT_DIR$/html/seller/catalog/variantGuide.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/dataReport/dataReport.html" afterPath="$PROJECT_DIR$/html/seller/dataReport/dataReport.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/dataReport/sales.html" afterPath="$PROJECT_DIR$/html/seller/dataReport/sales.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/dataReport/taxation.html" afterPath="$PROJECT_DIR$/html/seller/dataReport/taxation.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/help/help.html" afterPath="$PROJECT_DIR$/html/seller/help/help.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/performance/accountStatus.html" afterPath="$PROJECT_DIR$/html/seller/performance/accountStatus.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/performance/achievementInfo.html" afterPath="$PROJECT_DIR$/html/seller/performance/achievementInfo.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/performance/cardRefusedPayment.html" afterPath="$PROJECT_DIR$/html/seller/performance/cardRefusedPayment.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/performance/checkAchievement.html" afterPath="$PROJECT_DIR$/html/seller/performance/checkAchievement.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/performance/dealClaim.html" afterPath="$PROJECT_DIR$/html/seller/performance/dealClaim.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/performance/feedback.html" afterPath="$PROJECT_DIR$/html/seller/performance/feedback.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/performance/goodsPolicy.html" afterPath="$PROJECT_DIR$/html/seller/performance/goodsPolicy.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/performance/orderBug.html" afterPath="$PROJECT_DIR$/html/seller/performance/orderBug.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/performance/sellerUniversity.html" afterPath="$PROJECT_DIR$/html/seller/performance/sellerUniversity.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/pricing/autoPricing.html" afterPath="$PROJECT_DIR$/html/seller/pricing/autoPricing.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/pricing/managePricing.html" afterPath="$PROJECT_DIR$/html/seller/pricing/managePricing.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/addRemoveOrder.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/addRemoveOrder.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/manageOrder.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/manageOrder.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/manageReturns.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/manageReturns.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/returnMessage.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/returnMessage.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/searchOrder.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/searchOrder.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/sellerOrderReports.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/sellerOrderReports.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/sellerPendingOrder.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/sellerPendingOrder.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/uploadOrder.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/uploadOrder.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/uploadOrderCancel.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/uploadOrderCancel.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/sellerOrder/uploadOrderCkeck.html" afterPath="$PROJECT_DIR$/html/seller/sellerOrder/uploadOrderCkeck.html" />
+      <change beforePath="$PROJECT_DIR$/html/seller/setAccount/setAccount.html" afterPath="$PROJECT_DIR$/html/seller/setAccount/setAccount.html" />
+      <change beforePath="$PROJECT_DIR$/images/creative-2017Oct-phase1-M500J100-banner-internal-PC-GWflyout-546x150-20170930._CB515729469_.png" afterPath="$PROJECT_DIR$/images/creative-2017Oct-phase1-M500J100-banner-internal-PC-GWflyout-546x150-20170930._CB515729469_.png" />
+      <change beforePath="$PROJECT_DIR$/images/creative-2017Oct-phase1-TeJia-banner-internal-PC-GWflyout-546x150-20170930._CB513176632_.png" afterPath="$PROJECT_DIR$/images/creative-2017Oct-phase1-TeJia-banner-internal-PC-GWflyout-546x150-20170930._CB513176632_.png" />
+      <change beforePath="$PROJECT_DIR$/images/dy_ags._CB317942043_.png" afterPath="$PROJECT_DIR$/images/dy_ags._CB317942043_.png" />
+      <change beforePath="$PROJECT_DIR$/images/dy_baby._CB334700282_.png" afterPath="$PROJECT_DIR$/images/dy_baby._CB334700282_.png" />
+      <change beforePath="$PROJECT_DIR$/images/dy_bmvd._CB334700282_.png" afterPath="$PROJECT_DIR$/images/dy_bmvd._CB334700282_.png" />
+      <change beforePath="$PROJECT_DIR$/images/dy_ce._CB334700282_.png" afterPath="$PROJECT_DIR$/images/dy_ce._CB334700282_.png" />
+      <change beforePath="$PROJECT_DIR$/images/dy_consumable._CB334700282_.png" afterPath="$PROJECT_DIR$/images/dy_consumable._CB334700282_.png" />
+      <change beforePath="$PROJECT_DIR$/images/dy_hardline._CB334700282_.png" afterPath="$PROJECT_DIR$/images/dy_hardline._CB334700282_.png" />
+      <change beforePath="$PROJECT_DIR$/images/dy_softline._CB334700282_.png" afterPath="$PROJECT_DIR$/images/dy_softline._CB334700282_.png" />
+      <change beforePath="$PROJECT_DIR$/images/loading-4x-gray._CB317974839_.gif" afterPath="$PROJECT_DIR$/images/loading-4x-gray._CB317974839_.gif" />
+      <change beforePath="$PROJECT_DIR$/images/loading-4x._CB398267653_.gif" afterPath="$PROJECT_DIR$/images/loading-4x._CB398267653_.gif" />
+      <change beforePath="$PROJECT_DIR$/images/lqj_161108_pr264-88_Safety-Alert._CB525760992_.png" afterPath="$PROJECT_DIR$/images/lqj_161108_pr264-88_Safety-Alert._CB525760992_.png" />
+      <change beforePath="$PROJECT_DIR$/images/lyf_20171023_546119_flyout_wireless._CB511963064_.jpg" afterPath="$PROJECT_DIR$/images/lyf_20171023_546119_flyout_wireless._CB511963064_.jpg" />
+      <change beforePath="$PROJECT_DIR$/images/navAmazonLogoFooter._CB169459411_.gif" afterPath="$PROJECT_DIR$/images/navAmazonLogoFooter._CB169459411_.gif" />
+      <change beforePath="$PROJECT_DIR$/images/pc_gw_beianbianhao.png" afterPath="$PROJECT_DIR$/images/pc_gw_beianbianhao.png" />
+      <change beforePath="$PROJECT_DIR$/images/pixel" afterPath="$PROJECT_DIR$/images/pixel" />
+      <change beforePath="$PROJECT_DIR$/images/popover_stripe_loader._CB306649905_.gif" afterPath="$PROJECT_DIR$/images/popover_stripe_loader._CB306649905_.gif" />
+      <change beforePath="$PROJECT_DIR$/images/s9_title._CB335300127_.png" afterPath="$PROJECT_DIR$/images/s9_title._CB335300127_.png" />
+      <change beforePath="$PROJECT_DIR$/images/transparent-pixel._CB386947693_.gif" afterPath="$PROJECT_DIR$/images/transparent-pixel._CB386947693_.gif" />
+      <change beforePath="$PROJECT_DIR$/images/u35_line._CB346023801_.png" afterPath="$PROJECT_DIR$/images/u35_line._CB346023801_.png" />
+      <change beforePath="$PROJECT_DIR$/images/u92._CB345052597_.png" afterPath="$PROJECT_DIR$/images/u92._CB345052597_.png" />
+      <change beforePath="$PROJECT_DIR$/js/function.js" afterPath="$PROJECT_DIR$/js/function.js" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-2.2.4.js" afterPath="$PROJECT_DIR$/js/jquery-2.2.4.js" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-2.2.4.min.js" afterPath="$PROJECT_DIR$/js/jquery-2.2.4.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/mian.js" afterPath="$PROJECT_DIR$/js/mian.js" />
+      <change beforePath="$PROJECT_DIR$/lib/.project" afterPath="$PROJECT_DIR$/lib/.project" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap-theme.css" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap-theme.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap-theme.min.css" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/lib/node_modules/bootstrap/js/npm.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/AUTHORS.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/README.md" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/README.md" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/bower.json" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/bower.json" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/dist/core.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/dist/core.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.min.map" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.slim.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.slim.min.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/dist/jquery.slim.min.map" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/external/sizzle/LICENSE.txt" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/external/sizzle/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/external/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/external/sizzle/dist/sizzle.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/external/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/external/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/package.json" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/package.json" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/.eslintrc.json" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/.eslintrc.json" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/jsonp.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/load.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/parseXML.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/script.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/var/location.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/var/location.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/var/nonce.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/var/rquery.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/ajax/xhr.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/attr.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/classes.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/prop.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/support.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/attributes/val.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/callbacks.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/DOMEval.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/DOMEval.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/access.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/init.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/nodeName.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/nodeName.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/parseHTML.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/ready-no-deferred.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/ready-no-deferred.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/ready.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/readyException.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/readyException.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/stripAndCollapse.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/stripAndCollapse.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/support.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/support.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/core/var/rsingleTag.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/addGetHookIf.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/adjustCSS.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/adjustCSS.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/curCSS.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/showHide.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/showHide.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/support.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/cssExpand.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/getStyles.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/isHiddenWithinTree.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/isHiddenWithinTree.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/rmargin.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/rnumnonpx.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/swap.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/css/var/swap.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/data.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/data.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/data/Data.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/data/var/acceptData.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/data/var/acceptData.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/data/var/dataPriv.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/data/var/dataPriv.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/data/var/dataUser.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/data/var/dataUser.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/deferred.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/deferred/exceptionHook.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/deferred/exceptionHook.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/deprecated.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/dimensions.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/effects.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/effects.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/effects/Tween.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/effects/animatedSelector.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/event.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/event.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/ajax.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/alias.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/focusin.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/focusin.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/support.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/trigger.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/event/trigger.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/exports/amd.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/exports/global.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/_evalUrl.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/buildFragment.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/buildFragment.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/getAll.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/setGlobalEval.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/setGlobalEval.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/support.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/var/rscriptType.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/var/rscriptType.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/var/rtagName.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/var/rtagName.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/wrapMap.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/manipulation/wrapMap.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/offset.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/offset.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/queue.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/queue.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/queue/delay.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/selector-native.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/selector-sizzle.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/selector.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/selector.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/serialize.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing/findFilter.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing/var/dir.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing/var/dir.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing/var/rneedsContext.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing/var/siblings.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/traversing/var/siblings.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/ObjectFunctionString.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/ObjectFunctionString.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/arr.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/class2type.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/concat.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/document.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/document.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/documentElement.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/documentElement.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/fnToString.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/fnToString.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/getProto.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/getProto.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/hasOwn.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/indexOf.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/pnum.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/push.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/rcssNum.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/rcssNum.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/rnothtmlwhite.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/rnothtmlwhite.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/slice.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/support.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/var/toString.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/lib/node_modules/jquery/src/wrap.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/less/less.js" afterPath="$PROJECT_DIR$/lib/node_modules/less/less.js" />
+      <change beforePath="$PROJECT_DIR$/lib/node_modules/template/template.js" afterPath="$PROJECT_DIR$/lib/node_modules/template/template.js" />
+    </list>
     <ignored path="amazon.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,31 +312,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="amazon" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.235294">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+            <state relative-caret-position="378">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding>
+                <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myOrder.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/order/myOrder.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index.less">
+      <file leaf-file-name="orderDetails.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/order/orderDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7605132">
-              <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,43 +354,40 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.less" />
+        <option value="$PROJECT_DIR$/html/product.html" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NamedScopeManager">
-    <order />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/lib/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="width" value="2894" />
-    <option name="height" value="1751" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="869" />
+    <option name="width" value="1058" />
+    <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <OptionsSetting value="true" id="添加" />
-    <OptionsSetting value="true" id="移除" />
-    <OptionsSetting value="true" id="签出" />
-    <OptionsSetting value="true" id="更新" />
-    <OptionsSetting value="true" id="状态" />
-    <OptionsSetting value="true" id="编辑" />
-    <ConfirmationsSetting value="0" id="添加" />
-    <ConfirmationsSetting value="0" id="移除" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -91,76 +399,66 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index.less" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazonxz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazonxz" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazonxz" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazonxz" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="proxemics" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
+    <configuration name="product.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/amazon/html/product.html" />
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -191,16 +489,23 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.product.html" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -209,35 +514,46 @@
       <changelist id="876d8622-d4e9-44dc-bb39-3ee5da787146" name="默认的" comment="" />
       <created>1509512401292</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1509512401292</updated>
+      <workItem from="1512186889232" duration="168000" />
+      <workItem from="1512187069571" duration="3267000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3435000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="0" width="2894" height="1751" extended-state="0" />
-    <editor active="false" />
+    <frame x="869" y="0" width="1058" height="1047" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12566371" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16862746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -257,64 +573,120 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+        <state relative-caret-position="2793">
+          <caret line="133" column="31" lean-forward="false" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="684">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="2527">
+          <caret line="133" column="31" lean-forward="false" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.235294">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7605132">
-          <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/order/myOrder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/order/orderDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

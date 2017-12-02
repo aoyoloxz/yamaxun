@@ -1349,6 +1349,16 @@ input[type="checkbox"] {
 .l_sellerInWord input[type="radio"]{
 	position: static;
 }
+/*VAT注册编号*/
+.sellerSetVAT .titleLeft{width: 60%;}
+#setNotificationPreferences .setNotificationPreferencesInner .innerContent .contentWrapNav .informTabContent{
+	border: none;
+}
+#setNotificationPreferences .setNotificationPreferencesInner {
+    max-width: 100%;
+    padding:0 30px ;
+    box-sizing: border-box;
+}
 /*手风琴效果*/
 
 .togglebox {

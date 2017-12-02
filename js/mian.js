@@ -1,6 +1,13 @@
 $(function(){
 	//下拉框
 //	downbox();
+	//弹出框
+	showBox()
+	//加减框
+	AddReduce()
+	//弹出框里鼠标移入显示--bootstra tooltip
+	$("[data-toggle='tooltip']").tooltip();
+	
 	
     $(".l_sheraNavMianLeft li").on("mouseenter",function(){
     	$("#lshareNavbox").css("width","720px")
