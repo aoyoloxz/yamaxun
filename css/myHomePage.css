@@ -325,3 +325,38 @@
 	border: 1px solid gray;
 }
 /*我的亚马逊end*/
+
+
+/*添加配送地址begin*/
+.site .siteBox .toplip ul li{
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.site .siteBox .addAddress{
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	border: 3px dashed gainsboro;
+}
+.site .siteBox .addAddress a{
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	color: gray;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 80px;
+
+}
+.site .siteBox .addAddress a:hover{
+	color: gray;
+	text-decoration: none;
+}
+.addNewSite .toplip ul li{
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+/*添加配送地址end*/
