@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>登陆设置</title>
 		<link rel="stylesheet" href="../../css/base.css" />
 		<link rel="stylesheet" href="../../css/l_sellerShare.css" />
 		<link rel="stylesheet" href="../../css/l_SellerSet.css" />
-		
+
 	</head>
+
 	<body>
 		<div class="l_goods_header">
 			<div class="lgh_logo">
@@ -156,41 +158,83 @@
 			</div>
 		</div>
 
-		<div class="sellerSetLogin l_sellerCenter">
-			<h2 class="orang">登陆设置</h2>
-			<div>
-				<dl class="clearfix">
-					<dt>姓名：</dt>
-					<dd>
-						<input type="text" disabled="disabled"value=""／>
-						<button class="btn btn-default btnGreen" type="submit">编辑</button>
-					</dd>
-				</dl>
-				<dl class="clearfix">
-					<dt>邮箱地址：</dt>
-					<dd>
-						<input type="text" disabled="disabled" value="13728721696@qq.com"／>
-						<button class="btn btn-default btnGreen" type="submit">编辑</button>
-					</dd>
-				</dl>
-				<dl class="clearfix">
-					<dt>密码：</dt>
-					<dd>
-						<input type="password" disabled="disabled" value="asasfsd"／>
-						<button class="btn btn-default btnGreen" type="submit">编辑</button>
-					</dd>
-				</dl>
-				<dl class="clearfix">
-					<dt>高级安全设置：</dt>
-					<dd>
-						<input type="text" value="管理您接收安全码的方式和时间"/>
-						<button class="btn btn-default btnGreen" type="submit">编辑</button>
-					</dd>
-				</dl>
-			</div>	
+		<div id="ap_signin1a_pagelet" class="ap_table ap_pagelet">
+
+			<div id="ap_signin1a_pagelet_title" class="ap_row ap_pagelet_title">
+				<h1 class="orang">登录</h1>
+			</div>
+
+			<div id="ap_signin1a_email_section_title" class="ap_row ap_section_title">
+				<h2 class="orang"> 您的电子邮件是什么（如果是手机账户，则提供电话号码）？</h2>
+			</div>
+			<div id="ap_signin1a_email_row" class="ap_row">
+				<span class="ap_col1 ap_bold ap_right ap_no_collapse">
+		            <label for="ap_email" >  我的电子邮箱或手机号码是</label>
+		        </span>
+				<span class="ap_col2 ap_left">
+				    <input id="ap_email" name="email" value="13728721696@qq.com" size="30" maxlength="128" tabindex="1" autocorrect="off" autocapitalize="off" type="email">   
+				</span>
+			</div>
+			<div id="ap_signin_custom_message" class="center clear-both">
+			</div>
+			<div id="ap_signin1a_password_section_title" class="ap_row ap_section_title">
+				<h2 class="orang"> 您拥有 Amazon.cn 的密码吗? </h2>
+			</div>
+			<div id="ap_signin1a_new_cust_radio_row" class="ap_row">
+				<span id="" class="ap_col1 ap_right ap_no_collapse">
+			        <input name="create" id="ap_signin_create_radio" value="1" tabindex="6" type="radio">
+			    </span>
+				<span id="" class="ap_col2 bold ap_radio_label">
+			        <label for="ap_signin_create_radio">我是一个新客户</label>
+			        <div class="small">（稍后需要创建密码）</div>
+			    </span>
+			</div>
+			<div id="ap_signin1a_exist_cust_radio_row" class="ap_row">
+				<span class="ap_col1 ap_right">
+		            <input name="create" id="ap_signin_existing_radio" value="0" tabindex="7" checked="checked" type="radio">
+		        </span>
+				<span class="ap_col2 bold ap_radio_label"><label for="ap_signin_existing_radio">我是老客户， <br>我的密码是：</label></span>
+			</div>
+
+			<div id="ap_signin1a_password_row" class="ap_row">
+				<span class="ap_col1">&nbsp;</span>
+				<span class="ap_col2">
+		            <input id="ap_password" name="password" maxlength="1024" size="20" tabindex="2" class="password" type="password" value="11111111">
+		        </span>
+
+				<span id="ap_caps_warn_span">
+            		<div id="ap_caps_warning" class="ap_caps_warn ap_col3_caps_warn" style="visibility:hidden;"> 
+					    <b>大写锁定键已开启。</b> <font color="black">这可能导致<br>您所输入的密码不正确。</font>
+					</div>
+				 </span>
+			</div>
+
+			<div id="ap_small_forgot_password_link">
+				<span class="small" id="ap_small_forgot_password_span">
+	                <a href="https://sellercentral.amazon.com/ap/forgotpassword?openid.pape.max_auth_age=900&amp;openid.return_to=https%3A%2F%2Fsellercentral.amazon.com%2Fap%2Fcnep%3Fie%3DUTF8%26orig_return_to%3Dhttps%253A%252F%252Fsellercentral.amazon.com%252Fgp%252Fhomepage.html%253Fie%253DUTF8%2526ref_%253Dag_loginsett_dnav_xx_%26openid.assoc_handle%3Dsc_na_amazon%26language%3Dzh_CN%26pageId%3Dsc_amazon_cnep&amp;prevRID=FC4WMB4DR50EKDJRCVSP&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=sc_na_amazon&amp;openid.mode=checkid_setup&amp;openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&amp;language=zh_CN&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;pageId=sc_amazon_cnep&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"></a>
+	            </span>
+			</div>
+
+			<div id="ap_signin1a_signin_button_row" class="ap_row">
+				<span class="ap_col1">&nbsp;</span>
+				<span class="ap_col2">
+        			<input type="image">
+          		</span>
+				<div class="ap_csm_marker" style="display:none;">
+				</div>
+			</div>
+			<div id="ap_signin1a_forgot_password_row" class="ap_row">
+				<span class="ap_col1">&nbsp;</span>
+				<span class="ap_col2">
+        			<a href="https://sellercentral.amazon.com/ap/forgotpassword?openid.pape.max_auth_age=900&amp;openid.return_to=https%3A%2F%2Fsellercentral.amazon.com%2Fap%2Fcnep%3Fie%3DUTF8%26orig_return_to%3Dhttps%253A%252F%252Fsellercentral.amazon.com%252Fgp%252Fhomepage.html%253Fie%253DUTF8%2526ref_%253Dag_loginsett_dnav_xx_%26openid.assoc_handle%3Dsc_na_amazon%26language%3Dzh_CN%26pageId%3Dsc_amazon_cnep&amp;prevRID=FC4WMB4DR50EKDJRCVSP&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=sc_na_amazon&amp;openid.mode=checkid_setup&amp;openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&amp;language=zh_CN&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;pageId=sc_amazon_cnep&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+		              忘记密码？ 
+		            </a>
+     			 </span>
+			</div>
 		</div>
 		<div class="sellerSetFooter">
 			版权所有:&copy;zzzzzzzzz
 		</div>
 	</body>
+
 </html>

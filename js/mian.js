@@ -5,8 +5,10 @@ $(function(){
 	showBox()
 	//加减框
 	AddReduce()
+	//显示隐藏
+	tog()
 	//弹出框里鼠标移入显示--bootstra tooltip
-	$("[data-toggle='tooltip']").tooltip();
+	
 	
 	
     $(".l_sheraNavMianLeft li").on("mouseenter",function(){

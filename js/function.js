@@ -21,6 +21,18 @@ function downbox() {
 		});
 	}
 }
+//点击显示隐藏
+function tog(){
+	hides(".CDshow1", ".CDshow1_1")
+	function hides(a, b) {
+	
+		$(a).click(function() {
+			$(b).toggle()
+		})
+	}
+}
+
+
 //点击弹出框
 function showBox() {
 	//显示参数

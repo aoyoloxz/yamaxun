@@ -819,13 +819,18 @@ input.botGold {
 	border-bottom: 1px solid #ddd;
 	box-sizing: border-box;
 	margin: 0;
-	padding: 20px;
+	padding: 10px 20px;
+	max-height: 50px;
+	overflow: hidden;
+	/*line-height: -10px;*/
 }
 
 .ConductorDisguise .panel-body input {
 	margin-right: 10px;
 }
-
+.ConductorDisguise .CDshow1_1{
+	display: none;
+}
 .ConductorDisguise .panel-heading span {
 	float: right;
 	width: 15px;
@@ -837,9 +842,54 @@ input.botGold {
 	border-left: #007EB9;
 }
 .ConductorDisguise .panel-body ul li label{
-	font-size: 22px;
+	font-size: 20px;
+	margin-bottom: 20px;
 }
-
+.ConductorDisguise .panel-body:nth-of-type(2){
+	padding: 10px;
+	background: #fff;
+}
+.ConductorDisguise table{
+	width: 100%;
+	border: 1px solid #d4d4d4;
+}
+.ConductorDisguise table tr th{
+	background: linear-gradient(to bottom ,#f8f8f8,#eee);
+	padding: 10px 5px;
+}
+.ConductorDisguise table tr td{
+	padding: 10px 5px;
+	text-align: center;
+}
+.ConductorDisguise table tr th,td{
+	width:40%;
+	
+}
+.blockTip .tipInner {
+    display: flex;
+    margin-bottom: 11px;
+    padding: 10px 17px;
+    border: 1px solid;
+    border-color: #bbd3de;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    box-sizing: border-box;
+}
+.blockTip .tipInner span {
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+    background-image: url(../images/Am.png);
+    background-repeat: no-repeat;
+    background-size: 400px 600px;
+    -webkit-background-size: 400px 600px;
+    background-position: -350px -28px;
+    vertical-align: middle;
+    margin: 0 11px 0 0;
+}
+.blockTip .tipInner p{
+	margin: 0;
+}
 /*批量上传商品*/
 
 .sellerBatchUpload .panel-heading span {

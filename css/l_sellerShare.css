@@ -339,7 +339,7 @@
 }
 
 .l_sellerCenter h2 {
-	font-size: 32px;
+	font-size: 22px;
 	font-weight: 400;
 	margin-bottom: 10px;
 }
@@ -362,7 +362,7 @@ a {
 	line-height: 20px;
 }
 .orang{
-	color:rgb(230,119,46);
+	color:#c60;
 }
 a.und{
 	text-decoration: underline;

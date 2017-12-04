@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>当前运费设置</title>
@@ -7,8 +8,9 @@
 		<link rel="stylesheet" href="../../lib/node_modules/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" href="../../css/l_sellerShare.css" />
 		<link rel="stylesheet" href="../../css/l_SellerSet.css" />
-		
+
 	</head>
+
 	<body>
 		<div class="l_goods_header">
 			<div class="lgh_logo">
@@ -158,14 +160,468 @@
 		</div>
 
 		<div class="l_sellerCenter sellerSetFree">
-			<h2 class="orang">当前运费和设置</h2>
-			<p>下面是您当前的配送设置，包括可以送达的地区、服务级别以及运费。<a href="#" class="und">了解更多信息</a></p>
-			<div class="l_sellerFooter3">
-				<a href="#">为此页评级|</a>
-				<a href="#">获取支持|</a>
-				<a href="#">政策和协议</a>
-				<span style="float: right;">&copy;zzzzzz</span>
+			<div class="blockTip">
+				<div class="tipInner">
+					<span></span>
+					<div>
+						<h4>管理配送设置的新工具现已可用。<a href="#" class="btn btn-default btnglod">了解更多信息</a></h4>
+						<p>您现在可以按SKU组定义配送首选项，以便更容易地设置：</p>
+						<ul>
+							<li>与您的配送能力相符的配送速度</li>
+							<li>基于州的次日达运费（仅适用于美国）</li>
+							<li>基于国家/地区的国际运费</li>
+						</ul>
+					</div>
+				</div>
 			</div>
+			<h2 class="orang">当前运费和设置</h2>
+			<p>下面是您当前的配送设置，包括可以送达的地区、服务级别以及运费。
+				<a href="#" class="und">了解更多信息</a>
+			</p>
+			<p>Premium（极速）配送方式是一种较快的配送方式，要求卖家更高效地进行配送。
+				<a href="#"> 了解更多信息。</a>
+			</p>
+			<div class="content-module">
+				<table class="titlebar" cellspacing="0">
+					<tbody>
+						<tr>
+							<th>
+								默认配送地址
+							</th>
+							<td align="right">
+								<a class="buttonImage" name="Edit" href="/sbr/address"><span class="awesomeButton buttonSmall secondarySmallButton inner_button"><span class="button_labels">编辑</span></span>
+								</a>
+								&nbsp;
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="data-entry" id="ship-from" cellspacing="1">
+					<tr>
+						<td class="labelss" align="right">地址名称:</td>
+						<td class="field">Default Ship From Address</td>
+					</tr>
+					<tr>
+						<td class="labelss" align="right"> 完整地址:</td>
+						<td class="field">Room11-6B, Area 2,Building 3,Haiyudongyuan,NO.66 Huanmei Roa, Shenzhen, Guangdong Province, 518000, CN</td>
+					</tr>
+				</table>
+
+			</div>
+			<div class="content-module">
+				<table class="titlebar" cellspacing="0">
+					<tbody>
+						<tr>
+							<th> 按商品/重量计算运费 </th>
+							<td align="right">
+								<a class="buttonImage" name="更改运费计算方法" href="#">更改运费计算方法</span>
+									</span>
+								</a>
+								<a class="buttonImage" name="编辑" href="#"><span class="awesomeButton buttonSmall secondarySmallButton inner_button"><span class="button_labels">编辑</span></span>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="titlebardesc" colspan="2">
+								亚马逊将根据您选择的运费计算方法来确定计算规则。目前支持的运费计算方法为：按消费金额等级计算运费和按商品/重量计算运费。
+								<span class="tiny"><a href="#">了解更多信息。</a></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table id="confirmRatesTable" cellspacing="1" cellpadding="4" bgcolor="#DDDDDD" align="center" width="100%">
+
+					<tbody>
+						<tr>
+							<td class="tiny" rowspan="2" bgcolor="#FFFFFF" align="center" width="20%"><strong>标准运费</strong></td>
+							<td class="tiny" rowspan="2" bgcolor="#FFFFFF" align="center"><strong>运费组成</strong></td>
+							<td class="tiny" colspan="4" bgcolor="#FFFFFF" align="center"><strong>服务级别</strong></td>
+						</tr>
+
+						<tr>
+							<td class="tiny" bgcolor="#FFFFFF" align="right"><strong>普通配送</strong></td>
+							<td class="tiny" bgcolor="#FFFFFF" align="right"><strong>快递配送</strong></td>
+							<td class="tiny" bgcolor="#FFFFFF" align="right"><strong>隔日达</strong> (
+								<a href="#">我是否符合资格？</a>)<br>(包括处理时间)<br>(截止到 11am 之前订购的商品)</td>
+							<td class="tiny" bgcolor="#FFFFFF" align="right"><strong>次日达</strong> (
+								<a href="#">已禁用</a>)
+							</td>
+						</tr>
+						<tr>
+							<td class="tiny" nowrap="nowrap" width="200"><strong>美国大陆 街道</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">预计送达时间</td>
+							<td class="tiny" align="right"><span id="sla_Std Cont US Street Addr">17 - 28 工作日</span><span id="hideSla_Std Cont US Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Cont US Street Addr">---</span><span id="hideSla_Exp Cont US Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Second">---</span><span id="hideSla_Second" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Next">---</span><span id="hideSla_Next" style="display: none">---</span></td>
+						</tr>
+						<tr bgcolor="#F8F8F8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">按重量 (lbs)</td>
+							<td class="tiny" align="right">US$0.50</td>
+							<td class="tiny" align="right">---</td>
+							<td class="tiny" align="right">---</td>
+							<td class="tiny" align="right">---</td>
+						</tr>
+						<tr bgcolor="#F4F4F4" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">单次配送</td>
+							<td class="tiny" align="right">US$4.49</td>
+							<td class="tiny" align="right">---</td>
+							<td class="tiny" align="right">---</td>
+							<td class="tiny" align="right">---</td>
+						</tr>
+						<tr bgcolor="#dddddd" height="1">
+							<td colspan="6" class="tiny" nowrap="nowrap"></td>
+						</tr>
+						<tr bgcolor="#f8f8f8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>美国大陆 邮政信箱</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">预计送达时间</td>
+							<td class="tiny" align="right"><span id="sla_Std Cont US PO Box">17 - 28 工作日</span><span id="hideSla_Std Cont US PO Box" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Cont US PO Box">---</span><span id="hideSla_Exp Cont US PO Box" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Cont US PO Box">---</span><span id="hideSla_Exp Cont US PO Box" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Cont US PO Box">---</span><span id="hideSla_Exp Cont US PO Box" style="display: none">---</span></td>
+						</tr>
+						<tr bgcolor="#F8F8F8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">按重量 (lbs)</td>
+							<td class="tiny" align="right">US$0.50</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+						<tr bgcolor="#F4F4F4" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">单次配送</td>
+							<td class="tiny" align="right">US$4.49</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+						<tr bgcolor="#dddddd" height="1">
+							<td colspan="6" class="tiny" nowrap="nowrap"></td>
+						</tr>
+						<tr bgcolor="#f8f8f8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>阿拉斯加和夏威夷 街道</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">预计送达时间</td>
+							<td class="tiny" align="right"><span id="sla_Std Alaska Hawaii Street Addr">17 - 28 工作日</span><span id="hideSla_Std Alaska Hawaii Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Alaska Hawaii Street Addr">---</span><span id="hideSla_Exp Alaska Hawaii Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Alaska Hawaii Street Addr">---</span><span id="hideSla_Exp Alaska Hawaii Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Alaska Hawaii Street Addr">---</span><span id="hideSla_Exp Alaska Hawaii Street Addr" style="display: none">---</span></td>
+						</tr>
+						<tr bgcolor="#F8F8F8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">按重量 (lbs)</td>
+							<td class="tiny" align="right">US$0.50</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+						<tr bgcolor="#F4F4F4" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">单次配送</td>
+							<td class="tiny" align="right">US$4.49</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+						<tr bgcolor="#dddddd" height="1">
+							<td colspan="6" class="tiny" nowrap="nowrap"></td>
+						</tr>
+						<tr bgcolor="#f8f8f8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>阿拉斯加和夏威夷 邮政信箱</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">预计送达时间</td>
+							<td class="tiny" align="right"><span id="sla_Std Alaska Hawaii PO Box">17 - 28 工作日</span><span id="hideSla_Std Alaska Hawaii PO Box" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Alaska Hawaii PO Box">---</span><span id="hideSla_Exp Alaska Hawaii PO Box" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Alaska Hawaii PO Box">---</span><span id="hideSla_Exp Alaska Hawaii PO Box" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp Alaska Hawaii PO Box">---</span><span id="hideSla_Exp Alaska Hawaii PO Box" style="display: none">---</span></td>
+						</tr>
+						<tr bgcolor="#F8F8F8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">按重量 (lbs)</td>
+							<td class="tiny" align="right">US$0.50</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+						<tr bgcolor="#F4F4F4" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">单次配送</td>
+							<td class="tiny" align="right">US$4.49</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+						<tr bgcolor="#dddddd" height="1">
+							<td colspan="6" class="tiny" nowrap="nowrap"></td>
+						</tr>
+						<tr bgcolor="#f8f8f8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>美国保护国 街道</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">预计送达时间</td>
+							<td class="tiny" align="right"><span id="sla_Std US Prot Street Addr">4 - 8 工作日</span><span id="hideSla_Std US Prot Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp US Prot Street Addr">---</span><span id="hideSla_Exp US Prot Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp US Prot Street Addr">---</span><span id="hideSla_Exp US Prot Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp US Prot Street Addr">---</span><span id="hideSla_Exp US Prot Street Addr" style="display: none">---</span></td>
+						</tr>
+						<tr bgcolor="#F8F8F8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">按重量 (lbs)</td>
+							<td class="tiny" align="right">US$0.50</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+						<tr bgcolor="#F4F4F4" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">单次配送</td>
+							<td class="tiny" align="right">US$4.49</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+
+						<tr bgcolor="#dddddd" height="1">
+							<td colspan="6" class="tiny" nowrap="nowrap"></td>
+						</tr>
+						<tr bgcolor="#f8f8f8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>美国保护国 邮政信箱</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">预计送达时间</td>
+							<td class="tiny" align="right"><span id="sla_Std US Prot PO Box">4 - 8 工作日]</span><span id="hideSla_Std US Prot PO Box" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp US Prot PO Box">---</span><span id="hideSla_Exp US Prot PO Box" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp US Prot PO Box">---</span><span id="hideSla_Exp US Prot PO Box" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp US Prot PO Box">---</span><span id="hideSla_Exp US Prot PO Box" style="display: none">---</span></td>
+						</tr>
+						<tr bgcolor="#F8F8F8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">按重量 (lbs)</td>
+							<td class="tiny" align="right">US$0.50</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+						<tr bgcolor="#F4F4F4" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">单次配送</td>
+							<td class="tiny" align="right">US$4.49</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+
+						<tr bgcolor="#dddddd" height="1">
+							<td colspan="6" class="tiny" nowrap="nowrap"></td>
+						</tr>
+						<tr bgcolor="#f8f8f8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>陆军邮局和舰队邮局 街道</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">预计送达时间</td>
+							<td class="tiny" align="right"><span id="sla_Std APO/FPO Street Addr">18 - 32 工作日</span><span id="hideSla_Std APO/FPO Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp APO/FPO Street Addr">---</span><span id="hideSla_Exp APO/FPO Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp APO/FPO Street Addr">---</span><span id="hideSla_Exp APO/FPO Street Addr" style="display: none">---</span></td>
+							<td class="tiny" align="right"><span id="sla_Exp APO/FPO Street Addr">---</span><span id="hideSla_Exp APO/FPO Street Addr" style="display: none">---</span></td>
+						</tr>
+						<tr bgcolor="#F8F8F8" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">按重量 (lbs)</td>
+							<td class="tiny" align="right">US$0.50</td>
+							<td class="tiny" align="right">---</td>
+							<td align="right" class="tiny"><span>---</span></td>
+							<td align="right" class="tiny"><span>---</span></td>
+						</tr>
+						<tr bgcolor="#F4F4F4" height="22">
+							<td class="tiny" nowrap="nowrap" width="200"><strong>&nbsp;</strong></td>
+							<td class="tiny" nowrap="nowrap" width="120">单次配送</td>
+							<td class="tiny" align="right">US$4.49</td>
+							<td class="tiny" align="right">---</td>
+							<td class="tiny" align="right"><span>---</span></td>
+							<td class="tiny" align="right"><span>---</span></td>
+						</tr>
+
+					</tbody>
+				</table>
+
+			</div>
+			<div class="content-module">
+
+				<table class="titlebar" cellspacing="0">
+
+					<tbody>
+						<tr>
+							<th>图书、音乐及影视类商品的配送设置</th>
+							<td align="right">
+								<a class="buttonImage" name="编辑" href="/gp/shipping/dispatch.html?page=editMediaSettings&amp;fulfillertype="><span class="awesomeButton buttonSmall secondarySmallButton inner_button"><span class="button_labels">编辑</span></span>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="titlebardesc" colspan="2">
+								亚马逊设置了媒介类商品（图书、音乐、影视）的运费，这样，买家可以从所有这些分类的卖家处获得相同的购物体验。所有媒介类商品（图书、音乐、影视）的卖家都必须提供标准国内配送。您还可以为媒介类商品（图书、音乐、影视）提供以下配送选项：加急配送、两日送达、一日送达以及国际配送。
+								<span class="tiny">
+                    <a href="javascript:openModalDialog('/gp/help/help-popup.html/?itemID=201633080', 550, 550, 'scrollbars=yes', null, 'yes')">了解更多信息。</a>
+                </span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="data-entry" id="viewMediaSettingTable" cellspacing="1">
+					<tbody>
+						<tr>
+							<td class="labels" valign="top">
+								标准
+								<span style="font-weight: normal"></span> :
+							</td>
+							<td class="field">
+								<strong>标准</strong>
+								<div class="tiny-example" style="font-weight: normal; display: inline;">在途时间：17 - 28 工作日</div>
+
+								<br> US$3.99 运费收入 <span class="tiny">(<a href="#">查看费率表</a>)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="labels" valign="top">
+								快速配送
+								<span style="font-weight: normal"></span> :
+							</td>
+							<td class="field">
+								<strong>否</strong>
+								<br> US$6.19 - US$6.99 的配送保证金 <span class="tiny">(<a href="#">查看费率表</a>)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="labels" valign="top">
+								两日送达
+								<span style="font-weight: normal"> (<a href="#">了解更多信息</a>)<br>(1 天处理时间+2 天运输时间)</span> :
+							</td>
+							<td class="field">
+								<strong>否</strong>
+								<br> US$14.95 运费收入 <span class="tiny">(<a href="#">查看费率表</a>)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="labels" valign="top">
+								一日送达
+								<span style="font-weight: normal"> (<a href="#">已禁用</a>)</span> :
+							</td>
+							<td class="field">
+								<strong>否</strong>
+								<br> US$19.99 运费收入 <span class="tiny">(<a href="#">查看费率表</a>)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="labels" valign="top">
+								国际配送
+								<span style="font-weight: normal"></span> :
+							</td>
+							<td class="field">
+								<strong>否</strong>
+								<br> US$14.95 - US$24.95 的配送保证金 <span class="tiny">(<a href="#">查看费率表</a>)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="labels" valign="top">
+								国际加急
+								<span style="font-weight: normal"></span> :
+							</td>
+							<td class="field">
+								<strong>否</strong>
+								<br> US$46.50 运费收入 <span class="tiny">(<a href="#">查看费率表</a>)</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+			<table cellspacing="0" cellpadding="2" align="center" width="100%">
+
+				<tbody>
+					<tr>
+						<td colspan="2" class="tiny rk1" valign="top" align="left">
+							区域说明
+						</td>
+					</tr>
+
+					<tr>
+						<td class="tiny rk2" valign="top" align="left" width="15%">
+							美国大陆
+						</td>
+						<td class="tiny rk2" valign="top" align="left" width="80%">
+							美国大陆各州（不包括阿拉斯加和夏威夷）
+						</td>
+					</tr>
+
+					<tr>
+						<td class="tiny rk2" valign="top" align="left" width="15%">
+							阿拉斯加、夏威夷
+						</td>
+
+						<td class="tiny rk2" valign="top" align="left" width="80%">
+							阿拉斯加和夏威夷
+						</td>
+					</tr>
+
+					<tr>
+						<td class="tiny rk2" valign="top" align="left" width="15%">
+							美国保护国
+						</td>
+						<td class="tiny rk2" valign="top" align="left" width="80%">
+							美属萨摩亚、关岛、马绍尔群岛、密克罗尼西亚联邦、 北马里亚那群岛、帕劳、 波多黎各、美属维京群岛
+						</td>
+					</tr>
+
+					<tr>
+						<td class="tiny rk2" valign="top" align="left" width="15%">
+							美国战地邮局 (APO/FPO)
+						</td>
+						<td class="tiny rk2" valign="top" align="left" width="80%">
+							陆军邮局和舰队邮局
+						</td>
+					</tr>
+
+					<tr>
+						<td class="tiny rk2" valign="top" align="left" width="15%">
+							加拿大
+						</td>
+						<td class="tiny rk2" valign="top" align="left" width="80%">
+							加拿大
+						</td>
+					</tr>
+
+					<tr>
+						<td class="tiny rk2" valign="top" align="left" width="15%">
+							欧洲
+						</td>
+						<td class="tiny rk2" valign="top" align="left" width="80%">
+							阿尔巴尼亚、安道尔、奥地利、白俄罗斯、比利时、波斯尼亚--黑塞哥维那、保加利亚、克罗地亚、塞浦路斯、 捷克共和国、丹麦、爱沙尼亚、法罗群岛、芬兰、法国、格鲁吉亚、德国、直布罗陀、 希腊、格陵兰岛、格恩西岛、教廷、匈牙利、冰岛、爱尔兰、马恩岛、 意大利、扬马延群岛、泽西岛、科索沃、拉脱维亚、 列支敦士登、立陶宛、卢森堡、马其顿、马耳他、摩纳哥、门的内哥罗、荷兰、 挪威、波兰、葡萄牙、罗马尼亚、俄罗斯、圣马力诺、塞尔维亚共和国、斯洛伐克、斯罗文尼亚、 西班牙、斯瓦尔巴特、瑞典、瑞士、土耳其、乌克兰、英国、南斯拉夫
+						</td>
+					</tr>
+
+					<tr>
+						<td class="tiny rk2" valign="top" align="left" width="15%">
+							亚洲
+						</td>
+						<td class="tiny rk2" valign="top" align="left" width="80%">
+							澳大利亚、孟加拉共和国、不丹、文莱达鲁萨兰 、柬埔寨、中国、圣诞岛、 库克群岛、东帝汶、斐济、法国玻利尼西亚、中国香港、印度、印度尼西亚、日本、基里巴斯、 老挝人民共和国、中国澳门、马来西亚、马尔代夫、蒙古、缅甸、瑙鲁、尼泊尔、 新喀里多、新西兰、纽埃、巴布亚新几内亚、菲律宾、萨摩亚、新加坡、 所罗门、韩国、斯里兰卡、台湾、泰国、汤加、图瓦卢、瓦努阿图、越南
+						</td>
+					</tr>
+
+					<tr>
+						<td class="tiny rk2" valign="top" align="left" width="15%">
+							除美国、欧洲、加拿大、亚洲之外
+						</td>
+						<td class="tiny rk2" valign="top" align="left" width="80%">
+							阿根廷、巴西、哥斯大黎加、以色列、墨西哥、南非
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+		<div class="l_sellerFooter3">
+			<a href="#">为此页评级|</a>
+			<a href="#">获取支持|</a>
+			<a href="#">政策和协议</a>
+			<span style="float: right;">&copy;zzzzzz</span>
 		</div>
 	</body>
+
 </html>

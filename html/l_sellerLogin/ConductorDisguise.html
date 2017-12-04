@@ -8,6 +8,9 @@
 		<link rel="stylesheet" href="../../css/l_seller.css" />
 		<link rel="stylesheet" href="../../css/l_sellerShare.css" />
 		<link rel="stylesheet" href="../../lib/node_modules/bootstrap/css/bootstrap.css" />
+		<script type="text/javascript" src="../../js/jquery-2.2.4.js" ></script>
+		<script type="text/javascript" src="../../js/mian.js" ></script>
+		<script type="text/javascript" src="../../js/function.js" ></script>
 	</head>
 
 	<body>
@@ -157,7 +160,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="ConductorDisguise">
 			<div class="l_sellerIRcenter l_sellerCenter">
 				<h2>变相导体<a href="#">了解更多信息</a></h2>
@@ -166,24 +169,24 @@
 					<div class="panel-heading">你想做什么</div>
 					<div class="panel-body">
 						<ul>
-							<li>
+							<li class="CDHeight">
 								<label class="radio-inline">
-									<input type="radio" checked="checked" name="cDB1" id="inlineRadio1" value="option1">加入或更新现有的变体系列
+									<input type="radio" name="cDB1" id="inlineRadio1" value="option1">加入或更新现有的变体系列
 								</label>
 								<div>
-									搜索ASIN
+									搜索ASIN<span class="smallIcon"></span>
 									<div class="l_sellerextSeach">
 										<!--<div class="l_sellerextSeachBox">-->
-										<input type="text" placeholder="ASIN：创建变体时使用的子商品或父商品" style="width:300px;border: 1px solid #d4d4d4;">
+										<input type="text" placeholder="ASIN：创建变体时使用的子商品或父商品" style="width:400px;border: 1px solid #d4d4d4;padding-left: 30px;border-radius: 5px;">
 										<!--</div>-->
 										<input type="button" value="搜索" class="l_sellerextSeachBottom">
 
 									</div>
 								</div>
 							</li>
-							<li>
+							<li class="CDHeight">
 								<label class="radio-inline">
-									<input type="radio" checked="checked" name="cDB1" id="inlineRadio1" value="option1">通过合并您目录中的现有独立商品创建新的变体系列
+									<input type="radio" name="cDB1" id="inlineRadio1" value="option1">通过合并您目录中的现有独立商品创建新的变体系列
 								</label>
 								<div>
 									<p>1.使用商品分类工具或特定分类的模版为您的分类下载合适的分类模版。请参考模版中的“有效值”选项卡，了解有哪些变体主题可用。请注意：如果没有列出任何变体主题。您就无法在该分类商品中创建包含变量的商品。</p>
@@ -208,7 +211,33 @@
 					</div>
 				</div>
 				<div class="panel panel-default">
-					<div class="panel-heading">下载之前生成的模版<span></span></div>
+					<div class="panel-heading CDshow1">下载之前生成的模版<span></span></div>
+					<div class="panel-body CDshow1_1">
+						<div class="blockTip">
+							<div class="tipInner">
+								<span></span>
+								<div>
+									<p>模版最多天后可以下载。请确保您下载了以前生成的任何模版，以免丢失所做的工作</p>
+									<p>如果在以内没有生成您的模版，请与联系。<a href="#">了解更多信息</a></p>
+								</div>
+							</div>
+						</div>
+						<table>
+							<thead>
+								<tr>
+									<th>创建日期时间</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td colspan="2">
+										No tempalte have been generated.
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 
 			</div>
@@ -229,6 +258,22 @@
 				</div>
 			</div>
 		</div>
+		
 	</body>
-
+	<script>
+//		$(function(){
+//			$(".CDHeight").click(function{
+//				$(this).parents().css("max-height","300px");
+//				console.log("zzz");
+//			})
+//		})
+		$(function(){
+			$(".CDHeight").click(function(){
+				$(this).css("max-height","400px");
+				$(this).css("background","#fff")
+				$(this).siblings().css("max-height","50px");
+				$(this).siblings().css("background","#eee");
+			})
+		})
+	</script>
 </html>
