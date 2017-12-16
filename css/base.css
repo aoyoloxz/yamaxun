@@ -166,7 +166,9 @@ s, i, em {
 .mb30{
 	margin-bottom: 30px;
 }
-
+.str{
+    font-weight: 900;
+}
 /*css 初始化 end */
 
 

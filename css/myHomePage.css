@@ -358,5 +358,9 @@
 	margin-right: 10px;
 	font-size: 12px;
 }
+.addNewSite .contentBox{
+	width: 560px;
+	margin: 0 auto;
 
+}
 /*添加配送地址end*/

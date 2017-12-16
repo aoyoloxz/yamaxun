@@ -12,7 +12,6 @@
 <body>
     <div class="addNewSite">
         <div class="addNewSiteBox">
-
             <div class="contentBox wPad30">
                 <div class="toplip clearfix">
                     <ul class=clearfix>
@@ -21,15 +20,79 @@
                         <li><a href="#">Your Addresses</a></li>
                         <li>&gt;</li>
                         <li class="colorg">New Address</li>
-
                     </ul>
                     <h3>Add a new address</h3>
                     <p>Or pick up your packages at your convenience from our self-service locations. To add an Amazon Pickup Point or Locker, click
                         <a href="#">here</a>.</p>
                 </div>
-            </div>
 
+                <form>
+                    <div class="form-group">
+                        <label for="test1">Full name</label>
+                        <input type="text" class="form-control" id="test1">
+                    </div>
+                    <div class="form-group">
+                        <label for="test2">Street address</label>
+                        <input type="text" class="form-control" id="test2" placeholder="Street and number,P.O.box,c/o">
+                        <input type="text" class="form-control mt10" id="test2_1" placeholder="Apartment,suite,unit,building,floor,etc.">
+                    </div>
+                    <div class="form-group">
+                        <label for="test3">City</label>
+                        <input type="text" class="form-control" id="test3">
+                    </div>
+                    <div class="form-group">
+                        <label for="test4">State / Province / Region</label>
+                        <input type="text" class="form-control" id="test4">
+                    </div>
+                    <div class="form-group">
+                        <label for="test5">Zip code</label>
+                        <input type="text" class="form-control" id="test5">
+                    </div>
+                    <div class="form-group">
+                        <label for="test6">Phone number</label>
+                        <input type="text" class="form-control" id="test6">
+                    </div>
+                    <p>May be used in connection with your deliveries</p>
+                    <div><span>Additional Address Details</span><span>(What's this?)</span></div>
+                    <div>Preferences are used to plan your delivery. However, shipments can sometimes arrive early or later than planned.</div>
+                    <div>Weekend delivery</div>
+                    <div class="form-group">
+                        <label for="test7">Security access code</label>
+                        <input type="text" class="form-control" id="test7" placeholder="For buildings or gated communities">
+                    </div>
+                    <button type="submit" class="btn btn-default">Add address</button>
+                </form>
+
+            </div>
         </div>
     </div>
 </body>
+<script>
+    $(function () {
+        var form = new FormData();
+        form.append("regionid", "251");
+        form.append("address", "sadwadw");
+        form.append("phone", "17688538367");
+        form.append("shipto", "sadwadw");
+        form.append("latitude", "138.0");
+        form.append("longitude", "1541.0");
+        form.append("userKey", "6482d9d8fe74093939b6d7ff9c78e67b");
+
+        var settings = {
+            "async": true,
+            "crossDomain": true,
+            "url": "http://119.23.125.223:8022/amazon-fast/sys/shoppingaddresses/postAddShippingAddress",
+            "method": "POST",
+            "headers": {},
+            "processData": false,
+            "contentType": false,
+            "mimeType": "multipart/form-data",
+            "data": form
+        }
+
+        $.ajax(settings).done(function (response) {
+            console.log(response);
+        });
+    })
+</script>
 </html>

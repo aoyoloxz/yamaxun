@@ -1,4 +1,4 @@
-.contentBox select{
+.manageReturns .contentBox select{
 	width: 180px;
 	height: 35px;
 }
@@ -18,7 +18,7 @@
 .manageReturns .manageReturnsBox .contentBox .ulBox{
 	border-bottom:1px solid gainsboro;
 }
-.ulLifl li{
+.manageReturns .ulLifl li{
 	float: left;
 	margin-right: 10px;
 }
@@ -52,4 +52,307 @@
 	margin: 0px auto;
 	text-align: center;
 }
+
+
+/*定价助理*/
+.pricingAid {
+	min-width: 1400px;
+}
+.pricingAid .war{
+	width: 100%;
+	height: 60px;
+	border: 1px solid #C9DCE5;
+	background: #F6F6F6;
+	line-height: 60px;
+	min-width: 1300px;
+	position: relative;
+	border-radius: 4px;
+}
+.pricingAid .war i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url("../images/Am.png") no-repeat -351px -36px;
+	margin: 10px;
+	position: absolute;
+	top: 7px;
+	left: 5px;
+}
+.pricingAid .war .str{
+	margin-left: 50px;
+}
+.pricingAid .leftLit{
+	/*min-width: 240px;*/
+}
+.pricingAid .leftLit ul li{
+	border: 1px solid #ECECEC;
+	width: 80%;
+	margin-top: 10px;
+	padding: 5px 10px;
+	min-width: 200px;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+
+.pricingAid .leftLit ul .acitive{
+	border: 1px solid #DC9651;
+}
+.pricingAid #tab-content h3{
+	font-size: 20px;
+	font-weight: 900;
+}
+.pricingAid #tab-content h4{
+	font-size: 16px;
+	font-weight: 900;
+}
+.pricingAid #tab-content .foBox{
+	width: 120px;
+}
+.pricingAid .bomTitTop{
+	height: 80px;
+	width: 100%;
+	border: 1px solid #EBEAEB;
+	background: #F7F3F7;
+	padding: 5px 10px;
+}
+.pricingAid .spanLis{
+	display: inline-block;
+	width: 15%;
+	height: 80px;
+	text-align: center;
+	float: left;
+}
+.pricingAid .spanLis>span{
+	display: inline-block;
+	width: 80%;
+}
+.pricingAid .bomTitBom{
+	height: 60px;
+	border: 1px solid #E8E8E8;
+	border-top: none;
+	padding: 5px 10px;
+}
+.pricingAid .bomTitBom .noneSugg{
+	width: 100%;
+	height: 48px;
+	border: 1px solid #C5D8E2;
+	background: #F7F7F7;
+	border-radius: 4px;
+	position: relative;
+	line-height: 48px;
+}
+.pricingAid .noneSugg i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url("../images/Am.png") no-repeat -351px -36px;
+	margin: 10px;
+	position: absolute;
+	top: 0px;
+	left: 5px;
+}
+.pricingAid .noneSugg span{
+	margin-left: 50px;
+}
+.pricingAid .pof{
+	position: relative;
+	width: 70%;
+	height: 180px;
+}
+.pricingAid .pof ul li{
+	display: inline-block;
+	width: 90%;
+	height: 20px;
+	border-bottom: 1px solid #E7E5E7;
+}
+.pricingAid .pof ul li:last-child{
+	border-bottom: 2px solid #3E3E3E;
+
+}
+.pricingAid .pof span{
+	margin-right: 7%;
+}
+.poa{
+	position: absolute;
+}
+.pricingAid .pof ul{
+	display: inline-block;
+	width: 90%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.pricingAid .pof .daySpan {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	left: 30px;
+}
+.pricingAid .pof .perTop{
+	top: 10px;
+	left: 0px;
+}
+.pricingAid .pof .perBom {
+	bottom: 45px;
+	left: 15px;
+}
+
+/*自动定价*/
+.autoPricing .mlSma{
+	margin-left: 300px;
+	margin-top: 20px;
+}
+.autoPricing .mlSma ul li{
+	list-style: disc;
+}
+.autoPricing .bomcard ul li{
+	float: left;
+	display: inline-block;
+	width: 15%;
+	margin-left: 30px;
+	position: relative;
+}
+.autoPricing .bomcard ul li span{
+	position: absolute;
+	top: 10px;
+	left: -30px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #C65500;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+	font-weight: 900;
+}
+.autoPricing .bomcard ul li h4{
+	font-weight: 700;
+}
+.autoPricing .submit{
+	display: inline-block;
+	width: 60px;
+	height: 35px;
+	line-height: 35px;
+	background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+	border: 1px;
+	border-style: solid;
+	border-color: #a88734 #9c7e31 #846a29;
+	border-radius: 4px;
+	margin-top: 25px;
+	text-align: center;
+	cursor: pointer;
+	color: #000000;
+}
+.autoPricing .submit:hover{
+	text-decoration: none;
+	background: #f0c14b;
+}
+
+
+/*佣金折扣*/
+.commission .contentBox{
+	min-width: 1400px;
+}
+.commission .bomTitTop{
+	height: 60px;
+	width: 100%;
+	border: 1px solid #EBEAEB;
+	background: #F7F3F7;
+	padding: 5px 10px;
+}
+.commission .spanLis{
+	display: inline-block;
+	width: 15%;
+	height: 80px;
+	text-align: center;
+	float: left;
+}
+.commission .spanLis>span{
+	display: inline-block;
+	width: 80%;
+}
+.commission .bomTitBom{
+	height: 60px;
+	border: 1px solid #E8E8E8;
+	border-top: none;
+	padding: 5px 10px;
+}
+.commission .bomTitBom .noneSugg{
+	width: 100%;
+	height: 48px;
+	border: 1px solid #C5D8E2;
+	background: #F7F7F7;
+	border-radius: 4px;
+	position: relative;
+	line-height: 48px;
+}
+.commission .noneSugg i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url("../images/Am.png") no-repeat -351px -36px;
+	margin: 10px;
+	position: absolute;
+	top: 0px;
+	left: 5px;
+}
+.commission .noneSugg span{
+	margin-left: 50px;
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+	top: 0px;
+	left: 10px;
+
+}
+.commission .bomLit{
+	margin-left: -15px;
+}
+.commission .topHbox .hBoxFat{
+	border: 1px solid #E7E6E7;
+	height: 400px;
+	background: #F7F3F7;
+
+}
+.commission .topHbox .hBoxFat h5{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #E1E2E1;
+	width: 100%;
+	padding: 0px 10px;
+	margin: 0px;
+	font-weight: 900;
+}
+.commission .topHbox .hBoxFat p{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #E1E2E1;
+	width: 100%;
+	padding: 0px 10px;
+	cursor: pointer;
+}
+.commission .topHbox .hBoxFat .active{
+	background-color: #E7E7E7;
+}
+.commission .tabLast .tobLis i{
+	display: inline-block;
+	width: 4px;
+	height: 7px;
+	background: url("../images/Am.png") no-repeat -366px -86px;
+	margin-right: 5px;
+
+}
+.commission .tabLast .tobLis span{
+	color: #00a0e9;
+	cursor: pointer;
+	-moz-user-select:none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+
 
